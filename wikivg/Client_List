@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Client List – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"6ab356e4e1afab1bdb265f6f7a1b6be7","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Client_List","wgTitle":"Projects/wiki.vg merge/Client List","wgCurRevisionId":2907960,"wgRevisionId":2907960,"wgArticleId":290170,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Java Edition protocol","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Client_List","wgRelevantArticleId":290170,"wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready",
+"ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","jquery.tablesorter.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","jquery.tablesorter","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound",
+"ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cjquery.tablesorter.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="This is a rather incomplete list of Minecraft clients that users have worked or are working on. This page only lists clients written from scratch; for mods and wrappers, see the Utility List and the Wrapper List.">
+<meta property="og:description" content="This is a rather incomplete list of Minecraft clients that users have worked or are working on. This page only lists clients written from scratch; for mods and wrappers, see the Utility List and the Wrapper List.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Client List – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Client_List rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Client List</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><table style="float:right; border:solid var(--infobox-title-background-color) 1px; margin-bottom:8px; font-size:smaller; clear:both;">
+<tbody><tr>
+<th colspan="2" style="background:var(--infobox-title-background-color);"><a href="/w/Category:Java_Edition_protocol" title="Category:Java Edition protocol">Java Edition</a> third-party tools and mods
+</th></tr>
+<tr>
+<td><b><a class="mw-selflink selflink">Clients</a></b> | <b><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List" title="Minecraft Wiki:Projects/wiki.vg merge/Server List">Servers</a></b> | <b><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Decompiler_List" title="Minecraft Wiki:Projects/wiki.vg merge/Decompiler List">Decompilers</a></b> | <b><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Library_List" title="Minecraft Wiki:Projects/wiki.vg merge/Library List">Libraries</a></b> | <b><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Utility_List" title="Minecraft Wiki:Projects/wiki.vg merge/Utility List">Utilities</a></b> | <b><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Wrapper_List" title="Minecraft Wiki:Projects/wiki.vg merge/Wrapper List">Wrappers</a></b>
+</td></tr></tbody></table>
+<p>This is a rather incomplete list of Minecraft clients that users have worked or are working on. This page only lists clients written from scratch; for mods and wrappers, see the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Utility_List" title="Minecraft Wiki:Projects/wiki.vg merge/Utility List">Utility List</a> and the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Wrapper_List" title="Minecraft Wiki:Projects/wiki.vg merge/Wrapper List">Wrapper List</a>.
+</p><p>The column <i>Game Graphics</i> asks if your client displays in-game activity at a graphical level, such as world chunks, people or mobs moving, or any of that sort. If you are simply displaying things as text, that does <b>not</b> count.
+</p><p>To add a client, append it above all others. On the bottom are projects, that are inactive (sorted by date). All active clients are sorted by version. If a client does not support the latest version, put it below the others.<br style="clear:both;"/>
+</p>
+<table class="wikitable sortable" style="text-align: center;">
+
+<tbody><tr>
+<th>Name
+</th>
+<th class="unsortable">Features
+</th>
+<th>Author(s)
+</th>
+<th>Language
+</th>
+<th>Platform
+</th>
+<th>License
+</th>
+<th style="line-height:99%;vertical-align:bottom;padding:21px .4em .2em;background-position:50% .4em !important;min-width:0.875em;max-width:0.875em;width:0.875em;overflow:hidden;"><div style="vertical-rl=-webkit-writing-mode: vertical-rl; -o-writing-mode: vertical-rl; -ms-writing-mode: tb-rl;writing-mode: tb-rl; writing-mode: vertical-rl; layout-flow: vertical-ideographic;transform:rotate(180deg);display:inline-block;padding-left:1px;text-align:left">Threaded</div>
+</th>
+<th>Game graphics
+</th>
+<th>Java version
+</th>
+<th>Bedrock version
+</th>
+<th>Development status
+</th>
+<th>Project start date
+</th></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/azalea-rs/azalea">Azalea</a>
+</th>
+<td>Bot crate: accurate physics, swarms, pathfinding, inventories, plugin support.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://matdoes.dev">mat</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.21.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2021-12-06
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/adepierre/Botcraft">Botcraft</a>
+</th>
+<td>Library to make bots. Mouse/keyboard control, pathfinding, trading, crafting, behaviour tree, signed chat.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/adepierre">adepierre</a>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/C%2B%2B17" class="extiw" title="wikipedia:C++17">C++17</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.12.2–1.21.3
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2019-07-23
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://soulfiremc.com">SoulFire</a>
+</th>
+<td>Server-stresser tool. Launch bot attacks on your server to measure performance.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/AlexProgrammerDE">AlexProgrammerDE</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.0.0–1.21.3, b1.0–b1.8.1, a1.0.15–a1.2.6, c0.0.15a-1–c0.30
+</td>
+<td>1.20.70
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2021-07-18
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PrismarineJS/mineflayer">mineflayer</a>
+</th>
+<td>Create Minecraft bots with a powerful, stable, and high-level API.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PrismarineJS">PrismarineJS</a>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Node.js" class="extiw" title="wikipedia:Node.js">Node.js</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.8–1.21.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2011-01-23
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/psu-de/MineSharp">MineSharp</a>
+</th>
+<td>Library to make bots. Player stats, events, entity tracking, mine, build, craft, window interaction, attack, move, chat.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/psu-de">psu-de</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" title="C#"><img alt="C#" src="/images/C_Sharp.svg?cd539" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.18.x–1.20.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2022-04-05
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/ORelio/Minecraft-Console-Client">Minecraft Console Client</a>
+</th>
+<td>Command-line chat client with bot support.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/MCCTeam">ORelio and the MCC Team</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" title="C#"><img alt="C#" src="/images/C_Sharp.svg?cd539" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://opensource.org/licenses/CDDL-1.0">CDDL-1.0</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.4.6–1.20.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2013-07-18
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/zardoy/prismarine-web-client/">mcraft web</a>
+</th>
+<td>Minecraft web client. Connects to servers &amp; loads offline world saves. Fork of prismarine-web-client.
+</td>
+<td>PrismarineJS contributors
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript"><img alt="JavaScript" src="/images/JavaScript.svg?22879" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><a href="https://en.wikipedia.org/wiki/Three.js" class="extiw" title="wikipedia:Three.js">Three.js</a>
+</td>
+<td>1.8.8–1.21.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2023-07-09
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gitlab.bixilon.de/bixilon/minosoft">Minosoft</a>
+</th>
+<td>A faster work in progress open source client, that supports a ton of versions and is open for all kind of patches. Feel free to take a look at the <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gitlab.bixilon.de/bixilon/minosoft/-/blob/master/ReadMe.md">ReadMe.md</a>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://bixilon.de/">Bixilon</a>, contributors
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)" title="Kotlin"><img alt="Kotlin" src="/images/Kotlin.svg?b17b2" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>13w41b–1.20.4 (including snapshots)
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2020-06-01
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Tnze/go-mc">go-mc</a>
+</th>
+<td>Collection of libraries for Minecraft clients.
+</td>
+<td>Tnze
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Go_(programming_language)" title="Go"><img alt="Go" src="/images/Go.svg?050c6" decoding="async" loading="lazy" width="54" height="20" class="mw-file-element" data-file-width="512" data-file-height="191"/></a></span>
+</td>
+<td>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.15–1.21
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2019-05-01
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/nmalthouse/mcbot">zig-mcbot</a>
+</th>
+<td>A Minecraft bot with Lua scripting. In development.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/nmalthouse">niklas</a>
+</td>
+<td>Zig
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.19.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2023-02-03
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Lea-fish/Leafish">Leafish</a>
+</th>
+<td>Multiprotocol, fork of Stevenrella.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/terrarier2111">terrarier2111</a>, <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Lea-fish/Leafish/graphs/contributors">other contributors</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a>, <a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.7.10–1.16.5
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2021-07-30
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/stackotter/delta-client">delta-client</a>
+</th>
+<td>A Minecraft client for MacOS.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/stackotter">stackotter</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Swift_(programming_language)" title="Swift"><img alt="Swift" src="/images/Swift.svg?c0b6a" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C"><img alt="C" src="/images/C_Programming_Language.svg?2fbce" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="380" data-file-height="420"/></a></span></span>
+</td>
+<td><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><a href="https://en.wikipedia.org/wiki/Metal_(API)" class="extiw" title="wikipedia:Metal (API)">Metal</a>
+</td>
+<td>1.16.1
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-yes">Active
+</td>
+<td>2020-12-21
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Defective4/Another-Minecraft-Chat-Client">Another Minecraft Chat Client</a>
+</th>
+<td>Chat client. Basic movement, inventory handling, automatic chat messages.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Defective4">Defective4</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-unknown"><a href="https://en.wikipedia.org/wiki/Swing_(Java)" class="extiw" title="wikipedia:Swing (Java)">Swing</a> (entity radar)
+</td>
+<td>1.8–1.19.2, Forge 1.8–1.12.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2024-04-11
+</td>
+<td>2021-03-26
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/ConcreteMC/Alex">Alex</a>
+</th>
+<td>Minecraft client aimed at compatibility with MC:Java &amp; MC:Bedrock.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/ConcreteMC">ConcreteMC</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" title="C#"><img alt="C#" src="/images/C_Sharp.svg?cd539" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mozilla.org/en-US/MPL/2.0/">MPL 2.0</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.18.2
+</td>
+<td>1.19.10
+</td>
+<td style="" class="tc-no">Inactive since 2024-03-05
+</td>
+<td>2016-04-04
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PrismarineJS/prismarine-web-client">prismarine-web-client</a>
+</th>
+<td>Minecraft client in the browser using PrismarineJS modules.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Karang">Karang</a> <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/rom1504">rom1504</a> <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/AwesomestCode">AwesomestCode</a> and other contributors
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript"><img alt="JavaScript" src="/images/JavaScript.svg?22879" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><a href="https://en.wikipedia.org/wiki/Node.js" class="extiw" title="wikipedia:Node.js">Node.js</a></span>
+</td>
+<td>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><a href="https://en.wikipedia.org/wiki/Three.js" class="extiw" title="wikipedia:Three.js">Three.js</a>
+</td>
+<td>1.8–1.18.1
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-unknown">On hiatus since 2023-12-31
+</td>
+<td>2021-02-27
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/michaljaz/webmc">webmc</a>
+</th>
+<td>Minecraft client in web browser using mineflayer.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/michaljaz">michaljaz</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript"><img alt="JavaScript" src="/images/JavaScript.svg?22879" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><a href="https://en.wikipedia.org/wiki/Node.js" class="extiw" title="wikipedia:Node.js">Node.js</a></span>
+</td>
+<td>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><a href="https://en.wikipedia.org/wiki/Three.js" class="extiw" title="wikipedia:Three.js">Three.js</a>
+</td>
+<td>1.16.5
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-unknown">On hiatus since 2023-09-16
+</td>
+<td>2020-06-07
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/LaG1924/AltCraft">AltCraft</a>
+</th>
+<td>Work-in-progress client.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/LaG1924/">LaG1924</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++"><img alt="C++" src="/images/C%2B%2B.svg?9fb71" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="306" data-file-height="344"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.12.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2023-07-08
+</td>
+<td>2017-10-16
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PistonDevelopers/hematite">Hematite</a>
+</th>
+<td>Render single-player worlds (most blocks supported, no entities).
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.piston.rs">Piston</a> developers
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.8.8
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2023-01-18
+</td>
+<td>2014-06-28
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/iceiix/stevenarella">Stevenarella</a>
+</th>
+<td>Multiprotocol.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Thinkofname/">Thinkofname</a>, <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/iceiix/">iceiix</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.18.2, 1.18.1, 1.17.1, 1.16.5, 1.16.4, 1.16.3, 1.16.2, 1.16.1, 1.16, 1.15.2, 1.15.1, 1.14.2, 1.14.1, 1.14, 19w02a, 18w50a, 1.13.2, 1.12.2, 1.11.2, 1.11, 1.10.2, 1.9.2, 1.9, 15w39c, 1.8.9, 1.7.10+Forge (FML, FML2)
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2022-12-31
+</td>
+<td>2019-01-12
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/qubard/mcidle-python">mcidle</a>
+</th>
+<td>Idling middleware for constant Minecraft connections.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/qubard">cub</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python"><img alt="Python" src="/images/Python.svg?b968d" decoding="async" loading="lazy" width="16" height="20" class="mw-file-element" data-file-width="104" data-file-height="126"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.12.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2022-12-07
+</td>
+<td>2018-11-16
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/willemml/rust-mc">rust-mc</a>
+</th>
+<td>Minecraft client, very work-in-progress, no rendering.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/willemml">willemml</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.16.3, 1.15.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2022-07-13
+</td>
+<td>2020-10-29
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/ammaraskar/pyCraft">pyCraft</a>
+</th>
+<td>Work-in-progress client, displays chat at the moment.
+</td>
+<td>Ammar Askar, resba
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python"><img alt="Python" src="/images/Python.svg?b968d" decoding="async" loading="lazy" width="16" height="20" class="mw-file-element" data-file-width="104" data-file-height="126"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.16.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2022-01-02
+</td>
+<td>2012-04-05
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/DavidEGrayson/redstone-bot2">redstone-bot2</a>
+</th>
+<td>Wheat farming, supersonic flying speed, general awareness of world, but no documentation.
+</td>
+<td>DavidEGrayson
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" title="Ruby"><img alt="Ruby" src="/images/Ruby.svg?62527" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="198" data-file-height="198"/></a></span>
+</td>
+<td>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.6.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2021-11-11
+</td>
+<td>2012-07-14
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/SpockBotMC/RikerBot">RikerBot</a>
+</th>
+<td>Bot client framework.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/nickelpro">nickelpro</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++"><img alt="C++" src="/images/C%2B%2B.svg?9fb71" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="306" data-file-height="344"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python"><img alt="Python" src="/images/Python.svg?b968d" decoding="async" loading="lazy" width="16" height="20" class="mw-file-element" data-file-width="104" data-file-height="126"/></a></span></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://en.wikipedia.org/wiki/Zlib_License">zlib</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.16.5
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2021-07-05
+</td>
+<td>2020-08-07
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/MinewebMC/mineweb">mineweb</a>
+</th>
+<td>A work-in-progress HTML5 Minecraft client that runs in your browser. Development stopped in favour of prismarine-web-client.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Heath123/">Heath123</a>, <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/TheAlan404/">TheAlan404</a>, SiebeDW
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Node.js" class="extiw" title="wikipedia:Node.js">Node.js</a>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-yes"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/andyhall/noa">noa</a>
+</td>
+<td>1.12.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2021-04-13
+</td>
+<td>2020-04-26
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/willemml/hl-mc-kt">hl-mc-kt</a>
+</th>
+<td>API for creating bots/clients, also has a built in CLI for launching instances of the built-in chat bot, also works as a chat CLI supporting multiple servers at once using one or more accounts.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/willemml">willemml</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)" title="Kotlin"><img alt="Kotlin" src="/images/Kotlin.svg?b17b2" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.16.3
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2020-12-11
+</td>
+<td>2020-09-22
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Litecrafty/Litecraft">Litecraft</a>
+</th>
+<td>Work-in-progress, concurrent and multi-Render backend.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Litecrafty/">Litecraft Team</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.12.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2019-01-18
+</td>
+<td>2016-12-12
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/ddevault/TrueCraft">TrueCraft</a>
+</th>
+<td>Beta 1.7.3 client for Linux and Windows (and OS X, somewhat).
+</td>
+<td>SirCmpwn and <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/SirCmpwn/TrueCraft/graphs/contributors">others</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" title="C#"><img alt="C#" src="/images/C_Sharp.svg?cd539" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><a href="https://en.wikipedia.org/wiki/Microsoft_XNA" class="extiw" title="wikipedia:Microsoft XNA">XNA</a>
+</td>
+<td>b1.7.3
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2018-11-19
+</td>
+<td>2014-12-26
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Toranktto/CraftProtocol">CraftProtocol</a>
+</th>
+<td>Open source partial implementation of Minecraft network protocol and NBT.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Toranktto">Toranktto</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python"><img alt="Python" src="/images/Python.svg?b968d" decoding="async" loading="lazy" width="16" height="20" class="mw-file-element" data-file-width="104" data-file-height="126"/></a></span> 2.7
+</td>
+<td>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.8.x, 1.10.x, 1.12.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2018-09-09
+</td>
+<td>2018-08-12
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/woder/torchbot">TorchBot</a>
+</th>
+<td>Work-in-progress standalone bot written from scratch, currently supports key features of game (movement, chat, world handling) and plugin system!
+</td>
+<td>woder22
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.12
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2018-04-24
+</td>
+<td>2013-08-24
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Xandaros/MinecraftCLI">MinecraftCLI</a>
+</th>
+<td>Command-line client with chat commands.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Xandaros">Xandaros</a>
+</td>
+<td>Haskell
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://opensource.org/licenses/BSD-2-Clause">BSD-2-Clause</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.12.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2018-04-01
+</td>
+<td>2017-08-14
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Charged/Miners">Charged Miners</a>
+</th>
+<td>Minecraft viewer, can connect to classic servers.
+</td>
+<td>Wallbraker et al.
+</td>
+<td><a href="https://en.wikipedia.org/wiki/D_(programming_language)" class="extiw" title="wikipedia:D (programming language)">D</a><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C"><img alt="C" src="/images/C_Programming_Language.svg?2fbce" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="380" data-file-height="420"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++"><img alt="C++" src="/images/C%2B%2B.svg?9fb71" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="306" data-file-height="344"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Lua" title="Lua (programming language)"><img alt="Lua (programming language)" src="/images/thumb/Lua_logo.png/20px-Lua_logo.png?f84d1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" srcset="/images/thumb/Lua_logo.png/40px-Lua_logo.png?f84d1 2x" data-file-width="900" data-file-height="900"/></a></span></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/licenses/gpl-2.0.html">GPLv2</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.3.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2017-08-20
+</td>
+<td>2011-05-01
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Thinkofname/steven">steven</a>
+</th>
+<td>Compiles.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Thinkofname/">Thinkofname</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.10.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2017-05-14
+</td>
+<td>2015-09-12
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/jrupac/minecraft-opengl">minecraft-opengl</a>
+</th>
+<td>Draw the map, move around, break stuff, gather stuff, etc. Doesn't appear to have networking.
+</td>
+<td>Rohan Bansal, Dmitry Drutskoy, Ajay Roopakalu, Sarah Tang
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++"><img alt="C++" src="/images/C%2B%2B.svg?9fb71" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="306" data-file-height="344"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/licenses/gpl-2.0.html">GPLv2</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>b1.6.6
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2017-02-04
+</td>
+<td>2011-06-10
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/JavaProphet/Osmium">Osmium</a>
+</th>
+<td>Rendering client.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/JavaProphet">JavaProphet</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C"><img alt="C" src="/images/C_Programming_Language.svg?2fbce" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="380" data-file-height="420"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.9.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2016-08-16
+</td>
+<td>2016-03-08
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/SpockBotMC/SpockBot">SpockBot</a>
+</th>
+<td>SMP bot framework, based on BarneyGale's protocol implementation.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/SpockBotMC/SpockBot/graphs/contributors">The SpockBot Project</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python"><img alt="Python" src="/images/Python.svg?b968d" decoding="async" loading="lazy" width="16" height="20" class="mw-file-element" data-file-width="104" data-file-height="126"/></a></span>
+</td>
+<td>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.8.7
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2016-05-01
+</td>
+<td>2012-12-11
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/phase/phasebot">PhaseBot</a>
+</th>
+<td>A bot that can move, interact with blocks, and loads of other things.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/phase">Phase</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td>
+<td>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.8
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2016-02-28
+</td>
+<td>2015-05-25
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Thinkofname/steven-go">steven-go</a>
+</th>
+<td>Compiles.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Thinkofname/">Thinkofname</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Go_(programming_language)" title="Go"><img alt="Go" src="/images/Go.svg?050c6" decoding="async" loading="lazy" width="54" height="20" class="mw-file-element" data-file-width="512" data-file-height="191"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>15w32c
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2015-11-11
+</td>
+<td>2015-03-25
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/phase/minekraft">minekraft</a>
+</th>
+<td>Minecraft remade. It will soon have all the features of Minecraft and more.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/phase">Phase</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)" title="Kotlin"><img alt="Kotlin" src="/images/Kotlin.svg?b17b2" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.8
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2015-06-13
+</td>
+<td>2015-04-01
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://web.archive.org/web/20141116211648/http://reticle.mc-atlantida.eu/wiki/index.php?title=Main_Page">Reticle</a>
+</th>
+<td>Advanced Minecraft bot system - Multi-server, API, plugin system, etc.
+</td>
+<td>Encorn
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td>
+<td>
+</td>
+<td>Closed source, binaries <a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes">Yes, using Bundle plugin
+</td>
+<td>1.7–1.8
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2014-10-13
+</td>
+<td>2014-09-26
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/DarkStorm652/DarkBot">DarkBot</a>
+</th>
+<td>Bot framework with an easy-to-use API, full world representation, path finding, AI via tasks (mining, farming, combat), and modular protocol handling.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/DarkStorm652">DarkStorm</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.linfo.org/bsdlicense.html">BSD</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.7.9
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2014-07-02
+</td>
+<td>2013-04-27
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Dav1dde/BraLa">BraLa</a>
+</th>
+<td>Minecraft (S)MP-Client, slogan: "Minecraft on a lower (WTF?) level".
+</td>
+<td>Dav1d
+</td>
+<td><a href="https://en.wikipedia.org/wiki/D_(programming_language)" class="extiw" title="wikipedia:D (programming language)">D</a><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C"><img alt="C" src="/images/C_Programming_Language.svg?2fbce" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="380" data-file-height="420"/></a></span></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span><span style="padding-left:4px"><span class="mw-default-size darkmode-invert" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/macOS" title="macOS"><img alt="macOS" src="/images/MacOS.svg?33ad7" decoding="async" loading="lazy" width="43" height="10" class="mw-file-element" data-file-width="248" data-file-height="58"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.6.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2014-03-03
+</td>
+<td>2012-06-22
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/SpoutDev/Spout">Spout</a> (with <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/VanillaDev/Vanilla">Vanilla</a> plugin)
+</th>
+<td>Open source, multi-threaded voxel game framework and platform that opens the doors for infinite possibilities. Features infinite height worlds, infinite content, advanced modeling support, and more!
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.spout.org">Spout LLC</a> and community
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://spout.in/licensev1">Spout License v1</a>, <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.gnu.org/licenses/lgpl-3.0.en.html">LGPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><a href="https://en.wikipedia.org/wiki/LWJGL" class="extiw" title="wikipedia:LWJGL">LWJGL</a>
+</td>
+<td>1.5.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2013-12-25
+</td>
+<td>2011-05-01
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/umby24/Minebot">C# Minebot</a>
+</th>
+<td>Work-in-progress standalone bot.
+</td>
+<td>Umby24
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" title="C#"><img alt="C#" src="/images/C_Sharp.svg?cd539" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.6.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2013-10-14
+</td>
+<td>2013-01-02
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://code.google.com/p/mc-bot">mcbot</a>
+</th>
+<td>Minecraft NPC emulator.
+</td>
+<td>Shagrat
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)" class="extiw" title="wikipedia:Pascal (programming language)">Pascal</a> Delphi XE2
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mozilla.org/en-US/MPL/1.1/">MPL 1.1</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.5.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2013-09-23
+</td>
+<td>2013-04-19
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/lukleh/TwistedBot">TwistedBot</a>
+</th>
+<td>Bot and proxy. Up-to-date information in the README. Uses <a href="https://en.wikipedia.org/wiki/Twisted_(software)" class="extiw" title="wikipedia:Twisted (software)">Twisted</a>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://twitter.com/lukleh">lukleh</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python"><img alt="Python" src="/images/Python.svg?b968d" decoding="async" loading="lazy" width="16" height="20" class="mw-file-element" data-file-width="104" data-file-height="126"/></a></span> 2.7
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.linfo.org/bsdlicense.html">BSD</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.5.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2013-05-07
+</td>
+<td>2012-07-30
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/shoghicp/Minecraft-PHP-Client-2">Minecraft PHP Client 2</a>
+</th>
+<td>Complete rewrite of "Minecraft PHP Client". Has events, actions and it is modular. Supports online mode and Spoutcraft.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://twitter.com/shoghicp">shoghicp</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/PHP" title="PHP"><img alt="PHP" src="/images/PHP.svg?81bbe" decoding="async" loading="lazy" width="37" height="20" class="mw-file-element" data-file-width="711" data-file-height="384"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://sam.zoy.org/wtfpl/">WTFPL</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.5.1
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2013-03-22
+</td>
+<td>2012-07-03
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/axus/libmc--c">mc--c</a>
+</th>
+<td>Draws the map. Can't talk or move.
+</td>
+<td>axus
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++"><img alt="C++" src="/images/C%2B%2B.svg?9fb71" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="306" data-file-height="344"/></a></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Linux" title="Linux"><img alt="Linux" src="/images/Tux.svg?69424" decoding="async" loading="lazy" width="17" height="20" class="mw-file-element" data-file-width="280" data-file-height="330"/></a></span></span>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/lgpl.html">LGPL</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.1
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2012-10-15
+</td>
+<td>2010-11-20
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://web.archive.org/web/20211207085910/http://hg.sitedethib.com/mcclient/">mcclient</a>
+</th>
+<td>Work-in-progress SMP client. Lagging-behind, but fairly light-weighted Minecraft client.
+</td>
+<td>ThibG
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python"><img alt="Python" src="/images/Python.svg?b968d" decoding="async" loading="lazy" width="16" height="20" class="mw-file-element" data-file-width="104" data-file-height="126"/></a></span> with <span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C"><img alt="C" src="/images/C_Programming_Language.svg?2fbce" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="380" data-file-height="420"/></a></span> extension
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>b1.7.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2012-09-24
+</td>
+<td>2011-05-05
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.planetminecraft.com/project/new-c-driven-minecraft-client-461392/">New C++ driven Minecraft client</a>
+</th>
+<td>Partial redstone support.
+</td>
+<td>RevolutionalRedstone
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++"><img alt="C++" src="/images/C%2B%2B.svg?9fb71" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="306" data-file-height="344"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Lua" title="Lua (programming language)"><img alt="Lua (programming language)" src="/images/thumb/Lua_logo.png/20px-Lua_logo.png?f84d1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" srcset="/images/thumb/Lua_logo.png/40px-Lua_logo.png?f84d1 2x" data-file-width="900" data-file-height="900"/></a></span></span>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Microsoft_Windows" title="Windows"><img alt="Windows" src="/images/Windows_11.svg?ace0c" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/OpenGL" title="OpenGL"><img alt="OpenGL" src="/images/OpenGL.svg?6f7be" decoding="async" loading="lazy" width="49" height="20" class="mw-file-element" data-file-width="512" data-file-height="212"/></a></span>
+</td>
+<td>1.3.2
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2012-07-27
+</td>
+<td>2012-01-05
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/shoghicp/Minecraft-PHP-Client">Minecraft PHP Client</a>
+</th>
+<td>"- Superseded by Minecraft PHP Client 2 -" It can move and do other things. <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://shoghicp.wordpress.com/2012/04/08/minecraft-php-client/">Spanish Website</a>.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://twitter.com/shoghicp">shoghicp</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/PHP" title="PHP"><img alt="PHP" src="/images/PHP.svg?81bbe" decoding="async" loading="lazy" width="37" height="20" class="mw-file-element" data-file-width="711" data-file-height="384"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/lgpl.html">LGPL</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>1.2.5
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2012-07-16
+</td>
+<td>2011-12-12
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Vijfhoek/Sharpcraft">Sharpcraft</a>
+</th>
+<td>Work-in-progress SMP (might add SSP) client.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Vijfhoek">Vijfhoek</a> and <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/F16Gaming">F16Gaming</a>
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" title="C#"><img alt="C#" src="/images/C_Sharp.svg?cd539" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-yes">Yes
+</td>
+<td style="" class="tc-yes"><a href="https://en.wikipedia.org/wiki/Microsoft_XNA" class="extiw" title="wikipedia:Microsoft XNA">XNA</a>
+</td>
+<td>1.2.5
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2012-04-08
+</td>
+<td>2012-01-03
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/espes/esbot">esbot</a>
+</th>
+<td>Dependency gathering and other awesomeness. Uses <a href="https://en.wikipedia.org/wiki/Twisted_(software)" class="extiw" title="wikipedia:Twisted (software)">Twisted</a>.
+</td>
+<td>espes
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python"><img alt="Python" src="/images/Python.svg?b968d" decoding="async" loading="lazy" width="16" height="20" class="mw-file-element" data-file-width="104" data-file-height="126"/></a></span>
+</td>
+<td>
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.gnu.org/copyleft/gpl.html">GPLv3</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>b1.8.1
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2011-09-28
+</td>
+<td>2011-02-11
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/zerowidth/golem">golem</a>
+</th>
+<td>Eventmachine client, acts as a standalone bot or transparent proxy.
+</td>
+<td>zerowidth
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" title="Ruby"><img alt="Ruby" src="/images/Ruby.svg?62527" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="198" data-file-height="198"/></a></span> 1.9
+</td>
+<td>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/MIT_License" class="extiw" title="wikipedia:MIT License">MIT</a>
+</td>
+<td style="" class="tc-no">No
+</td>
+<td style="" class="tc-no">No
+</td>
+<td>b1.4
+</td>
+<td style="" class="tc-default">N/A
+</td>
+<td style="" class="tc-no">Inactive since 2011-04-06
+</td>
+<td>2010-11-04
+</td></tr></tbody></table>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐jobrunner‐cbcd74ff9‐h5z5m
+Cached time: 20250326143918
+Cache expiry: 172800
+Reduced expiry: false
+Complications: []
+[SMW] In‐text annotation parser time: 0.001 seconds
+DiscussionTools time usage: 0.252 seconds
+CPU time usage: 0.653 seconds
+Real time usage: 1.749 seconds
+Preprocessor visited node count: 13263/1000000
+Post‐expand include size: 83435/8388608 bytes
+Template argument size: 8506/8388608 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  945.582      1 -total
+ 26.15%  247.315      1 Template:License_wiki.vg
+ 22.67%  214.350    217 Template:Tc
+ 12.72%  120.324     73 Template:Proglang
+ 11.54%  109.115     29 Template:Os
+  5.84%   55.197     64 Template:OS/switch
+  5.68%   53.708     47 Template:License_link
+  3.19%   30.175     83 Template:Proglang/switch
+  1.90%   17.919      1 Template:License
+  1.63%   15.443      1 Template:Msgbox
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290170-0!canonical and timestamp 20250326143916 and revision id 2907960. Rendering was triggered because: edit-page
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List?oldid=2907960">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List?oldid=2907960</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Java_Edition_protocol" title="Category:Java Edition protocol">Java Edition protocol</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FClient+List" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FClient+List" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Client_List?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Latest: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Latest: 1.21.70</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List?oldid=2907960" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FClient-5FList" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 24 March 2025, at 00:08.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Client_List?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":36,"wgDiscussionToolsPageThreads":[],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.001},"discussiontools":{"limitreport-timeusage":"0.252"},"limitreport":{"cputime":"0.653","walltime":"1.749","ppvisitednodes":{"value":13263,"limit":1000000},"postexpandincludesize":{"value":83435,"limit":8388608},"templateargumentsize":{"value":8506,"limit":8388608},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%  945.582      1 -total"," 26.15%  247.315      1 Template:License_wiki.vg"," 22.67%  214.350    217 Template:Tc"," 12.72%  120.324     73 Template:Proglang"," 11.54%  109.115     29 Template:Os","  5.84%   55.197     64 Template:OS/switch","  5.68%   53.708     47 Template:License_link","  3.19%   30.175     83 Template:Proglang/switch","  1.90%   17.919      1 Template:License","  1.63%   15.443      1 Template:Msgbox"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-jobrunner-cbcd74ff9-h5z5m","timestamp":"20250326143918","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

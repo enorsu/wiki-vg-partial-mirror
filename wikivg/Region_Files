@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Region Files – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"37238dc476b084b4358af0e45c5b93ea","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files","wgTitle":"Projects/wiki.vg merge/Region Files","wgCurRevisionId":2777461,"wgRevisionId":2777461,"wgArticleId":290315,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Java Edition protocol","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files","wgRelevantArticleId":290315,"wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready",
+"ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks",
+"ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="The Region file format is the binary file format for storing Java Edition chunks from Beta 1.3 to release 1.2. This format was based on a mod developed by Scaevolous.">
+<meta property="og:description" content="The Region file format is the binary file format for storing Java Edition chunks from Beta 1.3 to release 1.2. This format was based on a mod developed by Scaevolous.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Region Files – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Region_Files rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Region Files</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p>The Region file format is the binary file format for storing Java Edition chunks from Beta 1.3 to release 1.2. This format was based on a mod developed by Scaevolous.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Background_&amp;_Reasoning"><span class="tocnumber">1</span> <span class="toctext">Background &amp; Reasoning</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Specification"><span class="tocnumber">2</span> <span class="toctext">Specification</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#File_Names"><span class="tocnumber">2.1</span> <span class="toctext">File Names</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Structure"><span class="tocnumber">2.2</span> <span class="toctext">Structure</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Location_Table"><span class="tocnumber">2.2.1</span> <span class="toctext">Location Table</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Timestamp_Table"><span class="tocnumber">2.2.2</span> <span class="toctext">Timestamp Table</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Chunk_Header"><span class="tocnumber">2.2.3</span> <span class="toctext">Chunk Header</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span id="Background_.26_Reasoning"></span><span class="mw-headline" id="Background_&amp;_Reasoning" data-mw-thread-id="h-Background_&amp;_Reasoning"><span data-mw-comment-start="" id="h-Background_&amp;_Reasoning"></span>Background &amp; Reasoning<span data-mw-comment-end="h-Background_&amp;_Reasoning"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=edit&amp;section=1" title="Edit section&#039;s source code: Background &amp; Reasoning">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Background_&amp;_Reasoning","replies":[]}}--></div>
+<p>Prior to this system, each chunk (a 16x16x128 area of a level) was contained within its own file on disk, two folders down. The first folder represented the <code>X</code> region, and the second the <code>Y</code> region. This (very obviously) has several issues associated with it, mainly:
+</p>
+<ul><li>Excessive filesystem activity,</li>
+<li>Poor fragmentation,</li>
+<li>Unneeded filesystem overhead (a 90-byte compressed chunk of mostly dirt and air will still consume at a minimum one sector, generally more),</li>
+<li>Generates large enough directory trees on large worlds to crash the Windows Explorer,</li>
+<li>A large multiplayer world would eventually run out of handles (by default, only 1024 handles can be opened by a single process), causing the server to stall, crash, or otherwise fail (the particular behaviour has changed between versions)</li></ul>
+<p>To improve performance, Scaevolous created an unofficial mod called McRegion. This mod groups chunks into <i>regions</i>, each of which contains a group of <i>chunks</i> 32 by 32. In theory, this improves a few things:
+</p>
+<ul><li>Reduces filesystem activity &amp; overhead considerably,</li>
+<li>Improves fragmentation (not directly, but the OS or underlying drive can intelligently improve it),</li>
+<li>Far, far fewer handles need to be open at any given time, allowing more of the level to be loaded at any one time.</li>
+<li>Reduces the number of files created considerably (no more crashing Explorer)</li></ul>
+<p>To define some terminology,
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Chunk
+</th>
+<td>A single section of the level that is 16 by 16 blocks, and as high as the world's build limit
+</td></tr>
+<tr>
+<th>Region
+</th>
+<td>A single grouping of <i>chunks</i> in a 32 by 32 area
+</td></tr>
+<tr>
+<th>Level
+</th>
+<td>A (realistically, but not technically) unlimited collection of <i>chunks</i> stored in <i>regions</i> that make up a single playable world.
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Specification" data-mw-thread-id="h-Specification"><span data-mw-comment-start="" id="h-Specification"></span>Specification<span data-mw-comment-end="h-Specification"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=edit&amp;section=2" title="Edit section&#039;s source code: Specification">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Specification","replies":["h-File_Names-Specification","h-Structure-Specification"]}}--></div>
+<h3><span class="mw-headline" id="File_Names" data-mw-thread-id="h-File_Names-Specification"><span data-mw-comment-start="" id="h-File_Names-Specification"></span>File Names<span data-mw-comment-end="h-File_Names-Specification"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=edit&amp;section=3" title="Edit section&#039;s source code: File Names">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In the official client and server, each region is stored within the folder <code>region</code> within the level folder. The naming scheme for region files is very simple. For example, given the filename <code>r.8.20.mcr</code>, <code>r</code> is a meaningless prefix found on all region files, <code>8</code> is the <code>X</code> coordinate of the region, and <code>20</code> is the <code>Z</code> coordinate of the region.
+</p><p>The region <code>X</code> and <code>Z</code> can be found simply by right shifting the chunk <code>X</code> or <code>Z</code> position by 5 or by dividing the chunks <code>X</code> or <code>Z</code> by 32, and then <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://en.wikipedia.org/wiki/Floor_and_ceiling_functions">flooring</a> the result. Here's an example in python, where given a chunk at &lt;81, -39>, the region filename can be found:
+</p>
+<pre>>>> import math
+>>> region_xz = lambda x,z: (math.floor(x / 32), math.floor(z / 32))
+>>> region_xz(81,-39)
+(2.0, -2.0)
+</pre>
+<p>So, this chunk would reside in <code>r.2.-2.mcr</code>.
+</p><p>Here's an example in java, where given a chunk at &lt;-152, 15>:
+</p>
+<pre>int x = -152;
+int z = 15;
+String regionFileName = "r." + (int) Math.floor(x / 32) + "." + (int) Math.floor(z / 32) + ".mcr";</pre>
+<p>So, this chunk would reside in <code>r.-4.0.mcr</code>.
+</p><p>Simple to use tool for calcualting region filenames made in java is available for download <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.mediafire.com/download/mb2cfs8iae977hn/MC_Region_Calculator.jar">here</a>.
+</p>
+<h3><span class="mw-headline" id="Structure" data-mw-thread-id="h-Structure-Specification"><span data-mw-comment-start="" id="h-Structure-Specification"></span>Structure<span data-mw-comment-end="h-Structure-Specification"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=edit&amp;section=4" title="Edit section&#039;s source code: Structure">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Every region file begins with two 4KiB tables (each compose of 1024 4-byte integers), with the first table containing the location of each chunk, and the second table the last-modified timestamp of that chunk.
+</p>
+<h4><span class="mw-headline" id="Location_Table" data-mw-thread-id="h-Location_Table-Structure"><span data-mw-comment-start="" id="h-Location_Table-Structure"></span>Location Table<span data-mw-comment-end="h-Location_Table-Structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=edit&amp;section=5" title="Edit section&#039;s source code: Location Table">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The location table is composed of 1024 entries, each 4 bytes long. The first three bytes indicate the offset in the file where the chunk may be found, and the last byte is the size of the file. When multiplied by <code>4096</code>, this gives you the exact start of the chunk in bytes, and its end in bytes. If you know the <code>X</code> and <code>Z</code> of the chunk you're looking for, you can find its location entry using the formula: <code>((x % 32) + (z % 32) * 32) * 4</code>. If the offset and size are both <code>0</code>, then the chunk at that location hasn't been generated yet.
+</p><p>As an example, this is the location entry for the first chunk in a region:
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>
+</td>
+<th>Offset  (3 bytes)
+</th>
+<th>Size  (1 byte)
+</th></tr>
+<tr>
+<th>Decoded
+</th>
+<td><code>2</code>
+</td>
+<td><code>1</code>
+</td></tr>
+<tr>
+<th>On Disk (in hex)
+</th>
+<td><code>00 00 02</code>
+</td>
+<td><code>01</code>
+</td></tr></tbody></table>
+<p>Here's an example in Python to decode a location entry:
+</p>
+<pre>def chunk_location(l):
+    """
+    Returns the offset (in bytes) and size (in bytes) of the chunk for
+    the given location.
+    """
+    offset = ((l >> 8) &amp; 0xFFFFFF)
+    size = l &amp; 0xFF
+ 
+    return (offset * 4096, size * 4096)
+</pre>
+<h4><span class="mw-headline" id="Timestamp_Table" data-mw-thread-id="h-Timestamp_Table-Structure"><span data-mw-comment-start="" id="h-Timestamp_Table-Structure"></span>Timestamp Table<span data-mw-comment-end="h-Timestamp_Table-Structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=edit&amp;section=6" title="Edit section&#039;s source code: Timestamp Table">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The timestamp table is composed of 1024 timestamps, each a 4-byte integer. This is the time that the chunk was last modified, and is in the same order as the location table. Thus, the chunk whose location was at <code>location_table[15]</code> has a timestamp at <code>timestamp_table[15]</code>.
+</p>
+<h4><span class="mw-headline" id="Chunk_Header" data-mw-thread-id="h-Chunk_Header-Structure"><span data-mw-comment-start="" id="h-Chunk_Header-Structure"></span>Chunk Header<span data-mw-comment-end="h-Chunk_Header-Structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=edit&amp;section=7" title="Edit section&#039;s source code: Chunk Header">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Each chunk has an additional 5-byte header, followed by the actual chunk which is stored as <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT" title="Minecraft Wiki:Projects/wiki.vg merge/NBT">NBT</a>.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>
+</td>
+<th>Length (in bytes)
+</th>
+<th>Compression Scheme
+</th></tr>
+<tr>
+<th>Decoded
+</th>
+<td><code>528</code>
+</td>
+<td><code>2</code>
+</td></tr>
+<tr>
+<th>On disk (in hex)
+</th>
+<td><code>00 00 02 10</code>
+</td>
+<td><code>02</code>
+</td></tr></tbody></table>
+<p>There are two possible values for the compression scheme. If it is a <code>1</code>, the following chunk is compressed using <a href="https://en.wikipedia.org/wiki/gzip" class="extiw" title="wikipedia:gzip">gzip</a>. If it's a <code>2</code>, the following chunk is compressed with <a href="https://en.wikipedia.org/wiki/zlib" class="extiw" title="wikipedia:zlib">zlib</a>. In practice, you will only ever encounter chunks compressed using zlib.
+</p><p>The length includes the compression scheme byte.
+</p>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐7dcd6f644b‐xvpcx
+Cached time: 20250323221813
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.007 seconds
+CPU time usage: 0.023 seconds
+Real time usage: 0.025 seconds
+Preprocessor visited node count: 231/1000000
+Post‐expand include size: 3967/8388608 bytes
+Template argument size: 1782/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 650/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    5.671      1 Template:License_wiki.vg
+100.00%    5.671      1 -total
+ 51.54%    2.923      1 Template:License
+ 41.77%    2.369      1 Template:Msgbox
+ 12.59%    0.714      3 Template:SUBJECTSPACE_formatted
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290315-0!canonical and timestamp 20250323221813 and revision id 2777461. Rendering was triggered because: page-view
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?oldid=2777461">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?oldid=2777461</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Java_Edition_protocol" title="Category:Java Edition protocol">Java Edition protocol</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FRegion+Files" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FRegion+Files" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Region_Files?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc2" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc2"><span>Dev: 1.21.5-rc2</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?oldid=2777461" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FRegion-5FFiles" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 29 November 2024, at 23:40.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-xvpcx","wgBackendResponseTime":39,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Background_\u0026_Reasoning","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Specification","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-File_Names-Specification","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Structure-Specification","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Location_Table-Structure","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Timestamp_Table-Structure","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Chunk_Header-Structure","replies":[]}]}]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"discussiontools":{"limitreport-timeusage":"0.007"},"limitreport":{"cputime":"0.023","walltime":"0.025","ppvisitednodes":{"value":231,"limit":1000000},"postexpandincludesize":{"value":3967,"limit":8388608},"templateargumentsize":{"value":1782,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":650,"limit":5000000},"timingprofile":["100.00%    5.671      1 Template:License_wiki.vg","100.00%    5.671      1 -total"," 51.54%    2.923      1 Template:License"," 41.77%    2.369      1 Template:Msgbox"," 12.59%    0.714      3 Template:SUBJECTSPACE_formatted"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-7dcd6f644b-xvpcx","timestamp":"20250323221813","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Chunk Format – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"60bb98adaf36e02620674066205e4cd0","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format","wgTitle":"Projects/wiki.vg merge/Chunk Format","wgCurRevisionId":2845070,"wgRevisionId":2845070,"wgArticleId":290156,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Protocol Details","Java Edition protocol","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format","wgRelevantArticleId":290156,
+"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready",
+"ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.pygments":"ready","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils",
+"ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.pygments%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="This article describes in additional detail the format of the Chunk Data packet.">
+<meta property="og:description" content="This article describes in additional detail the format of the Chunk Data packet.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Chunk Format – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Chunk_Format rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Chunk Format</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p>This article describes in additional detail the format of the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Chunk_Data_and_Update_Light" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Chunk Data</a> packet.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Concepts"><span class="tocnumber">1</span> <span class="toctext">Concepts</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Chunks_columns_and_Chunk_sections"><span class="tocnumber">1.1</span> <span class="toctext">Chunks columns and Chunk sections</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Registries"><span class="tocnumber">1.2</span> <span class="toctext">Registries</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Block_state_registry"><span class="tocnumber">1.2.1</span> <span class="toctext">Block state registry</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Biome_registry"><span class="tocnumber">1.2.2</span> <span class="toctext">Biome registry</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#Palettes"><span class="tocnumber">1.3</span> <span class="toctext">Palettes</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Notes"><span class="tocnumber">1.4</span> <span class="toctext">Notes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Packet_structure"><span class="tocnumber">2</span> <span class="toctext">Packet structure</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Heightmaps_structure"><span class="tocnumber">2.1</span> <span class="toctext">Heightmaps structure</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Data_structure"><span class="tocnumber">2.2</span> <span class="toctext">Data structure</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#Chunk_Section_structure"><span class="tocnumber">2.2.1</span> <span class="toctext">Chunk Section structure</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Paletted_Container_structure"><span class="tocnumber">3</span> <span class="toctext">Paletted Container structure</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#Palette_formats"><span class="tocnumber">3.1</span> <span class="toctext">Palette formats</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#Single_valued"><span class="tocnumber">3.1.1</span> <span class="toctext">Single valued</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#Indirect"><span class="tocnumber">3.1.2</span> <span class="toctext">Indirect</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Direct"><span class="tocnumber">3.1.3</span> <span class="toctext">Direct</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#Example"><span class="tocnumber">3.1.4</span> <span class="toctext">Example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-18"><a href="#Data_Array_format"><span class="tocnumber">3.2</span> <span class="toctext">Data Array format</span></a>
+<ul>
+<li class="toclevel-3 tocsection-19"><a href="#Visual_example"><span class="tocnumber">3.2.1</span> <span class="toctext">Visual example</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Tips_and_notes"><span class="tocnumber">4</span> <span class="toctext">Tips and notes</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Sample_implementations"><span class="tocnumber">5</span> <span class="toctext">Sample implementations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Shared_code"><span class="tocnumber">5.1</span> <span class="toctext">Shared code</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Deserializing"><span class="tocnumber">5.2</span> <span class="toctext">Deserializing</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Serializing"><span class="tocnumber">5.3</span> <span class="toctext">Serializing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-25"><a href="#Full_implementations"><span class="tocnumber">6</span> <span class="toctext">Full implementations</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#Sample_data"><span class="tocnumber">7</span> <span class="toctext">Sample data</span></a>
+<ul>
+<li class="toclevel-2 tocsection-27"><a href="#Old_format"><span class="tocnumber">7.1</span> <span class="toctext">Old format</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Concepts" data-mw-thread-id="h-Concepts"><span data-mw-comment-start="" id="h-Concepts"></span>Concepts<span data-mw-comment-end="h-Concepts"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=1" title="Edit section&#039;s source code: Concepts">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Concepts","replies":["h-Chunks_columns_and_Chunk_sections-Concepts","h-Registries-Concepts","h-Palettes-Concepts","h-Notes-Concepts"]}}--></div>
+<h3><span class="mw-headline" id="Chunks_columns_and_Chunk_sections" data-mw-thread-id="h-Chunks_columns_and_Chunk_sections-Concepts"><span data-mw-comment-start="" id="h-Chunks_columns_and_Chunk_sections-Concepts"></span>Chunks columns and Chunk sections<span data-mw-comment-end="h-Chunks_columns_and_Chunk_sections-Concepts"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=2" title="Edit section&#039;s source code: Chunks columns and Chunk sections">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>You've probably heard the term "chunk" before.  Minecraft uses chunks to store and transfer world data.  However, there are actually 2 different concepts that are both called "chunks" in different contexts: chunk columns and chunk sections.
+</p><p><span class="anchor" id="Chunk_column"></span>A <b>chunk column</b> is a collection of blocks with a horizontal size of 16×16, spanning the entire buildable area on the vertical axis.  This is what most players think of when they hear the term "chunk".  However, these are not the smallest unit data is stored in in the game; chunk columns are vertically divided into chunk sections, each 16 blocks tall.
+</p><p>Chunk columns store block entities, entities, tick data, and an array of sections.
+</p><p><span class="anchor" id="Chunk_section"></span>A <b>chunk section</b> is a 16×16×16 collection of blocks (chunk sections are cubic).  This is the actual area that blocks are stored in, and is often the concept Mojang refers to via "chunk".  Breaking columns into sections wouldn't be useful, except that you don't need to send all chunk sections in a column: If a section is empty, then it doesn't need to be sent (more on this later).
+</p><p>Chunk sections store blocks, biomes and light data (both block light and sky light).  Additionally, they can be associated with at most two <a href="#Palettes">palettes</a>—one for blocks, one for biomes.  A chunk section can contain at maximum 4096 (16×16×16, or 2<sup>12</sup>) unique block state IDs, and 64 (4×4×4) unique biome IDs (but, it is highly unlikely that such a section will occur in normal circumstances).
+</p><p>Chunk columns and chunk sections are both displayed when chunk border rendering is enabled (<kbd>F3</kbd>+<kbd>G</kbd>).  Chunk columns borders are indicated via the red vertical lines, while chunk sections borders are indicated by the blue lines.
+</p>
+<h3><span class="mw-headline" id="Registries" data-mw-thread-id="h-Registries-Concepts"><span data-mw-comment-start="" id="h-Registries-Concepts"></span>Registries<span data-mw-comment-end="h-Registries-Concepts"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=3" title="Edit section&#039;s source code: Registries">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The registries are the primary, protocol-wide mappings from block states and biomes to numeric identifiers.
+</p>
+<h4><span class="mw-headline" id="Block_state_registry" data-mw-thread-id="h-Block_state_registry-Registries"><span data-mw-comment-start="" id="h-Block_state_registry-Registries"></span>Block state registry<span data-mw-comment-end="h-Block_state_registry-Registries"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=4" title="Edit section&#039;s source code: Block state registry">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The block state registry is hardcoded into Minecraft, and can only be changed via modding. Such changes break protocol compatibility, and as such, modding frameworks typically include protocol extensions to negotiate which IDs the client and server have in common.
+</p><p>One block state ID is allocated for each unique block state of a block; if a block has multiple properties then the number of allocated states is the product of the number of values for each property. The block state IDs belonging to a given block are always consecutive. Other than that, the ordering of block states is hardcoded, and somewhat arbitrary.
+</p><p>The <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Data_Generators" title="Minecraft Wiki:Projects/wiki.vg merge/Data Generators">Data Generators</a> system can be used to generate a list of all block state IDs.
+</p>
+<h4><span class="mw-headline" id="Biome_registry" data-mw-thread-id="h-Biome_registry-Registries"><span data-mw-comment-start="" id="h-Biome_registry-Registries"></span>Biome registry<span data-mw-comment-end="h-Biome_registry-Registries"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=5" title="Edit section&#039;s source code: Biome registry">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The biome registry is defined at runtime in a <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Registry_Data" title="Minecraft Wiki:Projects/wiki.vg merge/Registry Data">Registry Data</a> packet sent by the server during the Configuration phase.
+</p><p>The Notchian server pulls these biome definitions <a href="/w/Custom_biome" class="mw-redirect" title="Custom biome">from data packs</a>.
+</p>
+<h3><span class="mw-headline" id="Palettes" data-mw-thread-id="h-Palettes-Concepts"><span data-mw-comment-start="" id="h-Palettes-Concepts"></span>Palettes<span data-mw-comment-end="h-Palettes-Concepts"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=6" title="Edit section&#039;s source code: Palettes">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Indexed_palette.png" class="mw-file-description"><img src="/images/Indexed_palette.png?cf445" decoding="async" loading="lazy" width="150" height="401" class="mw-file-element" data-file-width="150" data-file-height="401"/></a><figcaption>Illustration of an indexed palette (<a href="https://commons.wikimedia.org/wiki/File:Indexed_palette.png" class="extiw" title="commons:File:Indexed palette.png">Source</a>)</figcaption></figure>
+<p>A palette maps a smaller set of IDs within a <a href="#Chunk_section">chunk section</a> to registry IDs. Other than skipping empty sections, correct use of palettes is the biggest place where data can be saved. For example, encoding any of the IDs in the block state registry as of vanilla 1.20.2 requires 15 bits. Given that most sections contain only a few different blocks, using 15 bits per block to represent a chunk section that is only stone, gravel, and air would be extremely wasteful.  Instead, a list of registry IDs is sent (for instance, <code>40 57 0</code>), and indices into that list—the palette—are sent as the block state or biome values within the chunk (so <code>40</code> would be sent as <code>0</code>, <code>57</code> as <code>1</code>, and <code>0</code> as <code>2</code>).<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[concept note 1]</a></sup>
+</p><p>The number of bits used to encode palette indices varies based on the number of indices, and the registry in question. If a threshold on the number of unique IDs in the section is exceeded, a palette is not used, and registry IDs are used directly instead.
+</p><p>The concept of palettes is more commonly used with colors in an image; Wikipedia's articles on <a href="https://en.wikipedia.org/wiki/Color_look-up_table" class="extiw" title="wikipedia:Color look-up table">color look-up tables</a>, <a href="https://en.wikipedia.org/wiki/Indexed_color" class="extiw" title="wikipedia:Indexed color">indexed colors</a>, and <a href="https://en.wikipedia.org/wiki/Palette_(computing)" class="extiw" title="wikipedia:Palette (computing)">palettes in general</a> may be helpful for fully grokking it.
+</p>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">Note that the notchian client (and server) store their chunk data within the compacted, paletted format.  Sending non-compacted data not only wastes bandwidth, but also leads to increased memory use clientside; while this is OK for an initial implementation it is strongly encouraged that one compacts the block data as soon as possible.</div>
+</div>
+</div>
+<h3><span class="mw-headline" id="Notes" data-mw-thread-id="h-Notes-Concepts"><span data-mw-comment-start="" id="h-Notes-Concepts"></span>Notes<span data-mw-comment-end="h-Notes-Concepts"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=7" title="Edit section&#039;s source code: Notes">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">There is no requirement for IDs in a palette to be <a href="https://en.wikipedia.org/wiki/Monotonic" class="extiw" title="wikipedia:Monotonic">monotonic</a>; the order within the list is entirely arbitrary and often has to do with how the palette is built (if it finds a stone block before an air block, stone can come first).  (However, although the order of the palette entries can be arbitrary, it can theoretically be optimized to ensure the maximum possible DEFLATE compression.  This optimization offers little to no gain, so generally do not attempt it.)  However, there shouldn't be any gaps in the palette, as gaps would increase the size of the palette when it is sent.</span>
+</li>
+</ol></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Packet_structure" data-mw-thread-id="h-Packet_structure"><span data-mw-comment-start="" id="h-Packet_structure"></span>Packet structure<span data-mw-comment-end="h-Packet_structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=8" title="Edit section&#039;s source code: Packet structure">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Packet_structure","replies":["h-Heightmaps_structure-Packet_structure","h-Data_structure-Packet_structure"]}}--></div>
+<table class="wikitable">
+<tbody><tr>
+<th>Packet ID
+</th>
+<th>State
+</th>
+<th>Bound To
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="6">0x20
+</td>
+<td rowspan="6">Play
+</td>
+<td rowspan="6">Client
+</td>
+<td>Chunk X
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>Chunk coordinate (block coordinate divided by 16, rounded down).
+</td></tr>
+<tr>
+<td>Chunk Z
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>Chunk coordinate (block coordinate divided by 16, rounded down).
+</td></tr>
+<tr>
+<td>Heightmaps
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>See <a href="#Heightmaps_structure">#Heightmaps structure</a> below.
+</td></tr>
+<tr>
+<td>Size
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Size of Data in bytes; in some cases this is larger than it needs to be (e.g. <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://bugs.mojang.com/browse/MC-131684">MC-131684</a>, <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://bugs.mojang.com/browse/MC-247438">MC-247438</a>) in which case extra bytes should be skipped before reading fields after Data.
+</td></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:Byte_Array" title="Protocol data types">Byte Array</a>
+</td>
+<td>See <a href="#Data_structure">#Data structure</a> below.
+</td></tr>
+<tr>
+<td>Additional Data
+</td>
+<td>Various
+</td>
+<td>See <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Chunk_Data_and_Update_Light" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Protocol#Chunk Data and Update Light</a>.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Heightmaps_structure" data-mw-thread-id="h-Heightmaps_structure-Packet_structure"><span data-mw-comment-start="" id="h-Heightmaps_structure-Packet_structure"></span>Heightmaps structure<span data-mw-comment-end="h-Heightmaps_structure-Packet_structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=9" title="Edit section&#039;s source code: Heightmaps structure">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Minecraft uses heightmaps to optimize various operations on both the server and the client. All heightmaps share the basic structure of encoding the position of the highest "occupied" block in each column of blocks within a chunk column. The differences have to do with which blocks are considered to be "occupied".
+</p><p>Rather than calculating them from the chunk data, the client receives the initial heightmaps it needs from the server. This trades an increase in network usage for a decrease in client-side processing. Once a chunk is loaded, the client updates its heightmaps based on block changes independently from the server.
+</p><p>No heightmaps are strictly required for the client to accept a chunk. If a heightmap is missing from a Chunk Data packet, the client will initialize it with all heights set to their minimum values. However, block changes will still cause the corresponding height values to be updated as normal.
+</p><p>The Heightmaps structure is an NBT <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT#Specification:compound_tag" title="Minecraft Wiki:Projects/wiki.vg merge/NBT">Compound Tag</a> containing a <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT#Specification:long_array_tag" title="Minecraft Wiki:Projects/wiki.vg merge/NBT">Long Array Tag</a> element for each heightmap. The name of each Long Array is the name of the corresponding heightmap.
+</p><p>The height values of a heightmap are packed into the long array in the same manner described in <a href="#Data_Array_format">#Data Array format</a>, and ordered such that the fastest-increasing coordinate is x. (However, there are only 256 entries—one for each block column.) The Bits Per Entry value used is calculated as ceil(log2(world height + 1)). This is because the number of possible height values is one more than the world height—ranging from 0 (completely blank column; not even bedrock) to world height (highest position is occupied). Note that this means, for example, that a world with height 256 will use a Bits Per Entry of 9.
+</p><p>The following heightmaps are currently used by the client:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Considers Occupied
+</th>
+<th>Purposes
+</th></tr>
+<tr>
+<td>MOTION_BLOCKING
+</td>
+<td>"Solid" blocks, except bamboo saplings and cactuses; fluids.
+</td>
+<td>To determine where to display rain and snow.
+</td></tr>
+<tr>
+<td>WORLD_SURFACE
+</td>
+<td>All blocks other than air, cave air and void air.
+</td>
+<td>To determine if a beacon beam is obstructed.
+</td></tr></tbody></table>
+<p>This list appears to be exhaustive as of 1.20.2.
+</p>
+<h3><span class="mw-headline" id="Data_structure" data-mw-thread-id="h-Data_structure-Packet_structure"><span data-mw-comment-start="" id="h-Data_structure-Packet_structure"></span>Data structure<span data-mw-comment-end="h-Data_structure-Packet_structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=10" title="Edit section&#039;s source code: Data structure">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The data section of the packet contains most of the useful data for the chunk.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a> of <a href="#Chunk_Section_structure">Chunk Section</a>
+</td>
+<td>This array is NOT length-prefixed. The number of elements in the array is calculated based on the world's height. Sections are sent bottom-to-top. Starting with 1.18, the world height changes based on the dimension. The height of each dimension is assigned by the server in its corresponding <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Registry_Data#Dimension_Type" title="Minecraft Wiki:Projects/wiki.vg merge/Registry Data">registry data</a> entry. For example, the vanilla overworld is 384 blocks tall, meaning 24 chunk sections will be included in this array.
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="Chunk_Section_structure" data-mw-thread-id="h-Chunk_Section_structure-Data_structure"><span data-mw-comment-start="" id="h-Chunk_Section_structure-Data_structure"></span>Chunk Section structure<span data-mw-comment-end="h-Chunk_Section_structure-Data_structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=11" title="Edit section&#039;s source code: Chunk Section structure">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="msgbox searchaux msgbox-mini msgbox-orange" style="max-width: 50em;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Clock_JE3_BE3.gif" class="mw-file-description"><img src="/images/thumb/Clock_JE3_BE3.gif/16px-Clock_JE3_BE3.gif?8eaae" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Clock_JE3_BE3.gif/32px-Clock_JE3_BE3.gif?8eaae 2x" data-file-width="160" data-file-height="160"/></a></span></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This section needs to be updated.</div> 
+<div class="msgbox-text">Please update this section to reflect recent updates or newly available information.<br/><b>Reason:</b> How do biomes work now?  The biome change happened at the same time as the seed change, but it's not clear how/if biomes could be computed given that it's not the actual seed...  (<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.reddit.com/r/Mojira/comments/e5at6i/a_discussion_for_the_changes_to_how_biomes_are/">/r/mojira discussion</a> which notes that it seems to be some kind of interpolation)</div>
+</div>
+</div>
+<p>A Chunk Section is defined in terms of other <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Data_types" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Data types">data types</a>. A Chunk Section consists of the following fields:
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Block count
+</td>
+<td><a href="/w/Protocol_data_types#Type:Short" title="Protocol data types">Short</a>
+</td>
+<td>Number of non-air blocks present in the chunk section. "Non-air" is defined as any fluid and block other than air, cave air, and void air. The client will keep count of the blocks as they are broken and placed, and, if the block count reaches 0, the whole chunk section is not rendered, even if it still has blocks.
+</td></tr>
+<tr>
+<td>Block states
+</td>
+<td><a href="#Paletted_Container_structure">Paletted Container</a>
+</td>
+<td>Consists of 4096 entries, representing all the blocks in the chunk section.
+</td></tr>
+<tr>
+<td>Biomes
+</td>
+<td><a href="#Paletted_Container_structure">Paletted Container</a>
+</td>
+<td>Consists of 64 entries, representing 4×4×4 biome regions in the chunk section.
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Paletted_Container_structure" data-mw-thread-id="h-Paletted_Container_structure"><span data-mw-comment-start="" id="h-Paletted_Container_structure"></span>Paletted Container structure<span data-mw-comment-end="h-Paletted_Container_structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=12" title="Edit section&#039;s source code: Paletted Container structure">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Paletted_Container_structure","replies":["h-Palette_formats-Paletted_Container_structure","h-Data_Array_format-Paletted_Container_structure"]}}--></div>
+<p>A Paletted Container is a palette-based storage of entries. Paletted Containers have an associated registry (either block states or biomes as of now), where values are mapped from. A Paletted Container consists of the following fields:
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Bits Per Entry
+</td>
+<td><a href="/w/Protocol_data_types#Type:Unsigned_Byte" title="Protocol data types">Unsigned Byte</a>
+</td>
+<td>Determines how many bits are used to encode entries. Note that not all numbers are valid here.
+</td></tr>
+<tr>
+<td>Palette
+</td>
+<td>Varies
+</td>
+<td>See <a href="#Palette_formats">#Palette formats</a> below.
+</td></tr>
+<tr>
+<td>Data Array Length
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Number of longs in the following array. This value isn't entirely respected by the Notchian client. If it differs from the correct size calculated from Bits Per Entry, the client will read the specified number of longs, but silently discard all of them afterwards, resulting in a chunk filled with palette entry 0 (which appears to have been unintentional). Present but equal to 0 when Bits Per Entry is 0.
+</td></tr>
+<tr>
+<td>Data Array
+</td>
+<td><a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a> of <a href="/w/Protocol_data_types#Type:Long" title="Protocol data types">Long</a>
+</td>
+<td>See <a href="#Data_Array_format">#Data Array format</a> below.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Palette_formats" data-mw-thread-id="h-Palette_formats-Paletted_Container_structure"><span data-mw-comment-start="" id="h-Palette_formats-Paletted_Container_structure"></span>Palette formats<span data-mw-comment-end="h-Palette_formats-Paletted_Container_structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=13" title="Edit section&#039;s source code: Palette formats">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The Bits Per Entry value determines what format is used for the palette.
+</p>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">Values not listed in the following table are rounded upwards to the next one specified, or downwards if larger than the value for Direct. Therefore such values will lead to unexpected results, and should not be used.</div>
+</div>
+</div>
+<p>There are currently three possible palette formats:
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th><abbr title="Bits Per Entry">BPE</abbr> (blocks)
+</th>
+<th><abbr title="Bits Per Entry">BPE</abbr> (biomes)
+</th>
+<th>Palette Format
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>0
+</td>
+<td><a href="#Single_valued">Single valued</a>
+</td></tr>
+<tr>
+<td>4-8
+</td>
+<td>1-3
+</td>
+<td><a href="#Indirect">Indirect</a>
+</td></tr>
+<tr>
+<td>15**
+</td>
+<td>6*
+</td>
+<td><a href="#Direct">Direct</a>
+</td></tr></tbody></table>
+<p>*The Notchian client calculates the Bits Per Entry values for the Direct palette format at runtime based on the sizes of the block state and biome registries. As such, the value used for biomes is entirely dependent on the contents of the biome registry sent in the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Registry_Data" title="Minecraft Wiki:Projects/wiki.vg merge/Registry Data">Registry Data</a> packet; the value shown is only valid for vanilla servers with no custom data packs. If the BPE requirement for Direct is less than or equal to the maximum for Indirect, Direct will never be used given BPE values within the valid range.
+</p><p>**Similarly, if a sufficiently large number of blocks is added with mods, the value will be increased to compensate for the increased ID count. This increase can go up to 31 bits per entry (since registry IDs are signed integers). In case of Minecraft Forge, you can get the number of blocks with the "Number of ids" field found in the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Minecraft_Forge_Handshake#RegistryData" title="Minecraft Wiki:Projects/wiki.vg merge/Minecraft Forge Handshake">RegistryData packet in the Forge Handshake</a>.
+</p>
+<h4><span class="mw-headline" id="Single_valued" data-mw-thread-id="h-Single_valued-Palette_formats"><span data-mw-comment-start="" id="h-Single_valued-Palette_formats"></span>Single valued<span data-mw-comment-end="h-Single_valued-Palette_formats"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=14" title="Edit section&#039;s source code: Single valued">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>When this palette is used, the Data Array sent/received is empty, since entries can be inferred from the palette's single value.
+However, the length of the Data Array is still included, even though it's always 0.
+</p>
+<table class="wikitable">
+
+<tbody><tr class="tc-yes">
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Value
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>ID of the corresponding entry in its registry.
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="Indirect" data-mw-thread-id="h-Indirect-Palette_formats"><span data-mw-comment-start="" id="h-Indirect-Palette_formats"></span>Indirect<span data-mw-comment-end="h-Indirect-Palette_formats"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=15" title="Edit section&#039;s source code: Indirect">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This is an actual palette which lists the entries used. Values in the Data Array are indices into the palette, which in turn gives a proper registry ID.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Palette Length
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Number of elements in the following array.
+</td></tr>
+<tr>
+<td>Palette
+</td>
+<td><a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a> of <a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Mapping of IDs in the registry to indices of this array.
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="Direct" data-mw-thread-id="h-Direct-Palette_formats"><span data-mw-comment-start="" id="h-Direct-Palette_formats"></span>Direct<span data-mw-comment-end="h-Direct-Palette_formats"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=16" title="Edit section&#039;s source code: Direct">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Registry IDs are stored directly as entries in the Data Array.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td colspan="3"><i>no fields</i>
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="Example" data-mw-thread-id="h-Example-Palette_formats"><span data-mw-comment-start="" id="h-Example-Palette_formats"></span>Example<span data-mw-comment-end="h-Example-Palette_formats"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=17" title="Edit section&#039;s source code: Example">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Here is an example showing a Chunk Section using a single-valued palette for block states, and an indirect palette with 2 indices for biomes:
+</p><p><code><span style="border: 2px solid red">00 00</span><span style="border: 2px solid orange">00</span><span style="border: 2px solid lime">00</span><span style="border: 2px solid green">00</span><span style="border: 2px solid orange">01</span><span style="border: 2px solid yellow">02</span><span style="border: 2px solid lime">27 03</span><span style="border: 2px solid green">01</span><span style="border: 2px solid aqua">CC FF CC FF CC FF CC FF</span></code>
+</p><p>The first bytes <span style="border: 2px solid red">00 00</span> are the number of non-air blocks in the chunk.
+They are followed by the Bits Per Entry <span style="border: 2px solid orange">00</span>, which is zero so we know the palette will have one element (not prefixed with length). This single element is the block state ID of air, <span style="border: 2px solid lime">00</span>. Next there is the length of the long array, which is always <span style="border: 2px solid green">00</span> for single-valued palettes.
+</p><p>The second part of the packet is for biomes. The first byte is their Bits Per Entry <span style="border: 2px solid orange">01</span>, followed by the length of the palette <span style="border: 2px solid yellow">02</span> and the two elements <span style="border: 2px solid lime">27 03</span>. The indexed data of this biome has <span style="border: 2px solid green">01</span> long element, which are 8 bytes each, giving the long <span style="border: 2px solid aqua">CC FF CC FF CC FF CC FF</span>.
+</p>
+<h3><span class="mw-headline" id="Data_Array_format" data-mw-thread-id="h-Data_Array_format-Paletted_Container_structure"><span data-mw-comment-start="" id="h-Data_Array_format-Paletted_Container_structure"></span>Data Array format<span data-mw-comment-end="h-Data_Array_format-Paletted_Container_structure"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=18" title="Edit section&#039;s source code: Data Array format">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The Data Array stores entries as Bits Per Entry–bit integers, corresponding to either palette indices or registry IDs depending on the palette format in use. If Bits Per Entry is 0, it is empty.
+</p><p>Entries are stored in order of increasing x coordinate, within rows at increasing z coordinates, within layers at increasing y coordinates. In other words, if the Data Array were a multidimensional array in C (modulo the packed encoding), it would be indexed <code style="white-space: pre">array[y][z][x]</code>.
+</p><p>A single long of the array holds several entries. The entries are tightly packed within the long, with the first entry on the least significant bits. An entry cannot span across multiple longs; instead, padding is inserted as required, starting from the most significant bits.
+</p><p>For example, assuming a bits per block value of 15, and that bit 0 is the least significant bit, the data is stored such that bits 0 through 14 are the first entry, 15 through 29 are the second, and so on. The fourth entry ends on bit 59, and since only 4 bits are left, they become padding, and the fifth entry starts on the next long.
+</p><p>Note that since longs are sent in big endian order, the least significant bit of the first entry in a long will be on the <i>last</i> byte of the long on the wire.
+</p>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">This format was changed in Minecraft 1.16. In prior versions, entries could cross long boundaries, and there was no padding.</div>
+</div>
+</div>
+<h4><span class="mw-headline" id="Visual_example" data-mw-thread-id="h-Visual_example-Data_Array_format"><span data-mw-comment-start="" id="h-Visual_example-Data_Array_format"></span>Visual example<span data-mw-comment-end="h-Visual_example-Data_Array_format"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=19" title="Edit section&#039;s source code: Visual example">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>5 bits per block, containing the following references to entries in a palette (not shown):
+<code><span style="border: solid 2px hsl( 0, 90%, 60%); margin-left: -2px; padding: 0 1px">1</span><span style="border: solid 2px hsl( 30, 90%, 60%); margin-left: -2px; padding: 0 1px">2</span><span style="border: solid 2px hsl( 60, 90%, 60%); margin-left: -2px; padding: 0 1px">2</span><span style="border: solid 2px hsl( 90, 90%, 60%); margin-left: -2px; padding: 0 1px">3</span><span style="border: solid 2px hsl(120, 90%, 60%); margin-left: -2px; padding: 0 1px">4</span><span style="border: solid 2px hsl(150, 90%, 60%); margin-left: -2px; padding: 0 1px">4</span><span style="border: solid 2px hsl(180, 90%, 60%); margin-left: -2px; padding: 0 1px">5</span><span style="border: solid 2px hsl(210, 90%, 60%); margin-left: -2px; padding: 0 1px">6</span><span style="border: solid 2px hsl(240, 90%, 60%); margin-left: -2px; padding: 0 1px">6</span><span style="border: solid 2px hsl(270, 90%, 60%); margin-left: -2px; padding: 0 1px">4</span><span style="border: solid 2px hsl(300, 90%, 60%); margin-left: -2px; padding: 0 1px">8</span><span style="border: solid 2px hsl(330, 90%, 60%); margin-left: -2px; padding: 0 1px">0</span><span style="border: solid 2px hsl( 0, 90%, 30%); margin-left: -2px; padding: 0 1px">7</span><span style="border: solid 2px hsl( 30, 90%, 30%); margin-left: -2px; padding: 0 1px">4</span><span style="border: solid 2px hsl( 60, 90%, 30%); margin-left: -2px; padding: 0 1px">3</span><span style="border: solid 2px hsl( 90, 90%, 30%); margin-left: -2px; padding: 0 1px">13</span><span style="border: solid 2px hsl(120, 90%, 30%); margin-left: -2px; padding: 0 1px">15</span><span style="border: solid 2px hsl(150, 90%, 30%); margin-left: -2px; padding: 0 1px">16</span><span style="border: solid 2px hsl(180, 90%, 30%); margin-left: -2px; padding: 0 1px">9</span><span style="border: solid 2px hsl(210, 90%, 30%); margin-left: -2px; padding: 0 1px">14</span><span style="border: solid 2px hsl(240, 90%, 30%); margin-left: -2px; padding: 0 1px">10</span><span style="border: solid 2px hsl(270, 90%, 30%); margin-left: -2px; padding: 0 1px">12</span><span style="border: solid 2px hsl(300, 90%, 30%); margin-left: -2px; padding: 0 1px">0</span><span style="border: solid 2px hsl(330, 90%, 30%); margin: 0 -2px; padding: 0 1px">2</span></code>
+</p><p><code>0020863148418841</code><code><span style="border: dashed 2px black; margin-left: -2px">0000</span><span style="border: solid 2px hsl(330, 90%, 60%); margin-left: -2px">00000</span><span style="border: solid 2px hsl(300, 90%, 60%); margin-left: -2px">01000</span><span style="border: solid 2px hsl(270, 90%, 60%); margin-left: -2px">00100</span><span style="border: solid 2px hsl(240, 90%, 60%); margin-left: -2px">00110</span><span style="border: solid 2px hsl(210, 90%, 60%); margin-left: -2px">00110</span><span style="border: solid 2px hsl(180, 90%, 60%); margin-left: -2px">00101</span><span style="border: solid 2px hsl(150, 90%, 60%); margin-left: -2px">00100</span><span style="border: solid 2px hsl(120, 90%, 60%); margin-left: -2px">00100</span><span style="border: solid 2px hsl( 90, 90%, 60%); margin-left: -2px">00011</span><span style="border: solid 2px hsl( 60, 90%, 60%); margin-left: -2px">00010</span><span style="border: solid 2px hsl( 30, 90%, 60%); margin-left: -2px">00010</span><span style="border: solid 2px hsl( 0, 90%, 60%); margin: 0 -2px">00001</span></code><br/>
+<code>01018A7260F68C87</code><code><span style="border: dashed 2px black; margin-left: -2px">0000</span><span style="border: solid 2px hsl(330, 90%, 30%); margin-left: -2px">00010</span><span style="border: solid 2px hsl(300, 90%, 30%); margin-left: -2px">00000</span><span style="border: solid 2px hsl(270, 90%, 30%); margin-left: -2px">01100</span><span style="border: solid 2px hsl(240, 90%, 30%); margin-left: -2px">01010</span><span style="border: solid 2px hsl(210, 90%, 30%); margin-left: -2px">01110</span><span style="border: solid 2px hsl(180, 90%, 30%); margin-left: -2px">01001</span><span style="border: solid 2px hsl(150, 90%, 30%); margin-left: -2px">10000</span><span style="border: solid 2px hsl(120, 90%, 30%); margin-left: -2px">01111</span><span style="border: solid 2px hsl( 90, 90%, 30%); margin-left: -2px">01101</span><span style="border: solid 2px hsl( 60, 90%, 30%); margin-left: -2px">00011</span><span style="border: solid 2px hsl( 30, 90%, 30%); margin-left: -2px">00100</span><span style="border: solid 2px hsl( 0, 90%, 30%); margin: 0 -2px">00111</span></code>
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Tips_and_notes" data-mw-thread-id="h-Tips_and_notes"><span data-mw-comment-start="" id="h-Tips_and_notes"></span>Tips and notes<span data-mw-comment-end="h-Tips_and_notes"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=20" title="Edit section&#039;s source code: Tips and notes">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Tips_and_notes","replies":[]}}--></div>
+<p>There are several things that can make it easier to implement this format.
+</p>
+<ul><li>Servers do <em>not</em> need to implement the palette initially (instead always using 15 bits per block), although it is an important optimization later on.</li>
+<li>The Notchian server implementation does not send values that are out of bounds for the palette.  If such a value is received, the format is being parsed incorrectly.  In particular, if you're reading a number with all bits set (15, 31, etc), you might be reading skylight data (or you may have a sign error and you're reading negative numbers).</li>
+<li>The Notchian client generally does not render chunks that lack neighbors.  (As of 1.20.2 such chunks appear to sporadically become visible anyway, and do so consistently when interacted with.)  This means that if you only send a fixed set of chunks with no empty chunks around them, then some of them will not be visible, although you can still interact with them.  This is intended behavior, so that lighting and connected blocks can be handled correctly.</li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Sample_implementations" data-mw-thread-id="h-Sample_implementations"><span data-mw-comment-start="" id="h-Sample_implementations"></span>Sample implementations<span data-mw-comment-end="h-Sample_implementations"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=21" title="Edit section&#039;s source code: Sample implementations">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Sample_implementations","replies":["h-Shared_code-Sample_implementations","h-Deserializing-Sample_implementations","h-Serializing-Sample_implementations"]}}--></div>
+<div class="msgbox searchaux msgbox-mini msgbox-orange" style="max-width: 50em;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Clock_JE3_BE3.gif" class="mw-file-description"><img src="/images/thumb/Clock_JE3_BE3.gif/16px-Clock_JE3_BE3.gif?8eaae" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Clock_JE3_BE3.gif/32px-Clock_JE3_BE3.gif?8eaae 2x" data-file-width="160" data-file-height="160"/></a></span></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This section needs to be updated.</div> 
+<div class="msgbox-text">Please update this section to reflect recent updates or newly available information.<br/><b>Reason:</b> This sample code is missing the heightmap, biome changes and the changes from 1.16</div>
+</div>
+</div>
+<p>How the chunk format can be implemented varies largely by how you want to read/write it.  It is often easier to read/write the data long-by-long instead of pre-create the data to write; however, storing the chunk data arrays in their packed form can be far more efficient memory- and performance-wise.  These implementations are simple versions that can work as a base (especially for dealing with the bit shifting), but are not ideal.
+</p>
+<h3><span class="mw-headline" id="Shared_code" data-mw-thread-id="h-Shared_code-Sample_implementations"><span data-mw-comment-start="" id="h-Shared_code-Sample_implementations"></span>Shared code<span data-mw-comment-end="h-Shared_code-Sample_implementations"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=22" title="Edit section&#039;s source code: Shared code">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>This is some basic pseudocode that shows the various types of palettes.  It does not handle actually populating the palette based on data in a chunk section; handling this is left as for the implementer since there are many ways of doing so.  (This does not apply for the direct version).
+</p>
+<div class="mw-highlight mw-highlight-lang-csharp mw-content-ltr" dir="ltr"><pre><span></span><span class="k">private</span><span class="w"> </span><span class="kt">uint</span><span class="w"> </span><span class="nf">GetGlobalPaletteIDFromState</span><span class="p">(</span><span class="n">BlockState</span><span class="w"> </span><span class="n">state</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// Implementation left to the user; see Data Generators for more info on the values</span>
+<span class="p">}</span>
+
+<span class="k">private</span><span class="w"> </span><span class="n">BlockState</span><span class="w"> </span><span class="nf">GetStateFromGlobalPaletteID</span><span class="p">(</span><span class="kt">uint</span><span class="w"> </span><span class="k">value</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// Implementation left to the user; see Data Generators for more info on the values</span>
+<span class="p">}</span>
+
+<span class="k">public</span><span class="w"> </span><span class="k">interface</span><span class="w"> </span><span class="n">Palette</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">uint</span><span class="w"> </span><span class="nf">IdForState</span><span class="p">(</span><span class="n">BlockState</span><span class="w"> </span><span class="n">state</span><span class="p">);</span>
+<span class="w">    </span><span class="n">BlockState</span><span class="w"> </span><span class="nf">StateForId</span><span class="p">(</span><span class="kt">uint</span><span class="w"> </span><span class="n">id</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">byte</span><span class="w"> </span><span class="nf">GetBitsPerBlock</span><span class="p">();</span>
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Read</span><span class="p">(</span><span class="n">Buffer</span><span class="w"> </span><span class="n">data</span><span class="p">);</span>
+<span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Write</span><span class="p">(</span><span class="n">Buffer</span><span class="w"> </span><span class="n">data</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">IndirectPalette</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Palette</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">Map</span><span class="o">&lt;</span><span class="kt">uint</span><span class="p">,</span><span class="w"> </span><span class="n">BlockState</span><span class="o">></span><span class="w"> </span><span class="n">idToState</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Map</span><span class="o">&lt;</span><span class="n">BlockState</span><span class="p">,</span><span class="w"> </span><span class="kt">uint</span><span class="o">></span><span class="w"> </span><span class="n">stateToId</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">byte</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="nf">IndirectPalette</span><span class="p">(</span><span class="kt">byte</span><span class="w"> </span><span class="n">palBitsPerBlock</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">bitsPerBlock</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">palBitsPerBlock</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">uint</span><span class="w"> </span><span class="nf">IdForState</span><span class="p">(</span><span class="n">BlockState</span><span class="w"> </span><span class="n">state</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">stateToId</span><span class="p">.</span><span class="n">Get</span><span class="p">(</span><span class="n">state</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">BlockState</span><span class="w"> </span><span class="nf">StateForId</span><span class="p">(</span><span class="kt">uint</span><span class="w"> </span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">idToState</span><span class="p">.</span><span class="n">Get</span><span class="p">(</span><span class="n">id</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">byte</span><span class="w"> </span><span class="nf">GetBitsPerBlock</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Read</span><span class="p">(</span><span class="n">Buffer</span><span class="w"> </span><span class="n">data</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">idToState</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Map</span><span class="o">&lt;></span><span class="p">();</span>
+<span class="w">        </span><span class="n">stateToId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Map</span><span class="o">&lt;></span><span class="p">();</span>
+<span class="w">        </span><span class="c1">// Palette Length</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">length</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadVarInt</span><span class="p">();</span>
+<span class="w">        </span><span class="c1">// Palette</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">length</span><span class="p">;</span><span class="w"> </span><span class="n">id</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="kt">uint</span><span class="w"> </span><span class="n">stateId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadVarInt</span><span class="p">();</span>
+<span class="w">            </span><span class="n">BlockState</span><span class="w"> </span><span class="n">state</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GetStateFromGlobalPaletteID</span><span class="p">(</span><span class="n">stateId</span><span class="p">);</span>
+<span class="w">            </span><span class="n">idToState</span><span class="p">.</span><span class="n">Set</span><span class="p">(</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">state</span><span class="p">);</span>
+<span class="w">            </span><span class="n">stateToId</span><span class="p">.</span><span class="n">Set</span><span class="p">(</span><span class="n">state</span><span class="p">,</span><span class="w"> </span><span class="n">id</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Write</span><span class="p">(</span><span class="n">Buffer</span><span class="w"> </span><span class="n">data</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">Assert</span><span class="p">(</span><span class="n">idToState</span><span class="p">.</span><span class="n">Size</span><span class="p">()</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">stateToId</span><span class="p">.</span><span class="n">Size</span><span class="p">());</span><span class="w"> </span><span class="c1">// both should be equivalent</span>
+<span class="w">        </span><span class="c1">// Palette Length</span>
+<span class="w">        </span><span class="n">WriteVarInt</span><span class="p">(</span><span class="n">idToState</span><span class="p">.</span><span class="n">Size</span><span class="p">());</span>
+<span class="w">        </span><span class="c1">// Palette</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">idToState</span><span class="p">.</span><span class="n">Size</span><span class="p">();</span><span class="w"> </span><span class="n">id</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">BlockState</span><span class="w"> </span><span class="n">state</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">idToState</span><span class="p">.</span><span class="n">Get</span><span class="p">(</span><span class="n">id</span><span class="p">);</span>
+<span class="w">            </span><span class="kt">uint</span><span class="w"> </span><span class="n">stateId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GetGlobalPaletteIDFromState</span><span class="p">(</span><span class="n">state</span><span class="p">);</span>
+<span class="w">            </span><span class="n">WriteVarInt</span><span class="p">(</span><span class="n">stateId</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">DirectPalette</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Palette</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">uint</span><span class="w"> </span><span class="nf">IdForState</span><span class="p">(</span><span class="n">BlockState</span><span class="w"> </span><span class="n">state</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nf">GetGlobalPaletteIDFromState</span><span class="p">(</span><span class="n">state</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">BlockState</span><span class="w"> </span><span class="nf">StateForId</span><span class="p">(</span><span class="kt">uint</span><span class="w"> </span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nf">GetStateFromGlobalPaletteID</span><span class="p">(</span><span class="n">id</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="kt">byte</span><span class="w"> </span><span class="nf">GetBitsPerBlock</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nf">Ceil</span><span class="p">(</span><span class="n">Log2</span><span class="p">(</span><span class="n">BlockState</span><span class="p">.</span><span class="n">TotalNumberOfStates</span><span class="p">));</span><span class="w"> </span><span class="c1">// currently 15</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Read</span><span class="p">(</span><span class="n">Buffer</span><span class="w"> </span><span class="n">data</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// No Data</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Write</span><span class="p">(</span><span class="n">Buffer</span><span class="w"> </span><span class="n">data</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// No Data</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">public</span><span class="w"> </span><span class="n">Palette</span><span class="w"> </span><span class="nf">ChoosePalette</span><span class="p">(</span><span class="kt">byte</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">bitsPerBlock</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="m">4</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">IndirectPalette</span><span class="p">(</span><span class="m">4</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">bitsPerBlock</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="m">8</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">IndirectPalette</span><span class="p">(</span><span class="n">bitsPerBlock</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nf">DirectPalette</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Deserializing" data-mw-thread-id="h-Deserializing-Sample_implementations"><span data-mw-comment-start="" id="h-Deserializing-Sample_implementations"></span>Deserializing<span data-mw-comment-end="h-Deserializing-Sample_implementations"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=23" title="Edit section&#039;s source code: Deserializing">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>When deserializing, it is easy to read to a buffer (since length information is present).  A basic example:
+</p>
+<div class="mw-highlight mw-highlight-lang-csharp mw-content-ltr" dir="ltr"><pre><span></span><span class="k">public</span><span class="w"> </span><span class="n">Chunk</span><span class="w"> </span><span class="nf">ReadChunkDataPacket</span><span class="p">(</span><span class="n">Buffer</span><span class="w"> </span><span class="n">data</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadInt</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadInt</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">full</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadBool</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Chunk</span><span class="w"> </span><span class="n">chunk</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">full</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">chunk</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Chunk</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">chunk</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GetExistingChunk</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">mask</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadVarInt</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadVarInt</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">    </span><span class="n">ReadChunkColumn</span><span class="p">(</span><span class="n">chunk</span><span class="p">,</span><span class="w"> </span><span class="n">full</span><span class="p">,</span><span class="w"> </span><span class="n">mask</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="p">.</span><span class="n">ReadByteArray</span><span class="p">(</span><span class="n">size</span><span class="p">));</span>
+
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">blockEntityCount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadVarInt</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">blockEntityCount</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">CompoundTag</span><span class="w"> </span><span class="n">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadCompoundTag</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">        </span><span class="n">chunk</span><span class="p">.</span><span class="n">AddBlockEntity</span><span class="p">(</span><span class="n">tag</span><span class="p">.</span><span class="n">GetInt</span><span class="p">(</span><span class="s">"x"</span><span class="p">),</span><span class="w"> </span><span class="n">tag</span><span class="p">.</span><span class="n">GetInt</span><span class="p">(</span><span class="s">"y"</span><span class="p">),</span><span class="w"> </span><span class="n">tag</span><span class="p">.</span><span class="n">GetInt</span><span class="p">(</span><span class="s">"z"</span><span class="p">),</span><span class="w"> </span><span class="n">tag</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">chunk</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">ReadChunkColumn</span><span class="p">(</span><span class="n">Chunk</span><span class="w"> </span><span class="n">chunk</span><span class="p">,</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">full</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">mask</span><span class="p">,</span><span class="w"> </span><span class="n">Buffer</span><span class="w"> </span><span class="n">data</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">sectionY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">sectionY</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="p">(</span><span class="n">CHUNK_HEIGHT</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">);</span><span class="w"> </span><span class="n">y</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">((</span><span class="n">mask</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="p">(</span><span class="m">1</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">sectionY</span><span class="p">))</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="m">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">  </span><span class="c1">// Is the given bit set in the mask?</span>
+<span class="w">            </span><span class="kt">byte</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadByte</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">            </span><span class="n">Palette</span><span class="w"> </span><span class="n">palette</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ChoosePalette</span><span class="p">(</span><span class="n">bitsPerBlock</span><span class="p">);</span>
+<span class="w">            </span><span class="n">palette</span><span class="p">.</span><span class="n">Read</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+
+<span class="w">            </span><span class="c1">// A bitmask that contains bitsPerBlock set bits</span>
+<span class="w">            </span><span class="kt">uint</span><span class="w"> </span><span class="n">individualValueMask</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">uint</span><span class="p">)((</span><span class="m">1</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">1</span><span class="p">);</span>
+
+<span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">dataArrayLength</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadVarInt</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">            </span><span class="n">UInt64</span><span class="p">[]</span><span class="w"> </span><span class="n">dataArray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadUInt64Array</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">dataArrayLength</span><span class="p">);</span>
+
+<span class="w">            </span><span class="n">ChunkSection</span><span class="w"> </span><span class="n">section</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ChunkSection</span><span class="p">();</span>
+
+<span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                        </span><span class="kt">int</span><span class="w"> </span><span class="n">blockNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(((</span><span class="n">y</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<span class="w">                        </span><span class="kt">int</span><span class="w"> </span><span class="n">startLong</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">blockNumber</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">64</span><span class="p">;</span>
+<span class="w">                        </span><span class="kt">int</span><span class="w"> </span><span class="n">startOffset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">blockNumber</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="p">)</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="m">64</span><span class="p">;</span>
+<span class="w">                        </span><span class="kt">int</span><span class="w"> </span><span class="n">endLong</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">((</span><span class="n">blockNumber</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">64</span><span class="p">;</span>
+
+<span class="w">                        </span><span class="kt">uint</span><span class="w"> </span><span class="n">data</span><span class="p">;</span>
+<span class="w">                        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">startLong</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">endLong</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                            </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">uint</span><span class="p">)(</span><span class="n">dataArray</span><span class="p">[</span><span class="n">startLong</span><span class="p">]</span><span class="w"> </span><span class="o">>></span><span class="w"> </span><span class="n">startOffset</span><span class="p">);</span>
+<span class="w">                        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                            </span><span class="kt">int</span><span class="w"> </span><span class="n">endOffset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">64</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">startOffset</span><span class="p">;</span>
+<span class="w">                            </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">uint</span><span class="p">)(</span><span class="n">dataArray</span><span class="p">[</span><span class="n">startLong</span><span class="p">]</span><span class="w"> </span><span class="o">>></span><span class="w"> </span><span class="n">startOffset</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">dataArray</span><span class="p">[</span><span class="n">endLong</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endOffset</span><span class="p">);</span>
+<span class="w">                        </span><span class="p">}</span>
+<span class="w">                        </span><span class="n">data</span><span class="w"> </span><span class="o">&amp;=</span><span class="w"> </span><span class="n">individualValueMask</span><span class="p">;</span>
+
+<span class="w">                        </span><span class="c1">// data should always be valid for the palette</span>
+<span class="w">                        </span><span class="c1">// If you're reading a power of 2 minus one (15, 31, 63, 127, etc...) that's out of bounds,</span>
+<span class="w">                        </span><span class="c1">// you're probably reading light data instead</span>
+
+<span class="w">                        </span><span class="n">BlockState</span><span class="w"> </span><span class="n">state</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">palette</span><span class="p">.</span><span class="n">StateForId</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+<span class="w">                        </span><span class="n">section</span><span class="p">.</span><span class="n">SetState</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="n">state</span><span class="p">);</span>
+<span class="w">                    </span><span class="p">}</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}</span>
+
+<span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="m">2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                        </span><span class="c1">// Note: x += 2 above; we read 2 values along x each time</span>
+<span class="w">                        </span><span class="kt">byte</span><span class="w"> </span><span class="k">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadByte</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+
+<span class="w">                        </span><span class="n">section</span><span class="p">.</span><span class="n">SetBlockLight</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="k">value</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="m">0</span><span class="n">xF</span><span class="p">);</span>
+<span class="w">                        </span><span class="n">section</span><span class="p">.</span><span class="n">SetBlockLight</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="k">value</span><span class="w"> </span><span class="o">>></span><span class="w"> </span><span class="m">4</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="m">0</span><span class="n">xF</span><span class="p">);</span>
+<span class="w">                    </span><span class="p">}</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}</span>
+
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">currentDimension</span><span class="p">.</span><span class="n">HasSkylight</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// IE, current dimension is overworld / 0</span>
+<span class="w">                </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="m">2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                            </span><span class="c1">// Note: x += 2 above; we read 2 values along x each time</span>
+<span class="w">                            </span><span class="kt">byte</span><span class="w"> </span><span class="k">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ReadByte</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+
+<span class="w">                            </span><span class="n">section</span><span class="p">.</span><span class="n">SetSkyLight</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="k">value</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="m">0</span><span class="n">xF</span><span class="p">);</span>
+<span class="w">                            </span><span class="n">section</span><span class="p">.</span><span class="n">SetSkyLight</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="k">value</span><span class="w"> </span><span class="o">>></span><span class="w"> </span><span class="m">4</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="m">0</span><span class="n">xF</span><span class="p">);</span>
+<span class="w">                        </span><span class="p">}</span>
+<span class="w">                    </span><span class="p">}</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}</span>
+
+<span class="w">            </span><span class="c1">// May replace an existing section or a null one</span>
+<span class="w">            </span><span class="n">chunk</span><span class="p">.</span><span class="n">Sections</span><span class="p">[</span><span class="n">SectionY</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">section</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">chunk</span><span class="p">.</span><span class="n">SetBiome</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="n">ReadInt</span><span class="p">(</span><span class="n">data</span><span class="p">));</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Serializing" data-mw-thread-id="h-Serializing-Sample_implementations"><span data-mw-comment-start="" id="h-Serializing-Sample_implementations"></span>Serializing<span data-mw-comment-end="h-Serializing-Sample_implementations"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=24" title="Edit section&#039;s source code: Serializing">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Serializing the packet is more complicated, because of the palette.  It is easy to implement with the full bits per block value; implementing it with a compacting palette is much harder since algorithms to generate and resize the palette must be written.  As such, this example <strong>does not generate a palette</strong>.  The palette is a good performance improvement (as it can significantly reduce the amount of data sent), but managing that is much harder and there are a variety of ways of implementing it.
+</p><p>Also note that this implementation doesn't handle situations where full is false (ie, making a large change to one section); it's only good for serializing a full chunk.
+</p>
+<div class="mw-highlight mw-highlight-lang-csharp mw-content-ltr" dir="ltr"><pre><span></span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">WriteChunkDataPacket</span><span class="p">(</span><span class="n">Chunk</span><span class="w"> </span><span class="n">chunk</span><span class="p">,</span><span class="w"> </span><span class="n">Buffer</span><span class="w"> </span><span class="n">data</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">WriteInt</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">chunk</span><span class="p">.</span><span class="n">GetX</span><span class="p">());</span>
+<span class="w">    </span><span class="n">WriteInt</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">chunk</span><span class="p">.</span><span class="n">GetZ</span><span class="p">());</span>
+<span class="w">    </span><span class="n">WriteBool</span><span class="p">(</span><span class="k">true</span><span class="p">);</span><span class="w">  </span><span class="c1">// Full</span>
+
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">mask</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Buffer</span><span class="w"> </span><span class="n">columnBuffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Buffer</span><span class="p">();</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">sectionY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">sectionY</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="p">(</span><span class="n">CHUNK_HEIGHT</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">);</span><span class="w"> </span><span class="n">y</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">chunk</span><span class="p">.</span><span class="n">IsSectionEmpty</span><span class="p">(</span><span class="n">sectionY</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">mask</span><span class="w"> </span><span class="o">|=</span><span class="w"> </span><span class="p">(</span><span class="m">1</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">chunkY</span><span class="p">);</span><span class="w">  </span><span class="c1">// Set that bit to true in the mask</span>
+<span class="w">            </span><span class="n">WriteChunkSection</span><span class="p">(</span><span class="n">chunk</span><span class="p">.</span><span class="n">Sections</span><span class="p">[</span><span class="n">sectionY</span><span class="p">],</span><span class="w"> </span><span class="n">columnBuffer</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">WriteInt</span><span class="p">(</span><span class="n">columnBuffer</span><span class="p">,</span><span class="w"> </span><span class="n">chunk</span><span class="p">.</span><span class="n">GetBiome</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">));</span><span class="w">  </span><span class="c1">// Use 127 for 'void' if your server doesn't support biomes</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">WriteVarInt</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">mask</span><span class="p">);</span>
+<span class="w">    </span><span class="n">WriteVarInt</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">columnBuffer</span><span class="p">.</span><span class="n">Size</span><span class="p">);</span>
+<span class="w">    </span><span class="n">WriteByteArray</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">columnBuffer</span><span class="p">);</span>
+
+<span class="w">    </span><span class="c1">// If you don't support block entities yet, use 0</span>
+<span class="w">    </span><span class="c1">// If you need to implement it by sending block entities later with the update block entity packet,</span>
+<span class="w">    </span><span class="c1">// do it that way and send 0 as well.  (Note that 1.10.1 (not 1.10 or 1.10.2) will not accept that)</span>
+
+<span class="w">    </span><span class="n">WriteVarInt</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">chunk</span><span class="p">.</span><span class="n">BlockEntities</span><span class="p">.</span><span class="n">Length</span><span class="p">);</span>
+<span class="w">    </span><span class="k">foreach</span><span class="w"> </span><span class="p">(</span><span class="n">CompoundTag</span><span class="w"> </span><span class="n">tag</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">chunk</span><span class="p">.</span><span class="n">BlockEntities</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">WriteCompoundTag</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">tag</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">private</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">WriteChunkSection</span><span class="p">(</span><span class="n">ChunkSection</span><span class="w"> </span><span class="n">section</span><span class="p">,</span><span class="w"> </span><span class="n">Buffer</span><span class="w"> </span><span class="n">buf</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">Palette</span><span class="w"> </span><span class="n">palette</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">section</span><span class="p">.</span><span class="n">palette</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">byte</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">palette</span><span class="p">.</span><span class="n">GetBitsPerBlock</span><span class="p">();</span>
+
+<span class="w">    </span><span class="n">WriteByte</span><span class="p">(</span><span class="n">bitsPerBlock</span><span class="p">);</span>
+<span class="w">    </span><span class="n">palette</span><span class="p">.</span><span class="n">Write</span><span class="p">(</span><span class="n">buf</span><span class="p">);</span>
+
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">dataLength</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="m">16</span><span class="o">*</span><span class="m">16</span><span class="o">*</span><span class="m">16</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">64</span><span class="p">;</span><span class="w"> </span><span class="c1">// See tips section for an explanation of this calculation</span>
+<span class="w">    </span><span class="n">UInt64</span><span class="p">[]</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">UInt64</span><span class="p">[</span><span class="n">dataLength</span><span class="p">];</span>
+
+<span class="w">    </span><span class="c1">// A bitmask that contains bitsPerBlock set bits</span>
+<span class="w">    </span><span class="kt">uint</span><span class="w"> </span><span class="n">individualValueMask</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">uint</span><span class="p">)((</span><span class="m">1</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">1</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">blockNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(((</span><span class="n">y</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">startLong</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">blockNumber</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">64</span><span class="p">;</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">startOffset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">blockNumber</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="p">)</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="m">64</span><span class="p">;</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">endLong</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">((</span><span class="n">blockNumber</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">bitsPerBlock</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">64</span><span class="p">;</span>
+
+<span class="w">                </span><span class="n">BlockState</span><span class="w"> </span><span class="n">state</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">section</span><span class="p">.</span><span class="n">GetState</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+
+<span class="w">                </span><span class="n">UInt64</span><span class="w"> </span><span class="k">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">palette</span><span class="p">.</span><span class="n">IdForState</span><span class="p">(</span><span class="n">state</span><span class="p">);</span>
+<span class="w">                </span><span class="k">value</span><span class="w"> </span><span class="o">&amp;=</span><span class="w"> </span><span class="n">individualValueMask</span><span class="p">;</span>
+
+<span class="w">                </span><span class="n">data</span><span class="p">[</span><span class="n">startLong</span><span class="p">]</span><span class="w"> </span><span class="o">|=</span><span class="w"> </span><span class="p">(</span><span class="k">value</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">startOffset</span><span class="p">);</span>
+
+<span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">startLong</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">endLong</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="n">data</span><span class="p">[</span><span class="n">endLong</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="k">value</span><span class="w"> </span><span class="o">>></span><span class="w"> </span><span class="p">(</span><span class="m">64</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">startOffset</span><span class="p">));</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">WriteVarInt</span><span class="p">(</span><span class="n">dataLength</span><span class="p">);</span>
+<span class="w">    </span><span class="n">WriteLongArray</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="m">2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="c1">// Note: x += 2 above; we read 2 values along x each time</span>
+<span class="w">                </span><span class="kt">byte</span><span class="w"> </span><span class="k">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">section</span><span class="p">.</span><span class="n">GetBlockLight</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="p">(</span><span class="n">section</span><span class="p">.</span><span class="n">GetBlockLight</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="m">4</span><span class="p">);</span>
+<span class="w">                </span><span class="n">WriteByte</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="k">value</span><span class="p">);</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">currentDimension</span><span class="p">.</span><span class="n">HasSkylight</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// IE, current dimension is overworld / 0</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_HEIGHT</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">z</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">SECTION_WIDTH</span><span class="p">;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="m">2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                    </span><span class="c1">// Note: x += 2 above; we read 2 values along x each time</span>
+<span class="w">                    </span><span class="kt">byte</span><span class="w"> </span><span class="k">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">section</span><span class="p">.</span><span class="n">GetSkyLight</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="p">(</span><span class="n">section</span><span class="p">.</span><span class="n">GetSkyLight</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="m">4</span><span class="p">);</span>
+<span class="w">                    </span><span class="n">WriteByte</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="k">value</span><span class="p">);</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Full_implementations" data-mw-thread-id="h-Full_implementations"><span data-mw-comment-start="" id="h-Full_implementations"></span>Full implementations<span data-mw-comment-end="h-Full_implementations"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=25" title="Edit section&#039;s source code: Full implementations">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Full_implementations","replies":[]}}--></div>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/GlowstoneMC/Glowstone/blob/dev/src/main/java/net/glowstone/chunk/ChunkSection.java">Java, 1.12.2, writing only, with palette</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/feather-rs/feather/blob/main/feather/base/src/chunk.rs">Rust, 1.16.5, with palette</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Steveice10/MCProtocolLib/blob/4ed72deb75f2acb0a81d641717b7b8074730f701/src/main/java/org/spacehq/mc/protocol/data/game/chunk/BlockStorage.java#L42">Java, 1.9, both sides</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/barneygale/quarry">Python, 1.7 through 1.13</a>. Read/write, paletted/unpaletted, <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/barneygale/quarry/blob/master/quarry/types/buffer/v1_7.py#L403">packets</a>/<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/barneygale/quarry/blob/master/quarry/types/chunk.py">arrays</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/SpockBotMC/SpockBot/blob/0535c31/spockbot/plugins/tools/smpmap.py#L144-L183">Python, 1.9, reading only</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Protryon/Osmium/blob/fdd61b9/MinecraftClone/src/ingame.c#L512-L632">C, 1.9, reading only</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Protryon/Basin/blob/master/basin/src/packet.c#L1124">C, 1.11.2, writing only</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/cuberite/cuberite/blob/master/src/Protocol/ChunkDataSerializer.cpp#L190">C++, 1.12.2, writing only</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PrismarineJS/prismarine-chunk">Node.js, 1.8->1.18</a></li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Sample_data" data-mw-thread-id="h-Sample_data"><span data-mw-comment-start="" id="h-Sample_data"></span>Sample data<span data-mw-comment-end="h-Sample_data"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=26" title="Edit section&#039;s source code: Sample data">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Sample_data","replies":["h-Old_format-Sample_data"]}}--></div>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/Pokechu22/0b89f928b381dede0387fe5f88faf8c0">some sample data</a> from 1.13.2, with both complete packets and just the data structures</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PrismarineJS/prismarine-chunk/tree/master/test">prismarine test data</a> chunks from 1.8 to 1.20 used as testing data, generated using automated <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PrismarineJS/minecraft-chunk-dumper">chunk-dumper</a></li></ul>
+<h3><span class="mw-headline" id="Old_format" data-mw-thread-id="h-Old_format-Sample_data"><span data-mw-comment-start="" id="h-Old_format-Sample_data"></span>Old format<span data-mw-comment-end="h-Old_format-Sample_data"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;section=27" title="Edit section&#039;s source code: Old format">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The following implement the <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://wiki.vg/index.php?title=SMP_Map_Format&amp;oldid=7164">previous</a> (before 1.9) format:
+</p>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/GlowstoneMC/Glowstone/blob/d3ed79ea7d284df1d2cd1945bf53d5652962a34f/src/main/java/net/glowstone/GlowChunk.java#L640">Java, 1.8</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/barneygale/smpmap">Python, 1.4</a></li></ul>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐jobrunner‐cbcd74ff9‐h5z5m
+Cached time: 20250323220220
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.338 seconds
+CPU time usage: 0.533 seconds
+Real time usage: 1.573 seconds
+Preprocessor visited node count: 1455/1000000
+Post‐expand include size: 16775/8388608 bytes
+Template argument size: 6777/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 3/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 73035/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  698.081      1 -total
+ 24.42%  170.486      1 Template:License_wiki.vg
+  4.07%   28.443      2 Template:Update
+  3.01%   21.021      3 Template:Warning
+  2.91%   20.308      1 Template:License
+  2.69%   18.800      5 Template:Message_box
+  2.56%   17.893      1 Template:Msgbox
+  2.02%   14.076      2 Template:Anchor
+  1.05%    7.337      3 Template:SUBJECTSPACE_formatted
+  0.74%    5.135     15 Template:Type
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290156-0!canonical and timestamp 20250323220218 and revision id 2845070. Rendering was triggered because: edit-page
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?oldid=2845070">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?oldid=2845070</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Protocol_Details?action=edit&amp;redlink=1" class="new" title="Category:Protocol Details (page does not exist)">Protocol Details</a></li><li><a href="/w/Category:Java_Edition_protocol" title="Category:Java Edition protocol">Java Edition protocol</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FChunk+Format" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FChunk+Format" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Chunk_Format?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc1" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc1"><span>Dev: 1.21.5-rc1</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?oldid=2845070" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FChunk-5FFormat" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 4 February 2025, at 02:34.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Chunk_Format?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-xvpcx","wgBackendResponseTime":39,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Concepts","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Chunks_columns_and_Chunk_sections-Concepts","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Registries-Concepts","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Block_state_registry-Registries","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Biome_registry-Registries","replies":[]}]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Palettes-Concepts","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Notes-Concepts","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Packet_structure","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Heightmaps_structure-Packet_structure","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Data_structure-Packet_structure","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Chunk_Section_structure-Data_structure","replies":[]}]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Paletted_Container_structure","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Palette_formats-Paletted_Container_structure","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Single_valued-Palette_formats","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Indirect-Palette_formats","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Direct-Palette_formats","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Example-Palette_formats","replies":[]}]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Data_Array_format-Paletted_Container_structure","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Visual_example-Data_Array_format","replies":[]}]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Tips_and_notes","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Sample_implementations","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Shared_code-Sample_implementations","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Deserializing-Sample_implementations","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Serializing-Sample_implementations","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Full_implementations","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Sample_data","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Old_format-Sample_data","replies":[]}]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"discussiontools":{"limitreport-timeusage":"0.338"},"limitreport":{"cputime":"0.533","walltime":"1.573","ppvisitednodes":{"value":1455,"limit":1000000},"postexpandincludesize":{"value":16775,"limit":8388608},"templateargumentsize":{"value":6777,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":73035,"limit":5000000},"timingprofile":["100.00%  698.081      1 -total"," 24.42%  170.486      1 Template:License_wiki.vg","  4.07%   28.443      2 Template:Update","  3.01%   21.021      3 Template:Warning","  2.91%   20.308      1 Template:License","  2.69%   18.800      5 Template:Message_box","  2.56%   17.893      1 Template:Msgbox","  2.02%   14.076      2 Template:Anchor","  1.05%    7.337      3 Template:SUBJECTSPACE_formatted","  0.74%    5.135     15 Template:Type"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-jobrunner-cbcd74ff9-h5z5m","timestamp":"20250323220220","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

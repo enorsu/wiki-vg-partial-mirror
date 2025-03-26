@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/NBT – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"ad155c0138373268570cb71373dc60ec","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/NBT","wgTitle":"Projects/wiki.vg merge/NBT","wgCurRevisionId":2910294,"wgRevisionId":2910294,"wgArticleId":290289,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Protocol Details","File Formats","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/NBT","wgRelevantArticleId":290289,"wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready",
+"ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","jquery.tablesorter.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","jquery.tablesorter","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound",
+"ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cjquery.tablesorter.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="The Named Binary Tag (NBT) file format is an extremely simple and efficient structured binary format used by Minecraft for a variety of things. Due to this, several third-party utilities now also utilize the format. You may find example files at the bottom of this article.">
+<meta property="og:description" content="The Named Binary Tag (NBT) file format is an extremely simple and efficient structured binary format used by Minecraft for a variety of things. Due to this, several third-party utilities now also utilize the format. You may find example files at the bottom of this article.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/NBT – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_NBT rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/NBT</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p>The Named Binary Tag (NBT) file format is an extremely simple and efficient structured binary format used by Minecraft for a variety of things. Due to this, several third-party utilities now also utilize the format. You may find example files at the bottom of this article.
+</p><p>Mojang has released a reference implementation along with their Anvil conversion tool, available from <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://web.archive.org/web/20190710093131/https://mojang.com/2012/02/new-minecraft-map-format-anvil/">this archived page</a>
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Current_Uses"><span class="tocnumber">1</span> <span class="toctext">Current Uses</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Libraries"><span class="tocnumber">1.1</span> <span class="toctext">Libraries</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Utilities"><span class="tocnumber">1.2</span> <span class="toctext">Utilities</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Specification"><span class="tocnumber">2</span> <span class="toctext">Specification</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Network_NBT_(Java_Edition)"><span class="tocnumber">2.1</span> <span class="toctext">Network NBT (Java Edition)</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Bedrock_edition"><span class="tocnumber">2.2</span> <span class="toctext">Bedrock edition</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Little-endian"><span class="tocnumber">2.2.1</span> <span class="toctext">Little-endian</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#VarInt"><span class="tocnumber">2.2.2</span> <span class="toctext">VarInt</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-9"><a href="#Examples"><span class="tocnumber">2.3</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#test.nbt"><span class="tocnumber">2.3.1</span> <span class="toctext">test.nbt</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#bigtest.nbt"><span class="tocnumber">2.3.2</span> <span class="toctext">bigtest.nbt</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#servers.dat"><span class="tocnumber">2.3.3</span> <span class="toctext">servers.dat</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#level.dat"><span class="tocnumber">2.3.4</span> <span class="toctext">level.dat</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#Download"><span class="tocnumber">2.3.5</span> <span class="toctext">Download</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Current_Uses" data-mw-thread-id="h-Current_Uses"><span data-mw-comment-start="" id="h-Current_Uses"></span>Current Uses<span data-mw-comment-end="h-Current_Uses"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=1" title="Edit section&#039;s source code: Current Uses">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Current_Uses","replies":["h-Libraries-Current_Uses","h-Utilities-Current_Uses"]}}--></div>
+<p>The NBT format is currently used in several places, chiefly:
+</p>
+<ul><li>In the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Protocol</a> as part of <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data" title="Minecraft Wiki:Projects/wiki.vg merge/Slot Data">Slot Data</a></li>
+<li>Multiplayer saved server list (<code>servers.dat</code>).</li>
+<li>Player data (both single player and multiplayer, one file per player). This includes such things as inventory and location.</li>
+<li>Saved worlds (both single player and multiplayer).
+<ul><li>World index file (<code>level.dat</code>) that contains general information (spawn point, time of day, etc...)</li>
+<li>Chunk data (see <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Region_Files" title="Minecraft Wiki:Projects/wiki.vg merge/Region Files">Region Files</a>)</li></ul></li></ul>
+<p>NBT files you can encounter as a developer will be stored in three different ways, mainly the second variation as per Notch's original specification.
+</p>
+<ul><li>Uncompressed,</li>
+<li><a href="https://en.wikipedia.org/wiki/Gzip" class="extiw" title="wikipedia:Gzip">gzip'd</a>,</li>
+<li><a href="https://en.wikipedia.org/wiki/Zlib" class="extiw" title="wikipedia:Zlib">zlib'd</a> (aka DEFLATE with a few bytes extra)</li></ul>
+<h3><span class="mw-headline" id="Libraries" data-mw-thread-id="h-Libraries-Current_Uses"><span data-mw-comment-start="" id="h-Libraries-Current_Uses"></span>Libraries<span data-mw-comment-end="h-Libraries-Current_Uses"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=2" title="Edit section&#039;s source code: Libraries">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>There are many, many libraries for manipulating NBT, written in several languages, and often several per language. For example,
+</p>
+<table class="wikitable sortable" style="width: auto; text-align: center;">
+
+<tbody><tr style="background:#eee">
+<th>Name
+</th>
+<th>Description
+</th>
+<th>Language
+</th></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/nickelpro/cNBT">cNBT</a>
+</th>
+<td>As simple (and, consequently, as fast) as possible NBT file parser.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C"><img alt="C" src="/images/C_Programming_Language.svg?2fbce" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="380" data-file-height="420"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://sr.ht/~azbantium/libnbt/">libnbt</a>
+</th>
+<td>A lightweight library to work with NBT, written in C.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C"><img alt="C" src="/images/C_Programming_Language.svg?2fbce" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="380" data-file-height="420"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PrismLauncher/libnbtplusplus">libnbt++</a>
+</th>
+<td>A free C++ library for Minecraft's file format Named Binary Tag (NBT).
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++"><img alt="C++" src="/images/C%2B%2B.svg?9fb71" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="306" data-file-height="344"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/SpockBotMC/cpp-nbt">cpp-nbt</a>
+</th>
+<td>A C++23 header-only library for reading/writing Minecraft NBT data.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/C%2B%2B" title="C++"><img alt="C++" src="/images/C%2B%2B.svg?9fb71" decoding="async" loading="lazy" width="18" height="20" class="mw-file-element" data-file-width="306" data-file-height="344"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Bentechy66/venom">Venom</a>
+</th>
+<td>An NBT decoder written in pure Elixir.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://elixir-lang.org/">Elixir</a>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Tnze/go-mc/tree/master/nbt">go-nbt</a>
+</th>
+<td>This package implements the Named Binary Tag format of Minecraft.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Go_(programming_language)" title="Go"><img alt="Go" src="/images/Go.svg?050c6" decoding="async" loading="lazy" width="54" height="20" class="mw-file-element" data-file-width="512" data-file-height="191"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Defective4/jChatLib">jChatLib</a>
+</th>
+<td>A simple NBT library made with new text component format in mind
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/BitBuf/nbt">BitBuf/nbt</a>
+</th>
+<td>Flexible and intuitive library for reading and writing Minecraft's NBT format.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/jglrxavpok/hephaistos">hephaistos</a>
+</th>
+<td>This library is both a NBT library and a Minecraft Anvil format library.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)" title="Kotlin"><img alt="Kotlin" src="/images/Kotlin.svg?b17b2" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/TheNullicorn/Nedit">Nedit</a>
+</th>
+<td>A simple, lightweight NBT parsing library
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Java_(programming_language)" title="Java"><img alt="Java" src="/images/Java.svg?bf3fc" decoding="async" loading="lazy" width="15" height="20" class="mw-file-element" data-file-width="274" data-file-height="371"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/sjmulder/nbt-js">NBT.js</a>
+</th>
+<td>A JavaScript parser and serializer for NBT archives.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript"><img alt="JavaScript" src="/images/JavaScript.svg?22879" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Offroaders123/NBTify">NBTify</a>
+</th>
+<td>Parser &amp; writer NBT library intended for usage in a web browser.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript"><img alt="JavaScript" src="/images/JavaScript.svg?22879" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><span style="padding-left:4px"><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/TypeScript" title="TypeScript"><img alt="TypeScript" src="/images/TypeScript.svg?4fa79" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="260" data-file-height="260"/></a></span></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/BenWoodworth/knbt">knbt</a>
+</th>
+<td>Kotlin NBT library for kotlinx.serialization.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)" title="Kotlin"><img alt="Kotlin" src="/images/Kotlin.svg?b17b2" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/luizrcs/KotlinNBT">KotlinNBT</a>
+</th>
+<td>With a builder DSL and type-safety
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)" title="Kotlin"><img alt="Kotlin" src="/images/Kotlin.svg?b17b2" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/camdenorrb/bec73c5608267f0232bd8f5c42e0784d">simpleNBT</a>
+</th>
+<td>Streams, ByteBuffer, NIO, Endianness, Zlib, Gzip, Any Input/Output, Examples in Comments.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)" title="Kotlin"><img alt="Kotlin" src="/images/Kotlin.svg?b17b2" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Nimberite-Development/TagForge-Nim">TagForge</a>
+</th>
+<td>A library made for the serialisation and deserialisation of MC NBT!
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://nim-lang.org/">Nim</a>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/aternosorg/php-nbt">php-nbt</a>
+</th>
+<td>A full PHP implementation of Minecraft's Named Binary Tag (NBT) format.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/PHP" title="PHP"><img alt="PHP" src="/images/PHP.svg?81bbe" decoding="async" loading="lazy" width="37" height="20" class="mw-file-element" data-file-width="711" data-file-height="384"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/twoolie/NBT">NBT</a>
+</th>
+<td>This is mainly a Named Binary Tag parser &amp; writer library.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" title="Python"><img alt="Python" src="/images/Python.svg?b968d" decoding="async" loading="lazy" width="16" height="20" class="mw-file-element" data-file-width="104" data-file-height="126"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/CorentinPtrl/hematite_nbt">HematiteNBT</a>
+</th>
+<td>A full-featured Rust crate for Minecraft's NBT file format, including Serde support.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Rusty-Quartz/quartz_nbt">Quartz NBT</a>
+</th>
+<td>Provides support for encoding and decoding Minecraft's NBT format.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/azalea-rs/simdnbt">SimdNBT</a>
+</th>
+<td>A very fast NBT serializer and deserializer.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/owengage/fastnbt">fastnbt</a>
+</th>
+<td>Fast serde serializer and deserializer for Minecraft's NBT and Anvil formats
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/shenjackyuanjie/nbt-rust">shen-nbt5</a>
+</th>
+<td>A Fast NBT parser/writer (warning: lot's of unsafe (from author))
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/CrabCraftDev/CrabNBT">CrabNBT</a>
+</th>
+<td>Up-to-date Rust crate for easy and intuitive working with NBT data.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://crates.io/crates/craftflow-nbt">CraftFlow-NBT</a>
+</th>
+<td>Serde based NBT binary format implementation.
+</td>
+<td><span class="mw-default-size" typeof="mw:File"><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)" title="Rust"><img alt="Rust" src="/images/Rust.svg?a5517" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="106" data-file-height="106"/></a></span>
+</td></tr>
+<tr>
+<th><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/drXor/ScalaNBT">ScalaNBT</a>
+</th>
+<td>Scala library for NBT io with some Mojangson support.
+</td>
+<td><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.scala-lang.org/">Scala</a>
+</td></tr>
+</tbody></table>
+<p>Unless you have specific goals or licence requirements, it is <i>extremely recommended</i> to go with one of the existing libraries.
+</p>
+<h3><span class="mw-headline" id="Utilities" data-mw-thread-id="h-Utilities-Current_Uses"><span data-mw-comment-start="" id="h-Utilities-Current_Uses"></span>Utilities<span data-mw-comment-end="h-Utilities-Current_Uses"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=3" title="Edit section&#039;s source code: Utilities">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Almost every 3rd-party Minecraft application uses NBT on some level. There also exist several dedicated NBT editors, which will likely be useful to you if you are developing an NBT library of your own. These include:
+</p>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1262665-nbtexplorer-nbt-editor-for-windows-and-mac">NBTExplorer</a> (C#) NBT Directory-tree interface that fully supports the Minecraft .mcr/.mca region files.</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://web.archive.org/web/20180428090808/http://gerritg.de/wp/archives/152">NEINedit</a> (Obj-C), an OS X specific editor.</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://bitbucket.org/zzzeek/nbt2yaml">nbt2yaml</a> (Python), provides command-line editing of NBT via the YAML format, as well as a fast and minimalist NBT parsing/rendering API.</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/C4K3/nbted">nbted</a> (Rust; CC0), provides command-line editing of NBT files via your $EDITOR</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://git.sleeping.town/unascribed/unbted">unbted</a> (Rust; GPL-v3) Command-line interactive NBT editor</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/midnightfreddie/nbt2json">nbt2json</a> (Golang; MIT) Command-line utility for NBT to JSON/YAML conversion and back. MCPE-NBT support. Can be used as library.</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/tryashtar/nbt-studio">NBT Studio</a> (C#) A visual editor similar to NBT-Explorer (A claimed, spiritual successor). Supports Minecraft Bedrock Edition files and SNBT.</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://sourceforge.net/projects/nbtfsutils/">NBTFS</a> (C; MPL-2) Editing NBT as using a file system; supports Minecraft region files.</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Lenni0451/ImNbt">ImNbt</a> (Java) ImGui based NBT Directory-tree interface that supports Minecraft Java and Bedrock Edition NBT. Features diffing, searching and exporting in different NBT formats.</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://offroaders123.github.io/Dovetail/">Dovetail</a> (JavaScript) web-based NBT editor for Java and Bedrock Edition.</li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Specification" data-mw-thread-id="h-Specification"><span data-mw-comment-start="" id="h-Specification"></span>Specification<span data-mw-comment-end="h-Specification"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=4" title="Edit section&#039;s source code: Specification">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Specification","replies":["h-Network_NBT_(Java_Edition)-Specification","h-Bedrock_edition-Specification","h-Examples-Specification"]}}--></div>
+<p>The NBT file format is extremely simple, and writing a library capable of reading/writing it is a simple affair. There are 13 datatypes supported by this format, one of which is used to close compound tags. It is strongly advised to read this entire section or you may run into issues.
+</p>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">Heads up! Since 1.20.2 NBT sent over the network has a subtle but critical specification change, refer to the Network NBT section below for more information</div>
+</div>
+</div>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Type ID
+</th>
+<th>Type Name
+</th>
+<th>Payload Size (Bytes)
+</th>
+<th>Description
+</th></tr>
+<tr id="Specification:end_tag">
+<td>0
+</td>
+<td><a href="#Specification:end_tag">TAG_End</a>
+</td>
+<td>0
+</td>
+<td>Signifies the end of a TAG_Compound. It is only ever used inside a TAG_Compound, a TAG_List that has it's type id set to TAG_Compound or as the type for a TAG_List if the length is 0 or negative, and is not named even when in a TAG_Compound
+</td></tr>
+<tr id="Specification:byte_tag">
+<td>1
+</td>
+<td><a href="#Specification:byte_tag">TAG_Byte</a>
+</td>
+<td>1
+</td>
+<td>A single signed byte
+</td></tr>
+<tr id="Specification:short_tag">
+<td>2
+</td>
+<td><a href="#Specification:short_tag">TAG_Short</a>
+</td>
+<td>2
+</td>
+<td>A single signed, big endian 16 bit integer
+</td></tr>
+<tr id="Specification:int_tag">
+<td>3
+</td>
+<td><a href="#Specification:int_tag">TAG_Int</a>
+</td>
+<td>4
+</td>
+<td>A single signed, big endian 32 bit integer
+</td></tr>
+<tr id="Specification:long_tag">
+<td>4
+</td>
+<td><a href="#Specification:long_tag">TAG_Long</a>
+</td>
+<td>8
+</td>
+<td>A single signed, big endian 64 bit integer
+</td></tr>
+<tr id="Specification:float_tag">
+<td>5
+</td>
+<td><a href="#Specification:float_tag">TAG_Float</a>
+</td>
+<td>4
+</td>
+<td>A single, big endian <a href="https://en.wikipedia.org/wiki/IEEE_754-2008" class="extiw" title="wikipedia:IEEE 754-2008">IEEE-754</a> single-precision floating point number (<a href="https://en.wikipedia.org/wiki/NaN" class="extiw" title="wikipedia:NaN">NaN</a> possible)
+</td></tr>
+<tr id="Specification:double_tag">
+<td>6
+</td>
+<td><a href="#Specification:double_tag">TAG_Double</a>
+</td>
+<td>8
+</td>
+<td>A single, big endian <a href="https://en.wikipedia.org/wiki/IEEE_754-2008" class="extiw" title="wikipedia:IEEE 754-2008">IEEE-754</a> double-precision floating point number (<a href="https://en.wikipedia.org/wiki/NaN" class="extiw" title="wikipedia:NaN">NaN</a> possible)
+</td></tr>
+<tr id="Specification:byte_array_tag">
+<td>7
+</td>
+<td><a href="#Specification:byte_array_tag">TAG_Byte_Array</a>
+</td>
+<td>...
+</td>
+<td>A length-prefixed array of <b>signed</b> bytes. The prefix is a <b>signed</b> integer (thus 4 bytes)
+</td></tr>
+<tr id="Specification:string_tag">
+<td>8
+</td>
+<td><a href="#Specification:string_tag">TAG_String</a>
+</td>
+<td>...
+</td>
+<td>A length-prefixed <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://docs.oracle.com/javase/8/docs/api/java/io/DataInput.html#modified-utf-8">modified UTF-8</a> string. The prefix is an <b>unsigned</b> short (thus 2 bytes) signifying the length of the string in bytes
+</td></tr>
+<tr id="Specification:list_tag">
+<td>9
+</td>
+<td><a href="#Specification:list_tag">TAG_List</a>
+</td>
+<td>...
+</td>
+<td>A list of <b>nameless</b> tags, all of the same type. The list is prefixed with the <code>Type ID</code> of the items it contains (thus 1 byte), and the length of the list as a <b>signed</b> integer (a further 4 bytes).  If the length of the list is 0 or negative, the type may be 0 (TAG_End) but otherwise it must be any other type.  (The notchian implementation uses TAG_End in that situation, but another reference implementation by Mojang uses 1 instead; parsers should accept any type if the length is &lt;= 0).
+</td></tr>
+<tr id="Specification:compound_tag">
+<td>10
+</td>
+<td><a href="#Specification:compound_tag">TAG_Compound</a>
+</td>
+<td>...
+</td>
+<td>Effectively a list of <b>named</b> tags. Order is not guaranteed.
+</td></tr>
+<tr id="Specification:int_array_tag">
+<td>11
+</td>
+<td><a href="#Specification:int_array_tag">TAG_Int_Array</a>
+</td>
+<td>...
+</td>
+<td>A length-prefixed array of <b>signed</b> integers. The prefix is a <b>signed</b> integer (thus 4 bytes) and indicates the number of 4 byte integers.
+</td></tr>
+<tr id="Specification:long_array_tag">
+<td>12
+</td>
+<td><a href="#Specification:long_array_tag">TAG_Long_Array</a>
+</td>
+<td>...
+</td>
+<td>A length-prefixed array of <b>signed</b> longs. The prefix is a <b>signed</b> integer (thus 4 bytes) and indicates the number of 8 byte longs.
+</td></tr></tbody></table>
+<p>There are a couple of simple things to remember:
+</p>
+<ul><li>The datatypes representing numbers are in big-endian in Java edition, but Bedrock edition changes things up a bit. See the below section on Bedrock edition</li>
+<li>Every NBT file is a single Named Tag, and that root tag must be a TAG_Compound (except in Bedrock edition, see below)</li>
+<li>The structure of a NBT file is defined by the TAG_List and TAG_Compound types, as such a tag itself will only contain the payload, but depending on what the tag is contained within may contain additional headers. I.e. if it's inside a Compound, then each tag will begin with the TAG_id, and then a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://docs.oracle.com/javase/8/docs/api/java/io/DataInput.html#modified-utf-8">modified UTF-8</a> string (the tag's name), and finally the payload. While in a list it will be only the payload, as there is no name and the tag type is given in the beginning of the list.</li></ul>
+<p>For example, here's the example layout of a <code>TAG_Short</code> on disk:
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>
+</td>
+<th>Type ID
+</th>
+<th>Length of Name
+</th>
+<th>Name
+</th>
+<th>Payload
+</th></tr>
+<tr>
+<th>Decoded
+</th>
+<td>2
+</td>
+<td>9
+</td>
+<td><code>shortTest</code>
+</td>
+<td><code>32767</code>
+</td></tr>
+<tr>
+<th>On Disk (in hex)
+</th>
+<td><code>02</code>
+</td>
+<td><code>00 09</code>
+</td>
+<td><code>73 68 6F 72 74 54 65 73 74</code>
+</td>
+<td><code>7F FF</code>
+</td></tr></tbody></table>
+<p>If this <code>TAG_Short</code> had been in a <code>TAG_List</code>, it would have been nothing more than the payload, since the type is implied and tags within the first level of a list are nameless.
+</p>
+<h3><span id="Network_NBT_.28Java_Edition.29"></span><span class="mw-headline" id="Network_NBT_(Java_Edition)" data-mw-thread-id="h-Network_NBT_(Java_Edition)-Specification"><span data-mw-comment-start="" id="h-Network_NBT_(Java_Edition)-Specification"></span>Network NBT (Java Edition)<span data-mw-comment-end="h-Network_NBT_(Java_Edition)-Specification"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=5" title="Edit section&#039;s source code: Network NBT (Java Edition)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Since 1.20.2 (Protocol 764) NBT sent over the network has been updated to exclude the name from the root <code>TAG_COMPOUND</code>, this essentially boils down to the following.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>
+</td>
+<th>Type ID
+</th>
+<th>Length of Name
+</th>
+<th>Name
+</th>
+<th>Payload
+</th></tr>
+<tr>
+<th>&lt; 1.20.2 (Protocol 764)
+</th>
+<td><code>0x0a</code>
+</td>
+<td><code>0x00 0x00</code>
+</td>
+<td>(Empty name)
+</td>
+<td><code>0x02 0x09</code>
+</td></tr>
+<tr>
+<th>>= 1.20.2 (Protocol 764)
+</th>
+<td><code>0x0a</code>
+</td>
+<td>N/A
+</td>
+<td>N/A
+</td>
+<td><code>0x02 0x09</code>
+</td></tr></tbody></table>
+<p>Remember - This only applies to network NBT. Player data, world data, etc... will not be affected.
+</p>
+<h3><span class="mw-headline" id="Bedrock_edition" data-mw-thread-id="h-Bedrock_edition-Specification"><span data-mw-comment-start="" id="h-Bedrock_edition-Specification"></span>Bedrock edition<span data-mw-comment-end="h-Bedrock_edition-Specification"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=6" title="Edit section&#039;s source code: Bedrock edition">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Bedrock edition makes a couple of significant changes to the NBT format. First of all, root tag of an NBT file can sometimes be a TAG_List instead of a TAG_Compound. Additionally, NBT data is encoded in one of two different formats, a little-endian version intended for writing to disk, and a VarInt version intended for transport over the network.
+</p>
+<h4><span class="mw-headline" id="Little-endian" data-mw-thread-id="h-Little-endian-Bedrock_edition"><span data-mw-comment-start="" id="h-Little-endian-Bedrock_edition"></span>Little-endian<span data-mw-comment-end="h-Little-endian-Bedrock_edition"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=7" title="Edit section&#039;s source code: Little-endian">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Identical to the big-endian format used by Java edition, but all numbers are encoded in little-endian. This includes the 16-bit length prefix before tag names and TAG_String values, as well as TAG_Float and TAG_Double values.
+</p>
+<h4><span class="mw-headline" id="VarInt" data-mw-thread-id="h-VarInt-Bedrock_edition"><span data-mw-comment-start="" id="h-VarInt-Bedrock_edition"></span>VarInt<span data-mw-comment-end="h-VarInt-Bedrock_edition"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=8" title="Edit section&#039;s source code: VarInt">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This format is a bit more complex than the others. The differences from Java edition's big-endian format are as follows:
+</p>
+<ul><li>TAG_Short, TAG_Float and TAG_Double values are encoded as their little-endian counterparts</li>
+<li>TAG_Int values and the length prefixes for TAG_List, TAG_Byte_Array, TAG_Int_Array and TAG_Long_Array are encoded as <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://developers.google.com/protocol-buffers/docs/encoding#varints">VarInts with ZigZag encoding</a></li>
+<li>TAG_Long values are encoded as <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://developers.google.com/protocol-buffers/docs/encoding#varints">VarLongs with ZigZag encoding</a></li>
+<li>All strings (Tag names and TAG_String values) are length-prefixed with a normal <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#VarInt_and_VarLong" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">VarInt</a></li></ul>
+<h3><span class="mw-headline" id="Examples" data-mw-thread-id="h-Examples-Specification"><span data-mw-comment-start="" id="h-Examples-Specification"></span>Examples<span data-mw-comment-end="h-Examples-Specification"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=9" title="Edit section&#039;s source code: Examples">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>There are two defacto example files used for testing your implementation (<code>test.nbt</code> &amp; <code>bigtest.nbt</code>), originally provided by Markus. The example output provided below was generated using <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/TkTech/PyNBT">PyNBT</a>'s <i>debug-nbt</i> tool.
+</p>
+<h4><span class="mw-headline" id="test.nbt" data-mw-thread-id="h-test.nbt-Examples"><span data-mw-comment-start="" id="h-test.nbt-Examples"></span>test.nbt<span data-mw-comment-end="h-test.nbt-Examples"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=10" title="Edit section&#039;s source code: test.nbt">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This first example is an uncompressed <a href="https://en.wikipedia.org/wiki/Hello_world_program" class="extiw" title="wikipedia:Hello world program">"Hello World"</a> NBT example. Should you parse it correctly, you will get a structure similar to the following:
+</p>
+<pre>  TAG_Compound('hello world'): 1 entry
+  {
+    TAG_String('name'): 'Bananrama'
+  }
+</pre>
+<p>Here is the example explained:
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>
+</td>
+<th>Type ID of the root compound
+</th>
+<th>Length of name of the root compound
+</th>
+<th>Name of the root compound
+</th>
+<th>Type ID of first element in root compound
+</th>
+<th>Length of name of first element in root
+</th>
+<th>Name of first element
+</th>
+<th>Length of string
+</th>
+<th>String
+</th>
+<th>Tag end (of root compound)
+</th></tr>
+<tr>
+<th>Decoded
+</th>
+<td>Compound
+</td>
+<td>11
+</td>
+<td><i>hello world</i>
+</td>
+<td>String
+</td>
+<td>4
+</td>
+<td><i>name</i>
+</td>
+<td>9
+</td>
+<td><i>Bananrama</i>
+</td>
+<td>
+</td></tr>
+<tr>
+<th>On Disk (in hex)
+</th>
+<td><code>0a</code>
+</td>
+<td><code>00 0b</code>
+</td>
+<td><code>68 65 6c 6c 6f 20 77 6f 72 6c 64</code>
+</td>
+<td><code>08</code>
+</td>
+<td><code>00 04</code>
+</td>
+<td><code>6e 61 6d 65</code>
+</td>
+<td><code>00 09</code>
+</td>
+<td><code>42 61 6e 61 6e 72 61 6d 61</code>
+</td>
+<td><code>00</code>
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="bigtest.nbt" data-mw-thread-id="h-bigtest.nbt-Examples"><span data-mw-comment-start="" id="h-bigtest.nbt-Examples"></span>bigtest.nbt<span data-mw-comment-end="h-bigtest.nbt-Examples"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=11" title="Edit section&#039;s source code: bigtest.nbt">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This second example is a gzip compressed test of every available tag. If your program can successfully parse this file, then you've done well. Note that the tags under <i>TAG_List</i> do not have a name, as mentioned above. 
+</p>
+<pre>  TAG_Compound('Level'): 11 entries
+  {
+    TAG_Compound('nested compound test'): 2 entries
+    {
+      TAG_Compound('egg'): 2 entries
+      {
+        TAG_String('name'): 'Eggbert'
+        TAG_Float('value'): 0.5
+      }
+      TAG_Compound('ham'): 2 entries
+      {
+        TAG_String('name'): 'Hampus'
+        TAG_Float('value'): 0.75
+      }
+    }
+    TAG_Int('intTest'): 2147483647
+    TAG_Byte('byteTest'): 127
+    TAG_String('stringTest'): 'HELLO WORLD THIS IS A TEST STRING \xc5\xc4\xd6!'
+    TAG_List('listTest (long)'): 5 entries
+    {
+      TAG_Long(None): 11
+      TAG_Long(None): 12
+      TAG_Long(None): 13
+      TAG_Long(None): 14
+      TAG_Long(None): 15
+    }
+    TAG_Double('doubleTest'): 0.49312871321823148
+    TAG_Float('floatTest'): 0.49823147058486938
+    TAG_Long('longTest'): 9223372036854775807L
+    TAG_List('listTest (compound)'): 2 entries
+    {
+      TAG_Compound(None): 2 entries
+      {
+        TAG_Long('created-on'): 1264099775885L
+        TAG_String('name'): 'Compound tag #0'
+      }
+      TAG_Compound(None): 2 entries
+      {
+        TAG_Long('created-on'): 1264099775885L
+        TAG_String('name'): 'Compound tag #1'
+      }
+    }
+    TAG_Byte_Array('byteArrayTest (the first 1000 values of (n*n*255+n*7)%100, starting with n=0 (0, 62, 34, 16, 8, ...))'): [1000 bytes]
+    TAG_Short('shortTest'): 32767
+  }
+</pre>
+<h4><span class="mw-headline" id="servers.dat" data-mw-thread-id="h-servers.dat-Examples"><span data-mw-comment-start="" id="h-servers.dat-Examples"></span>servers.dat<span data-mw-comment-end="h-servers.dat-Examples"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=12" title="Edit section&#039;s source code: servers.dat">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>The <i>servers.dat</i> file contains a list of multiplayer servers you've added to the game. To mix things up a bit, this file will always be uncompressed. Below is an example of the structure seen in <i>servers.dat</i>.
+</p>
+<pre>  TAG_Compound(''): 1 entry
+  {
+    TAG_List('servers'): 2 entries
+    {
+      TAG_Compound(None): 3 entries
+      {
+        TAG_Byte('acceptTextures'): 1 (Automatically accept resourcepacks from this server)
+        TAG_String('ip'): '199.167.132.229:25620'
+        TAG_String('name'): 'Dainz1 - Creative'
+        
+      }
+      TAG_Compound(None): 3 entries
+      {
+        TAG_String('icon'): 'iVBORw0KGgoAAAANUhEUgAAAEAAAABACA...' (The base64-encoded server icon. Trimmed here for the example's sake)
+        TAG_String('ip'): '76.127.122.65:25565'
+        TAG_String('name'): 'minstarmin4'
+        
+      }
+    }
+  }
+</pre>
+<h4><span class="mw-headline" id="level.dat" data-mw-thread-id="h-level.dat-Examples"><span data-mw-comment-start="" id="h-level.dat-Examples"></span>level.dat<span data-mw-comment-end="h-level.dat-Examples"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=13" title="Edit section&#039;s source code: level.dat">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>This final example is of a single player <i>level.dat</i>, which is compressed using gzip. Notice the player's inventory and general world details such as spawn position, world name, and the game seed.
+</p>
+<pre>  TAG_Compound(''): 1 entry
+  {
+    TAG_Compound('Data'): 17 entries
+    {
+      TAG_Byte('raining'): 0
+      TAG_Long('RandomSeed'): 3142388825013346304L
+      TAG_Int('SpawnX'): 0
+      TAG_Int('SpawnZ'): 0
+      TAG_Long('LastPlayed'): 1323133681772L
+      TAG_Int('GameType'): 1
+      TAG_Int('SpawnY'): 63
+      TAG_Byte('MapFeatures'): 1
+      TAG_Compound('Player'): 24 entries
+      {
+        TAG_Int('XpTotal'): 0
+        TAG_Compound('abilities'): 4 entries
+        {
+          TAG_Byte('instabuild'): 1
+          TAG_Byte('flying'): 1
+          TAG_Byte('mayfly'): 1
+          TAG_Byte('invulnerable'): 1
+        }
+        TAG_Int('XpLevel'): 0
+        TAG_Int('Score'): 0
+        TAG_Short('Health'): 20
+        TAG_List('Inventory'): 13 entries
+        {
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 1
+            TAG_Byte('Slot'): 0
+            TAG_Short('id'): 24
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 1
+            TAG_Byte('Slot'): 1
+            TAG_Short('id'): 25
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 1
+            TAG_Byte('Slot'): 2
+            TAG_Short('id'): 326
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 1
+            TAG_Byte('Slot'): 3
+            TAG_Short('id'): 29
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 10
+            TAG_Byte('Slot'): 4
+            TAG_Short('id'): 69
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 3
+            TAG_Byte('Slot'): 5
+            TAG_Short('id'): 33
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 43
+            TAG_Byte('Slot'): 6
+            TAG_Short('id'): 356
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 64
+            TAG_Byte('Slot'): 7
+            TAG_Short('id'): 331
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 20
+            TAG_Byte('Slot'): 8
+            TAG_Short('id'): 76
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 64
+            TAG_Byte('Slot'): 9
+            TAG_Short('id'): 331
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 1
+            TAG_Byte('Slot'): 10
+            TAG_Short('id'): 323
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 16
+            TAG_Byte('Slot'): 11
+            TAG_Short('id'): 331
+            TAG_Short('Damage'): 0
+          }
+          TAG_Compound(None): 4 entries
+          {
+            TAG_Byte('Count'): 1
+            TAG_Byte('Slot'): 12
+            TAG_Short('id'): 110
+            TAG_Short('Damage'): 0
+          }
+        }
+        TAG_Short('HurtTime'): 0
+        TAG_Short('Fire'): -20
+        TAG_Float('foodExhaustionLevel'): 0.0
+        TAG_Float('foodSaturationLevel'): 5.0
+        TAG_Int('foodTickTimer'): 0
+        TAG_Short('SleepTimer'): 0
+        TAG_Short('DeathTime'): 0
+        TAG_List('Rotation'): 2 entries
+        {
+          TAG_Float(None): 1151.9342041015625
+          TAG_Float(None): 32.249679565429688
+        }
+        TAG_Float('XpP'): 0.0
+        TAG_Float('FallDistance'): 0.0
+        TAG_Short('Air'): 300
+        TAG_List('Motion'): 3 entries
+        {
+          TAG_Double(None): -2.9778325794951344e-11
+          TAG_Double(None): -0.078400001525878907
+          TAG_Double(None): 1.1763942772801152e-11
+        }
+        TAG_Int('Dimension'): 0
+        TAG_Byte('OnGround'): 1
+        TAG_List('Pos'): 3 entries
+        {
+          TAG_Double(None): 256.87499499518492
+          TAG_Double(None): 112.62000000476837
+          TAG_Double(None): -34.578128612797634
+        }
+        TAG_Byte('Sleeping'): 0
+        TAG_Short('AttackTime'): 0
+        TAG_Int('foodLevel'): 20
+      }
+      TAG_Int('thunderTime'): 2724
+      TAG_Int('version'): 19132
+      TAG_Int('rainTime'): 5476
+      TAG_Long('Time'): 128763
+      TAG_Byte('thundering'): 1
+      TAG_Byte('hardcore'): 0
+      TAG_Long('SizeOnDisk'): 0
+      TAG_String('LevelName'): 'Sandstone Test World'
+    }
+  }
+</pre>
+<h4><span class="mw-headline" id="Download" data-mw-thread-id="h-Download-Examples"><span data-mw-comment-start="" id="h-Download-Examples"></span>Download<span data-mw-comment-end="h-Download-Examples"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit&amp;section=14" title="Edit section&#039;s source code: Download">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://raw.github.com/Dav1dde/nbd/master/test/hello_world.nbt">test.nbt/hello_world.nbt</a> (uncompressed),</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://raw.github.com/Dav1dde/nbd/master/test/bigtest.nbt">bigtest.nbt</a> (gzip compressed)</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/VADemon/nbd/raw/5de7a3f37569e1ffee11afbc017ae08e2c24523e/test/Player-nan-value.dat">NaN-value-double.dat</a> (compressed, origin version unknown)</li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://web.archive.org/web/20110723210920/http://www.minecraft.net/docs/NBT.txt">NBT.txt</a> (original NBT specification)</li></ul>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐jobrunner‐cbcd74ff9‐h5z5m
+Cached time: 20250326143917
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0.002 seconds
+DiscussionTools time usage: 0.129 seconds
+CPU time usage: 0.287 seconds
+Real time usage: 0.743 seconds
+Preprocessor visited node count: 1507/1000000
+Post‐expand include size: 14689/8388608 bytes
+Template argument size: 2712/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6820/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  339.433      1 -total
+ 71.86%  243.927      1 Template:License_wiki.vg
+ 18.82%   63.875     23 Template:Proglang
+  7.09%   24.058      1 Template:License
+  5.43%   18.442      1 Template:Msgbox
+  5.25%   17.823     25 Template:Proglang/switch
+  3.70%   12.554      1 Template:Warning
+  3.31%   11.242      3 Template:SUBJECTSPACE_formatted
+  2.02%    6.846      1 Template:Message_box
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290289-0!canonical and timestamp 20250326143916 and revision id 2910294. Rendering was triggered because: edit-page
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?oldid=2910294">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?oldid=2910294</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Protocol_Details?action=edit&amp;redlink=1" class="new" title="Category:Protocol Details (page does not exist)">Protocol Details</a></li><li><a href="/w/Category:File_Formats?action=edit&amp;redlink=1" class="new" title="Category:File Formats (page does not exist)">File Formats</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FNBT" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FNBT" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/NBT?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Latest: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Latest: 1.21.70</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/NBT" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/NBT" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?oldid=2910294" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FNBT" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 25 March 2025, at 14:59.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":42,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Current_Uses","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Libraries-Current_Uses","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Utilities-Current_Uses","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Specification","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Network_NBT_(Java_Edition)-Specification","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Bedrock_edition-Specification","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Little-endian-Bedrock_edition","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-VarInt-Bedrock_edition","replies":[]}]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Examples-Specification","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-test.nbt-Examples","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-bigtest.nbt-Examples","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-servers.dat-Examples","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-level.dat-Examples","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Download-Examples","replies":[]}]}]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.002},"discussiontools":{"limitreport-timeusage":"0.129"},"limitreport":{"cputime":"0.287","walltime":"0.743","ppvisitednodes":{"value":1507,"limit":1000000},"postexpandincludesize":{"value":14689,"limit":8388608},"templateargumentsize":{"value":2712,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":6820,"limit":5000000},"timingprofile":["100.00%  339.433      1 -total"," 71.86%  243.927      1 Template:License_wiki.vg"," 18.82%   63.875     23 Template:Proglang","  7.09%   24.058      1 Template:License","  5.43%   18.442      1 Template:Msgbox","  5.25%   17.823     25 Template:Proglang/switch","  3.70%   12.554      1 Template:Warning","  3.31%   11.242      3 Template:SUBJECTSPACE_formatted","  2.02%    6.846      1 Template:Message_box"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-jobrunner-cbcd74ff9-h5z5m","timestamp":"20250326143917","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

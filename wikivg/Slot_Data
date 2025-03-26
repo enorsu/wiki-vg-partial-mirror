@@ -1,0 +1,3291 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Slot Data – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"c907819b46a3bcd3c7a2804adf83b82c","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data","wgTitle":"Projects/wiki.vg merge/Slot Data","wgCurRevisionId":2842024,"wgRevisionId":2842024,"wgArticleId":290299,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Protocol Details","Java Edition protocol","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data","wgRelevantArticleId":290299,
+"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready",
+"ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound",
+"ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="The Slot data structure defines how an item is represented when inside an inventory window of any kind, such as a chest or furnace.">
+<meta property="og:description" content="The Slot data structure defines how an item is represented when inside an inventory window of any kind, such as a chest or furnace.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Slot Data – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Slot_Data rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Slot Data</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p>The <b>Slot</b> data structure defines how an item is represented when inside an inventory window of any kind, such as a chest or furnace.
+</p><p>This page presents the new Slot data structure, using structured components. You can find the documentation of the old structure, that utilizes raw NBT data, <a href="/w/Special:PermanentLink/2768623" title="Special:PermanentLink/2768623">here</a>.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Format"><span class="tocnumber">1</span> <span class="toctext">Format</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Structured_components"><span class="tocnumber">1.1</span> <span class="toctext">Structured components</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Other_types"><span class="tocnumber">1.2</span> <span class="toctext">Other types</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Block_Predicate"><span class="tocnumber">1.2.1</span> <span class="toctext">Block Predicate</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Dye_Color"><span class="tocnumber">1.2.2</span> <span class="toctext">Dye Color</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Firework_Explosion"><span class="tocnumber">1.2.3</span> <span class="toctext">Firework Explosion</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Potion_Effect"><span class="tocnumber">1.2.4</span> <span class="toctext">Potion Effect</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Trim_Material"><span class="tocnumber">1.2.5</span> <span class="toctext">Trim Material</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Trim_Pattern"><span class="tocnumber">1.2.6</span> <span class="toctext">Trim Pattern</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Consume_Effect"><span class="tocnumber">1.2.7</span> <span class="toctext">Consume Effect</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Instrument"><span class="tocnumber">1.2.8</span> <span class="toctext">Instrument</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#Jukebox_Song"><span class="tocnumber">1.2.9</span> <span class="toctext">Jukebox Song</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Format" data-mw-thread-id="h-Format"><span data-mw-comment-start="" id="h-Format"></span>Format<span data-mw-comment-end="h-Format"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=1" title="Edit section&#039;s source code: Format">edit source</a><span class="mw-editsection-bracket">]</span></span></h1>
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Meaning
+</th></tr>
+<tr>
+<td colspan="2">Item Count
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The item count. Every following field is only present if this value is greater than zero.
+</td></tr>
+<tr>
+<td colspan="2">Item ID
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The <a href="/w/Java_Edition_data_values#Blocks" title="Java Edition data values">item ID</a>. Item IDs are distinct from block IDs; see <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Data_Generators" title="Minecraft Wiki:Projects/wiki.vg merge/Data Generators">Data Generators</a> for more information.
+</td></tr>
+<tr>
+<td colspan="2">Number of components to add
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Number of elements present in the first data component array
+</td></tr>
+<tr>
+<td colspan="2">Number of components to remove
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Number of elements present in the second data component array. This serve as a way to remove the default component values that are present on some items.
+</td></tr>
+<tr>
+<td rowspan="2">Components to add
+</td>
+<td>Component type
+</td>
+<td rowspan="2"><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td colspan="2">The type of component. See <a href="#Structured_components">Structured components</a> for more detail.
+</td></tr>
+<tr>
+<td>Component data
+</td>
+<td>Varies
+</td>
+<td colspan="1">The component-dependent data. See <a href="#Structured_components">Structured components</a> for more detail.
+</td></tr>
+<tr>
+<td rowspan="1">Components to remove
+</td>
+<td>Component type
+</td>
+<td rowspan="1"><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td colspan="2">The type of component. See <a href="#Structured_components">Structured components</a> for more detail.
+</td></tr>
+</tbody></table>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Structured_components" data-mw-thread-id="h-Structured_components-Format"><span data-mw-comment-start="" id="h-Structured_components-Format"></span>Structured components<span data-mw-comment-end="h-Structured_components-Format"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=2" title="Edit section&#039;s source code: Structured components">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Structured_components-Format","replies":[]}}--></div>
+<p>The complete list of available components is described below.
+</p><p>For a more in-depth description, and information on how the items below are encoded with the NBT format, check <a class="text" href="https://minecraft.wiki/w/Data_component_format">here</a>.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Type
+</th>
+<th>Name
+</th>
+<th>Description
+</th>
+<th style="width: 50%">Data
+</th></tr>
+<tr>
+<td>0
+</td>
+<td><code>minecraft:custom_data</code>
+</td>
+<td>Customizable data that doesn't fit any specific component.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Always a Compound Tag.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td><code>minecraft:max_stack_size</code>
+</td>
+<td>Maximum stack size for the item.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Max Stack Size
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Ranges from 1 to 99.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>2
+</td>
+<td><code>minecraft:max_damage</code>
+</td>
+<td>The maximum damage the item can take before breaking.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Max Damage
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>3
+</td>
+<td><code>minecraft:damage</code>
+</td>
+<td>The current damage of the item.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Damage
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>4
+</td>
+<td><code>minecraft:unbreakable</code>
+</td>
+<td>Marks the item as unbreakable.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Show In Tooltip
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the Unbreakable indicator should be shown on the item's tooltip.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>5
+</td>
+<td><code>minecraft:custom_name</code>
+</td>
+<td>Item's custom name.<br/>Normally shown in italic, and changeable at an anvil.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Name
+</td>
+<td><a href="/w/Protocol_data_types#Type:Text_Component" title="Protocol data types">Text Component</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>6
+</td>
+<td><code>minecraft:item_name</code>
+</td>
+<td>Override for the item's default name.<br/>Shown when the item has no custom name.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Name
+</td>
+<td><a href="/w/Protocol_data_types#Type:Text_Component" title="Protocol data types">Text Component</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>7
+</td>
+<td><code>minecraft:item_model</code>
+</td>
+<td>Item's model.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Model
+</td>
+<td><a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>8
+</td>
+<td><code>minecraft:lore</code>
+</td>
+<td>Item's lore.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Lines
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:Text_Component" title="Protocol data types">Text Component</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>9
+</td>
+<td><code>minecraft:rarity</code>
+</td>
+<td>Item's rarity.<br/>This affects the default color of the item's name.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Rarity
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>Can be one of the following:
+<ul><li>0 - Common (white)</li>
+<li>1 - Uncommon (yellow)</li>
+<li>2 - Rare (aqua)</li>
+<li>3 - Epic (pink)</li></ul>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>10
+</td>
+<td><code>minecraft:enchantments</code>
+</td>
+<td>The enchantments of the item.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td rowspan="2">Enchantment
+</td>
+<td>Type ID
+</td>
+<td rowspan="2"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>The ID of the enchantment in the enchantment registry.
+</td></tr>
+<tr>
+<td>Level
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The level of the enchantment.
+</td></tr>
+<tr>
+<td colspan="2">Show In Tooltip
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the list of enchantments should be shown on the item's tooltip.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>11
+</td>
+<td><code>minecraft:can_place_on</code>
+</td>
+<td>List of blocks this block can be placed on when in adventure mode.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Block Predicates
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="#Block_Predicate">Block Predicate</a>
+</td>
+<td>See <a href="#Block_Predicate">Block Predicate</a>.
+</td></tr>
+<tr>
+<td>Show In Tooltip
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the Unbreakable indicator should be shown on the item's tooltip.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>12
+</td>
+<td><code>minecraft:can_break</code>
+</td>
+<td>List of blocks this item can break when in adventure mode.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Block Predicates
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="#Block_Predicate">Block Predicate</a>
+</td>
+<td>See <a href="#Block_Predicate">Block Predicate</a>.
+</td></tr>
+<tr>
+<td>Show In Tooltip
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the Unbreakable indicator should be shown on the item's tooltip.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>13
+</td>
+<td><code>minecraft:attribute_modifiers</code>
+</td>
+<td>The attribute modifiers of the item.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td rowspan="5">Attribute Modifier
+</td>
+<td>Attribute ID
+</td>
+<td rowspan="5"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The attribute to be modified (ID in the <code>minecraft:attribute</code> registry).
+</td></tr>
+<tr>
+<td>Modifier ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>The modifier's unique ID.
+</td></tr>
+<tr>
+<td>Value
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>The modifier's value.
+</td></tr>
+<tr>
+<td>Operation
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>The operation to be applied upon the value. Can be one of the following:
+<ul><li>0 - Add</li>
+<li>1 - Multiply base</li>
+<li>2 - Multiply total</li></ul>
+</td></tr>
+<tr>
+<td>Slot
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>The item slot placement required for the modifier to have effect.<br/>Can be one of the following:
+<ul><li>0 - Any</li>
+<li>1 - Main hand</li>
+<li>2 - Off hand</li>
+<li>3 - Hand</li>
+<li>4 - Feet</li>
+<li>5 - Legs</li>
+<li>6 - Chest</li>
+<li>7 - Head</li>
+<li>8 - Armor</li>
+<li>9 - Body</li></ul>
+</td></tr>
+<tr>
+<td colspan="2">Show In Tooltip
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the list of attribute modifiers should be shown on the item's tooltip.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>14
+</td>
+<td><code>minecraft:custom_model_data</code>
+</td>
+<td>Value for the item predicate when using custom item models.<br/>More info can be found <a class="text" href="https://minecraft.wiki/w/Tutorials/Models#Item_predicates">here</a>.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Floats
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Flags
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Strings
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Colors
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>15
+</td>
+<td><code>minecraft:hide_additional_tooltip</code>
+</td>
+<td>Hides the special item's tooltip of crossbow ("Projectile:"), banner pattern layers, goat horn instrument and others.
+</td>
+<td>None.
+</td></tr>
+<tr>
+<td>16
+</td>
+<td><code>minecraft:hide_tooltip</code>
+</td>
+<td>Hides the item's tooltip altogether.
+</td>
+<td>None.
+</td></tr>
+<tr>
+<td>17
+</td>
+<td><code>minecraft:repair_cost</code>
+</td>
+<td>Accumulated anvil usage cost. The client displays "Too Expensive" if the value is greater than 40 and the player is not in creative mode (more specifically, if they don't have the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Player_Abilities_(clientbound)" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">insta-build flag enabled</a>).<br/>This behavior can be overridden by setting the level with the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Set_Container_Property" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Set Container Property</a> packet.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Cost
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>18
+</td>
+<td><code>minecraft:creative_slot_lock</code>
+</td>
+<td>Marks the item as non-interactive on the creative inventory (the first 5 rows of items).<br/>This is used internally by the client on the paper icon in the saved hot-bars tab.
+</td>
+<td>None.
+</td></tr>
+<tr>
+<td>19
+</td>
+<td><code>minecraft:enchantment_glint_override</code>
+</td>
+<td>Overrides the item glint resulted from enchantments
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Has Glint
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>20
+</td>
+<td><code>minecraft:intangible_projectile</code>
+</td>
+<td>Marks the projectile as intangible (cannot be picked-up).
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Empty
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Always an empty Compound Tag.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>21
+</td>
+<td><code>minecraft:food</code>
+</td>
+<td>Makes the item restore the player's hunger bar when consumed.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td colspan="2">Nutrition
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Non-negative
+</td></tr>
+<tr>
+<td colspan="2">Saturation Modifier
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>How much saturation will be given after consuming the item.
+</td></tr>
+<tr>
+<td colspan="2">Can Always Eat
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the item can always be eaten, even at full hunger.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>22
+</td>
+<td><code>minecraft:consumable</code>
+</td>
+<td>Makes the item consumable.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Consume seconds
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>How long it takes to consume the item.
+</td></tr>
+<tr>
+<td>Animation
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>0: none, 1: eat, 2: drink, 3: block, 4: bow, 5: spear, 6: crossbow, 7: spyglass, 8: toot_horn, 9: brush
+</td></tr>
+<tr>
+<td>Sound
+</td>
+<td><a href="/w/Protocol_data_types#Type:ID_or" title="Protocol data types">ID or</a> <a href="/w/Protocol_data_types#Type:Sound_Event" title="Protocol data types">Sound Event</a>
+</td>
+<td>ID in the <code>minecraft:sound_event</code> registry, or an inline definition.
+</td></tr>
+<tr>
+<td>Has consume particles
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Effects
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="#Consume_Effect">Consume Effect</a>
+</td>
+<td>Effects to apply on consumption. See <a href="#Consume_Effect">Consume Effect</a>.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>23
+</td>
+<td><code>minecraft:use_remainder</code>
+</td>
+<td>This specifies the item produced after using the current item. In the Notchian server, this is used for stews, which turn into bowls.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Remainder
+</td>
+<td><a href="/w/Protocol_data_types#Type:Slot" title="Protocol data types">Slot</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>24
+</td>
+<td><code>minecraft:use_cooldown</code>
+</td>
+<td>Cooldown to apply on use of the item.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Seconds
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Cooldown group
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>Group of items to apply the cooldown to. Only present if Has cooldown group is true; otherwise defaults to the item's identifier.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>25
+</td>
+<td><code>minecraft:damage_resistant</code>
+</td>
+<td>Marks this item as damage resistant.<br/>The client won't render the item as being on-fire if this component is present.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Types
+</td>
+<td><a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>Tag specifying damage types the item is immune to. Not prefixed by '#'!.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>26
+</td>
+<td><code>minecraft:tool</code>
+</td>
+<td>Alters the speed at which this item breaks certain blocks
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td rowspan="5">Rule
+</td>
+<td>Blocks
+</td>
+<td rowspan="5"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:ID_Set" title="Protocol data types">ID Set</a>
+</td>
+<td>The blocks this rule applies to (IDs in the <code>minecraft:block</code> registry).
+</td></tr>
+<tr>
+<td>Has Speed
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Speed
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>The speed at which the tool breaks this rules' blocks. Only present if Has Speed is true.
+</td></tr>
+<tr>
+<td>Has Correct Drop For Blocks
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Correct Drop For Blocks
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether items should drop only if this is the correct tool. Only present if Has Correct Drop For Blocks is true.
+</td></tr>
+<tr>
+<td colspan="2">Default Mining Speed
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>The mining speed in case none of the previous rule were matched.
+</td></tr>
+<tr>
+<td colspan="2">Damage Per Block
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The amount of damage the item takes per block break.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>27
+</td>
+<td><code>minecraft:enchantable</code>
+</td>
+<td>Allows the item to be enchanted by an enchanting table.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Value
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Opaque internal value controlling how expensive enchantments may be offered.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>28
+</td>
+<td><code>minecraft:equippable</code>
+</td>
+<td>Allows the item to be equipped by the player.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Slot
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>0: mainhand, 1: feet, 2: legs, 3: chest, 4: head, 5: offhand, 6: body
+</td></tr>
+<tr>
+<td>Equip sound
+</td>
+<td><a href="/w/Protocol_data_types#Type:ID_or" title="Protocol data types">ID or</a> <a href="/w/Protocol_data_types#Type:Sound_Event" title="Protocol data types">Sound Event</a>
+</td>
+<td>ID in the <code>minecraft:sound_event</code> registry, or an inline definition.
+</td></tr>
+<tr>
+<td>Has model
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Model
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>Only present if Has model is true.
+</td></tr>
+<tr>
+<td>Has camera overlay
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Camera overlay
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>Only present if Has camera overlay is true.
+</td></tr>
+<tr>
+<td>Has allowed entities
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td></tr>
+<tr>
+<td>Allowed entities
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:ID_Set" title="Protocol data types">ID Set</a>
+</td>
+<td>IDs in the <code>minecraft:entity_type</code> registry. Only present if Has allowed entities is true.
+</td></tr>
+<tr>
+<td>Dispensable
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Swappable
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Damage on hurt
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>29
+</td>
+<td><code>minecraft:repairable</code>
+</td>
+<td>Items that can be combined with this item in an anvil to repair it.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Items
+</td>
+<td><a href="/w/Protocol_data_types#Type:ID_Set" title="Protocol data types">ID Set</a>
+</td>
+<td>IDs in the <code>minecraft:item</code> registry.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>30
+</td>
+<td><code>minecraft:glider</code>
+</td>
+<td>Makes the item function like elytra.
+</td>
+<td>None
+</td></tr>
+<tr>
+<td>31
+</td>
+<td><code>minecraft:tooltip_style</code>
+</td>
+<td>Custom textures for the item tooltip.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Style
+</td>
+<td><a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>32
+</td>
+<td><code>minecraft:death_protection</code>
+</td>
+<td>Makes the item function like a totem of undying.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Effects
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="#Consume_Effect">Consume Effect</a>
+</td>
+<td>Effects to apply on consumption. See <a href="#Consume_Effect">Consume Effect</a>.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>33
+</td>
+<td><code>minecraft:stored_enchantments</code>
+</td>
+<td>The enchantments stored in this enchanted book.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td rowspan="2">Enchantment
+</td>
+<td>Type ID
+</td>
+<td rowspan="2"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>The ID of the enchantment in the enchantment registry.
+</td></tr>
+<tr>
+<td>Level
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The level of the enchantment.
+</td></tr>
+<tr>
+<td colspan="2">Show In Tooltip
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the list of enchantments should be shown on the item's tooltip.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>34
+</td>
+<td><code>minecraft:dyed_color</code>
+</td>
+<td>Color of dyed leather armor.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Color
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>The RGB components of the color, encoded as an integer.
+</td></tr>
+<tr>
+<td>Show In Tooltip
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the armor's color should be shown on the item's tooltip.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>35
+</td>
+<td><code>minecraft:map_color</code>
+</td>
+<td>Color of the markings on the map item model.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Color
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>The RGB components of the color, encoded as an integer.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>36
+</td>
+<td><code>minecraft:map_id</code>
+</td>
+<td>The ID of the map.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>37
+</td>
+<td><code>minecraft:map_decorations</code>
+</td>
+<td>Icons present on a map.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Always a Compound Tag.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>38
+</td>
+<td><code>minecraft:map_post_processing</code>
+</td>
+<td>Used internally by the client when expanding or locking a map. Display extra information on the item's tooltip when the component is present.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Type
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>Type of post processing. Can be either:
+<ul><li>0 - Lock</li>
+<li>1 - Scale</li></ul>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>39
+</td>
+<td><code>minecraft:charged_projectiles</code>
+</td>
+<td>Projectiles loaded into a charged crossbow.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Projectiles
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:Slot" title="Protocol data types">Slot</a>
+</td>
+<td>The projectiles.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>40
+</td>
+<td><code>minecraft:bundle_contents</code>
+</td>
+<td>Contents of a bundle.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Items
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:Slot" title="Protocol data types">Slot</a>
+</td>
+<td>The projectiles.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>41
+</td>
+<td><code>minecraft:potion_contents</code>
+</td>
+<td>Visual and effects of a potion item.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Has Potion ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether this potion has an ID in the potion registry. If true, it has the default effects associated with the potion type.
+</td></tr>
+<tr>
+<td>Potion ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The ID of the potion type in the potion registry. Only present if Has Potion ID is true.
+</td></tr>
+<tr>
+<td>Has Custom Color
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether this potion has a custom color. If false, it uses the default color associated with the potion type.
+</td></tr>
+<tr>
+<td>Custom Color
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>The RGB components of the color, encoded as an integer. Only present if Has Custom Color is true.
+</td></tr>
+<tr>
+<td>Custom Effects
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="#Potion_Effect">Potion Effect</a>
+</td>
+<td>Any custom effects the potion might have. See <a href="#Potion_Effect">Potion Effect</a>.
+</td></tr>
+<tr>
+<td>Custom Name
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>42
+</td>
+<td><code>minecraft:suspicious_stew_effects</code>
+</td>
+<td>Effects granted by a suspicious stew.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td rowspan="2">Effect
+</td>
+<td>Type ID
+</td>
+<td rowspan="2"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>The ID of the effect in the potion effect type registry.
+</td></tr>
+<tr>
+<td>Duration
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The duration of the effect.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>43
+</td>
+<td><code>minecraft:writable_book_content</code>
+</td>
+<td>Content of a writable book.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+
+<tr>
+<td rowspan="3">Page
+</td>
+<td>Raw Content
+</td>
+<td rowspan="3"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> (100)
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (1024)
+</td>
+<td>The raw text of the page.
+</td></tr>
+<tr>
+<td>Has Filtered Content
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Filtered Content
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (1024)
+</td>
+<td>The content after passing through chat filters. Only present if Has Filtered Content is true.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>44
+</td>
+<td><code>minecraft:written_book_content</code>
+</td>
+<td>Content of a written and signed book.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td colspan="2">Raw Title
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32)
+</td>
+<td>The raw title of the book.
+</td></tr>
+<tr>
+<td colspan="2">Has Filtered Title
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td colspan="2">Filtered Title
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32)
+</td>
+<td>The title after going through chat filters. Only present if Has Filtered Title is true.
+</td></tr>
+<tr>
+<td colspan="2">Author
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td colspan="2">Generation
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="3">Page
+</td>
+<td>Raw Content
+</td>
+<td rowspan="3"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> (100)
+</td>
+<td><a href="/w/Protocol_data_types#Type:TextComponent" title="Protocol data types">TextComponent</a> (1024)
+</td>
+<td>The raw text of the page.
+</td></tr>
+<tr>
+<td>Has Filtered Content
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Filtered Content
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Text_Component" title="Protocol data types">Text Component</a> (1024)
+</td>
+<td>The content after passing through chat filters. Only present if Has Filtered Content is true.
+</td></tr>
+<tr>
+<td colspan="2">Resolved
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether entity selectors have already been resolved.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>45
+</td>
+<td><code>minecraft:trim</code>
+</td>
+<td>Armor's trim pattern and color
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Trim Material
+</td>
+<td><a href="/w/Protocol_data_types#Type:ID_or" title="Protocol data types">ID or</a> <a href="#Trim_Material">Trim Material</a>
+</td>
+<td>ID in the <code>minecraft:trim_material</code> registry, or an inline definition.
+</td></tr>
+<tr>
+<td>Trim Pattern
+</td>
+<td><a href="/w/Protocol_data_types#Type:ID_or" title="Protocol data types">ID or</a> <a href="#Trim_Pattern">Trim Pattern</a>
+</td>
+<td>ID in the <code>minecraft:trim_pattern</code> registry, or an inline definition.
+</td></tr>
+<tr>
+<td>Show In Tooltip
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the trim information should be shown on the item's tooltip.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>46
+</td>
+<td><code>minecraft:debug_stick_state</code>
+</td>
+<td>State of the debug stick
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>States of previously interacted blocks. Always a Compound Tag.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>47
+</td>
+<td><code>minecraft:entity_data</code>
+</td>
+<td>Data for the entity to be created from this item.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Always a Compound Tag.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>48
+</td>
+<td><code>minecraft:bucket_entity_data</code>
+</td>
+<td>Data of the entity contained in this bucket.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Always a Compound Tag.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>49
+</td>
+<td><code>minecraft:block_entity_data</code>
+</td>
+<td>Data of the block entity to be created from this item.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Always a Compound Tag.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>50
+</td>
+<td><code>minecraft:instrument</code>
+</td>
+<td>The sound played when using a goat horn.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Instrument
+</td>
+<td><a href="/w/Protocol_data_types#Type:Id_or" title="Protocol data types">Id or</a> <a href="#Instrument">Instrument</a>
+</td>
+<td>ID in the <code>minecraft:instrument</code> registry, or an inline definition.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>51
+</td>
+<td><code>minecraft:ominous_bottle_amplifier</code>
+</td>
+<td>Amplifier for the effect of an ominous bottle.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Amplifier
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Between 0 and 4.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>52
+</td>
+<td><code>minecraft:jukebox_playable</code>
+</td>
+<td>The song this item will play when inserted into a jukebox.<br/><div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">The Notchian client assumes that the server will always represent the jukebox song either by name, or reference an entry on its respective registry. Trying to directly specify a jukebox song (when <code>Jukebox Song Type</code> is 0) will cause the client to fail to parse it and subsequently disconnect, which is likely an unintended bug.</div>
+</div>
+</div>
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Direct Mode
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the jukebox song is specified directly, or just referenced by name.
+</td></tr>
+<tr>
+<td>Jukebox Song Name
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>The name of the jukebox song in its respective registry. Only present if Direct Mode is false.
+</td></tr>
+<tr>
+<td>Jukebox Song
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:ID_or" title="Protocol data types">ID or</a> <a href="#Jukebox_Song">Jukebox Song</a>
+</td>
+<td>ID in the <code>minecraft:jukebox_song</code> registry. Only present if Direct Mode is true.
+</td></tr>
+<tr>
+<td>Show In Tooltip
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the song should be shown on the item's tooltip.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>53
+</td>
+<td><code>minecraft:recipes</code>
+</td>
+<td>The recipes this knowledge book unlocks.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Always a Compound Tag.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>54
+</td>
+<td><code>minecraft:lodestone_tracker</code>
+</td>
+<td>The lodestone this compass points to.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Has Global Position
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether this lodestone points to a position, otherwise it spins randomly.
+</td></tr>
+<tr>
+<td>Dimension
+</td>
+<td><a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>The dimension the compass points to. Only present if Has Global Position is true.
+</td></tr>
+<tr>
+<td>Position
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>The position the compass points to. Only present if Has Global Position is true.
+</td></tr>
+<tr>
+<td>Tracked
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether the component is removed when the associated lodestone is broken.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>55
+</td>
+<td><code>minecraft:firework_explosion</code>
+</td>
+<td>Properties of a firework star.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Explosion
+</td>
+<td><a href="#Firework_Explosion">Firework Explosion</a>
+</td>
+<td>See <a href="#Firework_Explosion">Firework Explosion</a>.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>56
+</td>
+<td><code>minecraft:fireworks</code>
+</td>
+<td>Properties of a firework.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Flight Duration
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Explosions
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="#Firework_Explosion">Firework Explosion</a>
+</td>
+<td>See <a href="#Firework_Explosion">Firework Explosion</a>.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>57
+</td>
+<td><code>minecraft:profile</code>
+</td>
+<td>Game Profile of a player's head.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td colspan="2">Has Name
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td colspan="2">Name
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (16)
+</td>
+<td>Only present if Has Name is true.
+</td></tr>
+<tr>
+<td colspan="2">Has Unique ID
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td colspan="2">Unique ID
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:UUID" title="Protocol data types">UUID</a>
+</td>
+<td>Only present if Has Unique ID is true.
+</td></tr>
+<tr>
+<td rowspan="4">Property
+</td>
+<td>Name
+</td>
+<td rowspan="4"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (64)
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Value
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Has Signature
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Signature
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (1024)
+</td>
+<td>Only present if Has Signature is true.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>58
+</td>
+<td><code>minecraft:note_block_sound</code>
+</td>
+<td>Sound played by a note block when this player's head is placed on top of it.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Sound
+</td>
+<td><a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>59
+</td>
+<td><code>minecraft:banner_patterns</code>
+</td>
+<td>Patterns of a banner or banner applied to a shield.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td rowspan="4">Layer
+</td>
+<td>Pattern Type
+</td>
+<td rowspan="4"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Identifier used to determine the data that follows. It can be either:
+<ul><li>0 - Directly represents a pattern, with the necessary data following.</li>
+<li>Anything else - References a pattern in its registry, by the ID of <code>Pattern Type - 1</code>.</li></ul>
+</td></tr>
+<tr>
+<td>Asset ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>Identifier of the asset. Only present if Pattern Type is 0.
+</td></tr>
+<tr>
+<td>Translation Key
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>Only present if Pattern Type is 0.
+</td></tr>
+<tr>
+<td>Color
+</td>
+<td><a href="#Dye_Color">Dye Color</a>
+</td>
+<td>See <a href="#Dye_Color">Dye Color</a>.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>60
+</td>
+<td><code>minecraft:base_color</code>
+</td>
+<td>Base color of the banner applied to a shield.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Color
+</td>
+<td><a href="#Dye_Color">Dye Color</a>
+</td>
+<td>See <a href="#Dye_Color">Dye Color</a>.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>61
+</td>
+<td><code>minecraft:pot_decorations</code>
+</td>
+<td>Decorations on the four sides of a pot.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Decorations
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> (4) of <a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>The ID of the items in the item registry.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>62
+</td>
+<td><code>minecraft:container</code>
+</td>
+<td>Items inside a container of any type.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Items
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> (256) of <a href="/w/Protocol_data_types#Type:Slot" title="Protocol data types">Slot</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>63
+</td>
+<td><code>minecraft:block_state</code>
+</td>
+<td>State of a block.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td rowspan="2">Property
+</td>
+<td>Name
+</td>
+<td rowspan="2"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Value
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>64
+</td>
+<td><code>minecraft:bees</code>
+</td>
+<td>Bees inside a hive.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td rowspan="3">Bee
+</td>
+<td>Entity Data
+</td>
+<td rowspan="3"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Custom data for the entity, always a Compound Tag. Same structure as the <code>minecraft:custom_data</code> component.
+</td></tr>
+<tr>
+<td>Ticks In Hive
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Min Ticks In Hive
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>65
+</td>
+<td><code>minecraft:lock</code>
+</td>
+<td>Name of the necessary key to open this container.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Key
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Always a String Tag.
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>66
+</td>
+<td><code>minecraft:container_loot</code>
+</td>
+<td>Loot table for an unopened container.
+</td>
+<td>As follows:
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Data
+</td>
+<td><a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Always a Compound Tag.
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Other_types" data-mw-thread-id="h-Other_types-Format"><span data-mw-comment-start="" id="h-Other_types-Format"></span>Other types<span data-mw-comment-end="h-Other_types-Format"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=3" title="Edit section&#039;s source code: Other types">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Other_types-Format","replies":["h-Block_Predicate-Other_types","h-Dye_Color-Other_types","h-Firework_Explosion-Other_types","h-Potion_Effect-Other_types","h-Trim_Material-Other_types","h-Trim_Pattern-Other_types","h-Consume_Effect-Other_types","h-Instrument-Other_types","h-Jukebox_Song-Other_types"]}}--></div>
+<p>Common types used in multiple components are described below.
+</p>
+<h3><span class="mw-headline" id="Block_Predicate" data-mw-thread-id="h-Block_Predicate-Other_types"><span data-mw-comment-start="" id="h-Block_Predicate-Other_types"></span>Block Predicate<span data-mw-comment-end="h-Block_Predicate-Other_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=4" title="Edit section&#039;s source code: Block Predicate">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Describes a predicate used when block filtering is necessary. It can be parameterized to account for the type of block, the values of specific block state properties, NBT data related to block entities, or any combination of the three.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Has Blocks
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether this predicate is tied to specific types of blocks.
+</td></tr>
+<tr>
+<td>Blocks
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:ID_Set" title="Protocol data types">ID Set</a>
+</td>
+<td>IDs in the <code>minecraft:block</code> registry. Only present if Has Blocks is true.
+</td></tr>
+<tr>
+<td>Has Properties
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether this predicate is tied to specific properties of a block.
+</td></tr>
+<tr>
+<td>Number of Properties
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Number of elements in the following array. Only present if Has Properties is true.
+</td></tr>
+<tr>
+<td>Properties
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a> of Property
+</td>
+<td>See Property structure below. Only present if Has Properties is true.
+</td></tr>
+<tr>
+<td>Has NBT
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether this predicate is tied to specific block entity data.
+</td></tr>
+<tr>
+<td>NBT
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:NBT" title="Protocol data types">NBT</a>
+</td>
+<td>Only present is Has NBT is true.
+</td></tr></tbody></table>
+<p>The Property structure is defined as follows:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Name
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>Name of the block state property.
+</td></tr>
+<tr>
+<td>Is Exact Match
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Whether this is an exact value match, as opposed to ranged.
+</td></tr>
+<tr>
+<td>Exact Value
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional </a> <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>Value of the block state property. Only present in exact match mode.
+</td></tr>
+<tr>
+<td>Min Value
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>Minimum value of the block state property range. Only present in ranged match mode.
+</td></tr>
+<tr>
+<td>Max Value
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>Maximum value of the block state property range. Only present in ranged match mode.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Dye_Color" data-mw-thread-id="h-Dye_Color-Other_types"><span data-mw-comment-start="" id="h-Dye_Color-Other_types"></span>Dye Color<span data-mw-comment-end="h-Dye_Color-Other_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=5" title="Edit section&#039;s source code: Dye Color">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A color from one of the 16 dye types.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Color
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>Can be one of the following:
+<ul><li>0 - White</li>
+<li>1 - Orange</li>
+<li>2 - Magenta</li>
+<li>3 - Light Blue</li>
+<li>4 - Yellow</li>
+<li>5 - Lime</li>
+<li>6 - Pink</li>
+<li>7 - Gray</li>
+<li>8 - Light Gray</li>
+<li>9 - Cyan</li>
+<li>10 - Purple</li>
+<li>11 - Blue</li>
+<li>12 - Brown</li>
+<li>13 - Green</li>
+<li>14 - Red</li>
+<li>15 - Black</li></ul>
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Firework_Explosion" data-mw-thread-id="h-Firework_Explosion-Other_types"><span data-mw-comment-start="" id="h-Firework_Explosion-Other_types"></span>Firework Explosion<span data-mw-comment-end="h-Firework_Explosion-Other_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=6" title="Edit section&#039;s source code: Firework Explosion">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Represents a firework explosion, consisting of a shape, colors, and extra details.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Shape
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>Can be one of the following:
+<ul><li>0 - Small ball</li>
+<li>1 - Large ball</li>
+<li>2 - Star</li>
+<li>3 - Creeper</li>
+<li>4 - Burst</li></ul>
+</td></tr>
+<tr>
+<td>Number Of Colors
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The number of elements in the following array.
+</td></tr>
+<tr>
+<td>Colors
+</td>
+<td><a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a> of <a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>The RGB components of the color, encoded as an integer.
+</td></tr>
+<tr>
+<td>Number Of Fade Colors
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The number of elements in the following array.
+</td></tr>
+<tr>
+<td>Fade Colors
+</td>
+<td><a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a> of <a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>The RGB components of the color, encoded as an integer.
+</td></tr>
+<tr>
+<td>Has Trail
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Has Twinkle
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Potion_Effect" data-mw-thread-id="h-Potion_Effect-Other_types"><span data-mw-comment-start="" id="h-Potion_Effect-Other_types"></span>Potion Effect<span data-mw-comment-end="h-Potion_Effect-Other_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=7" title="Edit section&#039;s source code: Potion Effect">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Describes all the aspects of a potion effect.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Type ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>The ID of the effect in the potion effect type registry.
+</td></tr>
+<tr>
+<td>Details
+</td>
+<td>Detail
+</td>
+<td>See Detail structure below.
+</td></tr></tbody></table>
+<p>The Detail structure is defined as follows:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Amplifier
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Duration
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>-1 for infinite.
+</td></tr>
+<tr>
+<td>Ambient
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Produces more translucent particle effects if true.
+</td></tr>
+<tr>
+<td>Show Particles
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Completely hides effect particles if false.
+</td></tr>
+<tr>
+<td>Show Icon
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Shows the potion icon in the inventory screen if true.
+</td></tr>
+<tr>
+<td>Has Hidden Effect
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Used to store the state of the previous potion effect when a stronger one is applied. This guarantees that the weaker one will persist, in case it lasts longer.
+<div class="msgbox searchaux msgbox-mini msgbox-orange" style="max-width: 50em;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Knowledge_Book_JE2.png" class="mw-file-description"><img src="/images/thumb/Knowledge_Book_JE2.png/16px-Knowledge_Book_JE2.png?c1af4" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Knowledge_Book_JE2.png/32px-Knowledge_Book_JE2.png?c1af4 2x" data-file-width="160" data-file-height="160"/></a></span></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This section is missing information about: This behavior seems to be entirely server-sided. Does the presence of this field actually has any noticeable impact on the client?.</div> 
+<div class="msgbox-text">Please expand the section to include this information. Further details may exist on the <a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Slot_Data">talk page</a>.</div>
+</div>
+</div>
+</td></tr>
+<tr>
+<td>Hidden Effect
+</td>
+<td><a href="/w/Protocol_data_types#Type:Optional" title="Protocol data types">Optional</a> Detail
+</td>
+<td>Only present if Has Hidden Effect is true.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Trim_Material" data-mw-thread-id="h-Trim_Material-Other_types"><span data-mw-comment-start="" id="h-Trim_Material-Other_types"></span>Trim Material<span data-mw-comment-end="h-Trim_Material-Other_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=8" title="Edit section&#039;s source code: Trim Material">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote searchaux">See also: <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Registry_Data#Armor_Trim_Material" title="Minecraft Wiki:Projects/wiki.vg merge/Registry Data">Minecraft Wiki:Projects/wiki.vg merge/Registry Data § Armor Trim Material</a> 
+</div>
+<table class="wikitable">
+<tbody><tr>
+<th colspan="2">Name
+</th>
+<th colspan="2">Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td colspan="2">Asset Name
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td colspan="2">Ingredient
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td colspan="2">Item Model Index
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td colspan="2">Number of Overrides
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">Override
+</td>
+<td>Armor Material Type
+</td>
+<td rowspan="2"><a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Overriden Asset Name
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td colspan="2">Description
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Text_Component" title="Protocol data types">Text Component</a>
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Trim_Pattern" data-mw-thread-id="h-Trim_Pattern-Other_types"><span data-mw-comment-start="" id="h-Trim_Pattern-Other_types"></span>Trim Pattern<span data-mw-comment-end="h-Trim_Pattern-Other_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=9" title="Edit section&#039;s source code: Trim Pattern">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote searchaux">See also: <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Registry_Data#Armor_Trim_Pattern" title="Minecraft Wiki:Projects/wiki.vg merge/Registry Data">Minecraft Wiki:Projects/wiki.vg merge/Registry Data § Armor Trim Pattern</a> 
+</div>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Asset Name
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Template Item
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Description
+</td>
+<td><a href="/w/Protocol_data_types#Type:Text_Component" title="Protocol data types">Text Component</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Decal
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Consume_Effect" data-mw-thread-id="h-Consume_Effect-Other_types"><span data-mw-comment-start="" id="h-Consume_Effect-Other_types"></span>Consume Effect<span data-mw-comment-end="h-Consume_Effect-Other_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=10" title="Edit section&#039;s source code: Consume Effect">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Type
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The ID of the effect in the consume effect registry.
+</td></tr>
+<tr>
+<td>Data
+</td>
+<td>Varies
+</td>
+<td>See below
+</td></tr></tbody></table>
+<table class="wikitable">
+<tbody><tr>
+<th>Type
+</th>
+<th>Name
+</th>
+<th>Data
+</th></tr>
+<tr>
+<td>0
+</td>
+<td><code>minecraft:apply_effects</code>
+</td>
+<td>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Effects
+</td>
+<td><a href="/w/Protocol_data_types#Type:Array" title="Protocol data types">Array</a> of <a href="#Potion_Effect">Potion Effect</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Probability
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td><code>minecraft:remove_effects</code>
+</td>
+<td>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Effects
+</td>
+<td><a href="/w/Protocol_data_types#Type:ID_Set" title="Protocol data types">ID Set</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>2
+</td>
+<td><code>minecraft:clear_all_effects</code>
+</td>
+<td>None.
+</td></tr>
+<tr>
+<td>3
+</td>
+<td><code>minecraft:teleport_randomly</code>
+</td>
+<td>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Diameter
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>4
+</td>
+<td><code>minecraft:play_sound</code>
+</td>
+<td>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Sound
+</td>
+<td><a href="/w/Protocol_data_types#Type:Sound_Event" title="Protocol data types">Sound Event</a>
+</td>
+<td>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+<p><br/>
+</p>
+<h3><span class="mw-headline" id="Instrument" data-mw-thread-id="h-Instrument-Other_types"><span data-mw-comment-start="" id="h-Instrument-Other_types"></span>Instrument<span data-mw-comment-end="h-Instrument-Other_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=11" title="Edit section&#039;s source code: Instrument">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Sound Event
+</td>
+<td><a href="/w/Protocol_data_types#Type:Id_or" title="Protocol data types">Id or</a> <a href="/w/Protocol_data_types#Type:Sound_Event" title="Protocol data types">Sound Event</a>
+</td>
+<td>The sound to be played.
+</td></tr>
+<tr>
+<td>Use durationa
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>The maximum range of the sound.
+</td></tr>
+<tr>
+<td>Range
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>The range of the instrument.
+</td></tr>
+<tr>
+<td>Description
+</td>
+<td><a href="/w/Protocol_data_types#Type:Text_Component" title="Protocol data types">Text Component</a>
+</td>
+<td>Description shown in the item tooltip.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Jukebox_Song" data-mw-thread-id="h-Jukebox_Song-Other_types"><span data-mw-comment-start="" id="h-Jukebox_Song-Other_types"></span>Jukebox Song<span data-mw-comment-end="h-Jukebox_Song-Other_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;section=12" title="Edit section&#039;s source code: Jukebox Song">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>Name
+</th>
+<th>Type
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>Sound Event
+</td>
+<td><a href="/w/Protocol_data_types#Type:Id_or" title="Protocol data types">Id or</a> <a href="/w/Protocol_data_types#Type:Sound_Event" title="Protocol data types">Sound Event</a>
+</td>
+<td>The sound to be played.
+</td></tr>
+<tr>
+<td>Description
+</td>
+<td><a href="/w/Protocol_data_types#Type:Text_Component" title="Protocol data types">Text Component</a>
+</td>
+<td>The description shown in the item lore.
+</td></tr>
+<tr>
+<td>Duration
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>The duration the songs should play for, in seconds.
+</td></tr>
+<tr>
+<td>Output
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The output strength given by a comparator. Between 0 and 15.
+</td></tr>
+</tbody></table>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐jobrunner‐cbcd74ff9‐h5z5m
+Cached time: 20250323220225
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0.002 seconds
+DiscussionTools time usage: 0.308 seconds
+CPU time usage: 0.509 seconds
+Real time usage: 1.265 seconds
+Preprocessor visited node count: 4108/1000000
+Post‐expand include size: 46091/8388608 bytes
+Template argument size: 8755/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  356.260      1 -total
+ 50.50%  179.915      1 Template:License_wiki.vg
+ 15.60%   55.586    269 Template:Type
+  7.99%   28.478      1 Template:Missing_info
+  5.07%   18.069      2 Template:Message_box
+  4.00%   14.261      1 Template:License
+  3.82%   13.617      2 Template:See_also
+  3.54%   12.605      1 Template:Warning
+  3.01%   10.741      1 Template:Msgbox
+  1.88%    6.705      3 Template:SUBJECTSPACE_formatted
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290299-0!canonical and timestamp 20250323220223 and revision id 2842024. Rendering was triggered because: edit-page
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?oldid=2842024">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?oldid=2842024</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Protocol_Details?action=edit&amp;redlink=1" class="new" title="Category:Protocol Details (page does not exist)">Protocol Details</a></li><li><a href="/w/Category:Java_Edition_protocol" title="Category:Java Edition protocol">Java Edition protocol</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FSlot+Data" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FSlot+Data" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Slot_Data?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc1" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc1"><span>Dev: 1.21.5-rc1</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?oldid=2842024" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FSlot-5FData" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 1 February 2025, at 16:53.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Slot_Data?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":36,"wgDiscussionToolsPageThreads":[{"headingLevel":1,"name":"h-","type":"heading","level":0,"id":"h-Format","replies":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Structured_components-Format","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Other_types-Format","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Block_Predicate-Other_types","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Dye_Color-Other_types","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Firework_Explosion-Other_types","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Potion_Effect-Other_types","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Trim_Material-Other_types","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Trim_Pattern-Other_types","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Consume_Effect-Other_types","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Instrument-Other_types","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Jukebox_Song-Other_types","replies":[]}]}]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.002},"discussiontools":{"limitreport-timeusage":"0.308"},"limitreport":{"cputime":"0.509","walltime":"1.265","ppvisitednodes":{"value":4108,"limit":1000000},"postexpandincludesize":{"value":46091,"limit":8388608},"templateargumentsize":{"value":8755,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%  356.260      1 -total"," 50.50%  179.915      1 Template:License_wiki.vg"," 15.60%   55.586    269 Template:Type","  7.99%   28.478      1 Template:Missing_info","  5.07%   18.069      2 Template:Message_box","  4.00%   14.261      1 Template:License","  3.82%   13.617      2 Template:See_also","  3.54%   12.605      1 Template:Warning","  3.01%   10.741      1 Template:Msgbox","  1.88%    6.705      3 Template:SUBJECTSPACE_formatted"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-jobrunner-cbcd74ff9-h5z5m","timestamp":"20250323220225","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

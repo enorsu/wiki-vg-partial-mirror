@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Pi Edition protocol – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"49c4ff39b8072843fb1c5b5be539a04b","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Pi_Edition_protocol","wgTitle":"Pi Edition protocol","wgCurRevisionId":2842025,"wgRevisionId":2842025,"wgArticleId":290272,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Discontinued","Pi Edition","Pocket Edition","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Pi_Edition_protocol","wgRelevantArticleId":290272,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],
+"wgRestrictionMove":[],"wgRedirectedFrom":"Minecraft_Wiki:Projects/wiki.vg_merge/Minecraft_Pi_Protocol","simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgInternalRedirectTargetUrl":"/w/Pi_Edition_protocol","wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"]};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","skins.vector.styles.legacy":"ready"
+,"ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints",
+"ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="This page documents the Pi Edition API protocol. The multiplayer protocol for Pi Edition is based on Pocket Edition&amp;#39;s protocol.">
+<meta property="og:description" content="This page documents the Pi Edition API protocol. The multiplayer protocol for Pi Edition is based on Pocket Edition&amp;#39;s protocol.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Pi Edition protocol – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Pi_Edition_protocol">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Pi_Edition_protocol?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Pi_Edition_protocol">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Pi_Edition_protocol rootpage-Pi_Edition_protocol skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This article is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This article is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><i>Pi Edition</i> protocol</h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><span class="mw-redirectedfrom">(Redirected from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Minecraft_Pi_Protocol?redirect=no" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Minecraft Pi Protocol">Minecraft Wiki:Projects/wiki.vg merge/Minecraft Pi Protocol</a>)</span></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Cobweb_(texture)_JE2_BE2.png" class="mw-file-description"><img src="/images/thumb/Cobweb_%28texture%29_JE2_BE2.png/32px-Cobweb_%28texture%29_JE2_BE2.png?6345a" decoding="async" loading="lazy" width="32" height="32" class="mw-file-element" srcset="/images/thumb/Cobweb_%28texture%29_JE2_BE2.png/64px-Cobweb_%28texture%29_JE2_BE2.png?6345a 2x" data-file-width="160" data-file-height="160" /></a></span></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This page describes an edition of the game  that has been officially discontinued&#32;due to <i><a href="/w/Pi_Edition" title="Pi Edition">Pi Edition</a></i> being an experiment.</div>&#160;
+<div class="msgbox-text">This edition is no longer updated but can still be downloaded.</div>
+</div>
+</div>
+<p>This page documents the <i><a href="/w/Pi_Edition" title="Pi Edition">Pi Edition</a></i> <b>API protocol</b>. The multiplayer protocol for <i>Pi Edition</i> is based on <a href="/w/Pocket_Edition_protocol" title="Pocket Edition protocol"><i>Pocket Edition</i><span class="nowrap" style="padding-left:0.1em;">&#39;</span>s protocol</a>.
+</p><p>Parts of this documentation are based on the official Mojang documentation, which was <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://twitter.com/danfrisk/status/286797258048012288">released for free use</a>. Other parts are based on the Desktop Protocol specification.
+</p><p>The <i>Pi Edition</i> client listens to TCP port 4711 by default.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#General_information"><span class="tocnumber">1</span> <span class="toctext">General information</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Packages"><span class="tocnumber">2</span> <span class="toctext">Packages</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#world_package"><span class="tocnumber">2.1</span> <span class="toctext">world package</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#world.getBlock(x,y,z)"><span class="tocnumber">2.1.1</span> <span class="toctext">world.getBlock(x,y,z)</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#world.getBlockWithData(x,y,z)"><span class="tocnumber">2.1.2</span> <span class="toctext">world.getBlockWithData(x,y,z)</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#world.setBlock(x,y,z,blockTypeId,[blockData])"><span class="tocnumber">2.1.3</span> <span class="toctext">world.setBlock(x,y,z,blockTypeId,[blockData])</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#world.setBlocks(x1,y1,z1,x2,y2,z2,blockTypeId,[blockData])"><span class="tocnumber">2.1.4</span> <span class="toctext">world.setBlocks(x1,y1,z1,x2,y2,z2,blockTypeId,[blockData])</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#world.getHeight(x,z)"><span class="tocnumber">2.1.5</span> <span class="toctext">world.getHeight(x,z)</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#world.getPlayerIds()"><span class="tocnumber">2.1.6</span> <span class="toctext">world.getPlayerIds()</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#world.setting(key,value)"><span class="tocnumber">2.1.7</span> <span class="toctext">world.setting(key,value)</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#world.checkpoint.save()"><span class="tocnumber">2.1.8</span> <span class="toctext">world.checkpoint.save()</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#world.checkpoint.restore()"><span class="tocnumber">2.1.9</span> <span class="toctext">world.checkpoint.restore()</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="#chat_package"><span class="tocnumber">2.2</span> <span class="toctext">chat package</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#chat.post(message)"><span class="tocnumber">2.2.1</span> <span class="toctext">chat.post(message)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-15"><a href="#player_package"><span class="tocnumber">2.3</span> <span class="toctext">player package</span></a>
+<ul>
+<li class="toclevel-3 tocsection-16"><a href="#player.getTile()"><span class="tocnumber">2.3.1</span> <span class="toctext">player.getTile()</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#player.setTile(x,y,z)"><span class="tocnumber">2.3.2</span> <span class="toctext">player.setTile(x,y,z)</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#player.getPos()"><span class="tocnumber">2.3.3</span> <span class="toctext">player.getPos()</span></a></li>
+<li class="toclevel-3 tocsection-19"><a href="#player.setPos(xf,yf,zf)"><span class="tocnumber">2.3.4</span> <span class="toctext">player.setPos(xf,yf,zf)</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#player.setting(key,value)"><span class="tocnumber">2.3.5</span> <span class="toctext">player.setting(key,value)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-21"><a href="#entity_package"><span class="tocnumber">2.4</span> <span class="toctext">entity package</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#camera_package"><span class="tocnumber">2.5</span> <span class="toctext">camera package</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#events_package"><span class="tocnumber">2.6</span> <span class="toctext">events package</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-24"><a href="#Navigation"><span class="tocnumber">3</span> <span class="toctext">Navigation</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="General_information">General information</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=1&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: General information">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=1" title="Edit section&#039;s source code: General information">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">
+</td>
+<td class="col1">Definition
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign">Player
+</td>
+<td class="col1">When used in the singular, Player always refers to the client connected to the server
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">Entity
+</td>
+<td class="col1">Entity refers to any item, player, or mob in the world. This definition is subject to change as Mojang extends the protocol
+</td></tr>
+<tr class="row3">
+<td class="col0 centeralign">EID
+</td>
+<td class="col1">An EID - or Entity ID - is a unique 4-byte integer used to identify a specific entity
+</td></tr>
+<tr class="row4">
+<td class="col0 centeralign">XYZ
+</td>
+<td class="col1">In this document, the axis names are the same as those used by the official protocol documentation. Y points upwards, X points South, and Z points West.
+</td></tr></tbody></table>
+<p>A command in the Pi protocol consists of an ASCII line terminated with an LF character. The general format of a command is of the form
+</p>
+<pre>package.command(param1,param2,param3)
+</pre>
+<p>Commands are sent by the client to the server. No authentication is required before sending commands.
+</p><p>Some commands may have return values: they are also in ASCII, and terminate with an LF character.
+</p><p>Locations in the <i>Pi Edition</i> protocol are relative to the spawn point of the world.
+</p><p>The official Mojang documentation specifies conventions for specifying parameters:
+</p>
+<ul><li>x,y,z -- vector of three integers.</li></ul>
+<ul><li>xf,yf,zf -- vector of three floats.</li></ul>
+<ul><li>blockTypeId -- integer 0-108. 0 is air.</li></ul>
+<ul><li>blockData -- integer 0-15. Block data beyond the type, for example, wool color.</li></ul>
+<h2><span class="mw-headline" id="Packages">Packages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=2&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Packages">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=2" title="Edit section&#039;s source code: Packages">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="world_package">world package</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=3&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world package">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=3" title="Edit section&#039;s source code: world package">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Contains methods that modify the world and terrain.
+</p>
+<h4><span id="world.getBlock.28x.2Cy.2Cz.29"></span><span class="mw-headline" id="world.getBlock(x,y,z)">world.getBlock(x,y,z)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=4&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world.getBlock(x,y,z)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=4" title="Edit section&#039;s source code: world.getBlock(x,y,z)">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Gets the ID of a block in the world.
+</p><p>x, y, z: coordinates of the block relative to spawn
+</p><p><br />
+Returns: an integer of type blockTypeId, corresponding to a block type in <i>Pi Edition</i>.
+</p>
+<h4><span id="world.getBlockWithData.28x.2Cy.2Cz.29"></span><span class="mw-headline" id="world.getBlockWithData(x,y,z)">world.getBlockWithData(x,y,z)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=5&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world.getBlockWithData(x,y,z)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=5" title="Edit section&#039;s source code: world.getBlockWithData(x,y,z)">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Gets the ID and Optional Parameter for a block in the world.
+</p><p>x, y, z: coordinates of the block relative to spawn
+</p><p>Returns: a block object corresponding to a block type in <i>Pi Edition</i>.
+</p>
+<h4><span id="world.setBlock.28x.2Cy.2Cz.2CblockTypeId.2C.5BblockData.5D.29"></span><span class="mw-headline" id="world.setBlock(x,y,z,blockTypeId,[blockData])">world.setBlock(x,y,z,blockTypeId,[blockData])</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=6&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world.setBlock(x,y,z,blockTypeId,[blockData])">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=6" title="Edit section&#039;s source code: world.setBlock(x,y,z,blockTypeId,[blockData])">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Sets the ID of a block in the world. The data parameter is optional.
+</p><p>x, y, z: coordinates of the block relative to spawn
+</p><p>blockTypeId: ID of the block
+</p><p>blockData: metadata of the block
+</p>
+<h4><span id="world.setBlocks.28x1.2Cy1.2Cz1.2Cx2.2Cy2.2Cz2.2CblockTypeId.2C.5BblockData.5D.29"></span><span class="mw-headline" id="world.setBlocks(x1,y1,z1,x2,y2,z2,blockTypeId,[blockData])">world.setBlocks(x1,y1,z1,x2,y2,z2,blockTypeId,[blockData])</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=7&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world.setBlocks(x1,y1,z1,x2,y2,z2,blockTypeId,[blockData])">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=7" title="Edit section&#039;s source code: world.setBlocks(x1,y1,z1,x2,y2,z2,blockTypeId,[blockData])">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Sets all blocks in a cuboid defined by two points to a specified type. The blockData parameter is optional.
+</p><p>x1, y1, z1: coordinates of the first selection point relative to spawn
+</p><p>x2, y2, z2: coordinates of the second selection point relative to spawn
+</p><p>blockTypeId: ID of the block
+</p><p>blockData: metadata of the block
+</p>
+<h4><span id="world.getHeight.28x.2Cz.29"></span><span class="mw-headline" id="world.getHeight(x,z)">world.getHeight(x,z)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=8&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world.getHeight(x,z)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=8" title="Edit section&#039;s source code: world.getHeight(x,z)">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Returns the Y coordinate of the last block that isn't solid from top down.
+</p><p>x, z: coordinates of a column 
+</p><p><br />
+Returns: an integer containing the Y coordinate
+</p>
+<h4><span id="world.getPlayerIds.28.29"></span><span class="mw-headline" id="world.getPlayerIds()">world.getPlayerIds()</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=9&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world.getPlayerIds()">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=9" title="Edit section&#039;s source code: world.getPlayerIds()">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Gets the Entity IDs of all connected players.
+</p><p><br />
+Returns: A list of Entity IDs, separated by the character |
+</p>
+<h4><span id="world.setting.28key.2Cvalue.29"></span><span class="mw-headline" id="world.setting(key,value)">world.setting(key,value)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=10&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world.setting(key,value)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=10" title="Edit section&#039;s source code: world.setting(key,value)">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Sets a world parameter (similar to GameRules on the Desktop Edition)
+</p><p>key: the name of the setting:
+</p>
+<ul><li>world_immutable</li>
+<li>nametags_visible</li></ul>
+<p>value: a Boolean value: either 0 or 1
+</p>
+<h4><span id="world.checkpoint.save.28.29"></span><span class="mw-headline" id="world.checkpoint.save()">world.checkpoint.save()</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=11&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world.checkpoint.save()">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=11" title="Edit section&#039;s source code: world.checkpoint.save()">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Save a checkpoint that can be used for restoring the world.
+</p>
+<h4><span id="world.checkpoint.restore.28.29"></span><span class="mw-headline" id="world.checkpoint.restore()">world.checkpoint.restore()</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=12&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: world.checkpoint.restore()">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=12" title="Edit section&#039;s source code: world.checkpoint.restore()">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Restores the world to the last checkpoint.
+</p>
+<h3><span class="mw-headline" id="chat_package">chat package</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=13&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: chat package">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=13" title="Edit section&#039;s source code: chat package">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Contains methods to post messages to the chat display.
+</p>
+<h4><span id="chat.post.28message.29"></span><span class="mw-headline" id="chat.post(message)">chat.post(message)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=14&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: chat.post(message)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=14" title="Edit section&#039;s source code: chat.post(message)">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>message: the message to be sent.
+</p>
+<h3><span class="mw-headline" id="player_package">player package</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=15&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: player package">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=15" title="Edit section&#039;s source code: player package">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Contains methods that modify the host player.
+</p>
+<h4><span id="player.getTile.28.29"></span><span class="mw-headline" id="player.getTile()">player.getTile()</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=16&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: player.getTile()">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=16" title="Edit section&#039;s source code: player.getTile()">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Gets the position of the host player, to the nearest block.
+</p><p><br />
+Returns: The x, y, and z coordinates of the player, separated by commas.
+</p>
+<h4><span id="player.setTile.28x.2Cy.2Cz.29"></span><span class="mw-headline" id="player.setTile(x,y,z)">player.setTile(x,y,z)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=17&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: player.setTile(x,y,z)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=17" title="Edit section&#039;s source code: player.setTile(x,y,z)">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Sets the position of the host player to the specified block coordinates.
+</p><p>x, y, z: the coordinates that the player is to be moved to.
+</p>
+<h4><span id="player.getPos.28.29"></span><span class="mw-headline" id="player.getPos()">player.getPos()</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=18&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: player.getPos()">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=18" title="Edit section&#039;s source code: player.getPos()">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Returns the precise position of the host player.
+</p><p><br />
+Returns: the x, y, and z coordinates of the player as floats, separated by commas.
+</p>
+<h4><span id="player.setPos.28xf.2Cyf.2Czf.29"></span><span class="mw-headline" id="player.setPos(xf,yf,zf)">player.setPos(xf,yf,zf)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=19&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: player.setPos(xf,yf,zf)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=19" title="Edit section&#039;s source code: player.setPos(xf,yf,zf)">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Sets the position of the host player to the specified coordinates.
+</p><p>xf, yf, zf: the coordinates that the player is to be moved to. Decimals are allowed.
+</p>
+<h4><span id="player.setting.28key.2Cvalue.29"></span><span class="mw-headline" id="player.setting(key,value)">player.setting(key,value)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=20&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: player.setting(key,value)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=20" title="Edit section&#039;s source code: player.setting(key,value)">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Sets a property on the host player.
+</p><p>key: the property to be set.
+</p>
+<ul><li>autojump: enable or disable autojump.</li></ul>
+<p>value: a Boolean value: either 1 for on or 0 for off.
+</p>
+<h3><span class="mw-headline" id="entity_package">entity package</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=21&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: entity package">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=21" title="Edit section&#039;s source code: entity package">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span class="mw-headline" id="camera_package">camera package</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=22&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: camera package">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=22" title="Edit section&#039;s source code: camera package">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h3><span class="mw-headline" id="events_package">events package</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=23&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: events package">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=23" title="Edit section&#039;s source code: events package">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h2><span class="mw-headline" id="Navigation">Navigation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Pi_Edition_protocol?section=24&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Navigation">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Pi_Edition_protocol?action=edit&amp;section=24" title="Edit section&#039;s source code: Navigation">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table data-navbox-name="%27%27%5B%5BMinecraft%5D%5D%27%27" class="navbox hlist navigation-not-searchable collapsible">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><div class="navbox-navbar"><div class="hlist navbar-mini" style="">
+<ul><li><a href="/w/Template:Navbox_Minecraft" title="Template:Navbox Minecraft"><span title="View this template" style="">v</span></a></li>
+<li><a class="text" href="https://minecraft.wiki/w/Template_talk:Navbox_Minecraft"><span title="Discuss this template" style="">t</span></a></li>
+<li><a href="/w/Special:EditPage/Template:Navbox_Minecraft" title="Special:EditPage/Template:Navbox Minecraft"><span title="Edit this template" style="">e</span></a></li></ul></div></div><span class="navbox-title"><i><a href="/w/Minecraft" title="Minecraft">Minecraft</a></i></span>
+</th></tr>
+
+<tr>
+<td colspan="2">
+<div style="margin-right: -6px">
+<table style="border: 0" data-navbox-name="General_game_aspects" class="navbox hlist navigation-not-searchable collapsible collapsed">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><span class="navbox-title">General game aspects</span>
+</th></tr>
+
+<tr>
+<th>Help
+</th>
+<td>
+<ul><li><span typeof="mw:File"><a href="/w/Controls" title="Controls"><img src="/images/Controller.png?fcc74" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span> <a href="/w/Controls" title="Controls">Controls</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Options" title="Options"><img alt="" src="/images/BlockSprite_test-instance-block.png?27a39" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Options" title="Options"><span class="sprite-text">Options</span></a></span></li>
+<li><span typeof="mw:File"><a href="/w/Tutorials" title="Tutorials"><img src="/images/thumb/Missing_Item_%28texture%29_BE.png/16px-Missing_Item_%28texture%29_BE.png?b57d6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/Missing_Item_%28texture%29_BE.png?b57d6 2x" data-file-width="18" data-file-height="18" /></a></span> <a href="/w/Tutorials" title="Tutorials">Tutorials</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Mechanics" title="Mechanics"><img alt="" src="/images/BlockSprite_gear.png?03da3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Mechanics" title="Mechanics"><span class="sprite-text">Mechanics</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Menu_screen" class="mw-disambig" title="Menu screen">Menu screens</a>
+</th>
+<td>
+<table>
+<tbody><tr>
+<th>Aspects
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Background" title="Background"><img alt="" src="/images/BlockSprite_dirt.png?55495" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Background" title="Background"><span class="sprite-text">Background</span></a></span>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Panorama" title="Panorama"><img alt="" src="/images/BiomeSprite_pale-garden.png?92f6d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Panorama" title="Panorama"><span class="sprite-text">Panorama</span></a></span></li></ul></li>
+<li><a href="/w/Logo" title="Logo">Logo</a></li>
+<li><a href="/w/Splash" title="Splash">Splash</a></li></ul>
+</td></tr>
+<tr>
+<th>Instances
+</th>
+<td>
+<ul><li><a href="/w/Title_Screen" title="Title Screen">Title Screen</a></li>
+<li><a href="/w/Select_World" title="Select World">Select World</a>
+<ul><li><a href="/w/Create_New_World" title="Create New World">Create New World</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/World_Options" title="World Options"><img alt="" src="/images/BlockSprite_test-instance-block.png?27a39" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/World_Options" title="World Options"><span class="sprite-text">World Options</span></a></span></li></ul></li>
+<li><a href="/w/Loading_world_screen" title="Loading world screen">Loading world screen</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Pause_menu" title="Pause menu"><img alt="" src="/images/EnvSprite_pause-menu.png?39e51" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Pause_menu" title="Pause menu"><span class="sprite-text">Pause menu</span></a></span></li></ul>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<th><a href="/w/Game_customization" class="mw-disambig" title="Game customization">Game customization</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Add-on" title="Add-on"><img alt="" src="/images/EnvSprite_add-on.png?3a254" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="12" data-file-height="12" /></a></span></span><a href="/w/Add-on" title="Add-on"><span class="sprite-text">Add-ons</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Mod" title="Mod"><img alt="" src="/images/EnvSprite_other-portal.png?ca57b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Mod" title="Mod"><span class="sprite-text">Mods</span></a></span></li>
+<li><span class="pixel-image" typeof="mw:File"><span><img src="/images/thumb/Wrench.png/16px-Wrench.png?4711e" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Wrench.png/32px-Wrench.png?4711e 2x" data-file-width="160" data-file-height="160" /></span></span> <a href="/w/Data_pack" title="Data pack">Data packs</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Resource_pack" title="Resource pack"><img alt="" src="/images/ItemSprite_brush.png?e20a8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Resource_pack" title="Resource pack"><span class="sprite-text">Resource packs</span></a></span>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Texture_pack" title="Texture pack"><img alt="" src="/images/EnvSprite_texture-pack.png?a4213" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Texture_pack" title="Texture pack"><span class="sprite-text">Texture pack</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Texture_atlas" title="Texture atlas"><img alt="" src="/images/ItemSprite_compass.png?2364d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Texture_atlas" title="Texture atlas"><span class="sprite-text">Texture atlas</span></a></span></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Skin" title="Skin"><img alt="" src="/images/EnvSprite_multiplayer.png?45701" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Skin" title="Skin"><span class="sprite-text">Skin</span></a></span>
+<ul><li><span class="pixel-image" typeof="mw:File"><a href="/w/Cape" title="Cape"><img src="/images/Pancape_behind_sprite.png?d0518" decoding="async" loading="lazy" width="10" height="16" class="mw-file-element" data-file-width="10" data-file-height="16" /></a></span> <a href="/w/Cape" title="Cape">Capes</a></li>
+<li><a href="/w/Character_Creator" title="Character Creator">Character Creator</a></li></ul></li></ul>
+</td></tr>
+<tr>
+<th>Miscellaneous
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Credit_sequence" title="Credit sequence"><img alt="" src="/images/BlockSprite_end-gateway.png?2c13c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Credit_sequence" title="Credit sequence"><span class="sprite-text">Credit sequence</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Easter_eggs" title="Easter eggs"><img alt="" src="/images/ItemSprite_spawn-egg.png?b4830" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Easter_eggs" title="Easter eggs"><span class="sprite-text">Easter eggs</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Herobrine" title="Herobrine"><img alt="" src="/images/EntitySprite_herobrine.png?b6841" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Herobrine" title="Herobrine"><span class="sprite-text">Herobrine</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Data_values" title="Data values"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Data_values" class="mw-disambig" title="Data values"><span class="sprite-text">Data values</span></a></span></li>
+<li><a href="/w/Version_formats" title="Version formats">Version formats</a></li>
+<li><a href="/w/Version_types" title="Version types">Version types</a></li>
+<li><a href="/w/Game_drop" title="Game drop">Game drop</a></li>
+<li><a href="/w/Concept_art" title="Concept art">Concept art</a></li>
+<li><a href="/w/Key_art" title="Key art">Key art</a></li>
+<li><i><a href="/w/Minecraft_Launcher" title="Minecraft Launcher">Minecraft Launcher</a></i></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Minecraft_Preview" title="Minecraft Preview"><img src="/images/thumb/Minecraft_Preview_App_Store_icon_2.png/16px-Minecraft_Preview_App_Store_icon_2.png?37044" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Minecraft_Preview_App_Store_icon_2.png/32px-Minecraft_Preview_App_Store_icon_2.png?37044 2x" data-file-width="1024" data-file-height="1024" /></a></span> <i><a href="/w/Minecraft_Preview" title="Minecraft Preview">Minecraft Preview</a></i></li></ul>
+</td></tr></tbody></table></div>
+</td></tr>
+<tr>
+<td colspan="2">
+<div style="margin-right: -6px">
+<table style="border: 0" data-navbox-name="%5B%5BEdition%5D%5Ds" class="navbox hlist navigation-not-searchable collapsible">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><span class="navbox-title"><a href="/w/Edition" class="mw-disambig" title="Edition">Editions</a></span>
+</th></tr>
+
+<tr>
+<th><a href="/w/Java_Edition" title="Java Edition"><i>Java</i></a>
+</th>
+<td>
+<ul><li><a href="/w/Demo_Mode" title="Demo Mode">Demo</a>
+<ul><li><a href="/w/Demo_Mode/Locations" title="Demo Mode/Locations">Locations</a></li></ul></li>
+<li><a href="/w/PC_Gamer_Demo" title="PC Gamer Demo">PC Gamer Demo</a></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Bedrock_Edition" title="Bedrock Edition"><i>Bedrock</i></a>
+</th>
+<td>
+<table>
+<tbody><tr>
+<th>Merged
+</th>
+<td>
+<ul><li><i><a href="/w/Pocket_Edition" title="Pocket Edition">Pocket Edition</a></i></li>
+<li><i><a href="/w/Windows_10_Edition" title="Windows 10 Edition">Windows 10 Edition</a></i></li></ul>
+</td></tr>
+<tr>
+<th>Ports to consoles
+</th>
+<td>
+<ul><li><a href="https://en.wikipedia.org/wiki/Xbox_One" class="extiw" title="wikipedia:Xbox One">Xbox One</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nintendo_Switch" class="extiw" title="wikipedia:Nintendo Switch">Nintendo Switch</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PlayStation_4" class="extiw" title="wikipedia:PlayStation 4">PS4</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S" class="extiw" title="wikipedia:Xbox Series X and Series S">Xbox Series X|S</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PlayStation_5" class="extiw" title="wikipedia:PlayStation 5">PS5</a></li></ul>
+</td></tr>
+<tr>
+<th>Discontinued
+</th>
+<td>
+<ul><li><i><a href="/w/Gear_VR_Edition" title="Gear VR Edition">Gear VR Edition</a></i></li>
+<li><i><a href="/w/Apple_TV_Edition" title="Apple TV Edition">Apple TV Edition</a></i></li>
+<li><i><a href="/w/Fire_TV_Edition" title="Fire TV Edition">Fire TV Edition</a></i></li></ul>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<th>Other
+</th>
+<td>
+<ul><li><i><a href="/w/Minecraft_Education" title="Minecraft Education">Minecraft Education</a></i></li>
+<li><i><a href="/w/China_Edition" title="China Edition">China Edition</a></i></li>
+<li><i><a href="/w/Minecraft_Game_Experience_Area" title="Minecraft Game Experience Area">Minecraft Game Experience Area</a></i></li>
+<li><a href="/w/Minecraft_Classic_(JavaScript_remake)" title="Minecraft Classic (JavaScript remake)"><i>Minecraft Classic</i></a></li></ul>
+</td></tr>
+<tr>
+<th>Discontinued
+</th>
+<td>
+<table>
+<tbody><tr>
+<th><a href="/w/Legacy_Console_Edition" title="Legacy Console Edition">Legacy Console</a>
+</th>
+<td>
+<ul><li><i><a href="/w/Xbox_360_Edition" title="Xbox 360 Edition">Xbox 360 Edition</a></i></li>
+<li><i><a href="/w/Xbox_One_Edition" title="Xbox One Edition">Xbox One Edition</a></i></li>
+<li><i><a href="/w/PlayStation_3_Edition" title="PlayStation 3 Edition">PlayStation 3 Edition</a></i></li>
+<li><i><a href="/w/PlayStation_4_Edition" title="PlayStation 4 Edition">PlayStation 4 Edition</a></i><br /></li>
+<li><i><a href="/w/PlayStation_Vita_Edition" title="PlayStation Vita Edition">PlayStation Vita Edition</a></i></li>
+<li><i><a href="/w/Wii_U_Edition" title="Wii U Edition">Wii U Edition</a></i></li>
+<li><i><a href="/w/Nintendo_Switch_Edition" title="Nintendo Switch Edition">Nintendo Switch Edition</a></i></li></ul>
+</td></tr>
+<tr>
+<th>Other
+</th>
+<td>
+<ul><li><i><a href="/w/Minecraft_4k" title="Minecraft 4k">Minecraft 4k</a></i></li>
+<li><i><a href="/w/MinecraftEdu" title="MinecraftEdu">MinecraftEdu</a></i></li>
+<li><i><a href="/w/Pi_Edition" title="Pi Edition">Pi Edition</a></i>
+<ul><li><a class="mw-selflink selflink">Protocol</a></li></ul></li>
+<li><i><a href="/w/New_Nintendo_3DS_Edition" title="New Nintendo 3DS Edition">New Nintendo 3DS Edition</a></i></li></ul>
+</td></tr></tbody></table>
+</td></tr></tbody></table></div>
+</td></tr></tbody></table>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This article is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div>&#160;
+<div class="msgbox-text">This article has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br />Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐7dcd6f644b‐xvpcx
+Cached time: 20250321154932
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+CPU time usage: 0.074 seconds
+Real time usage: 0.082 seconds
+Preprocessor visited node count: 3060/1000000
+Post‐expand include size: 23023/8388608 bytes
+Template argument size: 3158/8388608 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+ExtLoops count: 0/50
+Lua time usage: 0.007/10.000 seconds
+Lua memory usage: 999729/367001600 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   43.692      1 -total
+ 82.15%   35.893      1 Template:Navbox_Minecraft
+ 29.20%   12.758     18 Template:El
+ 22.40%    9.788      6 Template:BlockLink
+ 11.94%    5.217      1 Template:License_wiki.vg
+  6.32%    2.762      1 Template:License
+  6.28%    2.743      5 Template:EnvLink
+  5.45%    2.380      3 Template:SimpleNavbox
+  4.90%    2.140      1 Template:Msgbox
+  4.42%    1.931      1 Template:Discontinued
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290272-0!canonical and timestamp 20250321154931 and revision id 2842025. Rendering was triggered because: page-view
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Pi_Edition_protocol?oldid=2842025">https://minecraft.wiki/w/Pi_Edition_protocol?oldid=2842025</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Discontinued" title="Category:Discontinued">Discontinued</a></li><li><a href="/w/Category:Pi_Edition" title="Category:Pi Edition">Pi Edition</a></li><li><a href="/w/Category:Pocket_Edition" title="Category:Pocket Edition">Pocket Edition</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Pi+Edition+protocol" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Pi+Edition+protocol" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected mw-list-item"><a href="/w/Pi_Edition_protocol" title="View the content page [c]" accesskey="c"><span>Page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Talk:Pi_Edition_protocol?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Pi_Edition_protocol"><span>Read</span></a></li><li id="ca-ve-edit" class="mw-list-item"><a href="/w/Pi_Edition_protocol?veaction=edit" title="Edit this page [v]" accesskey="v"><span>Edit</span></a></li><li id="ca-edit" class="collapsible mw-list-item"><a href="/w/Pi_Edition_protocol?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Pi_Edition_protocol?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Pi_Edition_protocol?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc1" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc1"><span>Dev: 1.21.5-rc1</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Pi_Edition_protocol" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Pi_Edition_protocol" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Pi_Edition_protocol?oldid=2842025" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Pi_Edition_protocol?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Pi-5FEdition-5Fprotocol" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 1 February 2025, at 16:53.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Pi_Edition_protocol?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-xvpcx","wgBackendResponseTime":41,"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"limitreport":{"cputime":"0.074","walltime":"0.082","ppvisitednodes":{"value":3060,"limit":1000000},"postexpandincludesize":{"value":23023,"limit":8388608},"templateargumentsize":{"value":3158,"limit":8388608},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%   43.692      1 -total"," 82.15%   35.893      1 Template:Navbox_Minecraft"," 29.20%   12.758     18 Template:El"," 22.40%    9.788      6 Template:BlockLink"," 11.94%    5.217      1 Template:License_wiki.vg","  6.32%    2.762      1 Template:License","  6.28%    2.743      5 Template:EnvLink","  5.45%    2.380      3 Template:SimpleNavbox","  4.90%    2.140      1 Template:Msgbox","  4.42%    1.931      1 Template:Discontinued"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"scribunto":{"limitreport-timeusage":{"value":"0.007","limit":"10.000"},"limitreport-memusage":{"value":999729,"limit":367001600}},"cachereport":{"origin":"mediawiki-7dcd6f644b-xvpcx","timestamp":"20250321154932","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

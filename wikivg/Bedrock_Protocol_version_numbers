@@ -1,0 +1,2307 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Bedrock Protocol version numbers – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"b2014dfb0499bb708e13ec7138126f1c","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers","wgTitle":"Projects/wiki.vg merge/Bedrock Protocol version numbers","wgCurRevisionId":2793739,"wgRevisionId":2793739,"wgArticleId":290149,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Bedrock Edition","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers",
+"wgRelevantArticleId":290149,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready"
+,"ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc",
+"ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="This page contains lists the protocol version numbers used in the Minecraft Bedrock Edition releases. Official releases are marked bold, betas are in regular font.&#10;This page will soon also contain the Pocket Edition protocol version numbers.">
+<meta property="og:description" content="This page contains lists the protocol version numbers used in the Minecraft Bedrock Edition releases. Official releases are marked bold, betas are in regular font.&#10;This page will soon also contain the Pocket Edition protocol version numbers.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Bedrock Protocol version numbers – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Bedrock_Protocol_version_numbers rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Bedrock Protocol version numbers</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p>This page contains lists the protocol version numbers used in the Minecraft Bedrock Edition releases. Official releases are marked bold, betas are in regular font.<br/>
+This page will soon also contain the Pocket Edition protocol version numbers.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Bedrock_Protocol_Versions" data-mw-thread-id="h-Bedrock_Protocol_Versions"><span data-mw-comment-start="" id="h-Bedrock_Protocol_Versions"></span>Bedrock Protocol Versions<span data-mw-comment-end="h-Bedrock_Protocol_Versions"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?action=edit&amp;section=1" title="Edit section&#039;s source code: Bedrock Protocol Versions">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Bedrock_Protocol_Versions","replies":[]}}--></div>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Release name
+</th>
+<th>Version number
+</th>
+<th>Last known documentation
+<p><br/> 
+</p>
+</th></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.21.3" title="Bedrock Edition 1.21.3">1.21.3</a></b>
+</td>
+<td rowspan="2">686
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.21.2" title="Bedrock Edition 1.21.2">1.21.2</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.21.1" title="Bedrock Edition 1.21.1">1.21.1</a></b>
+</td>
+<td rowspan="2">685
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.21.0" title="Bedrock Edition 1.21.0">1.21.0</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.81" title="Bedrock Edition 1.20.81">1.20.81</a></b>
+</td>
+<td rowspan="2">671
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.80" title="Bedrock Edition 1.20.80">1.20.80</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.73" title="Bedrock Edition 1.20.73">1.20.73</a></b>
+</td>
+<td rowspan="4">662
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.72" title="Bedrock Edition 1.20.72">1.20.72</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.71" title="Bedrock Edition 1.20.71">1.20.71</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.70" title="Bedrock Edition 1.20.70">1.20.70</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.62" title="Bedrock Edition 1.20.62">1.20.62</a></b>
+</td>
+<td rowspan="2">649
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.60" title="Bedrock Edition 1.20.60">1.20.60</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.51" title="Bedrock Edition 1.20.51">1.20.51</a></b>
+</td>
+<td rowspan="2">630
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.50" title="Bedrock Edition 1.20.50">1.20.50</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.41" title="Bedrock Edition 1.20.41">1.20.41</a></b>
+</td>
+<td rowspan="2">622
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.40" title="Bedrock Edition 1.20.40">1.20.40</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.32" title="Bedrock Edition 1.20.32">1.20.32</a></b>
+</td>
+<td rowspan="3">618
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.31" title="Bedrock Edition 1.20.31">1.20.31</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.30" title="Bedrock Edition 1.20.30">1.20.30</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.15" title="Bedrock Edition 1.20.15">1.20.15</a></b>
+</td>
+<td rowspan="5">594
+</td>
+<td rowspan="5">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.14" title="Bedrock Edition 1.20.14">1.20.14</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.13" title="Bedrock Edition 1.20.13">1.20.13</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.12" title="Bedrock Edition 1.20.12">1.20.12</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.10" title="Bedrock Edition 1.20.10">1.20.10</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.1" title="Bedrock Edition 1.20.1">1.20.1</a></b>
+</td>
+<td rowspan="2">589
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.20.0" title="Bedrock Edition 1.20.0">1.20.0</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.83" title="Bedrock Edition 1.19.83">1.19.83</a></b>
+</td>
+<td>582
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.70" title="Bedrock Edition 1.19.70">1.19.70</a></b>
+</td>
+<td>575
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.70.21" class="mw-redirect" title="Bedrock Edition beta 1.19.70.21">1.19.70.21</a>
+</td>
+<td rowspan="2">569
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.70.20" class="mw-redirect" title="Bedrock Edition beta 1.19.70.20">1.19.70.20</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.63" title="Bedrock Edition 1.19.63">1.19.63</a></b>
+</td>
+<td>568
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.62" title="Bedrock Edition 1.19.62">1.19.62</a></b>
+</td>
+<td>567
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.61" class="mw-redirect" title="Bedrock Edition 1.19.61">1.19.61</a></b>
+</td>
+<td>567
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.60.27" class="mw-redirect" title="Bedrock Edition beta 1.19.60.27">1.19.60.27</a>
+</td>
+<td rowspan="2">567
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.60.26" class="mw-redirect" title="Bedrock Edition beta 1.19.60.26">1.19.60.26</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.60.25" class="mw-redirect" title="Bedrock Edition beta 1.19.60.25">1.19.60.25</a>
+</td>
+<td>565
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.60.24" class="mw-redirect" title="Bedrock Edition beta 1.19.60.24">1.19.60.24</a>
+</td>
+<td>563
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.60.23" class="mw-redirect" title="Bedrock Edition beta 1.19.60.23">1.19.60.23</a>
+</td>
+<td rowspan="2">562
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.60.22" class="mw-redirect" title="Bedrock Edition beta 1.19.60.22">1.19.60.22</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.60.20" class="mw-redirect" title="Bedrock Edition beta 1.19.60.20">1.19.60.20</a>
+</td>
+<td>561
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.51" title="Bedrock Edition 1.19.51">1.19.51</a></b>
+</td>
+<td rowspan="6">560
+</td>
+<td rowspan="6">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.50" title="Bedrock Edition 1.19.50">1.19.50</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.50.25" class="mw-redirect" title="Bedrock Edition beta 1.19.50.25">1.19.50.25</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.50.24" class="mw-redirect" title="Bedrock Edition beta 1.19.50.24">1.19.50.24</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.50.23" class="mw-redirect" title="Bedrock Edition beta 1.19.50.23">1.19.50.23</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.50.22" class="mw-redirect" title="Bedrock Edition beta 1.19.50.22">1.19.50.22</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.50.21" class="mw-redirect" title="Bedrock Edition beta 1.19.50.21">1.19.50.21</a>
+</td>
+<td>559
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.50.20" class="mw-redirect" title="Bedrock Edition beta 1.19.50.20">1.19.50.20</a>
+</td>
+<td>558
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.41" title="Bedrock Edition 1.19.41">1.19.41</a></b>
+</td>
+<td rowspan="4">557
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.40" title="Bedrock Edition 1.19.40">1.19.40</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.40.24" class="mw-redirect" title="Bedrock Edition beta 1.19.40.24">1.19.40.24</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.40.23" class="mw-redirect" title="Bedrock Edition beta 1.19.40.23">1.19.40.23</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.40.22" class="mw-redirect" title="Bedrock Edition beta 1.19.40.22">1.19.40.22</a>
+</td>
+<td rowspan="2">555
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.40.21" class="mw-redirect" title="Bedrock Edition beta 1.19.40.21">1.19.40.21</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.40.20" class="mw-redirect" title="Bedrock Edition beta 1.19.40.20">1.19.40.20</a>
+</td>
+<td rowspan="3">554
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.31" title="Bedrock Edition 1.19.31">1.19.31</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.30" title="Bedrock Edition 1.19.30">1.19.30</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.30.25" class="mw-redirect" title="Bedrock Edition beta 1.19.30.25">1.19.30.25</a>
+</td>
+<td rowspan="3">553
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_Preview_1.19.30.24" title="Bedrock Edition Preview 1.19.30.24">1.19.30.24</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.30.23" class="mw-redirect" title="Bedrock Edition beta 1.19.30.23">1.19.30.23</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.30.22" class="mw-redirect" title="Bedrock Edition beta 1.19.30.22">1.19.30.22</a>
+</td>
+<td rowspan="2">552
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.30.21" class="mw-redirect" title="Bedrock Edition beta 1.19.30.21">1.19.30.21</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.30.20" class="mw-redirect" title="Bedrock Edition beta 1.19.30.20">1.19.30.20</a>
+</td>
+<td>551
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.22" title="Bedrock Edition 1.19.22">1.19.22</a></b>
+</td>
+<td rowspan="2">545
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.21" title="Bedrock Edition 1.19.21">1.19.21</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.20" title="Bedrock Edition 1.19.20">1.19.20</a></b>
+</td>
+<td rowspan="2">544
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.20.24" class="mw-redirect" title="Bedrock Edition beta 1.19.20.24">1.19.20.24</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.20.23" class="mw-redirect" title="Bedrock Edition beta 1.19.20.23">1.19.20.23</a>
+</td>
+<td>543
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.20.22" class="mw-redirect" title="Bedrock Edition beta 1.19.20.22">1.19.20.22</a>
+</td>
+<td rowspan="2">542
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.20.20" class="mw-redirect" title="Bedrock Edition beta 1.19.20.20">1.19.20.20</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.11" title="Bedrock Edition 1.19.11">1.19.11</a></b>
+</td>
+<td rowspan="4">534
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.10" title="Bedrock Edition 1.19.10">1.19.10</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.10.24" class="mw-redirect" title="Bedrock Edition beta 1.19.10.24">1.19.10.24</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.10.23" class="mw-redirect" title="Bedrock Edition beta 1.19.10.23">1.19.10.23</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.10.22" class="mw-redirect" title="Bedrock Edition beta 1.19.10.22">1.19.10.22</a>
+</td>
+<td>533
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.10.21" class="mw-redirect" title="Bedrock Edition beta 1.19.10.21">1.19.10.21</a>
+</td>
+<td>532
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.10.20" class="mw-redirect" title="Bedrock Edition beta 1.19.10.20">1.19.10.20</a>
+</td>
+<td>530
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.2" title="Bedrock Edition 1.19.2">1.19.2</a></b>
+</td>
+<td rowspan="2">527
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.19.0" title="Bedrock Edition 1.19.0">1.19.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_Preview_1.19.0.68" title="Bedrock Edition Preview 1.19.0.68">1.19.0.68</a>
+</td>
+<td rowspan="4">526
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.0.34" class="mw-redirect" title="Bedrock Edition beta 1.19.0.34">1.19.0.34</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.0.32" class="mw-redirect" title="Bedrock Edition beta 1.19.0.32">1.19.0.32</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.0.30" class="mw-redirect" title="Bedrock Edition beta 1.19.0.30">1.19.0.30</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.0.28" class="mw-redirect" title="Bedrock Edition beta 1.19.0.28">1.19.0.28</a>
+</td>
+<td>524
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.0.26" class="mw-redirect" title="Bedrock Edition beta 1.19.0.26">1.19.0.26</a>
+</td>
+<td>516
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.0.24" class="mw-redirect" title="Bedrock Edition beta 1.19.0.24">1.19.0.24</a>
+</td>
+<td>514
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.19.0.20" class="mw-redirect" title="Bedrock Edition beta 1.19.0.20">1.19.0.20</a>
+</td>
+<td>512
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.18.32" title="Bedrock Edition 1.18.32">1.18.32</a></b>
+</td>
+<td rowspan="6">503
+</td>
+<td rowspan="6">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.18.31" title="Bedrock Edition 1.18.31">1.18.31</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.18.30" title="Bedrock Edition 1.18.30">1.18.30</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.30.32" class="mw-redirect" title="Bedrock Edition beta 1.18.30.32">1.18.30.32</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.30.30" class="mw-redirect" title="Bedrock Edition beta 1.18.30.30">1.18.30.30</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.30.28" class="mw-redirect" title="Bedrock Edition beta 1.18.30.28">1.18.30.28</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.30.26" class="mw-redirect" title="Bedrock Edition beta 1.18.30.26">1.18.30.26</a>
+</td>
+<td>498
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.30.22" class="mw-redirect" title="Bedrock Edition beta 1.18.30.22">1.18.30.22</a>
+</td>
+<td>497
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.30.20" class="mw-redirect" title="Bedrock Edition beta 1.18.30.20">1.18.30.20</a>
+</td>
+<td>495
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.20.29" class="mw-redirect" title="Bedrock Edition beta 1.18.20.29">1.18.20.29</a>
+</td>
+<td rowspan="4">491
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.20.27" class="mw-redirect" title="Bedrock Edition beta 1.18.20.27">1.18.20.27</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.20.25" class="mw-redirect" title="Bedrock Edition beta 1.18.20.25">1.18.20.25</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_Preview_1.18.20.24" title="Bedrock Edition Preview 1.18.20.24">1.18.20.24</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.20.23" class="mw-redirect" title="Bedrock Edition beta 1.18.20.23">1.18.20.23</a>
+</td>
+<td rowspan="2">490
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.20.21" title="Bedrock Edition beta 1.18.20.21">1.18.20.21</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.18.12" title="Bedrock Edition 1.18.12">1.18.12</a></b>
+</td>
+<td rowspan="4">486
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.18.11" title="Bedrock Edition 1.18.11">1.18.11</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.18.10" title="Bedrock Edition 1.18.10">1.18.10</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.10.28" title="Bedrock Edition beta 1.18.10.28">1.18.10.28</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.10.27" title="Bedrock Edition beta 1.18.10.27">1.18.10.27</a>
+</td>
+<td rowspan="2">485
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.10.26" title="Bedrock Edition beta 1.18.10.26">1.18.10.26</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.10.24" title="Bedrock Edition beta 1.18.10.24">1.18.10.24</a>
+</td>
+<td>479
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.10.22" title="Bedrock Edition beta 1.18.10.22">1.18.10.22</a>
+</td>
+<td>477
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.10.21" title="Bedrock Edition beta 1.18.10.21">1.18.10.21</a>
+</td>
+<td rowspan="2">476
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.10.20" title="Bedrock Edition beta 1.18.10.20">1.18.10.20</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.18.2" title="Bedrock Edition 1.18.2">1.18.2</a></b>
+</td>
+<td rowspan="6">475
+</td>
+<td rowspan="6">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.18.1" title="Bedrock Edition 1.18.1">1.18.1</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.18.0" title="Bedrock Edition 1.18.0">1.18.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.0.27" title="Bedrock Edition beta 1.18.0.27">1.18.0.27</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.0.25" title="Bedrock Edition beta 1.18.0.25">1.18.0.25</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.0.24" title="Bedrock Edition beta 1.18.0.24">1.18.0.24</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.0.23" title="Bedrock Edition beta 1.18.0.23">1.18.0.23</a>
+</td>
+<td rowspan="2">476
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.0.22" title="Bedrock Edition beta 1.18.0.22">1.18.0.22</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.0.21" title="Bedrock Edition beta 1.18.0.21">1.18.0.21</a>
+</td>
+<td rowspan="2">474
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.18.0.20" title="Bedrock Edition beta 1.18.0.20">1.18.0.20</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.41" title="Bedrock Edition 1.17.41">1.17.41</a></b>
+</td>
+<td rowspan="5">471
+</td>
+<td rowspan="5">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.40" title="Bedrock Edition 1.17.40">1.17.40</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.40.23" title="Bedrock Edition beta 1.17.40.23">1.17.40.23</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.40.21" title="Bedrock Edition beta 1.17.40.21">1.17.40.21</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.40.20" title="Bedrock Edition beta 1.17.40.20">1.17.40.20</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.34" title="Bedrock Edition 1.17.34">1.17.34</a></b>
+</td>
+<td rowspan="5">465
+</td>
+<td rowspan="5">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.33" title="Bedrock Edition 1.17.33">1.17.33</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.32" title="Bedrock Edition 1.17.32">1.17.32</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.30" title="Bedrock Edition 1.17.30">1.17.30</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.30.25" title="Bedrock Edition beta 1.17.30.25">1.17.30.25</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.30.24" title="Bedrock Edition beta 1.17.30.24">1.17.30.24</a>
+</td>
+<td rowspan="3">464
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.30.23" title="Bedrock Edition beta 1.17.30.23">1.17.30.23</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.30.22" title="Bedrock Edition beta 1.17.30.22">1.17.30.22</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.30.21" title="Bedrock Edition beta 1.17.30.21">1.17.30.21</a>
+</td>
+<td rowspan="2">462
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.30.20" title="Bedrock Edition beta 1.17.30.20">1.17.30.20</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.20.23" title="Bedrock Edition beta 1.17.20.23">1.17.20.23</a>
+</td>
+<td>459
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.20.22" title="Bedrock Edition beta 1.17.20.22">1.17.20.22</a>
+</td>
+<td>456
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.20.21" title="Bedrock Edition beta 1.17.20.21">1.17.20.21</a>
+</td>
+<td>455
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.20.20" title="Bedrock Edition beta 1.17.20.20">1.17.20.20</a>
+</td>
+<td>453
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.11" title="Bedrock Edition 1.17.11">1.17.11</a></b>
+</td>
+<td rowspan="4">448
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.10" title="Bedrock Edition 1.17.10">1.17.10</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.10.23" title="Bedrock Edition beta 1.17.10.23">1.17.10.23</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.10.22" title="Bedrock Edition beta 1.17.10.22">1.17.10.22</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.10.21" title="Bedrock Edition beta 1.17.10.21">1.17.10.21</a>
+</td>
+<td rowspan="2">441
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.10.20" title="Bedrock Edition beta 1.17.10.20">1.17.10.20</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.2" title="Bedrock Edition 1.17.2">1.17.2</a></b>
+</td>
+<td rowspan="6">440
+</td>
+<td rowspan="6">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.1" title="Bedrock Edition 1.17.1">1.17.1</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.17.0" title="Bedrock Edition 1.17.0">1.17.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.0.58" title="Bedrock Edition beta 1.17.0.58">1.17.0.58</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.0.56" title="Bedrock Edition beta 1.17.0.56">1.17.0.56</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.0.54" title="Bedrock Edition beta 1.17.0.54">1.17.0.54</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.0.52" title="Bedrock Edition beta 1.17.0.52">1.17.0.52</a>
+</td>
+<td rowspan="2">437
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.17.0.50" title="Bedrock Edition beta 1.17.0.50">1.17.0.50</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.230.56" title="Bedrock Edition beta 1.16.230.56">1.16.230.56</a>
+</td>
+<td rowspan="2">435
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.230.54" title="Bedrock Edition beta 1.16.230.54">1.16.230.54</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.230.52" title="Bedrock Edition beta 1.16.230.52">1.16.230.52</a>
+</td>
+<td>434
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.230.50" title="Bedrock Edition beta 1.16.230.50">1.16.230.50</a>
+</td>
+<td>433
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.221" title="Bedrock Edition 1.16.221">1.16.221</a></b>
+</td>
+<td rowspan="3">431
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.220" title="Bedrock Edition 1.16.220">1.16.220</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.220.52" title="Bedrock Edition beta 1.16.220.52">1.16.220.52</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.220.51" title="Bedrock Edition beta 1.16.220.51">1.16.220.51</a>
+</td>
+<td>430
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.220.50" title="Bedrock Edition beta 1.16.220.50">1.16.220.50</a>
+</td>
+<td>429
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.210" title="Bedrock Edition 1.16.210">1.16.210</a></b>
+</td>
+<td rowspan="5">428
+</td>
+<td rowspan="5">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.61" title="Bedrock Edition beta 1.16.210.61">1.16.210.61</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.60" title="Bedrock Edition beta 1.16.210.60">1.16.210.60</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.59" title="Bedrock Edition beta 1.16.210.59">1.16.210.59</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.58" title="Bedrock Edition beta 1.16.210.58">1.16.210.58</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.57" title="Bedrock Edition beta 1.16.210.57">1.16.210.57</a>
+</td>
+<td rowspan="2">427
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.56" title="Bedrock Edition beta 1.16.210.56">1.16.210.56</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.55" title="Bedrock Edition beta 1.16.210.55">1.16.210.55</a>
+</td>
+<td rowspan="2">425
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.54" title="Bedrock Edition beta 1.16.210.54">1.16.210.54</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.53" title="Bedrock Edition beta 1.16.210.53">1.16.210.53</a>
+</td>
+<td>424
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.51" title="Bedrock Edition beta 1.16.210.51">1.16.210.51</a>
+</td>
+<td rowspan="2">423
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.210.50" title="Bedrock Edition beta 1.16.210.50">1.16.210.50</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.201" title="Bedrock Edition 1.16.201">1.16.201</a></b>
+</td>
+<td rowspan="7">422
+</td>
+<td rowspan="7">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.200" title="Bedrock Edition 1.16.200">1.16.200</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.200.57" title="Bedrock Edition beta 1.16.200.57">1.16.200.57</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.200.56" title="Bedrock Edition beta 1.16.200.56">1.16.200.56</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.200.55" title="Bedrock Edition beta 1.16.200.55">1.16.200.55</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.200.54" title="Bedrock Edition beta 1.16.200.54">1.16.200.54</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.200.53" title="Bedrock Edition beta 1.16.200.53">1.16.200.53</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.200.52" title="Bedrock Edition beta 1.16.200.52">1.16.200.52</a>
+</td>
+<td>421
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.200.51" title="Bedrock Edition beta 1.16.200.51">1.16.200.51</a>
+</td>
+<td rowspan="2">420
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.200.50" title="Bedrock Edition beta 1.16.200.50">1.16.200.50</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.101" title="Bedrock Edition 1.16.101">1.16.101</a></b>
+</td>
+<td rowspan="3">419
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.100" title="Bedrock Edition 1.16.100">1.16.100</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.60" title="Bedrock Edition beta 1.16.100.60">1.16.100.60</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.59" title="Bedrock Edition beta 1.16.100.59">1.16.100.59</a>
+</td>
+<td>418
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.58" title="Bedrock Edition beta 1.16.100.58">1.16.100.58</a>
+</td>
+<td>417
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.57" title="Bedrock Edition beta 1.16.100.57">1.16.100.57</a>
+</td>
+<td>416
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.56" title="Bedrock Edition beta 1.16.100.56">1.16.100.56</a>
+</td>
+<td>415
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.55" title="Bedrock Edition beta 1.16.100.55">1.16.100.55</a>
+</td>
+<td>414
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.54" title="Bedrock Edition beta 1.16.100.54">1.16.100.54</a>
+</td>
+<td>413
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.53" title="Bedrock Edition beta 1.16.100.53">1.16.100.53</a>
+</td>
+<td>412
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.52" title="Bedrock Edition beta 1.16.100.52">1.16.100.52</a>
+</td>
+<td>411
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.51" title="Bedrock Edition beta 1.16.100.51">1.16.100.51</a>
+</td>
+<td>410
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.100.50" title="Bedrock Edition beta 1.16.100.50">1.16.100.50</a>
+</td>
+<td>409
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.30.57" title="Bedrock Edition beta 1.16.30.57">1.16.30.57</a>
+</td>
+<td rowspan="2">418
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.30.56" title="Bedrock Edition beta 1.16.30.56">1.16.30.56</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.30.53" title="Bedrock Edition beta 1.16.30.53">1.16.30.53</a>
+</td>
+<td rowspan="2">407
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.30.52" title="Bedrock Edition beta 1.16.30.52">1.16.30.52</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.61" title="Bedrock Edition 1.16.61">1.16.61</a></b>
+</td>
+<td rowspan="9">408
+</td>
+<td rowspan="9">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.60" title="Bedrock Edition 1.16.60">1.16.60</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.50" title="Bedrock Edition 1.16.50">1.16.50</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.42" title="Bedrock Edition 1.16.42">1.16.42</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.40" title="Bedrock Edition 1.16.40">1.16.40</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.21" title="Bedrock Edition 1.16.21">1.16.21</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.20" title="Bedrock Edition 1.16.20">1.16.20</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.20.54" title="Bedrock Edition beta 1.16.20.54">1.16.20.54</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.20.53" title="Bedrock Edition beta 1.16.20.53">1.16.20.53</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.20.52" title="Bedrock Edition beta 1.16.20.52">1.16.20.52</a>
+</td>
+<td rowspan="13">407
+</td>
+<td rowspan="13">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.20.51" title="Bedrock Edition beta 1.16.20.51">1.16.20.51</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.20.50" title="Bedrock Edition beta 1.16.20.50">1.16.20.50</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.10" title="Bedrock Edition 1.16.10">1.16.10</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.1.04" title="Bedrock Edition 1.16.1.04">1.16.1.04</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.1.03" title="Bedrock Edition 1.16.1.03">1.16.1.03</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.1" title="Bedrock Edition 1.16.1">1.16.1</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.16.0" title="Bedrock Edition 1.16.0">1.16.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.68" title="Bedrock Edition beta 1.16.0.68">1.16.0.68</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.67" title="Bedrock Edition beta 1.16.0.67">1.16.0.67</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.66" title="Bedrock Edition beta 1.16.0.66">1.16.0.66</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.65" title="Bedrock Edition beta 1.16.0.65">1.16.0.65</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.64" title="Bedrock Edition beta 1.16.0.64">1.16.0.64</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.63" title="Bedrock Edition beta 1.16.0.63">1.16.0.63</a>
+</td>
+<td>406
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.61" title="Bedrock Edition beta 1.16.0.61">1.16.0.61</a>
+</td>
+<td>405
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.60" title="Bedrock Edition beta 1.16.0.60">1.16.0.60</a>
+</td>
+<td>404
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.59" title="Bedrock Edition beta 1.16.0.59">1.16.0.59</a>
+</td>
+<td rowspan="2">401
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.58" title="Bedrock Edition beta 1.16.0.58">1.16.0.58</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.57" title="Bedrock Edition beta 1.16.0.57">1.16.0.57</a>
+</td>
+<td>403
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.55" title="Bedrock Edition beta 1.16.0.55">1.16.0.55</a>
+</td>
+<td rowspan="2">402
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.54" title="Bedrock Edition beta 1.16.0.54">1.16.0.54</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.53" title="Bedrock Edition beta 1.16.0.53">1.16.0.53</a>
+</td>
+<td rowspan="2">401
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.52" title="Bedrock Edition beta 1.16.0.52">1.16.0.52</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.16.0.51" title="Bedrock Edition beta 1.16.0.51">1.16.0.51</a>
+</td>
+<td>400
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.15.0.56" title="Bedrock Edition beta 1.15.0.56">1.15.0.56</a>
+</td>
+<td>396
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.15.0.55" title="Bedrock Edition beta 1.15.0.55">1.15.0.55</a>
+</td>
+<td>395
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.15.0.54" title="Bedrock Edition beta 1.15.0.54">1.15.0.54</a>
+</td>
+<td>394
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.15.0.53" title="Bedrock Edition beta 1.15.0.53">1.15.0.53</a>
+</td>
+<td>393
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.15.0.51" title="Bedrock Edition beta 1.15.0.51">1.15.0.51</a>
+</td>
+<td>392
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.15.0.11" title="Bedrock Edition beta 1.15.0.11">1.15.0.11</a>
+</td>
+<td rowspan="3">391
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.15.0.9" title="Bedrock Edition beta 1.15.0.9">1.15.0.9</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.15.0.8" title="Bedrock Edition beta 1.15.0.8">1.15.0.8</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.14.60" title="Bedrock Edition 1.14.60">1.14.60</a></b>
+</td>
+<td>390
+</td>
+<td><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Bedrock Protocol">page</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.14.41" title="Bedrock Edition 1.14.41">1.14.41</a></b>
+</td>
+<td rowspan="20">389
+</td>
+<td rowspan="20">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.14.30" title="Bedrock Edition 1.14.30">1.14.30</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.30.51" title="Bedrock Edition beta 1.14.30.51">1.14.30.51</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.14.20" title="Bedrock Edition 1.14.20">1.14.20</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.25.1" title="Bedrock Edition beta 1.14.25.1">1.14.25.1</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.2.51" title="Bedrock Edition beta 1.14.2.51">1.14.2.51</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.2.50" title="Bedrock Edition beta 1.14.2.50">1.14.2.50</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.14.1" title="Bedrock Edition 1.14.1">1.14.1</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.1.3" title="Bedrock Edition beta 1.14.1.3">1.14.1.3</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.1.2" title="Bedrock Edition beta 1.14.1.2">1.14.1.2</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.14.0.12" title="Bedrock Edition 1.14.0.12">1.14.0.12</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.14.0" title="Bedrock Edition 1.14.0">1.14.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.0.52" title="Bedrock Edition beta 1.14.0.52">1.14.0.52</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.0.51" title="Bedrock Edition beta 1.14.0.51">1.14.0.51</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.0.50" title="Bedrock Edition beta 1.14.0.50">1.14.0.50</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.0.6" title="Bedrock Edition beta 1.14.0.6">1.14.0.6</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.0.5" title="Bedrock Edition beta 1.14.0.5">1.14.0.5</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.0.4" title="Bedrock Edition beta 1.14.0.4">1.14.0.4</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.0.3" title="Bedrock Edition beta 1.14.0.3">1.14.0.3</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.0.2" title="Bedrock Edition beta 1.14.0.2">1.14.0.2</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.14.0.1" title="Bedrock Edition beta 1.14.0.1">1.14.0.1</a>
+</td>
+<td>390
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.13.3" title="Bedrock Edition 1.13.3">1.13.3</a></b>
+</td>
+<td rowspan="4">388
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.13.2" title="Bedrock Edition 1.13.2">1.13.2</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.13.1" title="Bedrock Edition 1.13.1">1.13.1</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.13.0" title="Bedrock Edition 1.13.0">1.13.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.18" title="Bedrock Edition beta 1.13.0.18">1.13.0.18</a>
+</td>
+<td>389
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.17" title="Bedrock Edition beta 1.13.0.17">1.13.0.17</a>
+</td>
+<td rowspan="2">388
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.16" title="Bedrock Edition beta 1.13.0.16">1.13.0.16</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.15" title="Bedrock Edition beta 1.13.0.15">1.13.0.15</a>
+</td>
+<td>387
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.13" title="Bedrock Edition beta 1.13.0.13">1.13.0.13</a>
+</td>
+<td>386
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.9" title="Bedrock Edition beta 1.13.0.9">1.13.0.9</a>
+</td>
+<td>385
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.6" title="Bedrock Edition beta 1.13.0.6">1.13.0.6</a>
+</td>
+<td rowspan="3">371
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.5" title="Bedrock Edition beta 1.13.0.5">1.13.0.5</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.4" title="Bedrock Edition beta 1.13.0.4">1.13.0.4</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.3" title="Bedrock Edition beta 1.13.0.3">1.13.0.3</a>
+</td>
+<td>372
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.2" title="Bedrock Edition beta 1.13.0.2">1.13.0.2</a>
+</td>
+<td rowspan="2">370
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.13.0.1" title="Bedrock Edition beta 1.13.0.1">1.13.0.1</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.12.1" title="Bedrock Edition 1.12.1">1.12.1</a></b>
+</td>
+<td rowspan="11">361
+</td>
+<td rowspan="11">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.12.0" title="Bedrock Edition 1.12.0">1.12.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.14" title="Bedrock Edition beta 1.12.0.14">1.12.0.14</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.13" title="Bedrock Edition beta 1.12.0.13">1.12.0.13</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.12" title="Bedrock Edition beta 1.12.0.12">1.12.0.12</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.11" title="Bedrock Edition beta 1.12.0.11">1.12.0.11</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.10" title="Bedrock Edition beta 1.12.0.10">1.12.0.10</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.9" title="Bedrock Edition beta 1.12.0.9">1.12.0.9</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.6" title="Bedrock Edition beta 1.12.0.6">1.12.0.6</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.4" title="Bedrock Edition beta 1.12.0.4">1.12.0.4</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.3" title="Bedrock Edition beta 1.12.0.3">1.12.0.3</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.12.0.2" title="Bedrock Edition beta 1.12.0.2">1.12.0.2</a>
+</td>
+<td>360
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.11.4" title="Bedrock Edition 1.11.4">1.11.4</a></b>
+</td>
+<td rowspan="9">354
+</td>
+<td rowspan="9">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.11.3" title="Bedrock Edition 1.11.3">1.11.3</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.11.2" title="Bedrock Edition 1.11.2">1.11.2</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.11.1" title="Bedrock Edition 1.11.1">1.11.1</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.11.0" title="Bedrock Edition 1.11.0">1.11.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.11.0.10" title="Bedrock Edition beta 1.11.0.10">1.11.0.10</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.11.0.9" title="Bedrock Edition beta 1.11.0.9">1.11.0.9</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.11.0.8" title="Bedrock Edition beta 1.11.0.8">1.11.0.8</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.11.0.7" title="Bedrock Edition beta 1.11.0.7">1.11.0.7</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.11.0.5" title="Bedrock Edition beta 1.11.0.5">1.11.0.5</a>
+</td>
+<td>353
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.11.0.4" title="Bedrock Edition beta 1.11.0.4">1.11.0.4</a>
+</td>
+<td>352
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.11.0.3" title="Bedrock Edition beta 1.11.0.3">1.11.0.3</a>
+</td>
+<td>351
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.11.0.1" title="Bedrock Edition beta 1.11.0.1">1.11.0.1</a>
+</td>
+<td>350
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.10.1" title="Bedrock Edition 1.10.1">1.10.1</a></b>
+</td>
+<td rowspan="4">340
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.10.0" title="Bedrock Edition 1.10.0">1.10.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.10.0.4" title="Bedrock Edition beta 1.10.0.4">1.10.0.4</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.10.0.3" title="Bedrock Edition beta 1.10.0.3">1.10.0.3</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.9.0" title="Bedrock Edition 1.9.0">1.9.0</a></b>
+</td>
+<td rowspan="3">332
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.9.0.5" title="Bedrock Edition beta 1.9.0.5">1.9.0.5</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.9.0.3" title="Bedrock Edition beta 1.9.0.3">1.9.0.3</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.9.0.2" title="Bedrock Edition beta 1.9.0.2">1.9.0.2</a>
+</td>
+<td>331
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.9.0.0" title="Bedrock Edition beta 1.9.0.0">1.9.0.0</a>
+</td>
+<td>330
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.8.1" title="Bedrock Edition 1.8.1">1.8.1</a></b>
+</td>
+<td rowspan="2">313
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.8.0" title="Bedrock Edition 1.8.0">1.8.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.8.0.14" title="Bedrock Edition beta 1.8.0.14">1.8.0.14</a>
+</td>
+<td rowspan="3">312
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.8.0.13" title="Bedrock Edition beta 1.8.0.13">1.8.0.13</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.8.0.11" title="Bedrock Edition beta 1.8.0.11">1.8.0.11</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.8.0.10" title="Bedrock Edition beta 1.8.0.10">1.8.0.10</a>
+</td>
+<td>311
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.8.0.8" title="Bedrock Edition beta 1.8.0.8">1.8.0.8</a>
+</td>
+<td>310
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.7.1" title="Bedrock Edition 1.7.1">1.7.1</a></b>
+</td>
+<td rowspan="5">291
+</td>
+<td rowspan="5">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.7.0" title="Bedrock Edition 1.7.0">1.7.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.7.0.9" title="Bedrock Edition beta 1.7.0.9">1.7.0.9</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.7.0.7" title="Bedrock Edition beta 1.7.0.7">1.7.0.7</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.7.0.5" title="Bedrock Edition beta 1.7.0.5">1.7.0.5</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.7.0.3" title="Bedrock Edition beta 1.7.0.3">1.7.0.3</a>
+</td>
+<td rowspan="2">290
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.7.0.2" title="Bedrock Edition beta 1.7.0.2">1.7.0.2</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.6.2" title="Bedrock Edition 1.6.2">1.6.2</a></b>
+</td>
+<td rowspan="5">282
+</td>
+<td rowspan="5">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.6.1" title="Bedrock Edition 1.6.1">1.6.1</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.6.0" title="Bedrock Edition 1.6.0">1.6.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.6.0.30" title="Bedrock Edition beta 1.6.0.30">1.6.0.30</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.6.0.8" title="Bedrock Edition beta 1.6.0.8">1.6.0.8</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.6.0.6" title="Bedrock Edition beta 1.6.0.6">1.6.0.6</a>
+</td>
+<td rowspan="2">281
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.6.0.5" title="Bedrock Edition beta 1.6.0.5">1.6.0.5</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.6.0.1" title="Bedrock Edition beta 1.6.0.1">1.6.0.1</a>
+</td>
+<td>280
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.5.3" title="Bedrock Edition 1.5.3">1.5.3</a></b>
+</td>
+<td rowspan="5">274
+</td>
+<td rowspan="5">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.5.2" title="Bedrock Edition 1.5.2">1.5.2</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.5.1" title="Bedrock Edition 1.5.1">1.5.1</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.5.0" title="Bedrock Edition 1.5.0">1.5.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.5.0.10" title="Bedrock Edition beta 1.5.0.10">1.5.0.10</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.5.0.7" title="Bedrock Edition beta 1.5.0.7">1.5.0.7</a>
+</td>
+<td>273
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.5.0.4" title="Bedrock Edition beta 1.5.0.4">1.5.0.4</a>
+</td>
+<td rowspan="2">271
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.5.0.1" title="Bedrock Edition beta 1.5.0.1">1.5.0.1</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.5.0.0" title="Bedrock Edition beta 1.5.0.0">1.5.0.0</a>
+</td>
+<td>270
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.4.4" title="Bedrock Edition 1.4.4">1.4.4</a></b>
+</td>
+<td rowspan="5">261
+</td>
+<td rowspan="5">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.4.3" title="Bedrock Edition 1.4.3">1.4.3</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.4.2" title="Bedrock Edition 1.4.2">1.4.2</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.4.1" title="Bedrock Edition 1.4.1">1.4.1</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.4.0" title="Bedrock Edition 1.4.0">1.4.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.20.2" title="Bedrock Edition beta 1.2.20.2">1.2.20.2</a>
+</td>
+<td rowspan="2">260
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.20.1" title="Bedrock Edition beta 1.2.20.1">1.2.20.1</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.14.3" title="Bedrock Edition beta 1.2.14.3">1.2.14.3</a>
+</td>
+<td rowspan="2">240
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.14.2" title="Bedrock Edition beta 1.2.14.2">1.2.14.2</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.13.12" title="Bedrock Edition beta 1.2.13.12">1.2.13.12</a>
+</td>
+<td>223
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.13.11" title="Bedrock Edition beta 1.2.13.11">1.2.13.11</a>
+</td>
+<td>224
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.13.10" title="Bedrock Edition beta 1.2.13.10">1.2.13.10</a>
+</td>
+<td>222
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.13.8" title="Bedrock Edition beta 1.2.13.8">1.2.13.8</a>
+</td>
+<td>221
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.16" class="mw-redirect" title="Bedrock Edition 1.2.16">1.2.16</a></b>
+</td>
+<td rowspan="4">223
+</td>
+<td rowspan="4">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.15" title="Bedrock Edition 1.2.15">1.2.15</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.14" title="Bedrock Edition 1.2.14">1.2.14</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.13" title="Bedrock Edition 1.2.13">1.2.13</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.13.6" title="Bedrock Edition beta 1.2.13.6">1.2.13.6</a>
+</td>
+<td rowspan="2">220
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.13.5" title="Bedrock Edition beta 1.2.13.5">1.2.13.5</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.11" title="Bedrock Edition 1.2.11">1.2.11</a></b>
+</td>
+<td rowspan="2">201
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.10" title="Bedrock Edition 1.2.10">1.2.10</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.10.1" title="Bedrock Edition beta 1.2.10.1">1.2.10.1</a>
+</td>
+<td>200
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.9" title="Bedrock Edition 1.2.9">1.2.9</a></b>
+</td>
+<td rowspan="3">160
+</td>
+<td rowspan="3">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.8" title="Bedrock Edition 1.2.8">1.2.8</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.7" title="Bedrock Edition 1.2.7">1.2.7</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.6.1" title="Bedrock Edition 1.2.6.1">1.2.6.1</a></b>
+</td>
+<td rowspan="2">150
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.6" title="Bedrock Edition 1.2.6">1.2.6</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.6.2" title="Bedrock Edition beta 1.2.6.2">1.2.6.2</a>
+</td>
+<td>140
+</td>
+<td>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.5" title="Bedrock Edition 1.2.5">1.2.5</a></b>
+</td>
+<td rowspan="2">141
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.5.15" title="Bedrock Edition beta 1.2.5.15">1.2.5.15</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.5.12" title="Bedrock Edition beta 1.2.5.12">1.2.5.12</a>
+</td>
+<td>140
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.5.0" title="Bedrock Edition beta 1.2.5.0">1.2.5.0</a>
+</td>
+<td rowspan="6">137
+</td>
+<td rowspan="6">
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.3" title="Bedrock Edition 1.2.3">1.2.3</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.3.3" title="Bedrock Edition beta 1.2.3.3">1.2.3.3</a>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.2" title="Bedrock Edition 1.2.2">1.2.2</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.1" title="Bedrock Edition 1.2.1">1.2.1</a></b>
+</td></tr>
+<tr>
+<td><b><a href="/w/Bedrock_Edition_1.2.0" title="Bedrock Edition 1.2.0">1.2.0</a></b>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.0.31" title="Bedrock Edition beta 1.2.0.31">1.2.0.31</a>
+</td>
+<td>136
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.0.25" title="Bedrock Edition beta 1.2.0.25">1.2.0.25</a>
+</td>
+<td>135
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.0.22" title="Bedrock Edition beta 1.2.0.22">1.2.0.22</a>
+</td>
+<td>134
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.0.18" title="Bedrock Edition beta 1.2.0.18">1.2.0.18</a>
+</td>
+<td>133
+</td>
+<td>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.0.15" title="Bedrock Edition beta 1.2.0.15">1.2.0.15</a>
+</td>
+<td rowspan="2">132
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.0.11" title="Bedrock Edition beta 1.2.0.11">1.2.0.11</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.0.9" title="Bedrock Edition beta 1.2.0.9">1.2.0.9</a>
+</td>
+<td rowspan="2">131
+</td>
+<td rowspan="2">
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.0.7" title="Bedrock Edition beta 1.2.0.7">1.2.0.7</a>
+</td></tr>
+<tr>
+<td><a href="/w/Bedrock_Edition_beta_1.2.0.2" title="Bedrock Edition beta 1.2.0.2">1.2.0.2</a>
+</td>
+<td>130
+</td>
+<td>
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Pocket_Protocol_Versions" data-mw-thread-id="h-Pocket_Protocol_Versions"><span data-mw-comment-start="" id="h-Pocket_Protocol_Versions"></span>Pocket Protocol Versions<span data-mw-comment-end="h-Pocket_Protocol_Versions"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?action=edit&amp;section=2" title="Edit section&#039;s source code: Pocket Protocol Versions">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Pocket_Protocol_Versions","replies":[]}}--></div>
+<p>Soon!
+</p>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐7dcd6f644b‐xvpcx
+Cached time: 20250326162930
+Cache expiry: 172800
+Reduced expiry: false
+Complications: []
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.034 seconds
+CPU time usage: 0.155 seconds
+Real time usage: 0.164 seconds
+Preprocessor visited node count: 9662/1000000
+Post‐expand include size: 80932/8388608 bytes
+Template argument size: 9587/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   57.585      1 -total
+ 68.05%   39.189    393 Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers/Entry
+  9.81%    5.648      1 Template:License_wiki.vg
+  5.16%    2.970      1 Template:License
+  4.03%    2.323      1 Template:Msgbox
+  1.19%    0.684      3 Template:SUBJECTSPACE_formatted
+-->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?oldid=2793739">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?oldid=2793739</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Bedrock_Edition" title="Category:Bedrock Edition">Bedrock Edition</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FBedrock+Protocol+version+numbers" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FBedrock+Protocol+version+numbers" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Latest: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Latest: 1.21.70</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?oldid=2793739" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FBedrock-5FProtocol-5Fversion-5Fnumbers" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 18 December 2024, at 13:11.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-xvpcx","wgBackendResponseTime":202,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Bedrock_Protocol_Versions","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Pocket_Protocol_Versions","replies":[]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"discussiontools":{"limitreport-timeusage":"0.034"},"limitreport":{"cputime":"0.155","walltime":"0.164","ppvisitednodes":{"value":9662,"limit":1000000},"postexpandincludesize":{"value":80932,"limit":8388608},"templateargumentsize":{"value":9587,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5,"limit":5000000},"timingprofile":["100.00%   57.585      1 -total"," 68.05%   39.189    393 Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol_version_numbers/Entry","  9.81%    5.648      1 Template:License_wiki.vg","  5.16%    2.970      1 Template:License","  4.03%    2.323      1 Template:Msgbox","  1.19%    0.684      3 Template:SUBJECTSPACE_formatted"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-7dcd6f644b-xvpcx","timestamp":"20250326162930","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

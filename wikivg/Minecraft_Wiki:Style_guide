@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Style guide – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"d1f2a93362b2d946db59f6b030be0c11","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Style_guide","wgTitle":"Style guide","wgCurRevisionId":2903200,"wgRevisionId":2903200,"wgArticleId":29084,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Policies"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Style_guide","wgRelevantArticleId":29084,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":[],
+"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox"
+:"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.pygments":"ready","ext.cite.styles":"ready","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","jquery.tablesorter.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.tablesorter","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc",
+"ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.pygments%7Cext.visualEditor.desktopArticleTarget.noscript%7Cjquery.tablesorter.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="The Minecraft Wiki aims to provide its users a comprehensive guide of writing conventions that all wiki articles should follow, to resolve disputes over which style rule or formatting to use and reach a consensus.">
+<meta property="og:description" content="The Minecraft Wiki aims to provide its users a comprehensive guide of writing conventions that all wiki articles should follow, to resolve disputes over which style rule or formatting to use and reach a consensus.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Style guide – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Style_guide">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Style_guide">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject page-Minecraft_Wiki_Style_guide rootpage-Minecraft_Wiki_Style_guide skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Style guide</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcuts</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:STYLE?redirect=no">MCW:STYLE</a></li>
+<li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:SG?redirect=no">MCW:SG</a></li>
+<li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:MOS?redirect=no">MCW:MOS</a></li></ul></div></div>
+<p>The Minecraft Wiki aims to provide its users a comprehensive guide of writing conventions that all wiki articles should follow, to resolve disputes over which style rule or formatting to use and reach a consensus.
+</p><p>The wiki stores information about the <i>Minecraft</i> franchise in a type of pages called articles, which are the focus of this guide. Content other than articles belong to different page spaces, such as files or templates.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Article_titles"><span class="tocnumber">1</span> <span class="toctext">Article titles</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Article_content"><span class="tocnumber">2</span> <span class="toctext">Article content</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#References_and_sources"><span class="tocnumber">2.1</span> <span class="toctext">References and sources</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Future_content"><span class="tocnumber">2.2</span> <span class="toctext">Future content</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Including_files"><span class="tocnumber">2.3</span> <span class="toctext">Including files</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Quotes"><span class="tocnumber">2.4</span> <span class="toctext">Quotes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Article_writing"><span class="tocnumber">3</span> <span class="toctext">Article writing</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Third-person_perspective"><span class="tocnumber">3.1</span> <span class="toctext">Third-person perspective</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Terminology"><span class="tocnumber">3.2</span> <span class="toctext">Terminology</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Spelling"><span class="tocnumber">3.3</span> <span class="toctext">Spelling</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Capitalization"><span class="tocnumber">3.4</span> <span class="toctext">Capitalization</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Section_headings"><span class="tocnumber">3.5</span> <span class="toctext">Section headings</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Pseudo_headings"><span class="tocnumber">3.6</span> <span class="toctext">Pseudo headings</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Italics"><span class="tocnumber">3.7</span> <span class="toctext">Italics</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Date_and_time_formatting"><span class="tocnumber">3.8</span> <span class="toctext">Date and time formatting</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Coordinates"><span class="tocnumber">3.9</span> <span class="toctext">Coordinates</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Commands"><span class="tocnumber">3.10</span> <span class="toctext">Commands</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Edition_version_names"><span class="tocnumber">3.11</span> <span class="toctext">Edition version names</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#Article_linking"><span class="tocnumber">4</span> <span class="toctext">Article linking</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#Sprite_links"><span class="tocnumber">4.1</span> <span class="toctext">Sprite links</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#Article_layout"><span class="tocnumber">5</span> <span class="toctext">Article layout</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Specific_layouts"><span class="tocnumber">5.1</span> <span class="toctext">Specific layouts</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="#Keeping_articles_concise_and_up_to_date"><span class="tocnumber">6</span> <span class="toctext">Keeping articles concise and up to date</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#Files"><span class="tocnumber">7</span> <span class="toctext">Files</span></a>
+<ul>
+<li class="toclevel-2 tocsection-25"><a href="#General_guidelines"><span class="tocnumber">7.1</span> <span class="toctext">General guidelines</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Screenshots"><span class="tocnumber">7.2</span> <span class="toctext">Screenshots</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Upscaled_textures"><span class="tocnumber">7.3</span> <span class="toctext">Upscaled textures</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#Versioning"><span class="tocnumber">7.4</span> <span class="toctext">Versioning</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Spin-offs"><span class="tocnumber">7.5</span> <span class="toctext">Spin-offs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-30"><a href="#Notes"><span class="tocnumber">8</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-31"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-32"><a href="#Navigation"><span class="tocnumber">10</span> <span class="toctext">Navigation</span></a></li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Article_titles" data-mw-thread-id="h-Article_titles"><span data-mw-comment-start="" id="h-Article_titles"></span>Article titles<span data-mw-comment-end="h-Article_titles"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_titles","replies":[]}}--></div>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:TITLE?redirect=no">MCW:TITLE</a></li></ul></div></div>
+<p>Titles should generally follow a general naming format based on the type of title. Generally, titles should be written in singular form, except in-game features or franchise media or merchandise with plural names (like "<a href="/w/Boots" title="Boots">Boots</a>").
+</p><p>If a Minecraft feature changes its name in a future version, it should use the current name as the title until the future version is released. After the release, the old title should become a redirect to the new name.
+</p><p><b>Articles about Minecraft features with display names</b>
+</p>
+<ul><li>Features with in-game display names should use the same name as in the game (like "<a href="/w/Eye_of_Ender" title="Eye of Ender">Eye of Ender</a>").</li>
+<li>Articles about multiple similar features should use a title that equally represents all of them. For example "<a href="/w/Door" title="Door">Door</a>" representing all door types.
+<ul><li>The title should follow the same format as the names of those features. For example, "<a href="/w/Wooden_Door" title="Wooden Door">Wooden Door</a>" similar to how wooden tools are named.</li></ul></li>
+<li>If a feature display name is different between editions, the name in <i>Java Edition</i> should be used.
+<ul><li>If it doesn't exist in <i>Java Edition</i>, it should use its display name in <i>Bedrock Edition</i>.</li>
+<li>If it exists in neither <i>Java</i> nor <i>Bedrock</i>, it should use the display name from any other edition it may exist in.</li></ul></li>
+<li>If a <i>Java Edition</i> name of a feature would require a disambiguation, but the <i>Bedrock Edition</i> name wouldn't, the latter should be used instead.</li></ul>
+<p><b>Articles about Minecraft features without display names</b>
+</p>
+<ul><li>Features without in-game display names should use their ID as the title, written in title case. For example, "<a href="/w/Desert_Well" title="Desert Well">Desert Well</a>": the structure uses the ID <code>desert_well</code>, so the title should be "Desert Well" and not "Desert well".</li>
+<li>Game mechanics, not an individual feature or features in the game, should use sentence case (like "<a href="/w/Mob_spawning" title="Mob spawning">Mob spawning</a>").</li>
+<li>If a feature has neither a display name nor an ID, it should follow the same naming as other similar articles (title case for structures, sentence case for mechanics or other).</li>
+<li>An article about a technical feature, such as NBT, should use its name as it appears in the game's code.
+<ul><li>If the feature doesn't have a name in the code, then its article name should be written in sentence case.</li></ul></li></ul>
+<p><b>Titles on other types of articles</b>
+</p>
+<ul><li>Tutorial articles should be in the <code>Tutorial:</code> namespace, should not contain "How to", and should be written in sentence case. For example, "<a href="/w/Tutorial:Music_disc_farming" title="Tutorial:Music disc farming">Tutorial:Music disc farming</a>" should not use the item name "Music Disc".
+<ul><li>They also shouldn't use a complex or long name, like "Tutorial:Farm for music discs in the Overworld".</li></ul></li>
+<li>Articles about people should use their first name and last name rather than their Minecraft or Twitter/X handle.</li>
+<li>Articles that are not about in-game features (like franchise-related media) should generally use the same name as the described subject matter, if any, and title case if the name is a proper noun. Otherwise, sentence case should be used.
+<ul><li>This also applies to some non-article pages, such as category, template, and project pages.</li></ul></li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Article_content" data-mw-thread-id="h-Article_content"><span data-mw-comment-start="" id="h-Article_content"></span>Article content<span data-mw-comment-end="h-Article_content"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_content","replies":["h-References_and_sources-Article_content","h-Future_content-Article_content","h-Including_files-Article_content","h-Quotes-Article_content"]}}--></div>
+<p>Articles should only contain information about <i>Minecraft</i> features, Minecraft spin-off game content, the Minecraft franchise, and generally information that can be confirmed to exist and is relevant to the article topic. Speculative, unproven or misinformation is not allowed and should not be added to pages.
+</p><p>Tutorial information should be present <i>only</i> in tutorial articles. This includes guides to find certain features, blocks or items, among other examples. However, tutorial articles may be linked from other articles if relevant.
+</p><p>For a more detailed view on the policies that describe the cases whether an article should be made or not, see <a href="/w/Minecraft_Wiki:Notability" title="Minecraft Wiki:Notability">Minecraft Wiki:Notability</a>.
+</p>
+<h3><span class="mw-headline" id="References_and_sources" data-mw-thread-id="h-References_and_sources-Article_content"><span data-mw-comment-start="" id="h-References_and_sources-Article_content"></span>References and sources<span data-mw-comment-end="h-References_and_sources-Article_content"></span></span></h3>
+<p>This wiki's purpose is to document facts. Therefore, always avoid personal commentary, speculation, and unsourced information. Generally, information does not require sources if they can directly be seen in-game or from the source media, or are otherwise obvious.
+</p><p>Other information, such as quotes from <a href="/w/Mojang_Studios" title="Mojang Studios">Mojang Studios</a> employees or information that is not widely known, must be sourced with a proper reference (using <code>&lt;ref>[external link]&lt;/ref></code>, or similar, next to the paragraph that needs to be sourced). A full list of references should be shown on a References section using <code>{{<a href="/w/Template:Reflist" title="Template:Reflist">Reflist</a>}}</code>.
+</p><p>If there is information that may require a proper source to be fully analyzed (as in incomplete information), the <code>{{<a href="/w/Template:Citation_needed" title="Template:Citation needed">citation needed</a>}}</code> template should be placed after it. Do <i>not</i> add this kind of content to an article without a proper source.
+</p>
+<h3><span class="mw-headline" id="Future_content" data-mw-thread-id="h-Future_content-Article_content"><span data-mw-comment-start="" id="h-Future_content-Article_content"></span>Future content<span data-mw-comment-end="h-Future_content-Article_content"></span></span></h3>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:FUTURE?redirect=no">MCW:FUTURE</a></li></ul></div></div>
+<p>In the Minecraft game, features added in future updates may be added to an article, provided the feature is marked using <code>{{<a href="/w/Template:In_development" title="Template:In development">In development</a>}}</code> at the start of the page or a section with the name of the new feature.
+</p><p>For changes to current features, use <code>{{<a href="/w/Template:Upcoming" title="Template:Upcoming">Upcoming</a>}}</code> (or <code>{{<a href="/w/Template:InUpcoming" title="Template:InUpcoming">InUpcoming</a>}}</code> where possible) in the sentence that describes the feature to include the new content. If the content is being removed from the game, use <code>{{<a href="/w/Template:Until" title="Template:Until">Until</a>}}</code> instead.
+</p><p>In some articles, it is helpful to put upcoming features and changes in a section called "Upcoming", and in other articles, the name of the new feature or changes might be more appropriate. Upcoming features must be noted as well in the <code>{{<a href="/w/Template:HistoryTable" title="Template:HistoryTable">HistoryTable</a>}}</code> section, using the proper upcoming header.
+</p><p>When the update containing an upcoming feature releases, features marked with <code>{{<a href="/w/Template:Until" title="Template:Until">Until</a>}}</code> must either be moved to the history section or removed, and any usage of <code>{{<a href="/w/Template:Upcoming" title="Template:Upcoming">Upcoming</a>}}</code> or <code>{{<a href="/w/Template:InUpcoming" title="Template:InUpcoming">InUpcoming</a>}}</code> may be removed.
+</p><p>If the feature changed the name of a feature that had been known by its old name for a considerable amount of time (months or years), the intro lead of the article or section should include the previous name through a "formerly/previously known as [name]" presentation or similar (like <a href="/w/Monster_Room" title="Monster Room">Monster Room</a>). This is the only case where historical information should be kept on the article content; <a href="#Keeping_articles_concise_and_up_to_date">other cases should not be kept</a>.
+</p><p>Information about future updates should always be valid: it includes anything that is tested in <b>development versions</b> and anything that is <b>officially announced by Mojang</b> (a list of official websites and sources can be found on <a href="/w/Help:Official_sources" title="Help:Official sources">Help:Official sources</a>).
+</p>
+<ul><li>Hints from minecraft.net should be taken with a grain of salt, because the writers include a lot of jokes and like to make things sound more extravagant than they need to be.</li>
+<li>Much of the information from the series of the <i>"Minecraft" YouTube channel</i> also should not be taken completely seriously. Some videos on the channel are made as trailers or announcements for development versions that get released shortly afterward, though this may not be always the case.</li>
+<li>Mojang makes a lot of other posts on social media platforms too. Keep in mind that some posts are designed to encourage speculation in the community.</li></ul>
+<p>In conclusion, do not add speculation to the content of articles on this wiki. Speculation might be appropriate for a talk page, but we don't want to confuse our readers with false information.
+</p>
+<h3><span class="mw-headline" id="Including_files" data-mw-thread-id="h-Including_files-Article_content"><span data-mw-comment-start="" id="h-Including_files-Article_content"></span>Including files<span data-mw-comment-end="h-Including_files-Article_content"></span></span></h3>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:IMAGES?redirect=no">MCW:IMAGES</a></li></ul></div></div>
+<p>Articles sometimes need to use images (or other file types) to showcase certain behaviors present in the game. Thus, files generally should showcase an attribute of the article's topic when used on those pages.
+</p><p>Articles should have one image showcasing an individual attribute of the article content per section, only if needed. For example, a zombie wearing armor. Images should also showcase the most up-to-date version of Minecraft available for the content. Outdated images are subject to removal or replacement with current versions.
+</p><p>For guidelines on whether a file should be added or not to the wiki, see <a href="#Files">#Files</a>. For the policy specific to whether videos should be included on the wiki, as well as managing their usage on the wiki, see <a href="/w/Minecraft_Wiki:Video_policy" title="Minecraft Wiki:Video policy">Minecraft Wiki:Video policy</a>.
+</p><p><b>Official artwork and logos</b>
+</p>
+<ul><li>Pursuant to a <a href="/w/Minecraft_Wiki:Community_portal/Microsoft_status_update" title="Minecraft Wiki:Community portal/Microsoft status update">request from Microsoft</a>, official artwork and logos are not allowed to be displayed inside an article's infobox.
+<ul><li>The scope of disallowed images includes packaging artwork, update key arts, game logos, or any artwork produced by Mojang. It does not include any other images, such as block or mob renders and game screenshots.</li>
+<li>This applies to all pages. Artwork can be used elsewhere on the page, such as in galleries, or <i>below</i> an infobox, but not as the infobox image.</li></ul></li></ul>
+<p><b>Captions and alt text</b>
+</p>
+<ul><li>Thumbnail images (<code>[[File:Example.png|thumb]]</code>) should include a caption that describes its content, as well as alt text. For example, <code>[[File:Example.png|thumb|A caption|alt=Alt text shown to screen readers]]</code>.</li>
+<li>Image captions should not have periods at the end, unless the phrase is a full sentence.</li></ul>
+<h3><span class="mw-headline" id="Quotes" data-mw-thread-id="h-Quotes-Article_content"><span data-mw-comment-start="" id="h-Quotes-Article_content"></span>Quotes<span data-mw-comment-end="h-Quotes-Article_content"></span></span></h3>
+<p>All quotes should be copied verbatim. Any additional content added within the quotation marks must be enclosed in square brackets. Terminal punctuation must go inside the quote only if it is in the original; otherwise, it must go outside. If the quote contains an error that was present in the original, add <code>{{<a href="/w/Template:Sic" title="Template:Sic">sic</a>}}</code> after that text to show readers that it is not a transcription mistake.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Article_writing" data-mw-thread-id="h-Article_writing"><span data-mw-comment-start="" id="h-Article_writing"></span>Article writing<span data-mw-comment-end="h-Article_writing"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_writing","replies":["h-Third-person_perspective-Article_writing","h-Terminology-Article_writing","h-Spelling-Article_writing","h-Capitalization-Article_writing","h-Section_headings-Article_writing","h-Pseudo_headings-Article_writing","h-Italics-Article_writing","h-Date_and_time_formatting-Article_writing","h-Coordinates-Article_writing","h-Commands-Article_writing","h-Edition_version_names-Article_writing"]}}--></div>
+<p>Articles written on the wiki should have consistent ways to write them. Thus, we give some advice to specify how to write content on our pages.
+</p><p>To emphasize points, <i>italics</i> should be used, not <b>bold</b> or ALL CAPS. Bold text should be used in the introductory lead section of an article to name a feature or topic.
+</p>
+<h3><span class="mw-headline" id="Third-person_perspective" data-mw-thread-id="h-Third-person_perspective-Article_writing"><span data-mw-comment-start="" id="h-Third-person_perspective-Article_writing"></span>Third-person perspective<span data-mw-comment-end="h-Third-person_perspective-Article_writing"></span></span></h3>
+<p>Articles should always be written in the third-person perspective and without terms referential to the reader ("you", "your", etc.). The exception to this are tutorial pages, where in most cases "you" is the most appropriate pronoun to use when referring to the player.
+</p><p>Try not to use abbreviations of words either. For instance, sentences like "You shouldn't come close to creepers because they'll explode and kill you." should be written as "A player can be killed by approaching a creeper close enough to cause it to explode."
+</p>
+<h3><span class="mw-headline" id="Terminology" data-mw-thread-id="h-Terminology-Article_writing"><span data-mw-comment-start="" id="h-Terminology-Article_writing"></span>Terminology<span data-mw-comment-end="h-Terminology-Article_writing"></span></span></h3>
+<p>All content on our articles should be referred to solely through in-game or official names, when applicable. This means that all content should be named and refered to using the title of the article that is describing it.
+</p><p>Baby <a href="/w/Mob" title="Mob">mobs</a> are not to be referred to by real-world animal equivalent names (such as "puppy" for a baby <a href="/w/Wolf" title="Wolf">wolf</a> or "cub" for a baby <a href="/w/Fox" title="Fox">fox</a>). They should be referred to only as a "Baby" of whatever the mob in question is. The only exceptions to this are terms that Mojang have coined for creatures unique to <i>Minecraft</i>, such as "snifflet" for a baby <a href="/w/Sniffer" title="Sniffer">sniffer</a>. An applicable citation must be provided when this is the case.
+</p>
+<h3><span class="mw-headline" id="Spelling" data-mw-thread-id="h-Spelling-Article_writing"><span data-mw-comment-start="" id="h-Spelling-Article_writing"></span>Spelling<span data-mw-comment-end="h-Spelling-Article_writing"></span></span></h3>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:SPELLING?redirect=no">MCW:SPELLING</a></li></ul></div></div>
+<p>Pages on this wiki should use <i>American English</i> because this is the default localization used by <i><a href="/w/Minecraft" title="Minecraft">Minecraft</a></i>. Exceptions are when the in-game name is British English, or when British spelling is used inside quotations.
+</p><p>The differences between American and British spelling can be subtle, typically in how the word ends. The following examples often arise:
+</p>
+<ul><li>Words ending in "-our": "colour" should be "color", "behaviour" should be "behavior", "armour" should be "armor"</li>
+<li>Words ending in "-tre": "centre" should be "center", "metre" should be "meter"</li>
+<li>Direction indicators ending in "-wards": "towards" should be "toward", "forwards" should be "forward", "upwards" should be "upward" and so on</li>
+<li>Words with the "-st" affectation: "whilst" should be "while", "amongst" should be "among", "amidst" should be "amid"</li>
+<li>Words with "-ise" or "yse" suffixes: "organise", "analysing", and "realisation" should be "organize", "analyzing", and "realization", respectively</li>
+<li>Words ending in "-nce": "defence" should be "defense"</li>
+<li>Verbs ending in "-ling": "travelling" should be "traveling"</li>
+<li>Verbs ending with "t": "spelt" should be "spelled", "learnt" should be "learned", "burnt" should be "burned"</li></ul>
+<h3><span class="mw-headline" id="Capitalization" data-mw-thread-id="h-Capitalization-Article_writing"><span data-mw-comment-start="" id="h-Capitalization-Article_writing"></span>Capitalization<span data-mw-comment-end="h-Capitalization-Article_writing"></span></span></h3>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:CAPS?redirect=no">MCW:CAPS</a></li></ul></div></div>
+<p>Content on the wiki should be written differently than an article title. Specific capitalization guidelines apply to article content to make them follow consistency across the wiki.
+</p><p>The following tables will show what should and should not be capitalized:
+</p>
+<table class="wikitable stikitable" style="margin-bottom: 3rem;">
+<caption style="font-size: 15px; margin-bottom: 1rem">The following <i>should not</i> be capitalized
+</caption>
+<tbody><tr>
+<th>Feature or topic
+</th>
+<th style="width:40%;">Guideline
+</th>
+<th>Examples
+</th></tr>
+<tr>
+<td><b>Items</b>
+</td>
+<td>In-game items (weapons, armor, tools, objects, blocks, fictional items) are common nouns and should not be capitalized unless they start a new sentence.
+</td>
+<td>
+<ul><li><i><a href="/w/Conduit" title="Conduit">Conduits</a> require <a href="/w/Prismarine" title="Prismarine">prismarine</a> frames in order to activate.</i></li>
+<li><i>This mob uses a <a href="/w/Dungeons:Scatter_Crossbow" title="Dungeons:Scatter Crossbow">scatter crossbow</a>.</i></li>
+<li><i>To mine <a href="/w/Diamond_ore" class="mw-redirect" title="Diamond ore">diamond ore</a>, a player must use an <a href="/w/Iron_pickaxe" class="mw-redirect" title="Iron pickaxe">iron pickaxe</a> or better.</i></li></ul>
+</td></tr>
+<tr>
+<td><b>Structures and biomes</b>
+</td>
+<td>In-game structures and biome names should not be capitalized (except Nether and End if they are present on a name as adjectives).
+</td>
+<td>
+<ul><li><i>Underground, there are randomly generated <a href="/w/Mineshaft" title="Mineshaft">mineshafts</a>.</i></li>
+<li><i>A <a href="/w/Desert_pyramid" class="mw-redirect" title="Desert pyramid">desert pyramid</a> contains some rare loot.</i></li>
+<li><i>A <a href="/w/Stronghold" title="Stronghold">stronghold</a> is home to an <a href="/w/End_portal" title="End portal">End portal</a>.</i></li></ul>
+</td></tr>
+<tr>
+<td><b>Mobs</b>
+</td>
+<td>Any instance of a mob (including mini-boss mobs) should be treated as a common noun, except where the mob is referred to using a proper noun.
+<p>If the word "the" is used before the mob name, it should not be capitalized unless it is at the beginning of the sentence.
+</p>
+</td>
+<td>
+<ul><li><i>One of the most feared mobs is the <a href="/w/Ghast" title="Ghast">ghast</a>.</i></li>
+<li><i>A <a href="/w/Cave_spider" class="mw-redirect" title="Cave spider">cave spider</a> can poison its prey.</i></li>
+<li><i>The player has been referred to as <a href="/w/Steve" title="Steve">Steve</a>.</i></li></ul>
+</td></tr>
+<tr>
+<td><b>Edition adjectives and descriptors</b>
+</td>
+<td>"Experimental snapshot", "snapshot", "pre-release", and "release candidate" should not be capitalized, except in cases where they are capitalized in the game itself, in which case they should be capitalized only within the context of the name itself. "Pre-release" should always be hyphenated.
+</td>
+<td>
+</td></tr>
+<tr>
+<td><i><b>Minecraft Dungeons</b></i>
+</td>
+<td>In addition to the instances above, do not capitalize the names of <a href="/w/Dungeons:Unique" class="mw-redirect" title="Dungeons:Unique">unique</a> items or hostile mob attacks.
+</td>
+<td>
+</td></tr></tbody></table>
+<table class="wikitable stikitable">
+<caption style="font-size: 15px; margin-bottom: 1rem">The following <i>should</i> be capitalized
+</caption>
+<tbody><tr>
+<th>Feature or topic
+</th>
+<th style="width:40%;">Guideline
+</th>
+<th>Examples
+</th></tr>
+<tr>
+<td><b>Dimensions</b>
+</td>
+<td>Dimension names, when refering to the dimension or used as adjectives, should be capitalized.
+</td>
+<td>
+<ul><li><i>To access <a href="/w/The_End" title="The End">the End</a>, the player has to find a stronghold.</i></li>
+<li><i><a href="/w/Ruined_portal" class="mw-redirect" title="Ruined portal">Ruined portals</a> contain netherrack and a broken <a href="/w/Nether_portal" title="Nether portal">Nether portal</a> structure.</i></li></ul>
+</td></tr>
+<tr>
+<td><b>Enchantments</b>
+</td>
+<td>Enchantment names should always be capitalized.
+</td>
+<td>
+<ul><li><i>In order to have ice drop an item, a tool enchanted with <a href="/w/Silk_Touch" title="Silk Touch">Silk Touch</a> must be used.</i></li></ul>
+</td></tr>
+<tr>
+<td><b>Effects</b>
+</td>
+<td>Effect names should be capitalized, except where they are used as an adjective.
+</td>
+<td>
+<ul><li><i>Magma cream is required for a potion of Fire Resistance.</i></li>
+<li><i>Wither skeletons may inflict Wither on the player.</i></li>
+<li><i>An invisible spider may rarely spawn.</i></li></ul>
+</td></tr>
+<tr>
+<td><b>Editions</b>
+</td>
+<td>Editions should be capitalized only when used as nouns.
+<p>Development phases should be capitalized.
+</p>
+</td>
+<td>
+<ul><li><i>Minecraft: Java Edition officially came out of <a href="/w/Java_Edition_Beta" title="Java Edition Beta">Beta</a> on November 18, 2011.</i></li>
+<li><i>The rose, with an exclusive texture, was introduced in <a href="/w/Pocket_Edition_v0.1.0_alpha" title="Pocket Edition v0.1.0 alpha">Pocket Edition v0.1.0 alpha</a>.</i></li>
+<li><i>Of all the editions of Minecraft, only the Pocket and Pi Editions have blue <a href="/w/Rose" title="Rose">roses</a>.</i></li></ul>
+</td></tr>
+<tr>
+<td><b>Game modes and difficulty</b>
+</td>
+<td>The name of game modes and difficulty should be capitalized.
+</td>
+<td>
+<ul><li><i>In <a href="/w/Hardcore" title="Hardcore">Hardcore</a> mode the game acts similar to <a href="/w/Survival" title="Survival">Survival</a> mode except the difficulty is permanently set to Hard, and you cannot respawn.</i></li></ul>
+</td></tr>
+<tr>
+<td><i><b>Minecraft Dungeons</b></i>
+</td>
+<td>Some features unique to <i><a href="/w/Minecraft_Dungeons" title="Minecraft Dungeons">Minecraft Dungeons</a></i> are treated as proper nouns, similar to enchantments and effects, so they should be capitalized. These features are:
+<ul><li><a href="/w/Dungeons:Ancient_mob" class="mw-redirect" title="Dungeons:Ancient mob">Ancient mobs</a> and primary <a href="/w/Dungeons:Boss" title="Dungeons:Boss">boss mobs</a></li>
+<li><a href="/w/Dungeons:Location" title="Dungeons:Location">Locations</a></li></ul>
+</td></tr>
+<tr>
+<td><b><i>Minecraft: Story Mode</i> and <i>Minecraft: Story Mode - Season Two</i></b>
+</td>
+<td>In <i><a href="/w/Minecraft:_Story_Mode" title="Minecraft: Story Mode">Minecraft: Story Mode</a></i> and <i><a href="/w/Minecraft:_Story_Mode_-_Season_Two" title="Minecraft: Story Mode - Season Two">Minecraft: Story Mode - Season Two</a></i>, given names of towns, cities, and villages should always be capitalized.
+<ul><li>Names of characters should always be capitalized.</li>
+<li>Given names of teams and groups should be capitalized if they're capitalized in-game.</li>
+<li>Names of events such as EnderCon should be capitalized only if they're capitalized in-game.</li>
+<li>Names of worlds and dimensions should be capitalized only if they're capitalized in-game.</li>
+<li>In rare cases in which the name has two variations, capitalized and not capitalized, the capitalized spelling takes preference.</li></ul>
+</td>
+<td>
+<ul><li><i>The <a href="/w/Story_Mode:Wither_Storm" title="Story Mode:Wither Storm">wither storm</a> destroyed the building at <a href="/w/Story_Mode:EnderCon" title="Story Mode:EnderCon">EnderCon</a>.</i></li>
+<li><i><a href="/w/Story_Mode:Olivia" title="Story Mode:Olivia">Olivia</a> is a friend of <a href="/w/Story_Mode:Jesse" title="Story Mode:Jesse">Jesse</a>.</i></li>
+<li><i>The fate of <a href="/w/Story_Mode:Build_Club" title="Story Mode:Build Club">Build Club</a> is unknown.</i></li>
+<li><i>There is a llama statue in <a href="/w/Story_Mode:Champion_City" title="Story Mode:Champion City">Champion City</a>.</i></li></ul>
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Section_headings" data-mw-thread-id="h-Section_headings-Article_writing"><span data-mw-comment-start="" id="h-Section_headings-Article_writing"></span>Section headings<span data-mw-comment-end="h-Section_headings-Article_writing"></span></span></h3>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:HEADING?redirect=no">MCW:HEADING</a></li></ul></div></div>
+<p>Article main sections should start with level 2 headings (<code>== Heading ==</code>) and increase by one for subsections. <i>Never</i> use a level 1 heading (<code>= Heading =</code>); this is reserved for the article title.
+</p>
+<ul><li>Follow sentence style capitalization, not title style, so only the first letter of the heading and proper nouns are capitalized.</li>
+<li>Headings should not have links or templates in them; links should be placed underneath, such as in a <code>{{<a href="/w/Template:Main" title="Template:Main">Main</a>}}</code> template.</li>
+<li>Although not required, having one space between sections and one space between the equal signs and the section name improves readability.</li>
+<li>Place any hatnotes and images immediately under the section heading, and then a space after those before the section content.</li>
+<li>Do not add blank sections unless tagged with <code>{{<a href="/w/Template:Empty_section" title="Template:Empty section">empty section</a>}}</code> to request prompt expansion.</li></ul>
+<p>For information on which sections should be in which order, see the <a href="#Article_layout">Article layout</a> section of this style guide.
+</p>
+<h3><span class="mw-headline" id="Pseudo_headings" data-mw-thread-id="h-Pseudo_headings-Article_writing"><span data-mw-comment-start="" id="h-Pseudo_headings-Article_writing"></span>Pseudo headings<span data-mw-comment-end="h-Pseudo_headings-Article_writing"></span></span></h3>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:PSEUDO?redirect=no">MCW:PSEUDO</a></li></ul></div></div>
+<p>Pseudo headings should use bold (<code>'''Heading'''</code>) to highlight headings which aren't important enough to use a <a href="#Section_headings">section heading</a>.
+</p>
+<ul><li>Follow sentence style capitalization, not title style, so only the first letter of the heading and proper nouns are capitalized.</li>
+<li>Pseudo headings may have links, images or templates in them.</li>
+<li>Do not use <code>;</code> for pseudo-headings, as that can cause accessibility issues.
+<ul><li>The semicolon markup is reserved for description lists only.</li></ul></li></ul>
+<table class="wikitable">
+<tbody><tr>
+<th style="" class="tc-yes">Correct</th>
+<th style="" class="tc-no">Incorrect
+</th></tr>
+<tr>
+<td><div class="mw-highlight mw-highlight-lang-wikitext mw-content-ltr" dir="ltr"><pre><span></span>[Article lead here]
+<span class="gu">== Section ==</span>
+<span class="gu">=== Sub-section ===</span>
+<span class="gs">'''Pseudo-heading'''</span>
+<span class="k">*</span> A bullet list
+<span class="gu">== Section ==</span>
+<span class="gu">=== Sub-section ===</span>
+<span class="gu">==== Sub-sub-section ====</span>
+<span class="k">;</span> A term followed by
+<span class="k">:</span> at least one definition or at least one description list item
+<span class="k">:</span> and additional optional items, forming a list
+</pre></div>
+</td>
+<td><div class="mw-highlight mw-highlight-lang-wikitext mw-content-ltr" dir="ltr"><pre><span></span>[Article lead here]
+<span class="gu">== Section ==</span>
+<span class="gu">=== Sub-section ===</span>
+<span class="k">;</span> Pseudo-heading
+<span class="k">*</span> A bullet list
+<span class="gu">== Section ==</span>
+<span class="gu">=== Sub-section ===</span>
+<span class="p">&lt;</span><span class="nt">small</span><span class="p">></span>== Sub-sub-section ==<span class="p">&lt;/</span><span class="nt">small</span><span class="p">></span>
+</pre></div>
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Italics" data-mw-thread-id="h-Italics-Article_writing"><span data-mw-comment-start="" id="h-Italics-Article_writing"></span>Italics<span data-mw-comment-end="h-Italics-Article_writing"></span></span></h3>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:ITALICS?redirect=no">MCW:ITALICS</a></li></ul></div></div>
+<p>Any instance of "<i>Minecraft</i> " should be in italics. Any instance of the name of a video game should also be in italics. For instance: "<i>Team Fortress 2</i>". 
+</p><p>Official <i>Minecraft</i> edition names used as subtitles of the game should be in italics. This applies (but is not limited) to:
+</p>
+<ul><li><i>Java Edition</i></li>
+<li><i>Bedrock Edition</i></li>
+<li><i>Minecraft Education</i></li></ul>
+<p>Italics should not be used for unofficial edition names, such as "Legacy Console Edition".
+</p><p>Additionally, if an edition name is also referring to a specific version, it should not be in italics. For instance: "Java Edition 1.16" should not be in italics, whereas "<i>Java Edition</i>" should.
+</p>
+<h3><span class="mw-headline" id="Date_and_time_formatting" data-mw-thread-id="h-Date_and_time_formatting-Article_writing"><span data-mw-comment-start="" id="h-Date_and_time_formatting-Article_writing"></span>Date and time formatting<span data-mw-comment-end="h-Date_and_time_formatting-Article_writing"></span></span></h3>
+<p>The Minecraft Wiki is an international community. That is a good thing in general, but it makes a problem for numeric abbreviations of dates, such as "12/10/11": while most countries abbreviate dates as day/month/year, some Asian countries use year/month/day, and the US uses month/day/year.
+</p><p>So the above date could represent any of three different dates. To avoid this problem, most dates should be written in "Month DD, YYYY" format, <i>e.g.</i> "December 10, 2011". Do not use superscripts or suffixes such as "April 23<sup>rd</sup>" or "4th of May".
+</p><p>If a numeric or terse date is needed (such as in a table), then use YYYY-MM-DD, always with 2 digits for month and day (<i>e.g.</i>, 2011-12-10 or 2012-05-04). Besides being the <a href="https://en.wikipedia.org/wiki/ISO_8601" class="extiw" title="wikipedia:ISO 8601">ISO standard</a>, dates in this format naturally sort properly, say if the table column is later made sortable.
+</p><p>For similar reasons, all times should be written using UTC in the 24-hour format such as "17:00 UTC", for combined date times such as "December 10, 2011 at 17:00 UTC". For sorting, date times should also follow the ISO standard like "2012-05-04T17:00Z".
+</p><p>Try to avoid seasons for dates such as "Summer 2021" or "Fall 2022". On Earth, the northern and southern hemispheres have opposite seasons. Instead use phrases like "Mid-2021" or "Late 2022".
+</p>
+<h3><span class="mw-headline" id="Coordinates" data-mw-thread-id="h-Coordinates-Article_writing"><span data-mw-comment-start="" id="h-Coordinates-Article_writing"></span>Coordinates<span data-mw-comment-end="h-Coordinates-Article_writing"></span></span></h3>
+<p>Single in-game coordinates should be capitalized and unspaced ("Y=1" instead of "y=1" or "y = 1"). Volumes should be in the order X, Y, Z, with each item separated only by a multiplication sign "×", which is available in the "Special characters/Symbols" group in the source editor, or use the HTML entity <code>&amp;times;</code>.
+</p><p>For example, "4×3×2" is an area that is 4 blocks wide along the X axis, 3 along the Y axis (vertical), and 2 along the Z axis.
+</p>
+<h3><span class="mw-headline" id="Commands" data-mw-thread-id="h-Commands-Article_writing"><span data-mw-comment-start="" id="h-Commands-Article_writing"></span>Commands<span data-mw-comment-end="h-Commands-Article_writing"></span></span></h3>
+<div class="hatnote searchaux">Main page: <a href="/w/Minecraft_Wiki:Style_guide/Commands" title="Minecraft Wiki:Style guide/Commands">Minecraft Wiki:Style guide/Commands</a></div>
+<h3><span class="mw-headline" id="Edition_version_names" data-mw-thread-id="h-Edition_version_names-Article_writing"><span data-mw-comment-start="" id="h-Edition_version_names-Article_writing"></span>Edition version names<span data-mw-comment-end="h-Edition_version_names-Article_writing"></span></span></h3>
+<p>Specific versions on specific editions of the game should always be written as an <b>edition version name</b>. This applies to article titles, paragraphs, lists, and trivia sections.
+</p><p>Versions of <i>Java Edition</i> should be prefixed with "Java Edition" (e.g. Java Edition 1.8).
+</p><p><i>Pocket Edition</i> versions should be prefixed with "Pocket Edition". For example, the update known as "v0.9.0 alpha" in-game would be titled "<a href="/w/Pocket_Edition_v0.9.0_alpha" title="Pocket Edition v0.9.0 alpha">Pocket Edition v0.9.0 alpha</a>".
+</p>
+<ul><li><i>Pocket Edition</i> Alpha development builds should first contain the parent version title, then the lowercase word "build" followed by the build number. For example, build 2 for "0.9.0" would be titled "<a href="/w/Pocket_Edition_v0.9.0_alpha_build_2" title="Pocket Edition v0.9.0 alpha build 2">Pocket Edition v0.9.0 alpha build 2</a>".</li>
+<li><i>Pocket Edition</i> development builds should first contain the lowercase word "alpha" followed by the version number. For example, "1.1.0.1" would be titled "<a href="/w/Pocket_Edition_alpha_1.1.0.1" title="Pocket Edition alpha 1.1.0.1">Pocket Edition alpha 1.1.0.1</a>".</li></ul>
+<p><i>Bedrock Edition</i> versions should be prefixed with "Bedrock Edition". For example, the update "1.2.1" would be titled "<a href="/w/Bedrock_Edition_1.2.1" title="Bedrock Edition 1.2.1">Bedrock Edition 1.2.1</a>".
+</p>
+<ul><li><i>Bedrock Edition</i> development builds should first contain the lowercase word "beta" followed by the version number. For example, "1.2.0.9" would be titled "<a href="/w/Bedrock_Edition_beta_1.2.0.9" title="Bedrock Edition beta 1.2.0.9">Bedrock Edition beta 1.2.0.9</a>".</li></ul>
+<p>Other versions should be prefixed with the edition. For example, the update "1.0.27" for <i>Education Edition</i> would be titled "<a href="/w/Education_Edition_1.0.27" title="Education Edition 1.0.27">Education Edition 1.0.27</a>".
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Article_linking" data-mw-thread-id="h-Article_linking"><span data-mw-comment-start="" id="h-Article_linking"></span>Article linking<span data-mw-comment-end="h-Article_linking"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_linking","replies":["h-Sprite_links-Article_linking"]}}--></div>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:LINK?redirect=no">MCW:LINK</a></li></ul></div></div>
+<p>The use of links is a difficult balance between providing readers enough useful links to allow them to "wander through" articles and excessive linking that can distract them from their reading flow.
+</p><p>Underlinking can cause the reader to become frustrated because questions may arise about the article's contents, which can be resolved only by using the search option or other sources for clarification, interrupting and distracting the reader.
+</p><p>Overlinking may distract the reader because links are usually colored differently causing the eye to shift focus constantly. Additionally, if the same word is linked multiple times in the same paragraph it can cause the reader to question if the links are directing them to different articles or not.
+</p><p>The guidelines for linking are:
+</p>
+<ul><li>No more than 10 percent of the words in an article are contained in links.</li>
+<li>If it affects the sentence's wording and readability in a negative way, two links should not be next to each other in the text so that it looks like one link.</li>
+<li>Links for any single term should not be excessively repeated in the same article. Excessive linking is defined as linking the same term multiple times within a portion of text that can fit on a typical viewer's screen. Remember, the purpose of links is to direct the reader to a new spot at the point(s) where the reader is most likely to take a temporary detour due to needing more information.</li>
+<li>Duplicating an important link distant from a previous occurrence in an article may well be appropriate. If an important term appears many times in a long article, but is linked only once at the beginning of the article, it may actually be underlinked. Indeed, readers who jump directly to a subsection of interest must still be able to find a link. But take care in fixing such problems, the distance between duplicate links is an editor's preference; however, if in doubt, duplicate the term further down the article.</li></ul>
+<p>Linking to a redirect is preferred over using a piped link except in templates and other pages that are transcluded. When a piped link is unavoidable, it should not point to a redirect. If a redirect can be avoided using a suffix on the link, that is preferred. E.g. Using <code>[[Creeper]]s</code> instead of <code>[[Creepers]]</code> is desired.
+</p>
+<h3><span class="mw-headline" id="Sprite_links" data-mw-thread-id="h-Sprite_links-Article_linking"><span data-mw-comment-start="" id="h-Sprite_links-Article_linking"></span>Sprite links<span data-mw-comment-end="h-Sprite_links-Article_linking"></span></span></h3>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:SPRITE?redirect=no">MCW:SPRITE</a></li></ul></div></div>
+<p>When listing in-game features such as blocks and items, it is common to use a <b>sprite link</b> template, which displays a small image before a link. Sprite links can be useful for illustrating subjects, but creates clutter within text. Therefore:
+</p>
+<ul><li><i>Use sprite links only in non-sentence lists.</i> They should not be used in prose; instead, the regular link format should be used.</li></ul>
+<p>For example, the following use of sprite links is <b>incorrect</b>:
+</p>
+<div style="border: 1px solid #a2a9b1; padding: 10px;">
+<p>An <b>armadillo</b> is a <a href="/w/Passive_mob" class="mw-redirect" title="Passive mob">passive mob</a> found in <span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Badlands" title="Badlands"><img alt="" src="/images/BiomeSprite_badlands.png?9122b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Badlands" title="Badlands"><span class="sprite-text">badlands</span></a></span> and <span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Savanna" title="Savanna"><img alt="" src="/images/BiomeSprite_savanna.png?f2d6b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Savanna" title="Savanna"><span class="sprite-text">savannas</span></a></span>. It rolls up in response to being hurt or being near <a href="/w/Undead" title="Undead">undead</a> mobs or <span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Player" title="Player"><img alt="" src="/images/EntitySprite_steve.png?856f8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Player" title="Player"><span class="sprite-text">players</span></a></span> that are sprinting or mounted. While in this state, it takes less damage. It also repels <span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Spider" title="Spider"><img alt="" src="/images/EntitySprite_spider.png?4ee43" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Spider" title="Spider"><span class="sprite-text">spiders</span></a></span> and <span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Cave_spider" title="Cave spider"><img alt="" src="/images/EntitySprite_cave-spider.png?3e94c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Cave_spider" class="mw-redirect" title="Cave spider"><span class="sprite-text">cave spiders</span></a></span> away from it. It is the only source of <span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Armadillo_scute" title="Armadillo scute"><img alt="" src="/images/ItemSprite_armadillo-scute.png?0485b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Armadillo_scute" class="mw-redirect" title="Armadillo scute"><span class="sprite-text">armadillo scutes</span></a></span>, which the armadillo sheds over time, as well as when it is <span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Brush" title="Brush"><img alt="" src="/images/ItemSprite_brush.png?e20a8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Brush" title="Brush"><span class="sprite-text">brush</span></a></span>ed.
+</p>
+</div>
+<p>Whereas, for example, the following uses of sprite links are <b>correct</b>:
+</p>
+<div style="border: 1px solid #a2a9b1; padding: 10px; margin-bottom: 10px">
+<p>Armadillos can spawn in the following biomes:
+</p>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Badlands" title="Badlands"><img alt="" src="/images/BiomeSprite_badlands.png?9122b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Badlands" title="Badlands"><span class="sprite-text">Badlands</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Eroded_Badlands" title="Eroded Badlands"><img alt="" src="/images/BiomeSprite_eroded-badlands.png?1f9b9" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Eroded_Badlands" title="Eroded Badlands"><span class="sprite-text">Eroded Badlands</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Wooded_Badlands" title="Wooded Badlands"><img alt="" src="/images/BiomeSprite_wooded-badlands.png?27555" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Wooded_Badlands" title="Wooded Badlands"><span class="sprite-text">Wooded Badlands</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Savanna" title="Savanna"><img alt="" src="/images/BiomeSprite_savanna.png?f2d6b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Savanna" title="Savanna"><span class="sprite-text">Savanna</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Savanna_Plateau" title="Savanna Plateau"><img alt="" src="/images/BiomeSprite_savanna-plateau.png?3ee8a" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Savanna_Plateau" title="Savanna Plateau"><span class="sprite-text">Savanna Plateau</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Windswept_Savanna" title="Windswept Savanna"><img alt="" src="/images/BiomeSprite_windswept-savanna.png?c8340" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Windswept_Savanna" title="Windswept Savanna"><span class="sprite-text">Windswept Savanna</span></a></span></li></ul>
+</div>
+<div style="border: 1px solid #a2a9b1; padding: 10px;">
+<table class="wikitable">
+<caption>Overworld trees
+</caption>
+<tbody><tr>
+<th>Wood type</th>
+<th>Tree type</th>
+<th>Forest biome
+</th></tr>
+<tr>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Oak_Planks" title="Oak Planks"><img alt="" src="/images/BlockSprite_oak-planks.png?4f022" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Oak_Planks" class="mw-redirect" title="Oak Planks"><span class="sprite-text">Oak</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Oak_Tree" title="Oak Tree"><img alt="" src="/images/EnvSprite_oak.png?742a4" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Oak_Tree" class="mw-redirect" title="Oak Tree"><span class="sprite-text">Oak</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Forest" title="Forest"><img alt="" src="/images/BiomeSprite_forest.png?737d2" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Forest" title="Forest"><span class="sprite-text">Forest</span></a></span>
+</td></tr>
+<tr>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Birch_Planks" title="Birch Planks"><img alt="" src="/images/BlockSprite_birch-planks.png?61d14" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Birch_Planks" class="mw-redirect" title="Birch Planks"><span class="sprite-text">Birch</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Birch_Tree" title="Birch Tree"><img alt="" src="/images/EnvSprite_birch.png?6edc2" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Birch_Tree" class="mw-redirect" title="Birch Tree"><span class="sprite-text">Birch</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Birch_Forest" title="Birch Forest"><img alt="" src="/images/BiomeSprite_birch-forest.png?b6b49" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Birch_Forest" title="Birch Forest"><span class="sprite-text">Birch Forest</span></a></span>
+</td></tr>
+<tr>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Spruce_Planks" title="Spruce Planks"><img alt="" src="/images/BlockSprite_spruce-planks.png?6696d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Spruce_Planks" class="mw-redirect" title="Spruce Planks"><span class="sprite-text">Spruce</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Spruce_Tree" title="Spruce Tree"><img alt="" src="/images/EnvSprite_spruce.png?82140" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Spruce_Tree" class="mw-redirect" title="Spruce Tree"><span class="sprite-text">Spruce</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Taiga" title="Taiga"><img alt="" src="/images/BiomeSprite_taiga.png?e9903" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Taiga" title="Taiga"><span class="sprite-text">Taiga</span></a></span>
+</td></tr>
+<tr>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Jungle_Planks" title="Jungle Planks"><img alt="" src="/images/BlockSprite_jungle-planks.png?374f3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Jungle_Planks" class="mw-redirect" title="Jungle Planks"><span class="sprite-text">Jungle</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Jungle_Tree" title="Jungle Tree"><img alt="" src="/images/EnvSprite_jungle-tree.png?f2e7d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Jungle_Tree" class="mw-redirect" title="Jungle Tree"><span class="sprite-text">Jungle</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Jungle" title="Jungle"><img alt="" src="/images/BiomeSprite_jungle.png?99b3c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Jungle" title="Jungle"><span class="sprite-text">Jungle</span></a></span>
+</td></tr>
+<tr>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dark_Oak_Planks" title="Dark Oak Planks"><img alt="" src="/images/BlockSprite_dark-oak-planks.png?8e924" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Dark_Oak_Planks" class="mw-redirect" title="Dark Oak Planks"><span class="sprite-text">Dark Oak</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dark_Oak_Tree" title="Dark Oak Tree"><img alt="" src="/images/EnvSprite_dark-oak.png?5364d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Dark_Oak_Tree" class="mw-redirect" title="Dark Oak Tree"><span class="sprite-text">Dark Oak</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dark_Forest" title="Dark Forest"><img alt="" src="/images/BiomeSprite_dark-forest.png?a8422" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Dark_Forest" title="Dark Forest"><span class="sprite-text">Dark Forest</span></a></span>
+</td></tr>
+<tr>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Acacia_Planks" title="Acacia Planks"><img alt="" src="/images/BlockSprite_acacia-planks.png?30534" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Acacia_Planks" class="mw-redirect" title="Acacia Planks"><span class="sprite-text">Acacia</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Acacia_Tree" title="Acacia Tree"><img alt="" src="/images/EnvSprite_acacia.png?5cd1c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Acacia_Tree" class="mw-redirect" title="Acacia Tree"><span class="sprite-text">Acacia</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Savanna" title="Savanna"><img alt="" src="/images/BiomeSprite_savanna.png?f2d6b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Savanna" title="Savanna"><span class="sprite-text">Savanna</span></a></span>
+</td></tr>
+<tr>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Mangrove_Planks" title="Mangrove Planks"><img alt="" src="/images/BlockSprite_mangrove-planks.png?6173f" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Mangrove_Planks" class="mw-redirect" title="Mangrove Planks"><span class="sprite-text">Mangrove</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Mangrove_Tree" title="Mangrove Tree"><img alt="" src="/images/EnvSprite_mangrove.png?50d50" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Mangrove_Tree" class="mw-redirect" title="Mangrove Tree"><span class="sprite-text">Mangrove</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Mangrove_Swamp" title="Mangrove Swamp"><img alt="" src="/images/BiomeSprite_mangrove-swamp.png?7e436" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Mangrove_Swamp" title="Mangrove Swamp"><span class="sprite-text">Mangrove Swamp</span></a></span>
+</td></tr>
+<tr>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Cherry_Planks" title="Cherry Planks"><img alt="" src="/images/BlockSprite_cherry-planks.png?f612b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Cherry_Planks" class="mw-redirect" title="Cherry Planks"><span class="sprite-text">Cherry</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Cherry_Tree" title="Cherry Tree"><img alt="" src="/images/EnvSprite_cherry.png?8ec1d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Cherry_Tree" class="mw-redirect" title="Cherry Tree"><span class="sprite-text">Cherry</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Cherry_Grove" title="Cherry Grove"><img alt="" src="/images/BiomeSprite_cherry-grove.png?90776" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Cherry_Grove" title="Cherry Grove"><span class="sprite-text">Cherry Grove</span></a></span>
+</td></tr>
+<tr>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Pale_Oak_Planks" title="Pale Oak Planks"><img alt="" src="/images/BlockSprite_pale-oak-planks.png?04fed" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Pale_Oak_Planks" class="mw-redirect" title="Pale Oak Planks"><span class="sprite-text">Pale Oak</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Pale_Oak" title="Pale Oak"><img alt="" src="/images/EnvSprite_pale-oak.png?396fb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Pale_Oak" class="mw-redirect" title="Pale Oak"><span class="sprite-text">Pale Oak</span></a></span></td>
+<td><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Pale_Garden" title="Pale Garden"><img alt="" src="/images/BiomeSprite_pale-garden.png?92f6d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16"/></a></span></span><a href="/w/Pale_Garden" title="Pale Garden"><span class="sprite-text">Pale Garden</span></a></span>
+</td></tr></tbody></table>
+</div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Article_layout" data-mw-thread-id="h-Article_layout"><span data-mw-comment-start="" id="h-Article_layout"></span>Article layout<span data-mw-comment-end="h-Article_layout"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_layout","replies":["h-Specific_layouts-Article_layout"]}}--></div>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:LAYOUT?redirect=no">MCW:LAYOUT</a></li></ul></div></div>
+<p>For the sake of consistency, all articles of a specific type should follow a general layout.
+</p>
+<ol><li><a href="/w/Template:Hatnote" title="Template:Hatnote">Hatnotes</a> (i.e. notes that belong at the very top of an article page)</li>
+<li><a href="/w/Template:Message_box" title="Template:Message box">Message boxes</a></li>
+<li><a href="/w/Template:Infobox" title="Template:Infobox">Infoboxes</a></li>
+<li>Introduction with a general description</li>
+<li>Article body (multiple sections; see <a href="#Specific_layouts"><span style="white-space: nowrap;">§ Specific layouts</span></a> below)</li>
+<li><a href="/w/Minecraft_Wiki:Style_guide/Features#See_also" title="Minecraft Wiki:Style guide/Features">See also</a></li>
+<li>Notes<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[note 1]</a></sup> and references<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[1]</a></sup></li>
+<li>Applicable footer <a href="/w/Template:Navbox" title="Template:Navbox">navboxes</a></li>
+<li>DEFAULTSORT</li>
+<li><a href="/w/Special:Categories" title="Special:Categories">Categories</a></li>
+<li><a href="/w/Special:Interwiki#Interlanguage_prefixes" title="Special:Interwiki">Language interwikis</a></li></ol>
+<p>Be smart when adding a message box: too many boxes at the top of a page or a section is not useful, and they can clutter the page descriptions in search results. If there is already one, move the ones that are not necessary for the reader lower on the page, for example in a relevant section or at the end.
+</p>
+<h3><span class="mw-headline" id="Specific_layouts" data-mw-thread-id="h-Specific_layouts-Article_layout"><span data-mw-comment-start="" id="h-Specific_layouts-Article_layout"></span>Specific layouts<span data-mw-comment-end="h-Specific_layouts-Article_layout"></span></span></h3>
+<p>If an article does not contain a layout currently, one can be proposed on the style guide's <a href="/w/Minecraft_Wiki_talk:Style_guide" title="Minecraft Wiki talk:Style guide">talk page</a>; otherwise, attempt to use a layout that follows a similar style to an existing layout. Current article layouts include:
+</p>
+<ul><li><a href="/w/Minecraft_Wiki:Style_guide/Features" title="Minecraft Wiki:Style guide/Features">Features</a></li>
+<li><a href="/w/Minecraft_Wiki:Style_guide/Redstone" title="Minecraft Wiki:Style guide/Redstone">Redstone</a></li>
+<li><a href="/w/Minecraft_Wiki:Style_guide/Blueprints" title="Minecraft Wiki:Style guide/Blueprints">Blueprints</a></li>
+<li><a href="/w/Minecraft_Wiki:Style_guide/Versions" title="Minecraft Wiki:Style guide/Versions">Versions</a></li>
+<li><a href="/w/Minecraft_Wiki:Style_guide/Commands#Command_articles" title="Minecraft Wiki:Style guide/Commands">Commands</a></li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Keeping_articles_concise_and_up_to_date" data-mw-thread-id="h-Keeping_articles_concise_and_up_to_date"><span data-mw-comment-start="" id="h-Keeping_articles_concise_and_up_to_date"></span>Keeping articles concise and up to date<span data-mw-comment-end="h-Keeping_articles_concise_and_up_to_date"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Keeping_articles_concise_and_up_to_date","replies":[]}}--></div>
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcut</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:UPTODATE?redirect=no">MCW:UPTODATE</a></li></ul></div></div>
+<p>In short, articles should contain only information that is up to date, i.e., implemented in the latest <i>full</i> version of the game. Anything that is outdated should be moved to the History section of the article. When something changes, note the change in the History section and remove the outdated information from other sections of the article (except historical names from the intro lead section if they were used to name a feature for many months or years).
+</p><p>It is unnecessary to mention when a particular feature was implemented; this is once again reserved for the History section of the article. Sentences such as "<a href="/w/Trading" title="Trading">Trading</a>, which was implemented in 1.3.1, is a feature that allows players to exchange <a href="/w/Emerald" title="Emerald">emeralds</a> (previously <a href="/w/Ruby" title="Ruby">rubies</a>) for other items." should be written as "Trading is a feature that allows players to exchange emeralds for other items." 
+</p><p>Here's an example of how to <i>not</i> write a good article. It uses a previous version of the <a href="/w/Log" title="Log">Log</a> article, which at the time was called Wood. This is the full introduction. Highlighted in <span style="background:rgb(255 255 0 / 26%); border: 1px solid rgb(122 122 62 / 52%);">yellow</span> is the redundant information, and in <span style="background:rgb(255 192 203 / 25%); border: 1px solid rgb(154 103 112 / 53%);">pink</span> the history information.
+</p>
+<div style="border: 1px solid #a2a9b1; padding: 10px;">
+<p><b>Wood</b> <span style="background:rgb(255 192 203 / 25%); border: 1px solid rgb(154 103 112 / 53%);">(previously known as <b>log</b>)</span> is a type of block <span style="background:rgb(255 192 203 / 25%); border: 1px solid rgb(154 103 112 / 53%);">first seen in <i>Minecraft</i> 0.0.14a</span>. They have a skin resembling bark on the four side faces, and a crosscut face on top and bottom. <span style="background:rgb(255 192 203 / 25%); border: 1px solid rgb(154 103 112 / 53%);">Only the normal oak logs are available in chunks generated before the Beta 1.2 update and all previous versions, while pine and birch generate in newer chunks</span>. Wood is greatly abundant in naturally-generated maps, as it is used as the foundation for trees. Wood can be chopped by hand, but using an axe is faster. Wood is also flammable.
+</p><p>Of the <span style="background:rgb(255 255 0 / 26%); border: 1px solid rgb(122 122 62 / 52%);">current</span> wood types, birch is the rarest type. <span style="background:rgb(255 255 0 / 26%); border: 1px solid rgb(122 122 62 / 52%);">They are often used to make plants, trees and wooden cabins.</span> <span style="background:rgb(255 192 203 / 25%); border: 1px solid rgb(154 103 112 / 53%);">In Survival Test, wood blocks drop 3–5 wooden planks when mined. In Indev, Infdev, Alpha, and Beta, mining a wood block drops a wood block instead</span>. <span style="background:rgb(255 255 0 / 26%); border: 1px solid rgb(122 122 62 / 52%);">This allows the use of wood as a building material and is craftable into planks</span>.
+</p><p><span style="background:rgb(255 255 0 / 26%); border: 1px solid rgb(122 122 62 / 52%);">Wood's only crafting use is to be made into four wooden planks</span>. In addition, wood can be burned in a furnace to make charcoal as a substitute for coal.
+</p><p><span style="background:rgb(255 192 203 / 25%); border: 1px solid rgb(154 103 112 / 53%);">As of the Minecraft Beta 1.2 update on January 13, 2011, there are now four kinds of wood</span>. <span style="background:rgb(255 255 0 / 26%); border: 1px solid rgb(122 122 62 / 52%);">One is the normal wood (oak), another resembles the wood of silver birch trees, yet another type resembles the normal wood, but it is darker and appears in pine/conifer trees that grow in colder biomes, the fourth type is similar to the oak wood, however there are some color differences and it is tilted to one side.</span> Wood blocks produce 4 wooden planks when crafted. Wood from different types of trees do not stack in the inventory. <span style="background:rgb(255 192 203 / 25%); border: 1px solid rgb(154 103 112 / 53%);">Planks made from different kinds of trees used to be completely identical</span>. Birch trees have slightly duller colored leaves than regular trees, pine trees have pine needles, and jungle leaves are leafy with fruit looking shapes on them.
+</p>
+The fourth type of wood <span style="background:rgb(255 192 203 / 25%); border: 1px solid rgb(154 103 112 / 53%);">was introduced in snapshot 12w03a</span>, solely occurring in jungle biomes, and comprising trees exclusive to them. The tallest trees have this type of wood in 2x2 dimensions instead of the normal 1x1.</div>
+<p>The issue with this is that old information is scattered with new information. The introduction should state the current description of the block with the current release. History information is good, but for clarity, it should be described in the chronological order in a single place: the History section of the article.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Files" data-mw-thread-id="h-Files"><span data-mw-comment-start="" id="h-Files"></span>Files<span data-mw-comment-end="h-Files"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Files","replies":["h-General_guidelines-Files","h-Screenshots-Files","h-Upscaled_textures-Files","h-Versioning-Files","h-Spin-offs-Files"]}}--></div>
+<div class="hatnote searchaux">See also: <a href="/w/Help:Isometric_renders" title="Help:Isometric renders">Help:Isometric renders</a> 
+</div>
+<p>Files, which are stored in the <code>File:</code> namespace, should not cointain unintelligible names or default device OS screenshot names (like "Screenshot [numbers].png"). Instead, they should follow a consistent naming so they are easier to find.
+</p>
+<h3><span class="mw-headline" id="General_guidelines" data-mw-thread-id="h-General_guidelines-Files"><span data-mw-comment-start="" id="h-General_guidelines-Files"></span>General guidelines<span data-mw-comment-end="h-General_guidelines-Files"></span></span></h3>
+<ul><li>Files used in the article body content should use capitalized names of an item, block or entity on their name (for Minecraft game content), but lowercase words for everything else. For example, <a href="/w/File:Piglin_Brute_zombified.png" title="File:Piglin Brute zombified.png">File:Piglin Brute zombified.png</a>.</li>
+<li>Files should not show unintended strange or humorous behavior, such as mobs "sitting" on stairs.</li>
+<li>Files should not have the sole purpose of showcasing a bug (except files intended to be used on <code>Tutorial:</code> pages that are marked with <code>{{<a href="/w/Template:UsesBug" class="mw-redirect" title="Template:UsesBug">UsesBug</a>}}</code>).
+<ul><li>If you want to report a bug, report it on the <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://bugs.mojang.com">official tracker</a>.</li></ul></li>
+<li>Files showcasing usage of specific features as part of player builds should be avoided.</li>
+<li>Files used in the infobox of articles should be titled with the exact name of the subject as seen ingame using en-US (when possible), and must be an <a href="/w/Minecraft_Wiki:Render" class="mw-redirect" title="Minecraft Wiki:Render">isometric render</a>, unless they are for version infoboxes.</li></ul>
+<h3><span class="mw-headline" id="Screenshots" data-mw-thread-id="h-Screenshots-Files"><span data-mw-comment-start="" id="h-Screenshots-Files"></span>Screenshots<span data-mw-comment-end="h-Screenshots-Files"></span></span></h3>
+<ul><li>Screenshots must use vanilla textures and UI.</li>
+<li>Screenshots that use custom textures or resource packs, UI mods, and other custom content are generally not allowed, with the following exceptions:
+<ul><li>Historical images of missing versions,</li>
+<li>Hiding UI elements for the purpose of improving clarity of the image subject,</li>
+<li>In cases where a resource pack is necessary, in which case the caption should mention the modification; for example, an image illustrating a retextured cow would have its caption make it clear that the cow has been retextured using a resource pack.</li></ul></li>
+<li>Screenshots of biomes must not be isometric.</li></ul>
+<h3><span class="mw-headline" id="Upscaled_textures" data-mw-thread-id="h-Upscaled_textures-Files"><span data-mw-comment-start="" id="h-Upscaled_textures-Files"></span>Upscaled textures<span data-mw-comment-end="h-Upscaled_textures-Files"></span></span></h3>
+<ul><li>Generally, textures should be uploaded as their original resolutions, and therefore should not be upscaled.
+<ul><li>The exceptions to this are item and effect icons, though original resolutions versions of these textures should still be provided via the Gallery section of an article.</li></ul></li></ul>
+<h3><span class="mw-headline" id="Versioning" data-mw-thread-id="h-Versioning-Files"><span data-mw-comment-start="" id="h-Versioning-Files"></span>Versioning<span data-mw-comment-end="h-Versioning-Files"></span></span></h3>
+<p>Old revisions of files should take the format of "<i>Subject</i> JE<i>X</i> BE<i>Y</i>", where <i>X</i> and <i>Y</i> are the revision numbers for <i>Java Edition</i> and <i>Bedrock Edition</i>, respectively.
+</p>
+<ul><li>This number is incremented each time the texture is updated in game (e.g., not in teaser images). "<i>Subject</i>" should redirect to the most recent revision.</li>
+<li>If the current textures for <i>Java Edition</i> and <i>Bedrock Edition</i> differ, "<i>Subject</i>" redirects to the <i>Java Edition</i> texture, while "<i>Subject</i> BE" redirects to the <i>Bedrock Edition</i> texture.</li>
+<li>Textures added in snapshots should follow this naming convention, though "<i>Subject</i>" should not redirect to the texture until it is included in a full release.</li></ul>
+<p>For example, the texture files for cobblestone would go as follows:
+</p>
+<ul><li>"Cobblestone JE1.png"</li>
+<li>"Cobblestone JE2 BE1.png"</li>
+<li>"Cobblestone JE3 BE2.png"</li>
+<li>"Cobblestone JE4.png"</li>
+<li>"Cobblestone JE5 BE3.png"
+<ul><li>"Cobblestone.png" redirects here.</li></ul></li></ul>
+<p>The "<i>Subject</i> JE<i>X</i> BE<i>Y</i>" files should be used in places where the texture shouldn't change if the texture is updated, such as history sections and version guides. The "<i>Subject</i>" files should be used in places where the texture should always be up to date, such as infoboxes.
+</p>
+<h3><span class="mw-headline" id="Spin-offs" data-mw-thread-id="h-Spin-offs-Files"><span data-mw-comment-start="" id="h-Spin-offs-Files"></span>Spin-offs<span data-mw-comment-end="h-Spin-offs-Files"></span></span></h3>
+<p>Files that pertain to any of the provided list of <i>Minecraft</i> spin-off media should include an abbreviation prefix in their file name.
+</p>
+<table class="wikitable">
+<caption>List of spin-offs and their respective acronym
+</caption>
+<tbody><tr>
+<th>Spin-off
+</th>
+<th>Abbreviation
+</th></tr>
+<tr>
+<td><i><a href="/w/Minecraft_Dungeons" title="Minecraft Dungeons">Minecraft Dungeons</a></i>
+</td>
+<td>MCD
+</td></tr>
+<tr>
+<td><i><a href="/w/Minecraft_Dungeons_Arcade" class="mw-redirect" title="Minecraft Dungeons Arcade">Minecraft Dungeons Arcade</a></i>
+</td>
+<td>MCDA
+</td></tr>
+<tr>
+<td><i><a href="/w/Minecraft_Legends" title="Minecraft Legends">Minecraft Legends</a></i>
+</td>
+<td>MCL
+</td></tr>
+<tr>
+<td><i><a href="/w/Minecraft_Earth" title="Minecraft Earth">Minecraft Earth</a></i>
+</td>
+<td>MCE
+</td></tr>
+<tr>
+<td><i><a href="/w/Minecraft:_Story_Mode" title="Minecraft: Story Mode">Minecraft: Story Mode</a></i>
+</td>
+<td>MCSM
+</td></tr>
+<tr>
+<td><i><a href="/w/Minecraft:_Story_Mode_-_Season_Two" title="Minecraft: Story Mode - Season Two">Minecraft: Story Mode - Season Two</a></i>
+</td>
+<td>MCSM2
+</td></tr>
+<tr>
+<td><i><a href="/w/A_Minecraft_Movie" title="A Minecraft Movie">A Minecraft Movie</a></i>
+</td>
+<td>AMCM
+</td></tr>
+<tr>
+<td><i><a href="/w/Minecraft_Mini-Series" title="Minecraft Mini-Series">Minecraft Mini-Series</a></i>
+</td>
+<td>MCMS
+</td></tr>
+<tr>
+<td><i><a href="/w/Minecraft_4k" title="Minecraft 4k">Minecraft 4k</a></i>
+</td>
+<td>4k
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Notes" data-mw-thread-id="h-Notes"><span data-mw-comment-start="" id="h-Notes"></span>Notes<span data-mw-comment-end="h-Notes"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Notes","replies":[]}}--></div>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">i.e. footnotes, like this.</span>
+</li>
+</ol></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="References" data-mw-thread-id="h-References"><span data-mw-comment-start="" id="h-References"></span>References<span data-mw-comment-end="h-References"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-References","replies":[]}}--></div>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a href="https://en.wikipedia.org/wiki/Reference" class="extiw" title="w:Reference">Wikipedia: Reference</a> – This is a reference.</span>
+</li>
+</ol></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Navigation" data-mw-thread-id="h-Navigation"><span data-mw-comment-start="" id="h-Navigation"></span>Navigation<span data-mw-comment-end="h-Navigation"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Navigation","replies":[]}}--></div>
+<table data-navbox-name="%5B%5BMCW:Policies_and_guidelines%7CPolicies_and_guidelines%5D%5D" class="navbox hlist navigation-not-searchable collapsible">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><div class="navbox-navbar"><div class="hlist navbar-mini" style="">
+<ul><li><a href="/w/Template:Navbox_policies" title="Template:Navbox policies"><span title="View this template" style="">v</span></a></li>
+<li><a class="text" href="https://minecraft.wiki/w/Template_talk:Navbox_policies"><span title="Discuss this template" style="">t</span></a></li>
+<li><a href="/w/Special:EditPage/Template:Navbox_policies" title="Special:EditPage/Template:Navbox policies"><span title="Edit this template" style="">e</span></a></li></ul></div></div><span class="navbox-title"><a href="/w/Minecraft_Wiki:Policies_and_guidelines" title="Minecraft Wiki:Policies and guidelines">Policies and guidelines</a></span>
+</th></tr>
+
+<tr>
+<th>Policies
+</th>
+<td>
+<table>
+<tbody><tr>
+<th>Community
+</th>
+<td>
+<ul><li><a href="/w/Minecraft_Wiki:Wiki_rules" title="Minecraft Wiki:Wiki rules">Wiki rules</a></li>
+<li><a href="/w/Minecraft_Wiki:Use_common_sense" title="Minecraft Wiki:Use common sense">Use common sense</a></li></ul>
+</td></tr>
+<tr>
+<th>Content
+</th>
+<td>
+<ul><li><a href="/w/Minecraft_Wiki:Notability" title="Minecraft Wiki:Notability">Notability</a></li>
+<li><a href="/w/Minecraft_Wiki:Video_policy" title="Minecraft Wiki:Video policy">Video policy</a>
+<ul><li><a href="/w/Minecraft_Wiki:Community_videos" title="Minecraft Wiki:Community videos">Community videos</a></li></ul></li>
+<li><a href="/w/Minecraft_Wiki:Generative_AI_policy" title="Minecraft Wiki:Generative AI policy">Generative AI policy</a></li>
+<li><a href="/w/Minecraft_Wiki:Responsible_disclosure" title="Minecraft Wiki:Responsible disclosure">Responsible disclosure</a></li></ul>
+</td></tr>
+<tr>
+<th>User
+</th>
+<td>
+<ul><li><a href="/w/Minecraft_Wiki:Assume_good_faith" title="Minecraft Wiki:Assume good faith">Assume good faith</a></li></ul>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<th>Guidelines
+</th>
+<td>
+<ul><li><a class="mw-selflink selflink">General style guide</a>
+<ul><li><a href="/w/Minecraft_Wiki:Style_guide/Commands" title="Minecraft Wiki:Style guide/Commands">Commands</a></li>
+<li><a href="/w/Minecraft_Wiki:Style_guide/Features" title="Minecraft Wiki:Style guide/Features">Features</a></li>
+<li><a href="/w/Minecraft_Wiki:Style_guide/Redstone" title="Minecraft Wiki:Style guide/Redstone">Redstone</a></li>
+<li><a href="/w/Minecraft_Wiki:Style_guide/Blueprints" title="Minecraft Wiki:Style guide/Blueprints">Blueprints</a></li>
+<li><a href="/w/Minecraft_Wiki:Style_guide/Versions" title="Minecraft Wiki:Style guide/Versions">Versions</a></li></ul></li>
+<li><a href="/w/Minecraft_Wiki:Talk_page_guidelines" title="Minecraft Wiki:Talk page guidelines">Talk page guidelines</a></li></ul>
+</td></tr>
+<tr>
+<th>Essays
+</th>
+<td>
+<ul><li><a href="/w/Minecraft_Wiki:Be_bold" title="Minecraft Wiki:Be bold">Be bold</a></li>
+<li><a href="/w/Minecraft_Wiki:Is_not_about_winning" title="Minecraft Wiki:Is not about winning">Is not about winning</a></li></ul>
+</td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐7dcd6f644b‐xvpcx
+Cached time: 20250324095028
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.027 seconds
+[SMW] Store update time (on page purge): 0.000 seconds
+CPU time usage: 0.158 seconds
+Real time usage: 0.168 seconds
+Preprocessor visited node count: 3716/1000000
+Post‐expand include size: 33280/8388608 bytes
+Template argument size: 3149/8388608 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 2/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 2143/5000000 bytes
+ExtLoops count: 0/50
+Lua time usage: 0.015/10.000 seconds
+Lua memory usage: 1003495/367001600 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   65.959      1 -total
+ 22.57%   14.887     17 Template:BiomeLink
+ 13.63%    8.992     13 Template:Shortcut
+ 12.47%    8.224     11 Template:Tl
+  8.77%    5.786     15 Template:Fullurl
+  6.38%    4.208      9 Template:EnvLink
+  5.54%    3.653      9 Template:BlockLink
+  4.99%    3.292      1 Template:Navbox_policies
+  3.99%    2.635      3 Template:T
+  3.47%    2.290      1 Template:Main
+-->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Style_guide?oldid=2903200">https://minecraft.wiki/w/Minecraft_Wiki:Style_guide?oldid=2903200</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/w/Category:Policies" title="Category:Policies">Policies</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AStyle+guide" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AStyle+guide" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/w/Minecraft_Wiki_talk:Style_guide" rel="discussion" title="Talk about the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Read</span></a></li><li id="ca-viewsource" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide?action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e"><span>View source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc1" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc1"><span>Dev: 1.21.5-rc1</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Style_guide" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Style_guide" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide?oldid=2903200" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Style-5Fguide" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-lang" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">In other languages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.minecraft.wiki/w/Minecraft_Wiki:Gestaltungsrichtlinien" title="Minecraft Wiki:Gestaltungsrichtlinien – Deutsch" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.minecraft.wiki/w/Minecraft_Wiki:Pautas_de_escritura" title="Minecraft Wiki:Pautas de escritura – español" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.minecraft.wiki/w/Minecraft_Wiki:Guide_de_style" title="Minecraft Wiki:Guide de style – français" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.minecraft.wiki/w/Minecraft_Wiki:Guida_di_stile" title="Minecraft Wiki:Guida di stile – italiano" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.minecraft.wiki/w/Minecraft_Wiki:%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89" title="Minecraft Wiki:スタイルガイド – 日本語" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.minecraft.wiki/w/Minecraft_Wiki:%EC%8A%A4%ED%83%80%EC%9D%BC_%EA%B0%80%EC%9D%B4%EB%93%9C" title="Minecraft Wiki:스타일 가이드 – 한국어" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-lzh mw-list-item"><a href="https://lzh.minecraft.wiki/w/Minecraft_Wiki:%E7%AB%A0%E6%B3%95" title="Minecraft Wiki:章法 – 文言" lang="lzh" hreflang="lzh" class="interlanguage-link-target"><span>文言</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.minecraft.wiki/w/Minecraft_Wiki:Schrijfwijzer" title="Minecraft Wiki:Schrijfwijzer – Nederlands" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.minecraft.wiki/w/Minecraft_Wiki:Guia_de_estilo" title="Minecraft Wiki:Guia de estilo – português" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.minecraft.wiki/w/Minecraft_Wiki:%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_%D1%81%D1%82%D0%B8%D0%BB%D1%8E" title="Minecraft Wiki:Руководство по стилю – русский" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.minecraft.wiki/w/Minecraft_Wiki:%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99" title="Minecraft Wiki:แนวปฏิบัติในการเขียน – ไทย" lang="th" hreflang="th" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.minecraft.wiki/w/Minecraft_Wiki:%D0%9A%D0%B5%D1%80%D1%96%D0%B2%D0%BD%D0%B8%D1%86%D1%82%D0%B2%D0%BE_%D0%B7%D1%96_%D1%81%D1%82%D0%B8%D0%BB%D1%8E" title="Minecraft Wiki:Керівництво зі стилю – українська" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.minecraft.wiki/w/Minecraft_Wiki:%E6%A0%BC%E5%BC%8F%E6%8C%87%E5%AF%BC" title="Minecraft Wiki:格式指导 – 中文" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 21 March 2025, at 15:32.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Style_guide?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-xvpcx","wgBackendResponseTime":207,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_titles","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_content","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-References_and_sources-Article_content","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Future_content-Article_content","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Including_files-Article_content","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Quotes-Article_content","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_writing","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Third-person_perspective-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Terminology-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Spelling-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Capitalization-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Section_headings-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Pseudo_headings-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Italics-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Date_and_time_formatting-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Coordinates-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Commands-Article_writing","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Edition_version_names-Article_writing","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_linking","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Sprite_links-Article_linking","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Article_layout","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Specific_layouts-Article_layout","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Keeping_articles_concise_and_up_to_date","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Files","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-General_guidelines-Files","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Screenshots-Files","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Upscaled_textures-Files","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Versioning-Files","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Spin-offs-Files","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Notes","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-References","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Navigation","replies":[]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0,"limitreport-pagepurge-storeupdatetime":"0.000"},"discussiontools":{"limitreport-timeusage":"0.027"},"limitreport":{"cputime":"0.158","walltime":"0.168","ppvisitednodes":{"value":3716,"limit":1000000},"postexpandincludesize":{"value":33280,"limit":8388608},"templateargumentsize":{"value":3149,"limit":8388608},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":2143,"limit":5000000},"timingprofile":["100.00%   65.959      1 -total"," 22.57%   14.887     17 Template:BiomeLink"," 13.63%    8.992     13 Template:Shortcut"," 12.47%    8.224     11 Template:Tl","  8.77%    5.786     15 Template:Fullurl","  6.38%    4.208      9 Template:EnvLink","  5.54%    3.653      9 Template:BlockLink","  4.99%    3.292      1 Template:Navbox_policies","  3.99%    2.635      3 Template:T","  3.47%    2.290      1 Template:Main"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"scribunto":{"limitreport-timeusage":{"value":"0.015","limit":"10.000"},"limitreport-memusage":{"value":1003495,"limit":367001600}},"cachereport":{"origin":"mediawiki-7dcd6f644b-xvpcx","timestamp":"20250324095028","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

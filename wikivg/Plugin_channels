@@ -1,0 +1,1960 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Plugin channels – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"ceebd49ce8a3e4a25af8f6a8e87d71a8","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels","wgTitle":"Projects/wiki.vg merge/Plugin channels","wgCurRevisionId":2853081,"wgRevisionId":2853081,"wgArticleId":290295,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Protocol Details","Java Edition protocol","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels","wgRelevantArticleId":290295,
+"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready",
+"ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["mediawiki.page.media","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip",
+"ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Plugin channels allow client mods and server plugins to communicate without cluttering up chat. This post by Dinnerbone is a good introduction and basic documentation.">
+<meta property="og:description" content="Plugin channels allow client mods and server plugins to communicate without cluttering up chat. This post by Dinnerbone is a good introduction and basic documentation.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Plugin channels – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Plugin_channels rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Plugin channels</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p><b>Plugin channels</b> allow client mods and server plugins to communicate without cluttering up chat. <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://web.archive.org/web/20220711204310/https://dinnerbone.com/blog/2012/01/13/minecraft-plugin-channels-messaging/">This post by Dinnerbone</a> is a good introduction and basic documentation.
+<span class="anchor" id="Internal"></span>
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definitions"><span class="tocnumber">1</span> <span class="toctext">Definitions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Data_Types"><span class="tocnumber">1.1</span> <span class="toctext">Data Types</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#Entity_Path"><span class="tocnumber">1.1.1</span> <span class="toctext">Entity Path</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#Path_Node"><span class="tocnumber">1.1.2</span> <span class="toctext">Path Node</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Block_Box"><span class="tocnumber">1.1.3</span> <span class="toctext">Block Box</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Chunk_Section_Position"><span class="tocnumber">1.1.4</span> <span class="toctext">Chunk Section Position</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Channels_internal_to_Minecraft"><span class="tocnumber">2</span> <span class="toctext">Channels internal to Minecraft</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Brand"><span class="tocnumber">2.1</span> <span class="toctext">Brand</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Debug/Path"><span class="tocnumber">2.2</span> <span class="toctext">Debug/Path</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Debug/Neighbors_Update"><span class="tocnumber">2.3</span> <span class="toctext">Debug/Neighbors Update</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Debug/Redstone_Update_Order"><span class="tocnumber">2.4</span> <span class="toctext">Debug/Redstone Update Order</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Debug/Structures"><span class="tocnumber">2.5</span> <span class="toctext">Debug/Structures</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Debug/World_Generation_Attempt"><span class="tocnumber">2.6</span> <span class="toctext">Debug/World Generation Attempt</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Debug/Add_POI"><span class="tocnumber">2.7</span> <span class="toctext">Debug/Add POI</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Debug/Remove_POI"><span class="tocnumber">2.8</span> <span class="toctext">Debug/Remove POI</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Debug/Update_POI"><span class="tocnumber">2.9</span> <span class="toctext">Debug/Update POI</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Debug/Village_Sections"><span class="tocnumber">2.10</span> <span class="toctext">Debug/Village Sections</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Debug/Goal_Selector"><span class="tocnumber">2.11</span> <span class="toctext">Debug/Goal Selector</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Debug/Brain"><span class="tocnumber">2.12</span> <span class="toctext">Debug/Brain</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Debug/Bee"><span class="tocnumber">2.13</span> <span class="toctext">Debug/Bee</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Debug/Hive"><span class="tocnumber">2.14</span> <span class="toctext">Debug/Hive</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Debug/Add_Game_Test_Marker"><span class="tocnumber">2.15</span> <span class="toctext">Debug/Add Game Test Marker</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Debug/Clear_Game_Test_Markers"><span class="tocnumber">2.16</span> <span class="toctext">Debug/Clear Game Test Markers</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Debug/Raids"><span class="tocnumber">2.17</span> <span class="toctext">Debug/Raids</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#Debug/Game_Event"><span class="tocnumber">2.18</span> <span class="toctext">Debug/Game Event</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Debug/Add_Game_Event_Listener"><span class="tocnumber">2.19</span> <span class="toctext">Debug/Add Game Event Listener</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-27"><a href="#Notable_community_plugin_channels"><span class="tocnumber">3</span> <span class="toctext">Notable community plugin channels</span></a>
+<ul>
+<li class="toclevel-2 tocsection-28"><a href="#Register"><span class="tocnumber">3.1</span> <span class="toctext">Register</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Unregister"><span class="tocnumber">3.2</span> <span class="toctext">Unregister</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#&quot;Common&quot;_standard"><span class="tocnumber">3.3</span> <span class="toctext">"Common" standard</span></a>
+<ul>
+<li class="toclevel-3 tocsection-31"><a href="#Supported_Versions"><span class="tocnumber">3.3.1</span> <span class="toctext">Supported Versions</span></a></li>
+<li class="toclevel-3 tocsection-32"><a href="#Register_2"><span class="tocnumber">3.3.2</span> <span class="toctext">Register</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-33"><a href="#BungeeCord"><span class="tocnumber">3.4</span> <span class="toctext">BungeeCord</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#Forge"><span class="tocnumber">3.5</span> <span class="toctext">Forge</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#Fabric_API"><span class="tocnumber">3.6</span> <span class="toctext">Fabric API</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="#WorldEdit_CUI"><span class="tocnumber">3.7</span> <span class="toctext">WorldEdit CUI</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Definitions" data-mw-thread-id="h-Definitions"><span data-mw-comment-start="" id="h-Definitions"></span>Definitions<span data-mw-comment-end="h-Definitions"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=1" title="Edit section&#039;s source code: Definitions">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Definitions","replies":["h-Data_Types-Definitions"]}}--></div>
+<h3><span class="mw-headline" id="Data_Types" data-mw-thread-id="h-Data_Types-Definitions"><span data-mw-comment-start="" id="h-Data_Types-Definitions"></span>Data Types<span data-mw-comment-end="h-Data_Types-Definitions"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=2" title="Edit section&#039;s source code: Data Types">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id="Entity_Path" data-mw-thread-id="h-Entity_Path-Data_Types"><span data-mw-comment-start="" id="h-Entity_Path-Data_Types"></span>Entity Path<span data-mw-comment-end="h-Entity_Path-Data_Types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=3" title="Edit section&#039;s source code: Entity Path">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Represents calculated path of entity.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Reaches Target
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Seems to always be true.
+</td></tr>
+<tr>
+<td>Current node index
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>Index in nodes that the entity is currently targeting.
+</td></tr>
+<tr>
+<td>Target position
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>The position that the entity is trying to reach as its destination.
+</td></tr>
+<tr>
+<td>Nodes
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of Path Node
+</td>
+<td>The nodes of this path.
+</td></tr>
+<tr>
+<td>Target Nodes
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of Path Node
+</td>
+<td>The nodes that the entity is targeting.
+</td></tr>
+<tr>
+<td>Traversed Nodes
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of Path Node
+</td>
+<td>The nodes that the entity has completed.
+</td></tr>
+<tr>
+<td>Remaining Nodes
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of Path Node
+</td>
+<td>The nodes that the entity needs to traverse.
+</td></tr></tbody></table>
+<p>You can read more at <a href="https://en.wikipedia.org/wiki/A*_search_algorithm" class="extiw" title="wikipedia:A* search algorithm">A* search algorithm</a>.
+</p>
+<h4><span class="mw-headline" id="Path_Node" data-mw-thread-id="h-Path_Node-Data_Types"><span data-mw-comment-start="" id="h-Path_Node-Data_Types"></span>Path Node<span data-mw-comment-end="h-Path_Node-Data_Types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=4" title="Edit section&#039;s source code: Path Node">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Represents single point in path
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>X
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Distance from origin
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>Sum of the length of the previous nodes + the length of this node
+</td></tr>
+<tr>
+<td>Cost
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Has been visited
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Node type
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a> <a href="/w/Protocol_data_types#Type:Enum" title="Protocol data types">Enum</a>
+</td>
+<td>See below
+</td></tr>
+<tr>
+<td>Heap Weight
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<p>Node type can be one of the following values:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>ID
+</th>
+<th>Type
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>Blocked
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Open
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>Walkable
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>Walkable door
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>Trapdoor
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>Powder snow
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>Danger powder snow
+</td></tr>
+<tr>
+<td>7
+</td>
+<td>Fence
+</td></tr>
+<tr>
+<td>8
+</td>
+<td>Lava
+</td></tr>
+<tr>
+<td>9
+</td>
+<td>Water
+</td></tr>
+<tr>
+<td>10
+</td>
+<td>Water border
+</td></tr>
+<tr>
+<td>11
+</td>
+<td>Rail
+</td></tr>
+<tr>
+<td>12
+</td>
+<td>Unpassable rail
+</td></tr>
+<tr>
+<td>13
+</td>
+<td>Danger fire
+</td></tr>
+<tr>
+<td>14
+</td>
+<td>Damage fire
+</td></tr>
+<tr>
+<td>15
+</td>
+<td>Danger other
+</td></tr>
+<tr>
+<td>16
+</td>
+<td>Damage other
+</td></tr>
+<tr>
+<td>17
+</td>
+<td>Open door
+</td></tr>
+<tr>
+<td>18
+</td>
+<td>Closed wooden door
+</td></tr>
+<tr>
+<td>19
+</td>
+<td>Closed iron door
+</td></tr>
+<tr>
+<td>20
+</td>
+<td>Breach (water)
+</td></tr>
+<tr>
+<td>21
+</td>
+<td>Leaves
+</td></tr>
+<tr>
+<td>22
+</td>
+<td>Sticky honey
+</td></tr>
+<tr>
+<td>23
+</td>
+<td>Cocoa
+</td></tr>
+<tr>
+<td>24
+</td>
+<td>Damage cautious
+</td></tr>
+<tr>
+<td>25
+</td>
+<td>Danger trapdoor
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="Block_Box" data-mw-thread-id="h-Block_Box-Data_Types"><span data-mw-comment-start="" id="h-Block_Box-Data_Types"></span>Block Box<span data-mw-comment-end="h-Block_Box-Data_Types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=5" title="Edit section&#039;s source code: Block Box">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Represents a box with integer precision
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Min X
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>must be less than max
+</td></tr>
+<tr>
+<td>Min Y
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>must be less than max
+</td></tr>
+<tr>
+<td>Min Z
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>must be less than max
+</td></tr>
+<tr>
+<td>Max X
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>must be more than min
+</td></tr>
+<tr>
+<td>Max Y
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>must be more than min
+</td></tr>
+<tr>
+<td>Max Z
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>must be more than min
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="Chunk_Section_Position" data-mw-thread-id="h-Chunk_Section_Position-Data_Types"><span data-mw-comment-start="" id="h-Chunk_Section_Position-Data_Types"></span>Chunk Section Position<span data-mw-comment-end="h-Chunk_Section_Position-Data_Types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=6" title="Edit section&#039;s source code: Chunk Section Position">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Represents a box with integer precision
+</p><p><b>Note:</b> What you are seeing here is the latest version of the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Data_types" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Data types">Data types</a> article, but the position type was <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://wiki.vg/index.php?title=Data_types&amp;oldid=14345#Position">different before 1.14</a>.
+</p><p>64-bit value split into three <b>signed</b> integer parts:
+</p>
+<ul><li>x: 22 MSBs</li>
+<li>z: 22 middle bits</li>
+<li>y: 20 LSBs</li></ul>
+<p>For example, a 64-bit position can be broken down as follows:
+</p><p>Example value (big endian): <code><span style="outline: solid 2px rgb(255, 0, 0)">0000000000000000000000</span> <span style="outline: solid 2px rgb(0, 0, 255)">0000000000000000000000</span> <span style="outline: solid 2px rgb(0, 255, 0)">00000000000000000000</span></code><br/>
+</p>
+<ul><li>The red value is the X coordinate, which is <code>0</code> in this example.<br/></li>
+<li>The blue value is the Z coordinate, which is <code>0</code> in this example.<br/></li>
+<li>The green value is the Y coordinate, which is <code>0</code> in this example.<br/></li></ul>
+<p>Encoded as follows:
+</p>
+<pre>((x &amp; 0x3FFFFF) &lt;&lt; 42) | ((z &amp; 0x3FFFFF) &lt;&lt; 20) | (y &amp; 0xFFFFF)
+</pre>
+<p>And decoded as:
+</p>
+<pre>val = read_long();
+x = val >> 42;
+z = val &lt;&lt; 20 >> 42;
+y = val &lt;&lt; 42 >> 42;
+</pre>
+<p>Note: The above assumes that the right shift operator sign extends the value (this is called an <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://en.wikipedia.org/wiki/Arithmetic_shift">arithmetic shift</a>), so that the signedness of the coordinates is preserved. In many languages, this requires the integer type of <code>val</code> to be signed.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Channels_internal_to_Minecraft" data-mw-thread-id="h-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Channels_internal_to_Minecraft"></span>Channels internal to Minecraft<span data-mw-comment-end="h-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=7" title="Edit section&#039;s source code: Channels internal to Minecraft">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Channels_internal_to_Minecraft","replies":["h-Brand-Channels_internal_to_Minecraft","h-Debug\/Path-Channels_internal_to_Minecraft","h-Debug\/Neighbors_Update-Channels_internal_to_Minecraft","h-Debug\/Redstone_Update_Order-Channels_internal_to_Minecraft","h-Debug\/Structures-Channels_internal_to_Minecraft","h-Debug\/World_Generation_Attempt-Channels_internal_to_Minecraft","h-Debug\/Add_POI-Channels_internal_to_Minecraft","h-Debug\/Remove_POI-Channels_internal_to_Minecraft","h-Debug\/Update_POI-Channels_internal_to_Minecraft","h-Debug\/Village_Sections-Channels_internal_to_Minecraft","h-Debug\/Goal_Selector-Channels_internal_to_Minecraft","h-Debug\/Brain-Channels_internal_to_Minecraft","h-Debug\/Bee-Channels_internal_to_Minecraft","h-Debug\/Hive-Channels_internal_to_Minecraft","h-Debug\/Add_Game_Test_Marker-Channels_internal_to_Minecraft","h-Debug\/Clear_Game_Test_Markers-Channels_internal_to_Minecraft","h-Debug\/Raids-Channels_internal_to_Minecraft","h-Debug\/Game_Event-Channels_internal_to_Minecraft","h-Debug\/Add_Game_Event_Listener-Channels_internal_to_Minecraft"]}}--></div>
+<p>These are channels used by Minecraft. Most of them are debugging-related except for brand.
+</p>
+<h3><span class="mw-headline" id="Brand" data-mw-thread-id="h-Brand-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Brand-Channels_internal_to_Minecraft"></span>Brand<span data-mw-comment-end="h-Brand-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=8" title="Edit section&#039;s source code: Brand">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Announces the server and client implementation name right after a player has logged in.
+</p><p>These brands are used in crash reports and a few other locations. It's recommended that custom clients and servers use their own brand names for the purpose of identification. The brand is not processed in any other way, and Notchian clients will connect to servers with different brands with no issue (the brand is not used to validate).
+</p><p>The Notchian server sends a <code>minecraft:brand</code> packet right after it sends a <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Login_(play)" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Login (play)</a> packet, and the Notchian client sends it right after receiving a Login (play) packet. However, some modified clients and servers will not send this packet (or will take longer to send it than normal), so it is important to not crash if the brand has not been sent. Additionally, the brand may change at any time (for instance, if connected through a BungeeCord instance, you may switch from a server with one brand to a server with another brand without receiving a Login (play) packet).
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td><code>minecraft:brand</code>
+</td>
+<td>Two-way
+</td>
+<td>Channels
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>The brand of the server/client. The Notchian value is "vanilla".
+</td></tr></tbody></table>
+<h3><span id="Debug.2FPath"></span><span class="mw-headline" id="Debug/Path" data-mw-thread-id="h-Debug/Path-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Path-Channels_internal_to_Minecraft"></span>Debug/Path<span data-mw-comment-end="h-Debug/Path-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=9" title="Edit section&#039;s source code: Debug/Path">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:16w14a.png" class="mw-file-description"><img src="/images/thumb/16w14a.png/300px-16w14a.png?ac7df" decoding="async" loading="lazy" width="300" height="169" class="mw-file-element" srcset="/images/thumb/16w14a.png/600px-16w14a.png?ac7df 2x" data-file-width="1280" data-file-height="720"/></a><figcaption>The rendering as seen in the <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://web.archive.org/web/20161224194609/http://mojang.com/2016/04/minecraft-snapshot-16w14a/">snapshot 16w14a announcement</a>.</figcaption></figure>
+<p>Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="3"><code>minecraft:debug/path</code>
+</td>
+<td rowspan="3">Client
+</td>
+<td>Entity ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>ID of the entity that is traversing the path.
+</td></tr>
+<tr>
+<td>Path
+</td>
+<td>Entity Path
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Node reach proximity
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<p>The current node is rendered red; the others are rendered blue. The target position is rendered as a green cube.
+</p>
+<h3><span id="Debug.2FNeighbors_Update"></span><span class="mw-headline" id="Debug/Neighbors_Update" data-mw-thread-id="h-Debug/Neighbors_Update-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Neighbors_Update-Channels_internal_to_Minecraft"></span>Debug/Neighbors Update<span data-mw-comment-end="h-Debug/Neighbors_Update-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=10" title="Edit section&#039;s source code: Debug/Neighbors Update">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="2"><code>minecraft:debug/path</code>
+</td>
+<td rowspan="2">Client
+</td>
+<td>Time
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarLong" title="Protocol data types">VarLong</a>
+</td>
+<td>World timestamp at which the update occurred. 200 ticks after this timestamp, the given update stops rendering.
+</td></tr>
+<tr>
+<td>Location
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>Location of the block that updated.
+</td></tr></tbody></table>
+<h3><span id="Debug.2FRedstone_Update_Order"></span><span class="mw-headline" id="Debug/Redstone_Update_Order" data-mw-thread-id="h-Debug/Redstone_Update_Order-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Redstone_Update_Order-Channels_internal_to_Minecraft"></span>Debug/Redstone Update Order<span data-mw-comment-end="h-Debug/Redstone_Update_Order-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=11" title="Edit section&#039;s source code: Debug/Redstone Update Order">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th colspan="2">Field Name
+</th>
+<th colspan="2">Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="3"><code>minecraft:debug/redstone_update_order</code>
+</td>
+<td rowspan="3">Client
+</td>
+<td colspan="2">Time
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:VarLong" title="Protocol data types">VarLong</a>
+</td>
+<td>World timestamp at which the update occurred. 200 ticks after this timestamp, the given update stops rendering.
+</td></tr>
+<tr>
+<td rowspan="2">Wires
+</td>
+<td>Location
+</td>
+<td rowspan="2"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>Location of the redstone wire.
+</td></tr>
+<tr>
+<td>Orientation
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>Packed orientation. (unknown format)
+</td></tr></tbody></table>
+<h3><span id="Debug.2FStructures"></span><span class="mw-headline" id="Debug/Structures" data-mw-thread-id="h-Debug/Structures-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Structures-Channels_internal_to_Minecraft"></span>Debug/Structures<span data-mw-comment-end="h-Debug/Structures-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=12" title="Edit section&#039;s source code: Debug/Structures">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to debug structures. Never sent by the Notchian server. Requires modifications to the client to render.
+</p><p>Adds a single new structure, which will always be rendered if the player is in the same dimension.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th colspan="2">Field Name
+</th>
+<th colspan="2">Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="4"><code>minecraft:debug/structures</code>
+</td>
+<td rowspan="4">Client
+</td>
+<td colspan="2">Dimension
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The ID of the type of dimension in the <code>minecraft:dimension_type</code> registry
+</td></tr>
+<tr>
+<td colspan="2">Box
+</td>
+<td colspan="2">Block Box
+</td>
+<td>Main box for the structure (rendered in white).
+</td></tr>
+<tr>
+<td rowspan="2">Sub-boxes
+</td>
+<td>Box
+</td>
+<td rowspan="2"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td>Block box
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Starting piece
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>If true, the sub-box is rendered in green, otherwise in blue.
+</td></tr></tbody></table>
+<h3><span id="Debug.2FWorld_Generation_Attempt"></span><span class="mw-headline" id="Debug/World_Generation_Attempt" data-mw-thread-id="h-Debug/World_Generation_Attempt-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/World_Generation_Attempt-Channels_internal_to_Minecraft"></span>Debug/World Generation Attempt<span data-mw-comment-end="h-Debug/World_Generation_Attempt-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=13" title="Edit section&#039;s source code: Debug/World Generation Attempt">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to debug something with world generation. Never sent by the Notchian server. Requires modifications to the client to render.
+</p><p>Adds a colored cube of the list of things to render. This cube is never removed.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="6"><code>minecraft:debug/worldgen_attempt</code>
+</td>
+<td rowspan="6">Client
+</td>
+<td>Location
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>The center of the location to render.
+</td></tr>
+<tr>
+<td>Size
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>Diameter/side length of a cube to render.
+</td></tr>
+<tr>
+<td>Red
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>Red value to render, from 0.0 to 1.0.
+</td></tr>
+<tr>
+<td>Green
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>Green value to render, from 0.0 to 1.0.
+</td></tr>
+<tr>
+<td>Blue
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>Blue value to render, from 0.0 to 1.0.
+</td></tr>
+<tr>
+<td>Alpha
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>Alpha value to render, from 0.0 to 1.0.
+</td></tr></tbody></table>
+<h3><span id="Debug.2FAdd_POI"></span><span class="mw-headline" id="Debug/Add_POI" data-mw-thread-id="h-Debug/Add_POI-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Add_POI-Channels_internal_to_Minecraft"></span>Debug/Add POI<span data-mw-comment-end="h-Debug/Add_POI-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=14" title="Edit section&#039;s source code: Debug/Add POI">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to add debugging <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/POI" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/POI">POI</a>. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="3"><code>minecraft:debug/poi_added</code>
+</td>
+<td rowspan="3">Client
+</td>
+<td>Location of POI
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>POI Type
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>Type of POI, see the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/POI" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/POI">POI</a> article.
+</td></tr>
+<tr>
+<td>Free tickets
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FRemove_POI"></span><span class="mw-headline" id="Debug/Remove_POI" data-mw-thread-id="h-Debug/Remove_POI-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Remove_POI-Channels_internal_to_Minecraft"></span>Debug/Remove POI<span data-mw-comment-end="h-Debug/Remove_POI-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=15" title="Edit section&#039;s source code: Debug/Remove POI">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to remove debugging <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/POI" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/POI">POI</a>. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td><code>minecraft:debug/poi_ticket_count</code>
+</td>
+<td>Client
+</td>
+<td>Location of POI
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FUpdate_POI"></span><span class="mw-headline" id="Debug/Update_POI" data-mw-thread-id="h-Debug/Update_POI-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Update_POI-Channels_internal_to_Minecraft"></span>Debug/Update POI<span data-mw-comment-end="h-Debug/Update_POI-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=16" title="Edit section&#039;s source code: Debug/Update POI">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to set amount of free tickets for a given <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/POI" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/POI">POI</a>. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="2"><code>minecraft:debug/poi_ticket_count</code>
+</td>
+<td rowspan="2">Client
+</td>
+<td>Location of POI
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Free tickets
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FVillage_Sections"></span><span class="mw-headline" id="Debug/Village_Sections" data-mw-thread-id="h-Debug/Village_Sections-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Village_Sections-Channels_internal_to_Minecraft"></span>Debug/Village Sections<span data-mw-comment-end="h-Debug/Village_Sections-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=17" title="Edit section&#039;s source code: Debug/Village Sections">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to add/remove Village Sections. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="2"><code>minecraft:debug/village_sections</code>
+</td>
+<td rowspan="2">Client
+</td>
+<td>Sections to add
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of Chunk Section Position
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Sections to remove
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of Chunk Section Position
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FGoal_Selector"></span><span class="mw-headline" id="Debug/Goal_Selector" data-mw-thread-id="h-Debug/Goal_Selector-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Goal_Selector-Channels_internal_to_Minecraft"></span>Debug/Goal Selector<span data-mw-comment-end="h-Debug/Goal_Selector-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=18" title="Edit section&#039;s source code: Debug/Goal Selector">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to debug goals of entities. Never sent by the Notchian server. Requires modifications to the client to render.
+</p><p>Adds multiple lines of text on the given location, spaced by 0.25 units upward on the Y-axis.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th colspan="2">Field Name
+</th>
+<th colspan="2">Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="5"><code>minecraft:debug/goal_selector</code>
+</td>
+<td rowspan="5">Client
+</td>
+<td colspan="2">Entity ID
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td colspan="2">Location
+</td>
+<td colspan="2"><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>The location of the goal selector.
+</td></tr>
+<tr>
+<td rowspan="3">Goals
+</td>
+<td>Priority
+</td>
+<td rowspan="3"><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a>
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>Currently unused
+</td></tr>
+<tr>
+<td>Is running
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>Defines the color of the text. #00FF00 if true, #CCCCCC otherwise.
+</td></tr>
+<tr>
+<td>Name
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (255)
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FBrain"></span><span class="mw-headline" id="Debug/Brain" data-mw-thread-id="h-Debug/Brain-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Brain-Channels_internal_to_Minecraft"></span>Debug/Brain<span data-mw-comment-end="h-Debug/Brain-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=19" title="Edit section&#039;s source code: Debug/Brain">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to debug villagers but renders on any entity with a brain. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="20"><code>minecraft:debug/brain</code>
+</td>
+<td rowspan="20">Client
+</td>
+<td>Unique ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:UUID" title="Protocol data types">UUID</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Entity ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Name
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>A randomly generated name using the UUID.
+</td></tr>
+<tr>
+<td>Profession
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Experience
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Health
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Max Health
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Inventory
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>Doesn't render if empty
+</td></tr>
+<tr>
+<td>Path
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Optional" title="Protocol data types">Prefixed Optional</a> Entity Path
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Wants golem
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Anger level
+</td>
+<td><a href="/w/Protocol_data_types#Type:Integer" title="Protocol data types">Integer</a>
+</td>
+<td>Possibly used for the warden.
+</td></tr>
+<tr>
+<td>Possible activities
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Running tasks
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Memories
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Gossips
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>
+</td></tr>
+<tr>
+<td>POIs
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of <a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Potential POIs
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of <a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FBee"></span><span class="mw-headline" id="Debug/Bee" data-mw-thread-id="h-Debug/Bee-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Bee-Channels_internal_to_Minecraft"></span>Debug/Bee<span data-mw-comment-end="h-Debug/Bee-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=20" title="Edit section&#039;s source code: Debug/Bee">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to debug bee pathfinding to hives and flowers. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="11"><code>minecraft:debug/bee</code>
+</td>
+<td rowspan="11">Client
+</td>
+<td>Unique ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:UUID" title="Protocol data types">UUID</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Entity ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Path
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Optional" title="Protocol data types">Prefixed Optional</a> Entity Path
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Hive position
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Optional" title="Protocol data types">Prefixed Optional</a> <a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Flower position
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Optional" title="Protocol data types">Prefixed Optional</a> <a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Travel ticks
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Goals
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of <a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Blacklisted hives
+</td>
+<td><a href="/w/Protocol_data_types#Type:Specified_Array" title="Protocol data types">Specified Array</a> of <a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FHive"></span><span class="mw-headline" id="Debug/Hive" data-mw-thread-id="h-Debug/Hive-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Hive-Channels_internal_to_Minecraft"></span>Debug/Hive<span data-mw-comment-end="h-Debug/Hive-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=21" title="Edit section&#039;s source code: Debug/Hive">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to debug hives. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="5"><code>minecraft:debug/hive</code>
+</td>
+<td rowspan="5">Client
+</td>
+<td>Location
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Hive type
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Occupant count
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Honey level
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Sedated
+</td>
+<td><a href="/w/Protocol_data_types#Type:Boolean" title="Protocol data types">Boolean</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FAdd_Game_Test_Marker"></span><span class="mw-headline" id="Debug/Add_Game_Test_Marker" data-mw-thread-id="h-Debug/Add_Game_Test_Marker-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Add_Game_Test_Marker-Channels_internal_to_Minecraft"></span>Debug/Add Game Test Marker<span data-mw-comment-end="h-Debug/Add_Game_Test_Marker-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=22" title="Edit section&#039;s source code: Debug/Add Game Test Marker">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to set different debug markers in the world. Never sent by the Notchian server. This interestingly renders without problems since 1.16.5.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="4"><code>minecraft:debug/game_test_add_marker</code>
+</td>
+<td rowspan="4">Client
+</td>
+<td>Location
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Color
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>ARGB with each channel having 8 bits.
+</td></tr>
+<tr>
+<td>Text
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a> (32767)
+</td>
+<td>The text to display above the given location.
+</td></tr>
+<tr>
+<td>Lifetime
+</td>
+<td><a href="/w/Protocol_data_types#Type:Int" title="Protocol data types">Int</a>
+</td>
+<td>Given in milliseconds.
+</td></tr></tbody></table>
+<h3><span id="Debug.2FClear_Game_Test_Markers"></span><span class="mw-headline" id="Debug/Clear_Game_Test_Markers" data-mw-thread-id="h-Debug/Clear_Game_Test_Markers-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Clear_Game_Test_Markers-Channels_internal_to_Minecraft"></span>Debug/Clear Game Test Markers<span data-mw-comment-end="h-Debug/Clear_Game_Test_Markers-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=23" title="Edit section&#039;s source code: Debug/Clear Game Test Markers">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Clears all debug markers.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td><code>minecraft:debug/game_test_clear</code>
+</td>
+<td>Client
+</td>
+<td colspan="3"><i>no fields</i>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FRaids"></span><span class="mw-headline" id="Debug/Raids" data-mw-thread-id="h-Debug/Raids-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Raids-Channels_internal_to_Minecraft"></span>Debug/Raids<span data-mw-comment-end="h-Debug/Raids-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=24" title="Edit section&#039;s source code: Debug/Raids">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to set debug raid centers. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td><code>minecraft:debug/raids</code>
+</td>
+<td>Client
+</td>
+<td>Locations
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>Locations of raid centers.
+</td></tr></tbody></table>
+<h3><span id="Debug.2FGame_Event"></span><span class="mw-headline" id="Debug/Game_Event" data-mw-thread-id="h-Debug/Game_Event-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Game_Event-Channels_internal_to_Minecraft"></span>Debug/Game Event<span data-mw-comment-end="h-Debug/Game_Event-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=25" title="Edit section&#039;s source code: Debug/Game Event">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Never sent, but used to debug game events. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="4"><code>minecraft:debug/game_event</code>
+</td>
+<td rowspan="4">Client
+</td>
+<td>Game event type
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The ID of the type of game_event in the <code>minecraft:game_event</code> registry
+</td></tr>
+<tr>
+<td>X
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td><a href="/w/Protocol_data_types#Type:Double" title="Protocol data types">Double</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h3><span id="Debug.2FAdd_Game_Event_Listener"></span><span class="mw-headline" id="Debug/Add_Game_Event_Listener" data-mw-thread-id="h-Debug/Add_Game_Event_Listener-Channels_internal_to_Minecraft"><span data-mw-comment-start="" id="h-Debug/Add_Game_Event_Listener-Channels_internal_to_Minecraft"></span>Debug/Add Game Event Listener<span data-mw-comment-end="h-Debug/Add_Game_Event_Listener-Channels_internal_to_Minecraft"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=26" title="Edit section&#039;s source code: Debug/Add Game Event Listener">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to add game event listeners. Never sent by the Notchian server. Requires modifications to the client to render.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="3"><code>minecraft:debug/game_event_listeners</code>
+</td>
+<td rowspan="3">Client
+</td>
+<td>Listener type
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>The ID of the type of position_source_type in the <code>minecraft:position_source_type</code> registry
+</td></tr>
+<tr>
+<td>Listener data
+</td>
+<td>Listener data
+</td>
+<td>See below.
+</td></tr>
+<tr>
+<td>Listener range
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<p>Listener data for a block:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Location
+</td>
+<td><a href="/w/Protocol_data_types#Type:Position" title="Protocol data types">Position</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<p>Listener data for an entity:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Entity ID
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y offset
+</td>
+<td><a href="/w/Protocol_data_types#Type:Float" title="Protocol data types">Float</a>
+</td>
+<td>The y offset from the entity's position.
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Notable_community_plugin_channels" data-mw-thread-id="h-Notable_community_plugin_channels"><span data-mw-comment-start="" id="h-Notable_community_plugin_channels"></span>Notable community plugin channels<span data-mw-comment-end="h-Notable_community_plugin_channels"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=27" title="Edit section&#039;s source code: Notable community plugin channels">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Notable_community_plugin_channels","replies":["h-Register-Notable_community_plugin_channels","h-Unregister-Notable_community_plugin_channels","h-\"Common\"_standard-Notable_community_plugin_channels","h-BungeeCord-Notable_community_plugin_channels","h-Forge-Notable_community_plugin_channels","h-Fabric_API-Notable_community_plugin_channels","h-WorldEdit_CUI-Notable_community_plugin_channels"]}}--></div>
+<p>Channels listed in this section are not used by the vanilla Minecraft client or server. This is just a likely-incomplete list of channels used by mods/plugins popular within the Minecraft community.
+</p>
+<h3><span class="mw-headline" id="Register" data-mw-thread-id="h-Register-Notable_community_plugin_channels"><span data-mw-comment-start="" id="h-Register-Notable_community_plugin_channels"></span>Register<span data-mw-comment-end="h-Register-Notable_community_plugin_channels"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=28" title="Edit section&#039;s source code: Register">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td><code>minecraft:register</code>
+</td>
+<td>Two-way
+</td>
+<td>Channels
+</td>
+<td><a href="/w/Protocol_data_types#Type:Byte_Array" title="Protocol data types">Byte Array</a>
+</td>
+<td>An ASCII (sometimes UTF-8) string without a length prefix containing the channels separated by \u0000
+</td></tr></tbody></table>
+<p>Allows the client or server to register for one or more custom channels, indicating that data should be sent on those channels if the receiving end supports it too. This format is used on Bukkit, BungeeCord, Velocity and Fabric API.
+</p>
+<h3><span class="mw-headline" id="Unregister" data-mw-thread-id="h-Unregister-Notable_community_plugin_channels"><span data-mw-comment-start="" id="h-Unregister-Notable_community_plugin_channels"></span>Unregister<span data-mw-comment-end="h-Unregister-Notable_community_plugin_channels"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=29" title="Edit section&#039;s source code: Unregister">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td><code>minecraft:unregister</code>
+</td>
+<td>Two-way
+</td>
+<td>Channels
+</td>
+<td><a href="/w/Protocol_data_types#Type:Byte_Array" title="Protocol data types">Byte Array</a>
+</td>
+<td>An ASCII (sometimes UTF-8) string without a length prefix containing the channels separated by \u0000
+</td></tr></tbody></table>
+<p>Allows the client or server to unregister from one or more custom channels, indicating that the receiving end should stop sending data on those channels. This format is used on Bukkit, BungeeCord, Velocity and Fabric API.
+</p>
+<h3><span id=".22Common.22_standard"></span><span class="mw-headline" id="&quot;Common&quot;_standard" data-mw-thread-id="h-&quot;Common&quot;_standard-Notable_community_plugin_channels"><span data-mw-comment-start="" id="h-&quot;Common&quot;_standard-Notable_community_plugin_channels"></span>"Common" standard<span data-mw-comment-end="h-&quot;Common&quot;_standard-Notable_community_plugin_channels"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=30" title="Edit section&#039;s source code: &quot;Common&quot; standard">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The common standard was created by the FabricMC, NeoForged, PaperMC and SpongePowered team because the current register channel lacked the game phase. It is currently used by Fabric API and NeoForge. The current version of the standard is 1, which contains the following payloads:
+</p>
+<h4><span class="mw-headline" id="Supported_Versions" data-mw-thread-id="h-Supported_Versions-&quot;Common&quot;_standard"><span data-mw-comment-start="" id="h-Supported_Versions-&quot;Common&quot;_standard"></span>Supported Versions<span data-mw-comment-end="h-Supported_Versions-&quot;Common&quot;_standard"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=31" title="Edit section&#039;s source code: Supported Versions">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td><code>c:version</code>
+</td>
+<td>Two-way
+</td>
+<td>Supported Versions
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:Integer" title="Protocol data types">Integer</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="Register_2" data-mw-thread-id="h-Register_2-&quot;Common&quot;_standard"><span data-mw-comment-start="" id="h-Register_2-&quot;Common&quot;_standard"></span>Register<span data-mw-comment-end="h-Register_2-&quot;Common&quot;_standard"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=32" title="Edit section&#039;s source code: Register">edit source</a><span class="mw-editsection-bracket">]</span></span></h4>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="3"><code>c:register</code>
+</td>
+<td rowspan="3">Two-way
+</td>
+<td>Common Version
+</td>
+<td><a href="/w/Protocol_data_types#Type:Integer" title="Protocol data types">Integer</a>
+</td>
+<td>The highest version that both the client and the server supports.
+</td></tr>
+<tr>
+<td>Phase
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>"play" or "configuration"
+</td></tr>
+<tr>
+<td>Channels
+</td>
+<td><a href="/w/Protocol_data_types#Type:Prefixed_Array" title="Protocol data types">Prefixed Array</a> of <a href="/w/Protocol_data_types#Type:Identifier" title="Protocol data types">Identifier</a>
+</td>
+<td>
+</td></tr></tbody></table>
+<p>Note: this standard only supports registering channels, not unregistering.
+</p>
+<h3><span class="mw-headline" id="BungeeCord" data-mw-thread-id="h-BungeeCord-Notable_community_plugin_channels"><span data-mw-comment-start="" id="h-BungeeCord-Notable_community_plugin_channels"></span>BungeeCord<span data-mw-comment-end="h-BungeeCord-Notable_community_plugin_channels"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=33" title="Edit section&#039;s source code: BungeeCord">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><code>bungeecord:main</code>
+</p><p>Formerly <code>BungeeCord</code>; additionally, note that the channel name is remapped by spigot so that the old name can still be used in plugins.
+</p><p><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.spigotmc.org/wiki/bukkit-bungee-plugin-messaging-channel/">See here</a>
+</p>
+<h3><span class="mw-headline" id="Forge" data-mw-thread-id="h-Forge-Notable_community_plugin_channels"><span data-mw-comment-start="" id="h-Forge-Notable_community_plugin_channels"></span>Forge<span data-mw-comment-end="h-Forge-Notable_community_plugin_channels"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=34" title="Edit section&#039;s source code: Forge">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote searchaux">Main page: <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Minecraft_Forge_Handshake" title="Minecraft Wiki:Projects/wiki.vg merge/Minecraft Forge Handshake">Minecraft Wiki:Projects/wiki.vg merge/Minecraft Forge Handshake</a></div>
+<p><code>fml:handshake</code>, <code>fml:play</code>
+</p><p>Previously <code>FML|HS</code>, <code>FML</code>
+</p><p>Used by <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.minecraftforge.net/forum/index.php">Minecraft Forge</a> to negotiate required mods, among other things.
+<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/MinecraftForge/MinecraftForge/blob/1.15.x/src/main/java/net/minecraftforge/fml/network/NetworkInitialization.java"><code>fml:handshake</code> and <code>fml:play</code></a>
+</p>
+<h3><span class="mw-headline" id="Fabric_API" data-mw-thread-id="h-Fabric_API-Notable_community_plugin_channels"><span data-mw-comment-start="" id="h-Fabric_API-Notable_community_plugin_channels"></span>Fabric API<span data-mw-comment-end="h-Fabric_API-Notable_community_plugin_channels"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=35" title="Edit section&#039;s source code: Fabric API">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><code>fabric:accepted_attachments_v1</code>, <code>fabric:attachment_sync_v1</code>, <code>fabric:custom_ingredient_sync</code> and much more
+</p>
+<h3><span class="mw-headline" id="WorldEdit_CUI" data-mw-thread-id="h-WorldEdit_CUI-Notable_community_plugin_channels"><span data-mw-comment-start="" id="h-WorldEdit_CUI-Notable_community_plugin_channels"></span>WorldEdit CUI<span data-mw-comment-end="h-WorldEdit_CUI-Notable_community_plugin_channels"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;section=36" title="Edit section&#039;s source code: WorldEdit CUI">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote searchaux">Main article: <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/WorldEditCUI" title="Minecraft Wiki:Projects/wiki.vg merge/Plugin channels/WorldEditCUI">/WorldEditCUI</a></div>
+<p><code>worldedit:cui</code>
+</p><p>Used by the server-side <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.enginehub.org/worldedit/">WorldEdit</a> and the client-side <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292886-worldeditcui/">WorldEditCUI</a> to coordinate selections.
+</p>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐7dcd6f644b‐vszq8
+Cached time: 20250320222844
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.025 seconds
+CPU time usage: 0.098 seconds
+Real time usage: 0.101 seconds
+Preprocessor visited node count: 2164/1000000
+Post‐expand include size: 22438/8388608 bytes
+Template argument size: 4214/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   25.049      1 -total
+ 31.47%    7.884    123 Template:Type
+ 27.75%    6.951      1 Template:License_wiki.vg
+ 16.40%    4.109      2 Template:Main
+ 14.69%    3.679      1 Template:License
+ 11.40%    2.855      1 Template:Msgbox
+  9.21%    2.307      2 Template:Hatnote
+  4.64%    1.162      1 Template:Anchor
+  3.85%    0.964      2 Template:Article_other
+  2.95%    0.740      3 Template:SUBJECTSPACE_formatted
+-->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?oldid=2853081">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?oldid=2853081</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Protocol_Details?action=edit&amp;redlink=1" class="new" title="Category:Protocol Details (page does not exist)">Protocol Details</a></li><li><a href="/w/Category:Java_Edition_protocol" title="Category:Java Edition protocol">Java Edition protocol</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FPlugin+channels" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FPlugin+channels" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Plugin_channels?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc1" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc1"><span>Dev: 1.21.5-rc1</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?oldid=2853081" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FPlugin-5Fchannels" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 8 February 2025, at 16:18.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":146,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Definitions","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Data_Types-Definitions","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Entity_Path-Data_Types","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Path_Node-Data_Types","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Block_Box-Data_Types","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Chunk_Section_Position-Data_Types","replies":[]}]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Channels_internal_to_Minecraft","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Brand-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Path-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Neighbors_Update-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Redstone_Update_Order-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Structures-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/World_Generation_Attempt-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Add_POI-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Remove_POI-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Update_POI-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Village_Sections-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Goal_Selector-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Brain-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Bee-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Hive-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Add_Game_Test_Marker-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Clear_Game_Test_Markers-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Raids-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Game_Event-Channels_internal_to_Minecraft","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Debug/Add_Game_Event_Listener-Channels_internal_to_Minecraft","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Notable_community_plugin_channels","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Register-Notable_community_plugin_channels","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Unregister-Notable_community_plugin_channels","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-\"Common\"_standard-Notable_community_plugin_channels","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Supported_Versions-\"Common\"_standard","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Register_2-\"Common\"_standard","replies":[]}]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-BungeeCord-Notable_community_plugin_channels","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Forge-Notable_community_plugin_channels","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Fabric_API-Notable_community_plugin_channels","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-WorldEdit_CUI-Notable_community_plugin_channels","replies":[]}]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"discussiontools":{"limitreport-timeusage":"0.025"},"limitreport":{"cputime":"0.098","walltime":"0.101","ppvisitednodes":{"value":2164,"limit":1000000},"postexpandincludesize":{"value":22438,"limit":8388608},"templateargumentsize":{"value":4214,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%   25.049      1 -total"," 31.47%    7.884    123 Template:Type"," 27.75%    6.951      1 Template:License_wiki.vg"," 16.40%    4.109      2 Template:Main"," 14.69%    3.679      1 Template:License"," 11.40%    2.855      1 Template:Msgbox","  9.21%    2.307      2 Template:Hatnote","  4.64%    1.162      1 Template:Anchor","  3.85%    0.964      2 Template:Article_other","  2.95%    0.740      3 Template:SUBJECTSPACE_formatted"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-7dcd6f644b-vszq8","timestamp":"20250320222844","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

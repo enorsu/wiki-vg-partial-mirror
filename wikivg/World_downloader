@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Plugin channels/World downloader – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"f62f5f31f97458ec977461f165fe0d9f","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader","wgTitle":"Projects/wiki.vg merge/Plugin channels/World downloader","wgCurRevisionId":2774223,"wgRevisionId":2774223,"wgArticleId":290298,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader","wgRelevantArticleId":
+290298,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready",
+"ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound",
+"ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Documentation of the World Downloader mod&#039;s plugin channel configuration system.">
+<meta property="og:description" content="Documentation of the World Downloader mod&#039;s plugin channel configuration system.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Plugin channels/World downloader – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Plugin_channels_World_downloader rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Plugin channels/World downloader</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels" title="Minecraft Wiki:Projects/wiki.vg merge/Plugin channels">Plugin channels</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p>Documentation of the <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2520465">World Downloader mod</a>'s plugin channel configuration system.
+</p><p>Implemented in-mod <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Pokechu22/WorldDownloader/blob/v4/src/wdl/WDLPluginChannels.java">here</a>.  A bukkit implementation is available <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Pokechu22/WorldDownloader-Serverside-Companion">here</a>.
+</p><p>Regarding channel names: 1.13 has necessitated namespacing the channels, i.e. <code>wdl:init</code>, <code>wdl:control</code>, <code>wdl:request</code> instead of <code>WDL|INIT</code>, <code>WDL|CONTROL</code>, <code>WDL|REQUEST</code>.  Support for both channel names has been backported to 1.12, and it will automatically select whichever channels are supported.  If targetting older MC versions, make sure to listen and respond on both sets of channels.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#A_note_before_implementing_these_channels"><span class="tocnumber">1</span> <span class="toctext">A note before implementing these channels</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Data_types"><span class="tocnumber">2</span> <span class="toctext">Data types</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Chunk_Overrides"><span class="tocnumber">2.1</span> <span class="toctext">Chunk Overrides</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#wdl:init"><span class="tocnumber">3</span> <span class="toctext">wdl:init</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#wdl:control"><span class="tocnumber">4</span> <span class="toctext">wdl:control</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Default_values"><span class="tocnumber">4.1</span> <span class="toctext">Default values</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Basic_data"><span class="tocnumber">4.2</span> <span class="toctext">Basic data</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Entity_track_distances"><span class="tocnumber">4.3</span> <span class="toctext">Entity track distances</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Permission_request_info"><span class="tocnumber">4.4</span> <span class="toctext">Permission request info</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Set_chunk_overrides"><span class="tocnumber">4.5</span> <span class="toctext">Set chunk overrides</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Modify_group_chunk_overrides"><span class="tocnumber">4.6</span> <span class="toctext">Modify group chunk overrides</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Remove_chunk_overrides_by_tag"><span class="tocnumber">4.7</span> <span class="toctext">Remove chunk overrides by tag</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Set_chunk_overrides_by_tag"><span class="tocnumber">4.8</span> <span class="toctext">Set chunk overrides by tag</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#wdl:request"><span class="tocnumber">5</span> <span class="toctext">wdl:request</span></a></li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="A_note_before_implementing_these_channels" data-mw-thread-id="h-A_note_before_implementing_these_channels"><span data-mw-comment-start="" id="h-A_note_before_implementing_these_channels"></span>A note before implementing these channels<span data-mw-comment-end="h-A_note_before_implementing_these_channels"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=1" title="Edit section&#039;s source code: A note before implementing these channels">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-A_note_before_implementing_these_channels","replies":[]}}--></div>
+<p>Please do <i>not</i> misuse these channels, and please <i>do</i> implement the full collection (including permission requests).  They only make sense when used completely.
+</p><p>These channels have been designed in a very deliberate way, so that players should not need to circumvent the system for valid uses of the mod (and yes, there <i>are</i> valid uses (perhaps the majority are, even)... otherwise, these channels wouldn't exist!).  Implementing only a subset and neglecting permission requests means that players need to go through other channels, of which you don't have control over.  Implementing permission requests allows you to set specific <i>policies</i> for use of the mod, something that isn't possible any other way.
+</p><p>These channels act as a guideline that governs how you wish the mod to be used on your server.  Obviously, it can't be a hard rule (that's very much technically impossible), so choose something granular and practical.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Data_types" data-mw-thread-id="h-Data_types"><span data-mw-comment-start="" id="h-Data_types"></span>Data types<span data-mw-comment-end="h-Data_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=2" title="Edit section&#039;s source code: Data types">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Data_types","replies":["h-Chunk_Overrides-Data_types"]}}--></div>
+<p>All types here are as specified by Java's <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://docs.oracle.com/javase/7/docs/api/java/io/DataOutputStream.html"><code>DataOutputStream</code></a> and can be read using a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://docs.oracle.com/javase/7/docs/api/java/io/DataInputStream.html"><code>DataInputStream</code></a>, unless otherwise noted.  They do <b>not</b> use the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Data_types" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Data types">standard protocol data types</a>.  Additionally, the format is not directly compatible with some standard channel implementations - if you use forge or sponge's default indexed codecs, things won't work right (those use 1 byte; this uses 4 bytes).
+</p><p><br/>
+</p>
+<h3><span class="mw-headline" id="Chunk_Overrides" data-mw-thread-id="h-Chunk_Overrides-Data_types"><span data-mw-comment-start="" id="h-Chunk_Overrides-Data_types"></span>Chunk Overrides<span data-mw-comment-end="h-Chunk_Overrides-Data_types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=3" title="Edit section&#039;s source code: Chunk Overrides">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Chunk Overrides are areas that the player is allowed to download in even if the rest of the map is restricted.  As the name suggests, it is defined by a chunk's area.
+</p><p>If the start and end x coordinates are the same, the chunk at that position can be saved (they are both inclusive).
+</p><p>Implementations are encouraged to try and merge chunk overrides with the same tag before sending, but this is not required.
+</p><p>A Chunk Override has the following structure:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Tag
+</td>
+<td>String
+</td>
+<td>A string describing this chunk override.  May be empty and does not need to be unique.  For instance, a World Guard region corresponding to the range.
+</td></tr>
+<tr>
+<td>x1
+</td>
+<td>Integer
+</td>
+<td>Start x chunk coordinate.  Should not be larger than x2.
+</td></tr>
+<tr>
+<td>z1
+</td>
+<td>Integer
+</td>
+<td>Start z chunk coordinate.  Should not be larger than z2.
+</td></tr>
+<tr>
+<td>x2
+</td>
+<td>Integer
+</td>
+<td>End x chunk coordinate.  Should not be smaller than x1.
+</td></tr>
+<tr>
+<td>z2
+</td>
+<td>Integer
+</td>
+<td>End z chunk coordinate.  Should not be smaller than z1.
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="wdl:init" data-mw-thread-id="h-wdl:init"><span data-mw-comment-start="" id="h-wdl:init"></span><code>wdl:init</code><span data-mw-comment-end="h-wdl:init"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=4" title="Edit section&#039;s source code: wdl:init">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-wdl:init","replies":[]}}--></div>
+<p><code>wdl:init</code> is sent to show that World Downloader is ready to receive new permissions.  Don't send permissions until this is received - it may still be saving from another part of the map or another sever where it has permission, and revoking permission in the middle of (allowed) saving is a Bad Thing™.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound To
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="1"><code>wdl:init</code>
+</td>
+<td rowspan="1">Server
+</td>
+<td>Content
+</td>
+<td>Byte array
+</td>
+<td>This is a byte array that takes up the entire length of the packet - there is no length prefixed to it.
+</td></tr></tbody></table>
+<p>Content is not present on very old versions of the mod.  In all versions where it is present, content is a UTF-8 string.  In older versions, it is a simple version number; in newer versions, it is a JSON blob that contains some information including the version; if it starts with a <code>{</code> then it MUST be a valid JSON blob.  The exact specification for the JSON blob has not been finalized, but it currently contains the following information fields:
+</p>
+<dl><dt><code>Version</code></dt>
+<dd>A version number.</dd>
+<dt><code>State</code></dt>
+<dd>Will include information about why the INIT packet is being sent, however values are unspecified at this time.</dd></dl>
+<p>Additionally there are fields starting with "X-", which are provided for information purposes only.
+</p>
+<dl><dt><code>X-RTFM</code></dt>
+<dd>A link to this documentation.</dd>
+<dt><code>X-UpdateNote</code></dt>
+<dd>Contains information about the state of this system; will include information about when the channels change.  Currently <code style="white-space: pre-wrap">The plugin message system will be changing shortly.  Please stay tuned.</code>.</dd></dl>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="wdl:control" data-mw-thread-id="h-wdl:control"><span data-mw-comment-start="" id="h-wdl:control"></span><code>wdl:control</code><span data-mw-comment-end="h-wdl:control"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=5" title="Edit section&#039;s source code: wdl:control">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-wdl:control","replies":["h-Default_values-wdl:control","h-Basic_data-wdl:control","h-Entity_track_distances-wdl:control","h-Permission_request_info-wdl:control","h-Set_chunk_overrides-wdl:control","h-Modify_group_chunk_overrides-wdl:control","h-Remove_chunk_overrides_by_tag-wdl:control","h-Set_chunk_overrides_by_tag-wdl:control"]}}--></div>
+<p>This channel is sent from the server to the client to specify various permissions.  It uses a 4-byte integer at the start to indicate a section.  There is no required order, but it is conventional to put them in numerical order.
+</p><p>In all cases unless otherwise indicated, if a packet is not sent its values are treated as 'true'.
+</p>
+<h3><span class="mw-headline" id="Default_values" data-mw-thread-id="h-Default_values-wdl:control"><span data-mw-comment-start="" id="h-Default_values-wdl:control"></span>Default values<span data-mw-comment-end="h-Default_values-wdl:control"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=6" title="Edit section&#039;s source code: Default values">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Specifies the default value used for permissions not sent.
+</p><p>Note that sending this packet does not actually <i>change</i> the value for other packets; it instead specifies an internal fallback.  Thus, this packet can be sent at any time to change this default without needing to resend other packets.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound To
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="2"><code>wdl:control</code>
+</td>
+<td rowspan="2">Client
+</td>
+<td>Discriminator
+</td>
+<td>Integer
+</td>
+<td>Set to 0 to indicate this packet.
+</td></tr>
+<tr>
+<td>Default value
+</td>
+<td>Boolean
+</td>
+<td>True to enable all functions not otherwise specified, false to disable them.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Basic_data" data-mw-thread-id="h-Basic_data-wdl:control"><span data-mw-comment-start="" id="h-Basic_data-wdl:control"></span>Basic data<span data-mw-comment-end="h-Basic_data-wdl:control"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=7" title="Edit section&#039;s source code: Basic data">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Sets some of the standard properties.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound To
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="7"><code>wdl:control</code>
+</td>
+<td rowspan="7">Client
+</td>
+<td>Discriminator
+</td>
+<td>Integer
+</td>
+<td>Set to 1 to indicate this packet.
+</td></tr>
+<tr>
+<td>General download enabled
+</td>
+<td>Boolean
+</td>
+<td>True to enable all downloading in all chunks, false to disable it.
+</td></tr>
+<tr>
+<td>Save radius
+</td>
+<td>Integer
+</td>
+<td>The distance from the player chunks can be saved from.  -1 to allow all distances.  This is a square distance, not a circle or a diamond.  <b>Only applies if chunk caching is disabled</b>.
+</td></tr>
+<tr>
+<td>Chunk caching enabled
+</td>
+<td>Boolean
+</td>
+<td>Can chunks be saved as the player moves about.  If false, then they can only save within the area indicated by save radius; if true they can save everywhere.  However, regardless of this value, if general download is disabled, they cannot download.
+</td></tr>
+<tr>
+<td>Entity saving enabled
+</td>
+<td>Boolean
+</td>
+<td>True to allow the mod to save entities, false to force entities to be removed from the world.  This only applies to chunks that can be saved.
+</td></tr>
+<tr>
+<td>Tile entity saving enabled
+</td>
+<td>Boolean
+</td>
+<td>True to allow the mod to save tile entities, false to force tile entities to be removed from the world.  This only applies to chunks that can be saved.
+</td></tr>
+<tr>
+<td>Container saving enabled
+</td>
+<td>Boolean
+</td>
+<td>True to allow the mod to save containers (a subset of tile entities that require manual interaction to be saved, mainly chests).  This only applies if tile entities are allowed to be saved and only applies in chunks that can be saved.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Entity_track_distances" data-mw-thread-id="h-Entity_track_distances-wdl:control"><span data-mw-comment-start="" id="h-Entity_track_distances-wdl:control"></span>Entity track distances<span data-mw-comment-end="h-Entity_track_distances-wdl:control"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=8" title="Edit section&#039;s source code: Entity track distances">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Used to specify any custom entity track distances on the server, because they may change on spigot servers.  More info on why this is needed on <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Pokechu22/WorldDownloader/wiki/Entities-GUI#what-are-track-distances">the project wiki</a>.
+</p><p>The client is free to ignore these values, and will use sane defaults based off of whether the server's brand includes "spigot" if they are not sent.  However, by default these values are used.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound To
+</th>
+<th colspan="2">Field Name
+</th>
+<th colspan="2">Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="4"><code>wdl:control</code>
+</td>
+<td rowspan="4">Client
+</td>
+<td colspan="2">Discriminator
+</td>
+<td colspan="2">Integer
+</td>
+<td>Set to 2 to indicate this packet.
+</td></tr>
+<tr>
+<td colspan="2">Number of ranges
+</td>
+<td colspan="2">Integer
+</td>
+<td>Size of the following array.
+</td></tr>
+<tr>
+<td rowspan="2">Values
+</td>
+<td>Entity name
+</td>
+<td rowspan="2">Array
+</td>
+<td>String
+</td>
+<td>The name of the entity, as used in the savegame ID.
+</td></tr>
+<tr>
+<td>Track distance
+</td>
+<td>Integer
+</td>
+<td>The track distance of the entity, in blocks.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Permission_request_info" data-mw-thread-id="h-Permission_request_info-wdl:control"><span data-mw-comment-start="" id="h-Permission_request_info-wdl:control"></span>Permission request info<span data-mw-comment-end="h-Permission_request_info-wdl:control"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=9" title="Edit section&#039;s source code: Permission request info">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Information used with permission requests.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound to
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="3"><code>wdl:control</code>
+</td>
+<td rowspan="3">Client
+</td>
+<td>Discriminator
+</td>
+<td>Integer
+</td>
+<td>Set to 3 to indicate this packet.
+</td></tr>
+<tr>
+<td>Requests enabled
+</td>
+<td>Boolean
+</td>
+<td>Whether requests work on this server.  In <b>all cases</b> this should be true unless you have an out of date plugin... in which case you probably wouldn't be sending this anyways.
+</td></tr>
+<tr>
+<td>Request message
+</td>
+<td>String
+</td>
+<td>A message displayed to players on the permissions and permissions request screen.  You can use this to display rules relating to use of the mod, or explain how you want it to be used, or what info to include in the request, etc.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Set_chunk_overrides" data-mw-thread-id="h-Set_chunk_overrides-wdl:control"><span data-mw-comment-start="" id="h-Set_chunk_overrides-wdl:control"></span>Set chunk overrides<span data-mw-comment-end="h-Set_chunk_overrides-wdl:control"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=10" title="Edit section&#039;s source code: Set chunk overrides">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Sets the entire set of chunk overrides.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound To
+</th>
+<th colspan="2">Field Name
+</th>
+<th colspan="2">Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="5"><code>wdl:control</code>
+</td>
+<td rowspan="5">Client
+</td>
+<td colspan="2">Discriminator
+</td>
+<td colspan="2">Integer
+</td>
+<td>Set to 4 to indicate this packet
+</td></tr>
+<tr>
+<td colspan="2">Number of groups
+</td>
+<td colspan="2">Integer
+</td>
+<td>Size of the following array
+</td></tr>
+<tr>
+<td rowspan="3">Groups
+</td>
+<td>Group name
+</td>
+<td rowspan="3">Array
+</td>
+<td>String
+</td>
+<td>The name of this group.  Must be unique.
+</td></tr>
+<tr>
+<td>Number of overrides
+</td>
+<td>Integer
+</td>
+<td>Size of the following array
+</td></tr>
+<tr>
+<td>Overrides
+</td>
+<td>Array of <a href="#Chunk_Overrides">Chunk Override</a>
+</td>
+<td>Each override.  Tags may be different within the list and no order is required.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Modify_group_chunk_overrides" data-mw-thread-id="h-Modify_group_chunk_overrides-wdl:control"><span data-mw-comment-start="" id="h-Modify_group_chunk_overrides-wdl:control"></span>Modify group chunk overrides<span data-mw-comment-end="h-Modify_group_chunk_overrides-wdl:control"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=11" title="Edit section&#039;s source code: Modify group chunk overrides">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Add chunk overrides to a group or sets chunk overrides in that group.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound To
+</th>
+<th colspan="2">Field Name
+</th>
+<th colspan="2">Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="6"><code>wdl:control</code>
+</td>
+<td rowspan="6">Client
+</td>
+<td colspan="2">Discriminator
+</td>
+<td colspan="2">Integer
+</td>
+<td>Set to 5 to indicate this packet
+</td></tr>
+<tr>
+<td colspan="2">Group to edit
+</td>
+<td colspan="2">String
+</td>
+<td>Name of the group to edit.
+</td></tr>
+<tr>
+<td colspan="2">Replace mode
+</td>
+<td colspan="2">Boolean
+</td>
+<td>'true' to set the group to this value and remove its old overrides, 'false' to add these to the existing ones.
+</td></tr>
+<tr>
+<td rowspan="3">Groups
+</td>
+<td>Group name
+</td>
+<td rowspan="3">Array
+</td>
+<td>String
+</td>
+<td>The name of this group.  Must be unique.
+</td></tr>
+<tr>
+<td>Number of overrides
+</td>
+<td>Integer
+</td>
+<td>Size of the following array
+</td></tr>
+<tr>
+<td>Overrides
+</td>
+<td>Array of Chunk Override
+</td>
+<td>Each override.  Tags may be different within the list and no order is required.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Remove_chunk_overrides_by_tag" data-mw-thread-id="h-Remove_chunk_overrides_by_tag-wdl:control"><span data-mw-comment-start="" id="h-Remove_chunk_overrides_by_tag-wdl:control"></span>Remove chunk overrides by tag<span data-mw-comment-end="h-Remove_chunk_overrides_by_tag-wdl:control"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=12" title="Edit section&#039;s source code: Remove chunk overrides by tag">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Removes chunk overrides with the given tag from a specific group.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound To
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="4"><code>wdl:control</code>
+</td>
+<td rowspan="4">Client
+</td>
+<td>Discriminator
+</td>
+<td>Integer
+</td>
+<td>Set to 6 to indicate this packet.
+</td></tr>
+<tr>
+<td>Group
+</td>
+<td>String
+</td>
+<td>The group to remove ranges from.
+</td></tr>
+<tr>
+<td>Number of tags
+</td>
+<td>Integer
+</td>
+<td>Length of the following array.
+</td></tr>
+<tr>
+<td>Tags
+</td>
+<td>Array of String
+</td>
+<td>Each tag to remove.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Set_chunk_overrides_by_tag" data-mw-thread-id="h-Set_chunk_overrides_by_tag-wdl:control"><span data-mw-comment-start="" id="h-Set_chunk_overrides_by_tag-wdl:control"></span>Set chunk overrides by tag<span data-mw-comment-end="h-Set_chunk_overrides_by_tag-wdl:control"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=13" title="Edit section&#039;s source code: Set chunk overrides by tag">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Sets all of the chunk overrides in a single with a specific tag to a new set.
+</p><p><b>Note</b>: All of the new ranges should have the same tag as the tag that is being replaced.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound To
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="5"><code>wdl:control</code>
+</td>
+<td rowspan="5">Client
+</td>
+<td>Discriminator
+</td>
+<td>Integer
+</td>
+<td>Set to 7 to indicate this packet.
+</td></tr>
+<tr>
+<td>Group
+</td>
+<td>String
+</td>
+<td>The group to remove ranges from.
+</td></tr>
+<tr>
+<td>Tag
+</td>
+<td>String
+</td>
+<td>The tag to replace
+</td></tr>
+<tr>
+<td>Number of new ranges
+</td>
+<td>Integer
+</td>
+<td>Length of the following array.
+</td></tr>
+<tr>
+<td>New ranges
+</td>
+<td>Array of Chunk Override
+</td>
+<td>The new ranges
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="wdl:request" data-mw-thread-id="h-wdl:request"><span data-mw-comment-start="" id="h-wdl:request"></span><code>wdl:request</code><span data-mw-comment-end="h-wdl:request"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;section=14" title="Edit section&#039;s source code: wdl:request">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-wdl:request","replies":[]}}--></div>
+<p>Used for permission requests.  Sent from the client to the server.  On the server, a moderator/admin/whoever can approve or deny the request, and then other messages (<a href="#WDL.7CCONTROL"><code>wdl:control</code></a>) are sent to grant such permissions.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Channel
+</th>
+<th>Bound To
+</th>
+<th colspan="2">Field Name
+</th>
+<th colspan="2">Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="6"><code>wdl:request</code>
+</td>
+<td rowspan="6">Server
+</td>
+<td colspan="2">Request message
+</td>
+<td colspan="2">String
+</td>
+<td>A message explaining the reason for the request to the server owners (user-inputted).  The current version of the mod uses "REQUEST REASON WILL GO HERE" as the message, but it will be more useful in the future.
+</td></tr>
+<tr>
+<td colspan="2">Number of requests
+</td>
+<td colspan="2">Integer
+</td>
+<td>Length of the following array.
+</td></tr>
+<tr>
+<td rowspan="2">Requests
+</td>
+<td>Requested perm
+</td>
+<td rowspan="2">Array
+</td>
+<td>String
+</td>
+<td>Name of the permission (see list below).
+</td></tr>
+<tr>
+<td>Requested value
+</td>
+<td>String
+</td>
+<td>String representation of the requested value.
+</td></tr>
+<tr>
+<td colspan="2">Number of chunk override requests
+</td>
+<td colspan="2">Integer
+</td>
+<td>Length of the following array.
+</td></tr>
+<tr>
+<td colspan="2">Chunk override requests
+</td>
+<td colspan="2">Array of <a href="#Chunk_Overrides">Chunk Override</a>
+</td>
+<td>Requested overrides.  Note that the 'tag' value is still included but the server is <i>allowed</i> to discard it (or use it, at its digression).
+</td></tr></tbody></table>
+<p><br/>
+Valid fields and their values:
+</p>
+<ul><li><code>downloadInGeneral</code>: Whether or not chunks downloading in all terrain is allowed.  <code>true</code> if so, <code>false</code> otherwise.</li>
+<li><code>cacheChunks</code>: Whether chunks can be cached as the player moves about the world.  <code>true</code> if so, <code>false</code> otherwise.</li>
+<li><code>saveRadius</code>: Distance from the player chunks can be saved (in a square).  If -1, all distance is allowed.  Only applies when <code>cacheChunks</code> is not true; if that is true this is ignored and thus in most cases that should be done (since a value of -1 still only allows saving what can be seen).  The value is an integer as a string, potentially negative.</li>
+<li><code>saveEntities</code>: Whether or not entities can be saved.  <code>true</code> if so, <code>false</code> otherwise.</li>
+<li><code>saveTileEntities</code>: Whether tile entities can be saved as the player moves about the world.  <code>true</code> if so, <code>false</code> otherwise.</li>
+<li><code>saveContainers</code>: Whether chests and other tile entities that require manual interaction can be saved as the player moves about the world.  Requires <code>saveTileEntities</code> to also be true.  <code>true</code> if so, <code>false</code> otherwise.</li>
+<li><code>getEntityRanges</code>: Whether entity ranges should be sent to the player.  <code>true</code> if so, <code>false</code> otherwise, but if your server doesn't change entity ranges from the vanilla defaults this doesn't need to be sent.</li></ul>
+<p>Not all fields need to be set.  No field should be specified more than once in a packet.  If the field isn't set but was sent on a previous packet, the field should still be unset - clear the last request before adding in the new one (however, if a request was accepted, the requested permissions should <b>not</b> be cleared).  A packet without any requests should clear the current request list.
+</p>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐7dcd6f644b‐vszq8
+Cached time: 20250326023107
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.018 seconds
+CPU time usage: 0.048 seconds
+Real time usage: 0.050 seconds
+Preprocessor visited node count: 240/1000000
+Post‐expand include size: 3967/8388608 bytes
+Template argument size: 1782/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.613      1 Template:License_wiki.vg
+100.00%    7.613      1 -total
+ 54.85%    4.176      1 Template:License
+ 44.32%    3.374      1 Template:Msgbox
+ 13.04%    0.993      3 Template:SUBJECTSPACE_formatted
+-->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?oldid=2774223">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?oldid=2774223</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FPlugin+channels%2FWorld+downloader" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FPlugin+channels%2FWorld+downloader" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Latest: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Latest: 1.21.70</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?oldid=2774223" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FPlugin-5Fchannels-2FWorld-5Fdownloader" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 29 November 2024, at 13:23.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Plugin_channels/World_downloader?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":87,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-A_note_before_implementing_these_channels","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Data_types","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Chunk_Overrides-Data_types","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-wdl:init","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-wdl:control","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Default_values-wdl:control","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Basic_data-wdl:control","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Entity_track_distances-wdl:control","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Permission_request_info-wdl:control","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Set_chunk_overrides-wdl:control","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Modify_group_chunk_overrides-wdl:control","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Remove_chunk_overrides_by_tag-wdl:control","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Set_chunk_overrides_by_tag-wdl:control","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-wdl:request","replies":[]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"discussiontools":{"limitreport-timeusage":"0.018"},"limitreport":{"cputime":"0.048","walltime":"0.050","ppvisitednodes":{"value":240,"limit":1000000},"postexpandincludesize":{"value":3967,"limit":8388608},"templateargumentsize":{"value":1782,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%    7.613      1 Template:License_wiki.vg","100.00%    7.613      1 -total"," 54.85%    4.176      1 Template:License"," 44.32%    3.374      1 Template:Msgbox"," 13.04%    0.993      3 Template:SUBJECTSPACE_formatted"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-7dcd6f644b-vszq8","timestamp":"20250326023107","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

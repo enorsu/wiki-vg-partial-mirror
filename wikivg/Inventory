@@ -1,0 +1,1586 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Inventory – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"6ff11e4716e40dca646d0cfec5c0344b","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Inventory","wgTitle":"Projects/wiki.vg merge/Inventory","wgCurRevisionId":2845081,"wgRevisionId":2845081,"wgArticleId":290171,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Protocol Details","Java Edition protocol","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Inventory","wgRelevantArticleId":290171,
+"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready",
+"ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","mediawiki.page.gallery.styles":"ready","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["mediawiki.page.media","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro",
+"ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.page.gallery.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Minecraft displays the player inventory differently, according to how the window was opened. Ranges of slot indices vary in meaning between different “windows”. The Open Screen packet indicates which window is being opened according to:">
+<meta property="og:description" content="Minecraft displays the player inventory differently, according to how the window was opened. Ranges of slot indices vary in meaning between different “windows”. The Open Screen packet indicates which window is being opened according to:">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Inventory – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Inventory rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Inventory</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="msgbox searchaux msgbox-orange" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Clock_JE3_BE3.gif" class="mw-file-description"><img src="/images/thumb/Clock_JE3_BE3.gif/32px-Clock_JE3_BE3.gif?8eaae" decoding="async" loading="lazy" width="32" height="32" class="mw-file-element" srcset="/images/thumb/Clock_JE3_BE3.gif/64px-Clock_JE3_BE3.gif?8eaae 2x" data-file-width="160" data-file-height="160"/></a></span></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page needs to be updated.</div> 
+<div class="msgbox-text">Please update this page to reflect recent updates or newly available information.<br/><b>Reason:</b> Most of the inventories new to 1.14 have buttons, which are <i>probably</i> implemented using <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Click_Window_Button" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Protocol#Click Window Button</a>. This needs to be confirmed and the button IDs should be checked.</div>
+</div>
+</div>
+<p>Minecraft displays the <b>player inventory</b> differently, according to how the window was opened. Ranges of slot indices vary in meaning between different “windows”. The <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Open_Screen" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Open Screen</a> packet indicates which window is being opened according to:
+</p>
+<div style="clear: right; float: right; margin: 0 0 0.8em 1.4em;"><div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Types"><span class="tocnumber">1</span> <span class="toctext">Types</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Player_Inventory"><span class="tocnumber">2</span> <span class="toctext">Player Inventory</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Chest"><span class="tocnumber">3</span> <span class="toctext">Chest</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Large_chest"><span class="tocnumber">3.1</span> <span class="toctext">Large chest</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Crafting_table"><span class="tocnumber">4</span> <span class="toctext">Crafting table</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Furnace"><span class="tocnumber">5</span> <span class="toctext">Furnace</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Blast_Furnace"><span class="tocnumber">5.1</span> <span class="toctext">Blast Furnace</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Smoker"><span class="tocnumber">5.2</span> <span class="toctext">Smoker</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Dispenser"><span class="tocnumber">6</span> <span class="toctext">Dispenser</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Enchantment_Table"><span class="tocnumber">7</span> <span class="toctext">Enchantment Table</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Brewing_stand"><span class="tocnumber">8</span> <span class="toctext">Brewing stand</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Villager_trading"><span class="tocnumber">9</span> <span class="toctext">Villager trading</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Beacon"><span class="tocnumber">10</span> <span class="toctext">Beacon</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Anvil"><span class="tocnumber">11</span> <span class="toctext">Anvil</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Hopper"><span class="tocnumber">12</span> <span class="toctext">Hopper</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Shulker_box"><span class="tocnumber">13</span> <span class="toctext">Shulker box</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Llama"><span class="tocnumber">14</span> <span class="toctext">Llama</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Horse"><span class="tocnumber">15</span> <span class="toctext">Horse</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Donkey"><span class="tocnumber">16</span> <span class="toctext">Donkey</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Cartography_Table"><span class="tocnumber">17</span> <span class="toctext">Cartography Table</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Grindstone"><span class="tocnumber">18</span> <span class="toctext">Grindstone</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#Lectern"><span class="tocnumber">19</span> <span class="toctext">Lectern</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Loom"><span class="tocnumber">20</span> <span class="toctext">Loom</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#Stonecutter"><span class="tocnumber">21</span> <span class="toctext">Stonecutter</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#Smithing_Table"><span class="tocnumber">22</span> <span class="toctext">Smithing Table</span></a></li>
+</ul>
+</div>
+</div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Types" data-mw-thread-id="h-Types"><span data-mw-comment-start="" id="h-Types"></span>Types<span data-mw-comment-end="h-Types"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=1" title="Edit section&#039;s source code: Types">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Types","replies":[]}}--></div>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Type
+</th>
+<th>Name
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>minecraft:generic_9x1
+</td>
+<td>A 1-row inventory, not used by the notchian server.
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>minecraft:generic_9x2
+</td>
+<td>A 2-row inventory, not used by the notchian server.
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>minecraft:generic_9x3
+</td>
+<td>General-purpose 3-row inventory.  Used by <a href="/w/Chest" title="Chest">Chest</a>, <a href="/w/Minecart_with_chest" class="mw-redirect" title="Minecart with chest">minecart with chest</a>, <a href="/w/Ender_chest" class="mw-redirect" title="Ender chest">ender chest</a>, and <a href="/w/Barrel" title="Barrel">barrel</a>
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>minecraft:generic_9x4
+</td>
+<td>A 4-row inventory, not used by the notchian server.
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>minecraft:generic_9x5
+</td>
+<td>A 5-row inventory, not used by the notchian server.
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>minecraft:generic_9x6
+</td>
+<td>General-purpose 6-row inventory, used by large chests.
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>minecraft:generic_3x3
+</td>
+<td>General-purpose 3-by-3 square inventory, used by <a href="/w/Dispenser" title="Dispenser">Dispenser</a> and <a href="/w/Dropper" title="Dropper">Dropper</a>
+</td></tr>
+<tr>
+<td>7
+</td>
+<td>minecraft:crafter_3x3
+</td>
+<td><a href="/w/Crafter" title="Crafter">Crafter</a>
+</td></tr>
+<tr>
+<td>8
+</td>
+<td>minecraft:anvil
+</td>
+<td><a href="/w/Anvil" title="Anvil">Anvil</a>
+</td></tr>
+<tr>
+<td>9
+</td>
+<td>minecraft:beacon
+</td>
+<td><a href="/w/Beacon" title="Beacon">Beacon</a>
+</td></tr>
+<tr>
+<td>10
+</td>
+<td>minecraft:blast_furnace
+</td>
+<td><a href="/w/Blast_Furnace" title="Blast Furnace">Blast Furnace</a>
+</td></tr>
+<tr>
+<td>11
+</td>
+<td>minecraft:brewing_stand
+</td>
+<td><a href="/w/Brewing_stand" class="mw-redirect" title="Brewing stand">Brewing stand</a>
+</td></tr>
+<tr>
+<td>12
+</td>
+<td>minecraft:crafting
+</td>
+<td><a href="/w/Crafting_table" class="mw-redirect" title="Crafting table">Crafting table</a>
+</td></tr>
+<tr>
+<td>13
+</td>
+<td>minecraft:enchantment
+</td>
+<td><a href="/w/Enchantment_table" class="mw-redirect" title="Enchantment table">Enchantment table</a>
+</td></tr>
+<tr>
+<td>14
+</td>
+<td>minecraft:furnace
+</td>
+<td><a href="/w/Furnace" title="Furnace">Furnace</a>
+</td></tr>
+<tr>
+<td>15
+</td>
+<td>minecraft:grindstone
+</td>
+<td><a href="/w/Grindstone" title="Grindstone">Grindstone</a>
+</td></tr>
+<tr>
+<td>16
+</td>
+<td>minecraft:hopper
+</td>
+<td><a href="/w/Hopper" title="Hopper">Hopper</a> or <a href="/w/Minecart_with_hopper" class="mw-redirect" title="Minecart with hopper">minecart with hopper</a>
+</td></tr>
+<tr>
+<td>17
+</td>
+<td>minecraft:lectern
+</td>
+<td><a href="/w/Lectern" title="Lectern">Lectern</a>
+</td></tr>
+<tr>
+<td>18
+</td>
+<td>minecraft:loom
+</td>
+<td><a href="/w/Loom" title="Loom">Loom</a>
+</td></tr>
+<tr>
+<td>19
+</td>
+<td>minecraft:merchant
+</td>
+<td><a href="/w/Villager" title="Villager">Villager</a>, <a href="/w/Wandering_Trader" title="Wandering Trader">Wandering Trader</a>
+</td></tr>
+<tr>
+<td>20
+</td>
+<td>minecraft:shulker_box
+</td>
+<td><a href="/w/Shulker_box" class="mw-redirect" title="Shulker box">Shulker box</a>
+</td></tr>
+<tr>
+<td>21
+</td>
+<td>minecraft:smithing
+</td>
+<td><a href="/w/Smithing_Table" title="Smithing Table">Smithing Table</a>
+</td></tr>
+<tr>
+<td>22
+</td>
+<td>minecraft:smoker
+</td>
+<td><a href="/w/Smoker" title="Smoker">Smoker</a>
+</td></tr>
+<tr>
+<td>23
+</td>
+<td>minecraft:cartography
+</td>
+<td><a href="/w/Cartography_Table" title="Cartography Table">Cartography Table</a>
+</td></tr>
+<tr>
+<td>24
+</td>
+<td>minecraft:stonecutter
+</td>
+<td><a href="/w/Stonecutter" title="Stonecutter">Stonecutter</a>
+</td></tr></tbody></table>
+<p>The slot number is calculated starting at 0, counting up through the window's unique slots, and then counting through the players inventory.
+</p><p>For all windows, the slot in the upper-left corner of the player's inventory is slot <i>n</i> where <i>n</i> is the number of unique slots, and slot number -999 is always used for clicking outside the window.
+</p><p>The default inventory window, which is never explicitly opened by the server, has 10 unique slots.
+</p><p>Rectangular regions are always indexed starting with the upper-left corner and scanning across rows. If a window has a crafting region, the output slot is always slot 0 followed immediately by the input region.
+</p><p>Each window type is described in the following sections. All slot index ranges are inclusive and reflect the indices observed in the Minecraft protocol.
+</p><p>For the window properties (additional data in each window, e.g. smelting progress or enchantments), refer to the table in the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Window_Property" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Window Property</a> packet.
+</p><p>Using -1 as slot index and as window id will set the cursor item (the stack dragged with the mouse).
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Player_Inventory" data-mw-thread-id="h-Player_Inventory"><span data-mw-comment-start="" id="h-Player_Inventory"></span>Player Inventory<span data-mw-comment-end="h-Player_Inventory"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=2" title="Edit section&#039;s source code: Player Inventory">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Player_Inventory","replies":[]}}--></div>
+<p><span class="anchor" id="Inventory"></span>
+</p>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Inventory-slots.png" class="mw-file-description"><img src="/images/thumb/Inventory-slots.png/300px-Inventory-slots.png?2ed34" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/Inventory-slots.png?2ed34 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Inventory slots</figcaption></figure>
+<p>This is the inventory window that the player can always open, typically by pressing <kbd class="key nowrap">E</kbd> since <a href="/w/Beta_1.4" class="mw-redirect" title="Beta 1.4">Beta 1.4</a>. Before, you had to press <kbd class="key nowrap">I</kbd>.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>crafting output
+</td></tr>
+<tr>
+<td>1–4
+</td>
+<td>2×2 crafting input (1 + x + 2 * y)
+</td></tr>
+<tr>
+<td>5–8
+</td>
+<td>armor (head, chest, legs, feet)
+</td></tr>
+<tr>
+<td>9–35
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>36–44
+</td>
+<td>hotbar
+</td></tr>
+<tr>
+<td>45
+</td>
+<td>Offhand slot
+</td></tr></tbody></table>
+<p>Note that this is different from inventory items stored in a player.dat file. This may help: <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/459a1691c3dd751db160">https://gist.github.com/459a1691c3dd751db160</a>
+</p>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Chest" data-mw-thread-id="h-Chest"><span data-mw-comment-start="" id="h-Chest"></span>Chest<span data-mw-comment-end="h-Chest"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=3" title="Edit section&#039;s source code: Chest">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Chest","replies":["h-Large_chest-Chest"]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Chest-slots.png" class="mw-file-description"><img src="/images/thumb/Chest-slots.png/300px-Chest-slots.png?e2d5d" decoding="async" loading="lazy" width="300" height="285" class="mw-file-element" srcset="/images/Chest-slots.png?e2d5d 2x" data-file-width="352" data-file-height="334"/></a><figcaption>Chest slots</figcaption></figure>
+<p>This is the window that is opened when the player right-clicks on a single chest block.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0–26
+</td>
+<td>chest
+</td></tr>
+<tr>
+<td>27–53
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>54–62
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:DoubleChest-slots.png" class="mw-file-description"><img src="/images/thumb/DoubleChest-slots.png/300px-DoubleChest-slots.png?0916c" decoding="async" loading="lazy" width="300" height="377" class="mw-file-element" srcset="/images/DoubleChest-slots.png?0916c 2x" data-file-width="352" data-file-height="442"/></a><figcaption>Double/large chest slots</figcaption></figure>
+<h3><span class="mw-headline" id="Large_chest" data-mw-thread-id="h-Large_chest-Chest"><span data-mw-comment-start="" id="h-Large_chest-Chest"></span>Large chest<span data-mw-comment-end="h-Large_chest-Chest"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=4" title="Edit section&#039;s source code: Large chest">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>This is the window that is opened when the player right-clicks on a double chest block (two adjacent chest blocks).
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0–53
+</td>
+<td>chest
+</td></tr>
+<tr>
+<td>54–80
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>81–89
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Crafting_table" data-mw-thread-id="h-Crafting_table"><span data-mw-comment-start="" id="h-Crafting_table"></span>Crafting table<span data-mw-comment-end="h-Crafting_table"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=5" title="Edit section&#039;s source code: Crafting table">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Crafting_table","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:CraftingTable-slots.png" class="mw-file-description"><img src="/images/thumb/CraftingTable-slots.png/300px-CraftingTable-slots.png?559c6" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/CraftingTable-slots.png?559c6 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Crafting table slots</figcaption></figure>
+<p>This is the window that is opened when the player right-clicks on a workbench.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>crafting output
+</td></tr>
+<tr>
+<td>1–9
+</td>
+<td>3×3 crafting input (1 + x + 3 * y)
+</td></tr>
+<tr>
+<td>10–36
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>37–45
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Furnace" data-mw-thread-id="h-Furnace"><span data-mw-comment-start="" id="h-Furnace"></span>Furnace<span data-mw-comment-end="h-Furnace"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=6" title="Edit section&#039;s source code: Furnace">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Furnace","replies":["h-Blast_Furnace-Furnace","h-Smoker-Furnace"]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Furnace-slots.png" class="mw-file-description"><img src="/images/thumb/Furnace-slots.png/300px-Furnace-slots.png?76c2c" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/Furnace-slots.png?76c2c 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Furnace slots</figcaption></figure>
+<p>The window that appears when a furnace is right-clicked.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>ingredient
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>fuel
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>output
+</td></tr>
+<tr>
+<td>3–29
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>30–38
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<h3><span class="mw-headline" id="Blast_Furnace" data-mw-thread-id="h-Blast_Furnace-Furnace"><span data-mw-comment-start="" id="h-Blast_Furnace-Furnace"></span>Blast Furnace<span data-mw-comment-end="h-Blast_Furnace-Furnace"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=7" title="Edit section&#039;s source code: Blast Furnace">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:1.14-blast_furnace-slots.png" class="mw-file-description"><img src="/images/thumb/1.14-blast_furnace-slots.png/300px-1.14-blast_furnace-slots.png?a304f" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/1.14-blast_furnace-slots.png?a304f 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Blast Furnace slots</figcaption></figure>
+<p>The GUI that appears when a blast furnace is opened.  Same layout as a furnace; however, the recipe book displays blast furnace recipes instead of regular furnace recipes.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>ingredient
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>fuel
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>output
+</td></tr>
+<tr>
+<td>3–29
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>30–38
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<h3><span class="mw-headline" id="Smoker" data-mw-thread-id="h-Smoker-Furnace"><span data-mw-comment-start="" id="h-Smoker-Furnace"></span>Smoker<span data-mw-comment-end="h-Smoker-Furnace"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=8" title="Edit section&#039;s source code: Smoker">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:1.14-smoker-slots.png" class="mw-file-description"><img src="/images/thumb/1.14-smoker-slots.png/300px-1.14-smoker-slots.png?b1b83" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/1.14-smoker-slots.png?b1b83 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Smoker slots</figcaption></figure>
+<p>The GUI that appears when a smoker is opened.  Same layout as a furnace; however, the recipe book displays smoker recipes instead of regular furnace recipes.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>ingredient
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>fuel
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>output
+</td></tr>
+<tr>
+<td>3–29
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>30–38
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Dispenser" data-mw-thread-id="h-Dispenser"><span data-mw-comment-start="" id="h-Dispenser"></span>Dispenser<span data-mw-comment-end="h-Dispenser"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=9" title="Edit section&#039;s source code: Dispenser">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Dispenser","replies":[]}}--></div>
+<p><span class="anchor" id="Dropper"></span>
+</p>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Dispenser-slots.png" class="mw-file-description"><img src="/images/thumb/Dispenser-slots.png/300px-Dispenser-slots.png?0a9c7" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/Dispenser-slots.png?0a9c7 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Dispenser/dropper slots</figcaption></figure>
+<p>The inventory that appears when a dispenser or dropper is opened.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0–8
+</td>
+<td>3×3 dispenser contents (x + 3 * y)
+</td></tr>
+<tr>
+<td>9–35
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>36-44
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Enchantment_Table" data-mw-thread-id="h-Enchantment_Table"><span data-mw-comment-start="" id="h-Enchantment_Table"></span>Enchantment Table<span data-mw-comment-end="h-Enchantment_Table"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=10" title="Edit section&#039;s source code: Enchantment Table">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Enchantment_Table","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:EnchantmentTable-slots.png" class="mw-file-description"><img src="/images/thumb/EnchantmentTable-slots.png/300px-EnchantmentTable-slots.png?0012c" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/EnchantmentTable-slots.png?0012c 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Enchantment table slots</figcaption></figure>
+<p>The inventory of an enchantment table.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>item to enchant
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>lapis lazuli slot
+</td></tr>
+<tr>
+<td>2–28
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>29–37
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Brewing_stand" data-mw-thread-id="h-Brewing_stand"><span data-mw-comment-start="" id="h-Brewing_stand"></span>Brewing stand<span data-mw-comment-end="h-Brewing_stand"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=11" title="Edit section&#039;s source code: Brewing stand">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Brewing_stand","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:BrewingStand-slots.png" class="mw-file-description"><img src="/images/thumb/BrewingStand-slots.png/300px-BrewingStand-slots.png?316a8" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/BrewingStand-slots.png?316a8 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Brewing stand slots</figcaption></figure>
+<p>The GUI that appears when a brewing stand is opened.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0-2
+</td>
+<td>bottles/potions
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>potion ingredient
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>blaze powder
+</td></tr>
+<tr>
+<td>5-31
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>32-40
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Villager_trading" data-mw-thread-id="h-Villager_trading"><span data-mw-comment-start="" id="h-Villager_trading"></span>Villager trading<span data-mw-comment-end="h-Villager_trading"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=12" title="Edit section&#039;s source code: Villager trading">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Villager_trading","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:1.14-merchant-slots.png" class="mw-file-description"><img src="/images/thumb/1.14-merchant-slots.png/300px-1.14-merchant-slots.png?3bc2e" decoding="async" loading="lazy" width="300" height="180" class="mw-file-element" srcset="/images/1.14-merchant-slots.png?3bc2e 2x" data-file-width="552" data-file-height="332"/></a><figcaption>Merchant slots</figcaption></figure>
+<p>The GUI that appears when a villager is right-clicked.  Note that if the villager only requires one item, you can put it in either (or both) slots.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0-1
+</td>
+<td>input items
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>result
+</td></tr>
+<tr>
+<td>3–29
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>30–38
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Beacon" data-mw-thread-id="h-Beacon"><span data-mw-comment-start="" id="h-Beacon"></span>Beacon<span data-mw-comment-end="h-Beacon"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=13" title="Edit section&#039;s source code: Beacon">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Beacon","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Beacon-slots.png" class="mw-file-description"><img src="/images/thumb/Beacon-slots.png/300px-Beacon-slots.png?732f6" decoding="async" loading="lazy" width="300" height="286" class="mw-file-element" srcset="/images/Beacon-slots.png?732f6 2x" data-file-width="460" data-file-height="438"/></a><figcaption>Beacon slots</figcaption></figure>
+<p>The window that appears when a beacon is right-clicked.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>payment item
+</td></tr>
+<tr>
+<td>1–27
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>28–36
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Anvil" data-mw-thread-id="h-Anvil"><span data-mw-comment-start="" id="h-Anvil"></span>Anvil<span data-mw-comment-end="h-Anvil"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=14" title="Edit section&#039;s source code: Anvil">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Anvil","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Anvil-slots.png" class="mw-file-description"><img src="/images/thumb/Anvil-slots.png/300px-Anvil-slots.png?9444a" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/Anvil-slots.png?9444a 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Anvil slots</figcaption></figure>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>first item
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>second item
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>result
+</td></tr>
+<tr>
+<td>3–29
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>30–38
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Hopper" data-mw-thread-id="h-Hopper"><span data-mw-comment-start="" id="h-Hopper"></span>Hopper<span data-mw-comment-end="h-Hopper"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=15" title="Edit section&#039;s source code: Hopper">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Hopper","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Hopper-slots.png" class="mw-file-description"><img src="/images/thumb/Hopper-slots.png/300px-Hopper-slots.png?7b05f" decoding="async" loading="lazy" width="300" height="227" class="mw-file-element" srcset="/images/Hopper-slots.png?7b05f 2x" data-file-width="352" data-file-height="266"/></a><figcaption>Hopper slots</figcaption></figure>
+<p>The window that appears when a hopper or hopper minecart is opened.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0-4
+</td>
+<td>hopper slots
+</td></tr>
+<tr>
+<td>5–31
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>32–40
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Shulker_box" data-mw-thread-id="h-Shulker_box"><span data-mw-comment-start="" id="h-Shulker_box"></span>Shulker box<span data-mw-comment-end="h-Shulker_box"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=16" title="Edit section&#039;s source code: Shulker box">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Shulker_box","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Shulker-box-slots.png" class="mw-file-description"><img src="/images/thumb/Shulker-box-slots.png/300px-Shulker-box-slots.png?03802" decoding="async" loading="lazy" width="300" height="285" class="mw-file-element" srcset="/images/Shulker-box-slots.png?03802 2x" data-file-width="352" data-file-height="334"/></a><figcaption>Shulker box slots</figcaption></figure>
+<p>This is the window that is opened when the player right-clicks on a shulker box chest.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0–26
+</td>
+<td>box slots
+</td></tr>
+<tr>
+<td>27–53
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>54–62
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Llama" data-mw-thread-id="h-Llama"><span data-mw-comment-start="" id="h-Llama"></span>Llama<span data-mw-comment-end="h-Llama"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=17" title="Edit section&#039;s source code: Llama">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Llama","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Llama-strength5-slots.png" class="mw-file-description"><img src="/images/thumb/Llama-strength5-slots.png/300px-Llama-strength5-slots.png?39806" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/Llama-strength5-slots.png?39806 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Llama slots</figcaption></figure>
+<p>The inventory that appears when a tamed llama is right-clicked and has a chest, or when the player's inventory is opened while riding a tamed llama.  Depending on the value of the strength field, the number of chest rows may vary (max is 5, so 15 slots).
+</p>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">There still is a saddle slot, even though it cannot be used and is invisible.</div>
+</div>
+</div>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">Slot positions within the llama inventory vary - slot 2 may be at (1,0) or at (0,1) depending on the number of columns.</div>
+</div>
+</div>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>saddle
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>carpet
+</td></tr>
+<tr>
+<td>2-(2+3*Strength)
+</td>
+<td>llama inventory
+</td></tr>
+<tr>
+<td>(2+3*Strength)+1-(2+3*Strength)+27
+</td>
+<td>player inventory
+</td></tr>
+<tr>
+<td>(2+3*Strength)+28-(2+3*Strength)+35
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<ul class="gallery mw-gallery-traditional">
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Llama-unchested-slots.png" class="mw-file-description" title="Unchested llama"><img alt="Unchested llama" src="/images/thumb/Llama-unchested-slots.png/120px-Llama-unchested-slots.png?5e872" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Llama-unchested-slots.png/240px-Llama-unchested-slots.png?5e872 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Unchested llama
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Llama-strength1-slots.png" class="mw-file-description" title="Llama with strength 1"><img alt="Llama with strength 1" src="/images/thumb/Llama-strength1-slots.png/120px-Llama-strength1-slots.png?8ee05" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Llama-strength1-slots.png/240px-Llama-strength1-slots.png?8ee05 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Llama with strength 1
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Llama-strength2-slots.png" class="mw-file-description" title="Llama with strength 2"><img alt="Llama with strength 2" src="/images/thumb/Llama-strength2-slots.png/120px-Llama-strength2-slots.png?1af12" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Llama-strength2-slots.png/240px-Llama-strength2-slots.png?1af12 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Llama with strength 2
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Llama-strength3-slots.png" class="mw-file-description" title="Llama with strength 3"><img alt="Llama with strength 3" src="/images/thumb/Llama-strength3-slots.png/120px-Llama-strength3-slots.png?842cd" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Llama-strength3-slots.png/240px-Llama-strength3-slots.png?842cd 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Llama with strength 3
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Llama-strength4-slots.png" class="mw-file-description" title="Llama with strength 4"><img alt="Llama with strength 4" src="/images/thumb/Llama-strength4-slots.png/120px-Llama-strength4-slots.png?ab887" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Llama-strength4-slots.png/240px-Llama-strength4-slots.png?ab887 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Llama with strength 4
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Llama-strength5-slots.png" class="mw-file-description" title="Llama with strength 5"><img alt="Llama with strength 5" src="/images/thumb/Llama-strength5-slots.png/120px-Llama-strength5-slots.png?39806" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Llama-strength5-slots.png/240px-Llama-strength5-slots.png?39806 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Llama with strength 5
+</p>
+			</div>
+		</li>
+</ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Horse" data-mw-thread-id="h-Horse"><span data-mw-comment-start="" id="h-Horse"></span>Horse<span data-mw-comment-end="h-Horse"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=18" title="Edit section&#039;s source code: Horse">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Horse","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Horse-slots.png" class="mw-file-description"><img src="/images/thumb/Horse-slots.png/300px-Horse-slots.png?210e0" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/Horse-slots.png?210e0 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Horse slots</figcaption></figure>
+<p>The window for when a tamed horse is right-clicked or the player's inventory is opened while riding a horse.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>saddle
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>armor
+</td></tr>
+<tr>
+<td>2–28
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>29–37
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<ul class="gallery mw-gallery-traditional">
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Horse-slots.png" class="mw-file-description" title="Horse slots"><img alt="Horse slots" src="/images/thumb/Horse-slots.png/120px-Horse-slots.png?210e0" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Horse-slots.png/240px-Horse-slots.png?210e0 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Horse slots
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Skeleton-horse-slots.png" class="mw-file-description" title="Skeleton horse slots"><img alt="Skeleton horse slots" src="/images/thumb/Skeleton-horse-slots.png/120px-Skeleton-horse-slots.png?f8ddc" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Skeleton-horse-slots.png/240px-Skeleton-horse-slots.png?f8ddc 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Skeleton horse slots
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Zombie-horse-slots.png" class="mw-file-description" title="Zombie horse slots"><img alt="Zombie horse slots" src="/images/thumb/Zombie-horse-slots.png/120px-Zombie-horse-slots.png?849b2" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Zombie-horse-slots.png/240px-Zombie-horse-slots.png?849b2 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Zombie horse slots
+</p>
+			</div>
+		</li>
+</ul>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Donkey" data-mw-thread-id="h-Donkey"><span data-mw-comment-start="" id="h-Donkey"></span>Donkey<span data-mw-comment-end="h-Donkey"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=19" title="Edit section&#039;s source code: Donkey">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Donkey","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:Donkey-slots.png" class="mw-file-description"><img src="/images/thumb/Donkey-slots.png/300px-Donkey-slots.png?f4605" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/Donkey-slots.png?f4605 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Donkey slots</figcaption></figure>
+<p>The inventory that appears when a tamed donkey (or mule?) is right-clicked, or when the player's inventory is opened while riding a tamed donkey or mule.
+</p>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">There still is an armor slot, even though it cannot be used and is invisible.</div>
+</div>
+</div>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>saddle
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>armor
+</td></tr>
+<tr>
+<td>2–16
+</td>
+<td>donkey inventory
+</td></tr>
+<tr>
+<td>17–43 (2-28 if unchested)
+</td>
+<td>player inventory
+</td></tr>
+<tr>
+<td>44–52 (29-37 if unchested)
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<ul class="gallery mw-gallery-traditional">
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Donkey-unchested-slots.png" class="mw-file-description" title="Unchested donkey"><img alt="Unchested donkey" src="/images/thumb/Donkey-unchested-slots.png/120px-Donkey-unchested-slots.png?aea49" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Donkey-unchested-slots.png/240px-Donkey-unchested-slots.png?aea49 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Unchested donkey
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Donkey-chested-slots.png" class="mw-file-description" title="Chested donkey"><img alt="Chested donkey" src="/images/thumb/Donkey-chested-slots.png/120px-Donkey-chested-slots.png?24714" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Donkey-chested-slots.png/240px-Donkey-chested-slots.png?24714 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Chested donkey
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Mule-unchested-slots.png" class="mw-file-description" title="Unchested mule"><img alt="Unchested mule" src="/images/thumb/Mule-unchested-slots.png/120px-Mule-unchested-slots.png?18bc0" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Mule-unchested-slots.png/240px-Mule-unchested-slots.png?18bc0 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Unchested mule
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Mule-chested-slots.png" class="mw-file-description" title="Chested mule"><img alt="Chested mule" src="/images/thumb/Mule-chested-slots.png/120px-Mule-chested-slots.png?475bc" decoding="async" loading="lazy" width="120" height="113" class="mw-file-element" srcset="/images/thumb/Mule-chested-slots.png/240px-Mule-chested-slots.png?475bc 2x" data-file-width="352" data-file-height="332"/></a></span></div>
+			<div class="gallerytext">
+<p>Chested mule
+</p>
+			</div>
+		</li>
+</ul>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Cartography_Table" data-mw-thread-id="h-Cartography_Table"><span data-mw-comment-start="" id="h-Cartography_Table"></span>Cartography Table<span data-mw-comment-end="h-Cartography_Table"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=20" title="Edit section&#039;s source code: Cartography Table">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Cartography_Table","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:1.14-cartography-slots.png" class="mw-file-description"><img src="/images/thumb/1.14-cartography-slots.png/300px-1.14-cartography-slots.png?26921" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/1.14-cartography-slots.png?26921 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Cartography table slots</figcaption></figure>
+<p>The inventory that appears when a cartography table is opened.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>map
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>paper
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>output
+</td></tr>
+<tr>
+<td>3–29
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>30–38
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Grindstone" data-mw-thread-id="h-Grindstone"><span data-mw-comment-start="" id="h-Grindstone"></span>Grindstone<span data-mw-comment-end="h-Grindstone"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=21" title="Edit section&#039;s source code: Grindstone">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Grindstone","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:1.14-grindstone-slots.png" class="mw-file-description"><img src="/images/thumb/1.14-grindstone-slots.png/300px-1.14-grindstone-slots.png?ebdf9" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/1.14-grindstone-slots.png?ebdf9 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Grindstone slots</figcaption></figure>
+<p>The inventory that appears when a grindstone is opened.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>first item
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>second item
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>result
+</td></tr>
+<tr>
+<td>3–29
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>30–38
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Lectern" data-mw-thread-id="h-Lectern"><span data-mw-comment-start="" id="h-Lectern"></span>Lectern<span data-mw-comment-end="h-Lectern"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=22" title="Edit section&#039;s source code: Lectern">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Lectern","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:1.14-lectern.png" class="mw-file-description"><img src="/images/thumb/1.14-lectern.png/300px-1.14-lectern.png?7283e" decoding="async" loading="lazy" width="300" height="324" class="mw-file-element" srcset="/images/1.14-lectern.png?7283e 2x" data-file-width="400" data-file-height="432"/></a><figcaption>Lectern UI</figcaption></figure>
+<p>The interface that appears when a lectern with a book is opened. The book is shown through the same interface as the one of <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Open_Book" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Open Book</a>, minus the extra controls.
+</p><p>The player inventory is not included.
+</p><p><br/>
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>book
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Loom" data-mw-thread-id="h-Loom"><span data-mw-comment-start="" id="h-Loom"></span>Loom<span data-mw-comment-end="h-Loom"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=23" title="Edit section&#039;s source code: Loom">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Loom","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:1.14-loom-slots.png" class="mw-file-description"><img src="/images/thumb/1.14-loom-slots.png/300px-1.14-loom-slots.png?a9a63" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/1.14-loom-slots.png?a9a63 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Loom slots</figcaption></figure>
+<p>The inventory that appears when a loom is opened.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>banner
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>dye
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>pattern
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>result
+</td></tr>
+<tr>
+<td>4–30
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>31–39
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Stonecutter" data-mw-thread-id="h-Stonecutter"><span data-mw-comment-start="" id="h-Stonecutter"></span>Stonecutter<span data-mw-comment-end="h-Stonecutter"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=24" title="Edit section&#039;s source code: Stonecutter">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Stonecutter","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:1.14-stonecutter-slots.png" class="mw-file-description"><img src="/images/thumb/1.14-stonecutter-slots.png/300px-1.14-stonecutter-slots.png?93067" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/1.14-stonecutter-slots.png?93067 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Stonecutter slots</figcaption></figure>
+<p>The inventory that appears when a stonecutter is opened.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>input
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>result
+</td></tr>
+<tr>
+<td>2–28
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>29–37
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Smithing_Table" data-mw-thread-id="h-Smithing_Table"><span data-mw-comment-start="" id="h-Smithing_Table"></span>Smithing Table<span data-mw-comment-end="h-Smithing_Table"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit&amp;section=25" title="Edit section&#039;s source code: Smithing Table">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Smithing_Table","replies":[]}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/w/File:1.20-smithing-table-slots.png" class="mw-file-description"><img src="/images/thumb/1.20-smithing-table-slots.png/300px-1.20-smithing-table-slots.png?7837b" decoding="async" loading="lazy" width="300" height="283" class="mw-file-element" srcset="/images/1.20-smithing-table-slots.png?7837b 2x" data-file-width="352" data-file-height="332"/></a><figcaption>Smithing Table slots</figcaption></figure>
+<p>The inventory that appears when a smithing table is opened.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Slot range
+</th>
+<th>Description
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>template
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>base item
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>additional item
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>result
+</td></tr>
+<tr>
+<td>4–30
+</td>
+<td>main inventory
+</td></tr>
+<tr>
+<td>31–39
+</td>
+<td>hotbar
+</td></tr></tbody></table>
+<div class="" style="clear:both"></div>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐jobrunner‐cbcd74ff9‐h5z5m
+Cached time: 20250323220220
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.154 seconds
+CPU time usage: 0.367 seconds
+Real time usage: 0.934 seconds
+Preprocessor visited node count: 1090/1000000
+Post‐expand include size: 11853/8388608 bytes
+Template argument size: 4304/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8402/5000000 bytes
+ExtLoops count: 0/50
+Lua time usage: 0.007/10.000 seconds
+Lua memory usage: 660664/367001600 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  378.253      1 -total
+ 29.03%  109.800      2 Template:Key
+ 14.93%   56.461      1 Template:License_wiki.vg
+  9.79%   37.047      1 Template:Update
+  8.41%   31.828      4 Template:Message_box
+  6.04%   22.862      1 Template:License
+  4.96%   18.763      1 Template:Msgbox
+  4.85%   18.347      3 Template:Warning
+  1.82%    6.895      2 Template:Anchor
+  1.43%    5.396      1 Template:Article_other
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290171-0!canonical and timestamp 20250323220219 and revision id 2845081. Rendering was triggered because: edit-page
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?oldid=2845081">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?oldid=2845081</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Protocol_Details?action=edit&amp;redlink=1" class="new" title="Category:Protocol Details (page does not exist)">Protocol Details</a></li><li><a href="/w/Category:Java_Edition_protocol" title="Category:Java Edition protocol">Java Edition protocol</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FInventory" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FInventory" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Inventory?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc1" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc1"><span>Dev: 1.21.5-rc1</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?oldid=2845081" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FInventory" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 4 February 2025, at 02:58.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Inventory?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":43,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Types","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Player_Inventory","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Chest","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Large_chest-Chest","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Crafting_table","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Furnace","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Blast_Furnace-Furnace","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Smoker-Furnace","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Dispenser","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Enchantment_Table","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Brewing_stand","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Villager_trading","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Beacon","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Anvil","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Hopper","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Shulker_box","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Llama","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Horse","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Donkey","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Cartography_Table","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Grindstone","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Lectern","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Loom","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Stonecutter","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Smithing_Table","replies":[]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"discussiontools":{"limitreport-timeusage":"0.154"},"limitreport":{"cputime":"0.367","walltime":"0.934","ppvisitednodes":{"value":1090,"limit":1000000},"postexpandincludesize":{"value":11853,"limit":8388608},"templateargumentsize":{"value":4304,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":8402,"limit":5000000},"timingprofile":["100.00%  378.253      1 -total"," 29.03%  109.800      2 Template:Key"," 14.93%   56.461      1 Template:License_wiki.vg","  9.79%   37.047      1 Template:Update","  8.41%   31.828      4 Template:Message_box","  6.04%   22.862      1 Template:License","  4.96%   18.763      1 Template:Msgbox","  4.85%   18.347      3 Template:Warning","  1.82%    6.895      2 Template:Anchor","  1.43%    5.396      1 Template:Article_other"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"scribunto":{"limitreport-timeusage":{"value":"0.007","limit":"10.000"},"limitreport-memusage":{"value":660664,"limit":367001600}},"cachereport":{"origin":"mediawiki-jobrunner-cbcd74ff9-h5z5m","timestamp":"20250323220220","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

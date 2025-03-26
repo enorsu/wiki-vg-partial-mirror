@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Protocol encryption – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"6a520d3ba1a441e88fa95d86a1bde5ee","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Protocol_encryption","wgTitle":"Protocol encryption","wgCurRevisionId":2887326,"wgRevisionId":2887326,"wgArticleId":290320,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Java Edition","Java Edition technical","Protocol Details","Java Edition protocol","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Protocol_encryption","wgRelevantArticleId":290320,"wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Minecraft_Wiki:Projects/wiki.vg_merge/Protocol_Encryption","simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgInternalRedirectTargetUrl":"/w/Protocol_encryption","wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"]};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready",
+"user.options":"loading","ext.pygments":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init",
+"ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.embedVideo.styles%7Cext.pygments%7Cext.visualEditor.desktopArticleTarget.noscript%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="This article describes the encryption used by the Java Edition protocol.">
+<meta property="og:description" content="This article describes the encryption used by the Java Edition protocol.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Protocol encryption – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Protocol_encryption">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Protocol_encryption?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Protocol_encryption">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Protocol_encryption rootpage-Protocol_encryption skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This article is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This article is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Protocol encryption</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><span class="mw-redirectedfrom">(Redirected from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol_Encryption?redirect=no" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol Encryption">Minecraft Wiki:Projects/wiki.vg merge/Protocol Encryption</a>)</span></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output">  <div class="msgbox searchaux msgbox-blue" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Information_icon.svg" class="mw-file-description"><img src="/images/Information_icon.svg?15c1c" decoding="async" loading="lazy" width="32" height="32" class="mw-file-element" data-file-width="62" data-file-height="62" /></a></span></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This feature is exclusive to <a href="/w/Java_Edition" title="Java Edition"> <i>Java Edition</i></a>.</div>&#160;
+</div>
+</div>
+<p>This article describes the <b>encryption</b> used by the <a href="/w/Java_Edition_protocol" title="Java Edition protocol"><i>Java Edition</i> protocol</a>.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Server_ID_String"><span class="tocnumber">2</span> <span class="toctext">Server ID String</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Key_Exchange"><span class="tocnumber">3</span> <span class="toctext">Key Exchange</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Symmetric_Encryption"><span class="tocnumber">4</span> <span class="toctext">Symmetric Encryption</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Authentication"><span class="tocnumber">5</span> <span class="toctext">Authentication</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Client"><span class="tocnumber">5.1</span> <span class="toctext">Client</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Server"><span class="tocnumber">5.2</span> <span class="toctext">Server</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Sample_Code"><span class="tocnumber">5.3</span> <span class="toctext">Sample Code</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#History"><span class="tocnumber">6</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Navigation"><span class="tocnumber">8</span> <span class="toctext">Navigation</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=1&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Overview">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=1" title="Edit section&#039;s source code: Overview">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol><li><b>C</b>→<b>S</b>: <a href="/w/Java_Edition_protocol#Handshake" title="Java Edition protocol">Handshake</a> State=2</li>
+<li><b>C</b>→<b>S</b>: <a href="/w/Java_Edition_protocol#Login_Start" title="Java Edition protocol">Login Start</a></li>
+<li><b>S</b>→<b>C</b>: <a href="/w/Java_Edition_protocol#Encryption_Request" title="Java Edition protocol">Encryption Request</a></li>
+<li><i>Client authentication (if enabled)</i></li>
+<li><b>C</b>→<b>S</b>: <a href="/w/Java_Edition_protocol#Encryption_Response" title="Java Edition protocol">Encryption Response</a></li>
+<li><i>Server authentication (if enabled)</i></li>
+<li><i>Both enable encryption</i></li>
+<li><b>S</b>→<b>C</b>: <a href="/w/Java_Edition_protocol#Login_Success" title="Java Edition protocol">Login Success</a></li></ol>
+<p>See <a href="/w/Java_Edition_protocol/FAQ" title="Java Edition protocol/FAQ">Protocol FAQ</a> for a full list of packets exchanged after encryption.
+</p>
+<h2><span class="mw-headline" id="Server_ID_String">Server ID String</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=2&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Server ID String">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=2" title="Edit section&#039;s source code: Server ID String">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><b>Update (1.7.x):</b> The server ID is now sent as an empty string. Hashes also utilize the public key, so they will still be correct.
+</p><p><b>Pre-1.7.x:</b>
+The server ID string is a randomly-generated string of characters with a maximum length of 20 code points (the client disconnects with an exception if the length is longer than 20).
+</p><p>The client appears to arrive at incorrect hashes if the server ID string contains certain unprintable characters, so for consistent results only characters with code points in the range U+0021-U+007E (inclusive) should be sent.  This range corresponds to all of ASCII with the exception of the space character (U+0020) and all control characters (U+0000-U+001F, U+007F).
+</p><p>The client appears to arrive at incorrect hashes if the server ID string is too short.  15 to 20 (inclusive) length strings have been observed from the vanilla server and confirmed to work as of 1.5.2.
+</p>
+<h2><span class="mw-headline" id="Key_Exchange">Key Exchange</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=3&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Key Exchange">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=3" title="Edit section&#039;s source code: Key Exchange">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The server generates a 1024-bit RSA keypair on startup. The public key sent in the Encryption Request packet is encoded in <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://en.wikipedia.org/wiki/ASN.1">ASN.1</a> <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://en.wikipedia.org/wiki/X.690#DER_encoding">DER</a> format. This is a general-purpose binary format common in cryptography, conceptually similar to <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/NBT" title="Minecraft Wiki:Projects/wiki.vg merge/NBT">NBT</a>. The schema is the same as the <code>SubjectPublicKeyInfo</code> structure defined by <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://en.wikipedia.org/wiki/X.509">X.509</a> (not a full-blown X.509 certificate!):
+</p>
+<pre>SubjectPublicKeyInfo&#160;::= SEQUENCE {
+  algorithm SEQUENCE {
+    algorithm         OBJECT IDENTIFIER
+    parameters        ANY OPTIONAL
+  }
+  subjectPublicKey  BIT STRING
+}
+
+SubjectPublicKey&#160;::= SEQUENCE {
+  modulus           INTEGER
+  publicExponent    INTEGER
+}
+</pre>
+<p>(See the <a href="#Additional_Links">#Additional Links</a> section of this article for further information.)
+</p><p>If you're struggling to import this using a crypto library, try to find a function that loads a DER encoded public key. If you can't find one, you can convert it to the more common PEM encoding by base64-encoding the raw bytes and wrapping the base64 text in '-----BEGIN PUBLIC KEY-----' and '-----END PUBLIC KEY-----'. See this example of a PEM encoded key: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://git.io/v7Ol9">https://git.io/v7Ol9</a>
+</p><p>It is also possible for a modified or custom server to use a longer RSA key, without breaking official clients.
+</p>
+<h2><span class="mw-headline" id="Symmetric_Encryption">Symmetric Encryption</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=4&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Symmetric Encryption">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=4" title="Edit section&#039;s source code: Symmetric Encryption">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>When it receives an Encryption Request from the server, the client will generate a random 16-byte (128-bit) shared secret, to be used with the AES/CFB8 stream ciphers. It then encrypts the shared secret and verify token with the server's public key (PKCS#1 v1.5 padded), and sends both to the server in an Encryption Response packet. Both byte arrays in the Encryption Response packet will be 128 bytes long because of the padding. This is the only time the client uses the server's public key.
+</p>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445" /></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">In your crypto library, ensure that you set up your "feedback/segment size" to 8 bits or 1 byte, as indicated in the name AES/CFB<b>8</b>. Any other feedback size will result in encryption mismatch.</div>
+</div>
+</div>
+<p>The server decrypts the shared secret and token using its private key, and checks if the token is the same. It then enables AES/CFB8 encryption and sends the Login Success packet encrypted. The server makes two ciphers, one for encryption and one for decryption, with the key and initial vector (IV) both set to the shared secret. The client does the same, setting up its own two ciphers identically. From this point forward, everything is encrypted, including the length field, packet ID, and data length (if compression is enabled).
+</p>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445" /></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">Note that the AES cipher is updated continuously, not finished and restarted every packet.</div>
+</div>
+</div>
+<h2><span class="mw-headline" id="Authentication">Authentication</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=5&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Authentication">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=5" title="Edit section&#039;s source code: Authentication">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>If enabled during <a href="/w/Java_Edition_protocol#Encryption_Request" title="Java Edition protocol">Encryption Request</a>, both server and client need to make a request to sessionserver.mojang.com.
+</p>
+<h3><span class="mw-headline" id="Client">Client</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=6&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Client">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=6" title="Edit section&#039;s source code: Client">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>After generating the shared secret, the client generates the following hash:
+</p>
+<pre>sha1&#160;:= Sha1()
+sha1.update(ASCII encoding of the server id string from Encryption Request) 
+sha1.update(shared secret) 
+sha1.update(server's encoded public key from Encryption Request) 
+hash&#160;:= sha1.hexdigest()  # String of hex characters
+</pre>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445" /></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">Note that the Sha1.hexdigest() method used by Minecraft is non standard. It doesn't match the digest method found in most programming languages and libraries. It works by treating the sha1 output bytes as one large integer in two's complement and then printing the integer in base 16, placing a minus sign if the interpreted number is negative. Here are some examples of Minecraft's hexdigest:
+<pre>sha1(Notch)&#160;:  4ed1f46bbe04bc756bcb17c0c7ce3e4632f06a48
+sha1(jeb_) &#160;: -7c9d5b0044c130109a5d7b5fb5c317c02b4e28c1
+</pre>
+ sha1(simon)&#160;:  88e16a1019277b15d58faf0541e11910eb756f6</div>
+</div>
+</div>
+<p>The resulting hash is then sent via an HTTP POST request to
+</p>
+<pre>https://sessionserver.mojang.com/session/minecraft/join
+</pre>
+<p>With the following sent as post data. You <i>must</i> have the Content-Type header set to application/json or you will get a 415 Unsupported Media Type or 403 Forbidden response.
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="s2">&quot;accessToken&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;&lt;accessToken&gt;&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;selectedProfile&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;&lt;player&#39;s uuid without dashes&gt;&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;serverId&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;&lt;serverHash&gt;&quot;</span>
+<span class="w">  </span><span class="p">}</span>
+</pre></div>
+<p>The fields &lt;accessToken&gt; and the player's uuid were received by the client during <a href="/w/Microsoft_authentication#Authenticate_with_Minecraft" title="Microsoft authentication">authentication</a>.
+</p><p>If everything goes well, the client will receive a "204 No Content" response.
+</p><p>The server will respond with "403 Forbidden" if the player's Xbox profile has multiplayer disabled, with the following response:
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="s2">&quot;error&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;InsufficientPrivilegesException&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;path&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;/session/minecraft/join&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<p>Similarly, if the player was banned from Multiplayer then the server will respond with the following error:
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="s2">&quot;error&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;UserBannedException&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;path&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;/session/minecraft/join&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<p>If you forget to include a body with your request and just send an empty POST request, or if you use a malformed Content-Type header, you'll get this non-descriptive error:
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="s2">&quot;error&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Forbidden&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;path&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;/session/minecraft/join&quot;</span>
+<span class="p">}</span>
+</pre></div>
+<h3><span class="mw-headline" id="Server">Server</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=7&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Server">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=7" title="Edit section&#039;s source code: Server">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>After decrypting the shared secret in the second Encryption Response, the server generates the login hash as above and sends a HTTP GET to
+</p>
+<pre>https://sessionserver.mojang.com/session/minecraft/hasJoined?username=<i>username</i>&amp;serverId=<i>hash</i>&amp;ip=<i>ip</i>
+</pre>
+<p>The username is case insensitive and must match the client's username (which was received in the Login Start packet). Note that this is the in-game nickname of the selected profile, not the Mojang account name (which is never sent to the server).
+Servers should use the name sent in the "name" field.
+</p><p>The ip field is optional and when present should be the IP address of the connecting player; it is the one that originally initiated the session request. The vanilla server includes this only when <code>prevent-proxy-connections</code> is set to true in server.properties.
+</p><p>The response is a JSON object containing the user's UUID and skin blob
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="s2">&quot;id&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;&lt;profile identifier&gt;&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;name&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;&lt;player name&gt;&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;properties&quot;</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="s2">&quot;name&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;textures&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;value&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;&lt;base64 string&gt;&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="s2">&quot;signature&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;&lt;base64 string; signed data using Yggdrasil&#39;s private key&gt;&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+<p>The "id" and "name" fields are then sent back to the client using a Login Success packet. The profile id in the json response has format
+"11111111222233334444555555555555" which needs to be changed into format "11111111-2222-3333-4444-555555555555" before sending it back to the client.
+</p>
+<h3><span class="mw-headline" id="Sample_Code">Sample Code</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=8&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Sample Code">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=8" title="Edit section&#039;s source code: Sample Code">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Examples of generating Minecraft-style hex digests:
+</p>
+<ul><li>C++: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://git.io/JfTkx">https://git.io/JfTkx</a></li>
+<li>C#: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://git.io/fhjp6">https://git.io/fhjp6</a></li>
+<li>Go: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="http://git.io/-5ORag">http://git.io/-5ORag</a></li>
+<li>Java: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="http://git.io/vzbmS">http://git.io/vzbmS</a></li>
+<li>node.js: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="http://git.io/v2ue_A">http://git.io/v2ue_A</a></li>
+<li>PHP: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://git.io/fxcFY">https://git.io/fxcFY</a></li>
+<li>Python: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://git.io/vQFUL">https://git.io/vQFUL</a></li>
+<li>Rust: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://git.io/fj6P0">https://git.io/fj6P0</a></li></ul>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=9&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: History">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=9" title="Edit section&#039;s source code: History">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable pixel-image" data-description="History"><tbody><tr class="collapsible collapsible-rows"><th colspan="8" style="border-bottom: none"><a href="/w/Java_Edition_version_history" title="Java Edition version history"><i>Java Edition</i></a></th></tr><tr><th class="nowrap" rowspan="1" colspan="3"><a href="/w/Java_Edition_1.3.1" title="Java Edition 1.3.1">1.3.1</a></th><th colspan="4" rowspan="1"><a href="/w/Java_Edition_12w17a" title="Java Edition 12w17a">12w17a</a></th><td>Encryption of the protocol is introduced for online-mode servers.</td></tr><tr><th class="nowrap" rowspan="1" colspan="3"><a href="/w/Java_Edition_1.20.5" title="Java Edition 1.20.5">1.20.5</a></th><th colspan="4" rowspan="1"><a href="/w/Java_Edition_24w03a" title="Java Edition 24w03a">24w03a</a></th><td>Protocol encryption can now be used in offline mode.</td></tr></tbody></table>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=10&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: External links">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=10" title="Edit section&#039;s source code: External links">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb648640(v=vs.85).aspx">DER Encoding of ASN.1 Types</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://luca.ntop.org/Teaching/Appunti/asn1.html">A Layman's Guide to a Subset of ASN.1, BER, and DER</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/Lazersmoke/9947ada8acdd74a8b2e37d77cf1e0fdc">Serializing an RSA Key Manually</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/ZWORX52/91b244b313e5210ba07023be9caaef5a">Encryption using OpenSSL v3.0 functions (no clientside functions for making Encryption Request)</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/3900517">Encrypt shared secret using OpenSSL (old)</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://pastebin.com/8eYyKZn6">Generate RSA-Keys and building the ASN.1v8 structure of the x.509 certificate using Crypto++</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://pastebin.com/7Jvaama1">Decrypt shared secret using Crypto++</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://pastebin.com/MjvR0T98">De/Encrypt data via AES using Crypto++</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/SirCmpwn/Craft.Net/blob/master/source/Craft.Net.Networking/AesStream.cs">C# AES/CFB support with bouncy castle on Mono</a></li></ul>
+<h2><span class="mw-headline" id="Navigation">Navigation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Protocol_encryption?section=11&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Navigation">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Protocol_encryption?action=edit&amp;section=11" title="Edit section&#039;s source code: Navigation">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table data-navbox-name="%27%27%5B%5BJava_Edition%5D%5D%27%27_technical" class="navbox hlist navigation-not-searchable collapsible">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><div class="navbox-navbar"><div class="hlist navbar-mini" style="">
+<ul><li><a href="/w/Template:Navbox_Java_Edition_technical" title="Template:Navbox Java Edition technical"><span title="View this template" style="">v</span></a></li>
+<li><a class="text" href="https://minecraft.wiki/w/Template_talk:Navbox_Java_Edition_technical"><span title="Discuss this template" style="">t</span></a></li>
+<li><a href="/w/Special:EditPage/Template:Navbox_Java_Edition_technical" title="Special:EditPage/Template:Navbox Java Edition technical"><span title="Edit this template" style="">e</span></a></li></ul></div></div><span class="navbox-title"><i><a href="/w/Java_Edition" title="Java Edition">Java Edition</a></i> technical</span>
+</th></tr>
+
+<tr>
+<td colspan="2">
+<div style="margin-right:-6px">
+<table style="border:0" data-navbox-name="General" class="navbox hlist navigation-not-searchable collapsible">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><span class="navbox-title">General</span>
+</th></tr>
+<tr>
+<th>Concepts
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Block_entity" title="Block entity"><img alt="" src="/images/BlockSprite_chest.png?15d81" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Block_entity" title="Block entity"><span class="sprite-text">Block entity</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Coordinates" title="Coordinates"><img alt="" src="/images/EnvSprite_map.png?b863e" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Coordinates" title="Coordinates"><span class="sprite-text">Coordinates</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style="height:18px;width:18px"><span class="pixel-image" typeof="mw:File"><a href="/w/Crash" title="Crash"><img alt="" src="/images/EffectSprite_infested.png?4562a" decoding="async" loading="lazy" width="18" height="18" class="mw-file-element" data-file-width="18" data-file-height="18" /></a></span></span><a href="/w/Crash" title="Crash"><span class="sprite-text">Crashes</span></a></span></li>
+<li><span title="String"><span class="sprite nbt-sprite" style="background-position:-32px -16px;background-size:64px auto;height:16px;width:16px"></span><span class="hidden-alt-text">[String]</span></span> <a href="/w/Loot_context" title="Loot context">Loot context</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Mob_AI" title="Mob AI"><img alt="" src="/images/EntitySprite_cow.png?5e4fc" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Mob_AI" title="Mob AI"><span class="sprite-text">Mob AI</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Point_of_Interest" title="Point of Interest"><img alt="" src="/images/BlockSprite_lodestone.png?00f1a" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Point_of_Interest" title="Point of Interest"><span class="sprite-text">Point of Interest</span></a></span></li>
+<li><a href="/w/Resource_location" title="Resource location">Resource location</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Screenshot" title="Screenshot"><img alt="" src="/images/BlockSprite_camera.png?7ee99" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Screenshot" title="Screenshot"><span class="sprite-text">Screenshot</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Statistics" title="Statistics"><img alt="" src="/images/EnvSprite_scoreboard.png?38feb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Statistics" title="Statistics"><span class="sprite-text">Statistics</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Telemetry" title="Telemetry"><img alt="" src="/images/ItemSprite_book.png?791a5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Telemetry" title="Telemetry"><span class="sprite-text">Telemetry</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tick" title="Tick"><img alt="" src="/images/ItemSprite_clock.png?30324" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tick" title="Tick"><span class="sprite-text">Tick</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/UUID" title="UUID"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/UUID" title="UUID"><span class="sprite-text">UUID</span></a></span></li>
+<li><a href="/w/JSON" title="JSON">JSON</a></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Development_resources" title="Development resources">General format</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Java_Edition_data_values" title="Java Edition data values"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Java_Edition_data_values" title="Java Edition data values"><span class="sprite-text">Data values</span></a></span>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Java_Edition_Classic_data_values" title="Java Edition Classic data values"><img alt="" src="/images/LegacyBlockSprite_bricks-je1.png?9a58b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Java_Edition_Classic_data_values" title="Java Edition Classic data values"><span class="sprite-text">Classic</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Java_Edition_Indev_data_values" title="Java Edition Indev data values"><img alt="" src="/images/EntitySprite_rana.png?3f2f9" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Java_Edition_Indev_data_values" title="Java Edition Indev data values"><span class="sprite-text">Indev</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Java_Edition_pre-flattening_data_values" title="Java Edition pre-flattening data values"><img alt="" src="/images/BlockSprite_stone.png?e9a91" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Java_Edition_pre-flattening_data_values" title="Java Edition pre-flattening data values"><span class="sprite-text">Pre-flattening</span></a></span></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Data_component_format" title="Data component format"><img alt="" src="/images/EnvSprite_item.png?89d23" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Data_component_format" title="Data component format"><span class="sprite-text">Data component format</span></a></span>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Data_component_predicate" title="Data component predicate"><img alt="" src="/images/BlockSprite_test-block-start.png?35191" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Data_component_predicate" title="Data component predicate"><span class="sprite-text">Predicate</span></a></span></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Entity_format" title="Entity format"><img alt="" src="/images/EnvSprite_entities.png?94711" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Entity_format" title="Entity format"><span class="sprite-text">Entity format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Map_item_format" title="Map item format"><img alt="" src="/images/ItemSprite_map.png?05f8c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Map_item_format" title="Map item format"><span class="sprite-text">Map item format</span></a></span></li>
+<li><span title="NBT Compound / JSON Object"><span class="sprite nbt-sprite" style="background-position:-48px -16px;background-size:64px auto;height:16px;width:16px"></span><span class="hidden-alt-text">[NBT Compound / JSON Object]</span></span> <a href="/w/NBT_format" title="NBT format">NBT format</a></li>
+<li><span class="nowrap"><span class="sprite-file" style="height:18px;width:18px"><span class="pixel-image" typeof="mw:File"><a href="/w/Particle_format" title="Particle format"><img alt="" src="/images/EffectSprite_particle-healing.png?1357a" decoding="async" loading="lazy" width="18" height="18" class="mw-file-element" data-file-width="18" data-file-height="18" /></a></span></span><a href="/w/Particle_format" title="Particle format"><span class="sprite-text">Particle format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Text_component_format" title="Text component format"><img alt="" src="/images/ItemSprite_book-and-quill.png?f190b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Text_component_format" title="Text component format"><span class="sprite-text">Text component format</span></a></span></li>
+<li><a href="/w/Formatting_codes" title="Formatting codes"><span style="font-family:Minecraft;color:black">§</span></a> <a href="/w/Formatting_codes" title="Formatting codes">Formatting codes</a></li>
+<li><span typeof="mw:File"><a href="/w/Key_codes" title="Key codes"><img src="/images/thumb/Movement_hint.png/16px-Movement_hint.png?92667" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Movement_hint.png/32px-Movement_hint.png?92667 2x" data-file-width="40" data-file-height="40" /></a></span> <a href="/w/Key_codes" title="Key codes">Key codes</a></li>
+<li><a href="/w/Random_sequence_format" title="Random sequence format">Random sequence</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Structure_file" title="Structure file"><img alt="" src="/images/BlockSprite_structure-block.png?381fc" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Structure_file" title="Structure file"><span class="sprite-text">Structure file format</span></a></span>
+<ul><li><a href="/w/Schematic_file_format" title="Schematic file format">Schematic file format</a></li></ul></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/World" title="World">World</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Heightmap" title="Heightmap"><img alt="" src="/images/EnvSprite_altitude.png?9b274" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Heightmap" title="Heightmap"><span class="sprite-text">Heightmap</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Seed_(world_generation)" title="Seed (world generation)"><img alt="" src="/images/EnvSprite_mountain.png?2e0ae" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Seed_(world_generation)" title="Seed (world generation)"><span class="sprite-text">Seed</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Spawn_chunk" title="Spawn chunk"><img alt="" src="/images/EnvSprite_chunk.png?b2cf1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Spawn_chunk" title="Spawn chunk"><span class="sprite-text">Spawn chunk</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Data_version" title="Data version"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Data_version" title="Data version"><span class="sprite-text">Data version</span></a></span></li></ul>
+<table>
+<tbody><tr>
+<th><a href="/w/Java_Edition_level_format" title="Java Edition level format">Level format</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Anvil_file_format" title="Anvil file format"><img alt="" src="/images/BlockSprite_anvil.png?a26c9" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Anvil_file_format" title="Anvil file format"><span class="sprite-text">Anvil file format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Chunk_format" title="Chunk format"><img alt="" src="/images/EnvSprite_chunk.png?b2cf1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Chunk_format" title="Chunk format"><span class="sprite-text">Chunk format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Player.dat_format" title="Player.dat format"><img alt="" src="/images/EntitySprite_steve.png?856f8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Player.dat_format" title="Player.dat format"><span class="sprite-text">Player format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Point_of_Interest_format" title="Point of Interest format"><img alt="" src="/images/BlockSprite_lodestone.png?00f1a" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Point_of_Interest_format" title="Point of Interest format"><span class="sprite-text">Point of Interest format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Raids.dat_format" title="Raids.dat format"><img alt="" src="/images/EntitySprite_ravager.png?40196" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Raids.dat_format" title="Raids.dat format"><span class="sprite-text">raids.dat format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Command_storage_format" title="Command storage format"><img alt="" src="/images/BlockSprite_chain-command-block.png?0afa8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Command_storage_format" title="Command storage format"><span class="sprite-text">Command storage format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Scoreboard#NBT_format" title="Scoreboard"><img alt="" src="/images/EnvSprite_scoreboard.png?38feb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Scoreboard#NBT_format" title="Scoreboard"><span class="sprite-text">Scoreboard format</span></a></span></li></ul>
+<table>
+<tbody><tr>
+<th>Legacy
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Java_Edition_Classic_level_format" title="Java Edition Classic level format"><img alt="" src="/images/LegacyBlockSprite_bricks-je1.png?9a58b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Java_Edition_Classic_level_format" title="Java Edition Classic level format"><span class="sprite-text">Classic level format</span></a></span></li>
+<li><a href="/w/Classic_server_protocol" title="Classic server protocol">Classic server protocol</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Java_Edition_Indev_level_format" title="Java Edition Indev level format"><img alt="" src="/images/EntitySprite_rana.png?3f2f9" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Java_Edition_Indev_level_format" title="Java Edition Indev level format"><span class="sprite-text">Indev level format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Java_Edition_Alpha_level_format" title="Java Edition Alpha level format"><img alt="" src="/images/EnvSprite_nether-portal.png?47646" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Java_Edition_Alpha_level_format" title="Java Edition Alpha level format"><span class="sprite-text">Alpha level format</span></a></span>
+<ul><li><span typeof="mw:File"><a href="/w/Java_Edition_Infdev_20100624_level_format" title="Java Edition Infdev 20100624 level format"><img src="/images/thumb/Oak_Door_%28item%29_JE1.png/16px-Oak_Door_%28item%29_JE1.png?dfa02" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Oak_Door_%28item%29_JE1.png/32px-Oak_Door_%28item%29_JE1.png?dfa02 2x" data-file-width="160" data-file-height="160" /></a></span> <a href="/w/Java_Edition_Infdev_20100624_level_format" title="Java Edition Infdev 20100624 level format">Infdev 20100624 level format</a></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Region_file_format" title="Region file format"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Region_file_format" title="Region file format"><span class="sprite-text">Region file format</span></a></span></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Server_level.dat" title="Server level.dat"><img src="/images/Servers.png?b1dc2" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="15" data-file-height="15" /></a></span> <a href="/w/Server_level.dat" title="Server level.dat">server_level.dat</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Villages.dat_format" title="Villages.dat format"><img alt="" src="/images/EnvSprite_new-village.png?3e8a5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Villages.dat_format" title="Villages.dat format"><span class="sprite-text">villages.dat format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Generated_structures_data_file_format" title="Generated structures data file format"><img alt="" src="/images/EnvSprite_abandoned-mineshaft.png?fab65" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Generated_structures_data_file_format" title="Generated structures data file format"><span class="sprite-text">Generated structures format</span></a></span></li></ul>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<th><a href="/w/.minecraft" title=".minecraft">.minecraft</a>
+</th>
+<td>
+<ul><li><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><span><img alt="File archive.png: Sprite image for archive in Minecraft" src="/images/thumb/File_archive.png/16px-File_archive.png?5ba7d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/File_archive.png?5ba7d 2x" data-file-width="32" data-file-height="32" /></span></span></span> <a href="/w/Client.jar" title="Client.jar">client.jar</a>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Version.json" title="Version.json"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Version.json" title="Version.json"><span class="sprite-text">version.json</span></a></span></li></ul></li>
+<li><a href="/w/Client.json" title="Client.json">client.json</a></li>
+<li><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><span><img alt="File file.png: Sprite image for file in Minecraft" src="/images/thumb/File_file.png/16px-File_file.png?e19ce" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/File_file.png?e19ce 2x" data-file-width="32" data-file-height="32" /></span></span></span> <a href="/w/Command_history.txt" title="Command history.txt">command_history.txt</a></li>
+<li><a href="/w/Launcher_profiles.json" title="Launcher profiles.json">launcher_profiles.json</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Options.txt" title="Options.txt"><img alt="" src="/images/BlockSprite_test-instance-block.png?27a39" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Options.txt" title="Options.txt"><span class="sprite-text">options.txt</span></a></span></li>
+<li><a href="/w/Version_manifest.json" title="Version manifest.json">version_manifest.json</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Hotbar.nbt_format" title="Hotbar.nbt format"><img alt="" src="/images/ItemSprite_paper.png?565a1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Hotbar.nbt_format" class="mw-redirect" title="Hotbar.nbt format"><span class="sprite-text">hotbar.nbt format</span></a></span></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Server_level.dat" title="Server level.dat"><img src="/images/Servers.png?b1dc2" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="15" data-file-height="15" /></a></span> <a href="/w/Servers.dat_format" title="Servers.dat format">Server list format</a></li></ul>
+</td></tr>
+<tr>
+<th>Tools
+</th>
+<td>
+<ul><li><kbd class="key nowrap">F3</kbd> <a href="/w/Debug_screen" title="Debug screen">Debug screen</a>
+<ul><li><a href="/w/Debug_hotkey" title="Debug hotkey">hotkey</a></li></ul></li>
+<li><span typeof="mw:File"><a href="/w/Java_Developer_Tools" title="Java Developer Tools"><img src="/images/Mojang_logo.svg?0b294" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="59" data-file-height="58" /></a></span> <a href="/w/Java_Developer_Tools" title="Java Developer Tools">Developer Tools</a>
+<ul><li><a href="/w/GameTest" title="GameTest">GameTest</a></li></ul></li>
+<li><a href="/w/Obfuscation_map" title="Obfuscation map">Obfuscation map</a></li></ul>
+</td></tr>
+<tr>
+<th>Sound
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Block_sound_type" title="Block sound type"><img alt="" src="/images/EnvSprite_ambience.png?d7c92" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Block_sound_type" title="Block sound type"><span class="sprite-text">Block sound type</span></a></span></li>
+<li><a href="/w/Sounds.json" title="Sounds.json">sounds.json</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Subtitles" title="Subtitles"><img alt="" src="/images/EnvSprite_chat.png?0dd92" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Subtitles" title="Subtitles"><span class="sprite-text">Subtitles</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Commands" title="Commands">Commands</a>
+</th>
+<td>
+<ul><li><a href="/w/Brigadier" title="Brigadier">Brigadier</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Function_(Java_Edition)" title="Function (Java Edition)"><img alt="" src="/images/BlockSprite_repeating-command-block.png?1dad0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Function_(Java_Edition)" title="Function (Java Edition)"><span class="sprite-text">Functions</span></a></span></li></ul>
+<p><b><a href="/w/Template:Navbox_commands" title="Template:Navbox commands">More information about commands</a></b>
+</p>
+</td></tr>
+<tr>
+<th><a href="/w/Minecraft_Launcher" title="Minecraft Launcher">Launching</a>
+</th>
+<td>
+<ul><li><a href="/w/Mojang_API" title="Mojang API">Mojang API</a></li>
+<li><span typeof="mw:File"><a href="/w/Microsoft_authentication" title="Microsoft authentication"><img src="/images/Microsoft_logo.svg?7e87a" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span> <a href="/w/Microsoft_authentication" title="Microsoft authentication">Microsoft authentication</a></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Quick_Play" title="Quick Play"><img src="/images/thumb/Java_Edition_icon_3.png/16px-Java_Edition_icon_3.png?f7112" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Java_Edition_icon_3.png/32px-Java_Edition_icon_3.png?f7112 2x" data-file-width="1024" data-file-height="1024" /></a></span> <a href="/w/Quick_Play" title="Quick Play">Quick Play</a></li></ul>
+<table>
+<tbody><tr>
+<th>Legacy
+</th>
+<td>
+<ul><li><a href="/w/Legacy_Minecraft_authentication" title="Legacy Minecraft authentication">Legacy Minecraft authentication</a></li>
+<li><a href="/w/Yggdrasil" title="Yggdrasil">Yggdrasil</a></li></ul>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<th><a href="/w/Java_Edition_protocol" title="Java Edition protocol">Protocol</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Protocol_version" title="Protocol version"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Protocol_version" title="Protocol version"><span class="sprite-text">Protocol version</span></a></span></li>
+<li><a href="/w/Protocol_data_types" title="Protocol data types">Protocol data types</a></li>
+<li><a class="mw-selflink selflink">Protocol encryption</a></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Server" title="Server">Server</a>
+</th>
+<td>
+<ul><li><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><span><img alt="File archive.png: Sprite image for archive in Minecraft" src="/images/thumb/File_archive.png/16px-File_archive.png?5ba7d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/File_archive.png?5ba7d 2x" data-file-width="32" data-file-height="32" /></span></span></span> <a href="/w/Server.jar" title="Server.jar">server.jar</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Server.properties" title="Server.properties"><img alt="" src="/images/BlockSprite_test-instance-block.png?27a39" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Server.properties" title="Server.properties"><span class="sprite-text">server.properties</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Server/Requirements" title="Server/Requirements"><img alt="" src="/images/BlockSprite_test-instance-block.png?27a39" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Server/Requirements" title="Server/Requirements"><span class="sprite-text">Server requirements</span></a></span></li>
+<li><a href="/w/Whitelist" class="mw-redirect" title="Whitelist">Whitelist</a></li>
+<li><a href="/w/Server#Operator_list" title="Server">Operator list</a></li>
+<li><a href="/w/Query" title="Query">Query</a></li>
+<li><a href="/w/RCON" title="RCON">RCON</a></li></ul>
+</td></tr>
+<tr>
+<th>Legacy
+</th>
+<td>
+<ul><li><a href="/w/Al_version" title="Al version">al_version</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Item_format" title="Item format"><img alt="" src="/images/EnvSprite_item.png?89d23" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Item_format" class="mw-redirect" title="Item format"><span class="sprite-text">Item format</span></a></span></li></ul>
+</td></tr></tbody></table></div>
+</td></tr>
+<tr>
+<td colspan="2">
+<div style="margin-right:-6px">
+<table style="border:0" data-navbox-name="%5B%5BData_pack%5D%5D" class="navbox hlist navigation-not-searchable collapsible collapsed">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><span class="navbox-title"><a href="/w/Data_pack" title="Data pack">Data pack</a></span>
+</th></tr>
+<tr>
+<th>Components
+</th>
+<td>
+<ul><li><span style="font-family: monospace"><a href="/w/Pack.mcmeta" title="Pack.mcmeta">pack.mcmeta</a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Pack_format" title="Pack format"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Pack_format" title="Pack format"><span class="sprite-text">Pack format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Advancement_definition" title="Advancement definition"><img alt="" src="/images/ItemSprite_map.png?05f8c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Advancement_definition" title="Advancement definition"><span class="sprite-text">Advancements</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Function_(Java_Edition)" title="Function (Java Edition)"><img alt="" src="/images/BlockSprite_repeating-command-block.png?1dad0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Function_(Java_Edition)" title="Function (Java Edition)"><span class="sprite-text">Functions</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Item_modifier" title="Item modifier"><img alt="" src="/images/BlockSprite_red-banner.png?cd672" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Item_modifier" title="Item modifier"><span class="sprite-text">Item modifier</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Loot_table" title="Loot table"><img alt="" src="/images/ItemSprite_diamond.png?8f019" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Loot_table" title="Loot table"><span class="sprite-text">Loot tables</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Predicate" title="Predicate"><img alt="" src="/images/BlockSprite_test-block-start.png?35191" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Predicate" title="Predicate"><span class="sprite-text">Predicate</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Recipe" title="Recipe"><img alt="" src="/images/BlockSprite_crafting-table.png?6e126" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Recipe" title="Recipe"><span class="sprite-text">Recipe</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style="height:18px;width:18px"><span class="pixel-image" typeof="mw:File"><a href="/w/Damage_type" title="Damage type"><img alt="" src="/images/EffectSprite_strength.png?05e79" decoding="async" loading="lazy" width="18" height="18" class="mw-file-element" data-file-width="18" data-file-height="18" /></a></span></span><a href="/w/Damage_type" title="Damage type"><span class="sprite-text">Damage type</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Chat_type" title="Chat type"><img alt="" src="/images/EnvSprite_chat.png?0dd92" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Chat_type" title="Chat type"><span class="sprite-text">Chat type</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Enchantment_definition" title="Enchantment definition"><img alt="" src="/images/ItemSprite_enchanted-book.png?b7877" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Enchantment_definition" title="Enchantment definition"><span class="sprite-text">Enchantment</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Enchantment_provider" title="Enchantment provider"><img alt="" src="/images/BlockSprite_enchanting-table.png?45e2c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Enchantment_provider" title="Enchantment provider"><span class="sprite-text">Enchantment provider</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Painting_variant_definition" title="Painting variant definition"><img alt="" src="/images/ItemSprite_painting.png?55d20" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Painting_variant_definition" title="Painting variant definition"><span class="sprite-text">Painting variant</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Goat_horn_instrument_definition" title="Goat horn instrument definition"><img alt="" src="/images/ItemSprite_goat-horn.png?e5a9f" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Goat_horn_instrument_definition" class="mw-redirect" title="Goat horn instrument definition"><span class="sprite-text">Goat horn instrument</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Jukebox_song_definition" title="Jukebox song definition"><img alt="" src="/images/BlockSprite_jukebox.png?86205" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Jukebox_song_definition" title="Jukebox song definition"><span class="sprite-text">Jukebox song</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Trial_spawner_configuration" title="Trial spawner configuration"><img alt="" src="/images/BlockSprite_trial-spawner.png?0a3dc" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Trial_spawner_configuration" title="Trial spawner configuration"><span class="sprite-text">Trial spawner configuration</span></a></span></li>
+<li><a href="/w/Mob_variant_definitions" title="Mob variant definitions">Mob variants</a></li></ul>
+<table>
+<tbody><tr>
+<th><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tag" title="Tag"><img alt="" src="/images/ItemSprite_name-tag.png?8de62" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tag" title="Tag"><span class="sprite-text">Tag</span></a></span>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Block_tag_(Java_Edition)" title="Block tag (Java Edition)"><img alt="" src="/images/BlockSprite_grass-block.png?97c2e" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Block_tag_(Java_Edition)" title="Block tag (Java Edition)"><span class="sprite-text">Block</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Item_tag_(Java_Edition)" title="Item tag (Java Edition)"><img alt="" src="/images/EnvSprite_item.png?89d23" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Item_tag_(Java_Edition)" title="Item tag (Java Edition)"><span class="sprite-text">Item</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Function_tag_(Java_Edition)" title="Function tag (Java Edition)"><img alt="" src="/images/BlockSprite_repeating-command-block.png?1dad0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Function_tag_(Java_Edition)" title="Function tag (Java Edition)"><span class="sprite-text">Function</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Fluid_tag_(Java_Edition)" title="Fluid tag (Java Edition)"><img alt="" src="/images/ItemSprite_water-bucket.png?6e72b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Fluid_tag_(Java_Edition)" title="Fluid tag (Java Edition)"><span class="sprite-text">Fluid</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Entity_type_tag_(Java_Edition)" title="Entity type tag (Java Edition)"><img alt="" src="/images/EnvSprite_entities.png?94711" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Entity_type_tag_(Java_Edition)" title="Entity type tag (Java Edition)"><span class="sprite-text">Entity type</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Game_event_tag_(Java_Edition)" title="Game event tag (Java Edition)"><img alt="" src="/images/BlockSprite_sculk-sensor.png?ccbdb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Game_event_tag_(Java_Edition)" title="Game event tag (Java Edition)"><span class="sprite-text">Game event</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Biome_tag_(Java_Edition)" title="Biome tag (Java Edition)"><img alt="" src="/images/BiomeSprite_forest.png?737d2" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Biome_tag_(Java_Edition)" title="Biome tag (Java Edition)"><span class="sprite-text">Biome</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Flat_level_generator_preset_tag_(Java_Edition)" title="Flat level generator preset tag (Java Edition)"><img alt="" src="/images/EnvSprite_superflat.png?54c14" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Flat_level_generator_preset_tag_(Java_Edition)" title="Flat level generator preset tag (Java Edition)"><span class="sprite-text">Flat level generator preset</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/World_preset_tag_(Java_Edition)" title="World preset tag (Java Edition)"><img alt="" src="/images/EnvSprite_mountain.png?2e0ae" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/World_preset_tag_(Java_Edition)" title="World preset tag (Java Edition)"><span class="sprite-text">World preset</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Structure_tag_(Java_Edition)" title="Structure tag (Java Edition)"><img alt="" src="/images/EnvSprite_jungle-pyramid.png?736e3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Structure_tag_(Java_Edition)" title="Structure tag (Java Edition)"><span class="sprite-text">Structure</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Cat_variant_tag_(Java_Edition)" title="Cat variant tag (Java Edition)"><img alt="" src="/images/EntitySprite_cat.png?b3c67" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Cat_variant_tag_(Java_Edition)" title="Cat variant tag (Java Edition)"><span class="sprite-text">Cat variant</span></a></span>&#8204;<sup class="noprint nowrap Inline-Template" title="">[<i><span title="This statement does not apply to upcoming versions of Minecraft">until</span> <a href="/w/Java_Edition_1.21.5" title="Java Edition 1.21.5">JE 1.21.5</a></i>]</sup></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Point_of_interest_type_tag_(Java_Edition)" title="Point of interest type tag (Java Edition)"><img alt="" src="/images/BlockSprite_lodestone.png?00f1a" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Point_of_interest_type_tag_(Java_Edition)" title="Point of interest type tag (Java Edition)"><span class="sprite-text">Point of interest type</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Painting_variant_tag_(Java_Edition)" title="Painting variant tag (Java Edition)"><img alt="" src="/images/ItemSprite_painting.png?55d20" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Painting_variant_tag_(Java_Edition)" title="Painting variant tag (Java Edition)"><span class="sprite-text">Painting variant</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Banner_pattern_tag_(Java_Edition)" title="Banner pattern tag (Java Edition)"><img alt="" src="/images/BlockSprite_white-banner.png?9b133" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Banner_pattern_tag_(Java_Edition)" title="Banner pattern tag (Java Edition)"><span class="sprite-text">Banner pattern</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Instrument_tag_(Java_Edition)" title="Instrument tag (Java Edition)"><img alt="" src="/images/BlockSprite_jukebox-side.png?8477e" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Instrument_tag_(Java_Edition)" title="Instrument tag (Java Edition)"><span class="sprite-text">Instrument</span></a></span></li>
+<li><span class="iconbar pixel-image nowrap" style="--icon-offset:-2px;" title="1 heart"><span typeof="mw:File"><span><img alt="♥" src="/images/Heart_%28icon%29.png?faf83" decoding="async" loading="lazy" width="18" height="18" class="mw-file-element" data-file-width="9" data-file-height="9" /></span></span></span> <a href="/w/Damage_type_tag_(Java_Edition)" title="Damage type tag (Java Edition)">Damage type</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Enchantment_tag_(Java_Edition)" title="Enchantment tag (Java Edition)"><img alt="" src="/images/ItemSprite_enchanted-book.png?b7877" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Enchantment_tag_(Java_Edition)" title="Enchantment tag (Java Edition)"><span class="sprite-text">Enchantment</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/GameTest" title="GameTest">GameTest</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Test_environment_definition" title="Test environment definition"><img alt="" src="/images/BlockSprite_test-block-start.png?35191" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Test_environment_definition" title="Test environment definition"><span class="sprite-text">Test environment</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Test_instance_definition" title="Test instance definition"><img alt="" src="/images/BlockSprite_test-instance-block.png?27a39" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Test_instance_definition" title="Test instance definition"><span class="sprite-text">Test instance</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Custom_world_generation" title="Custom world generation">World generation</a>
+</th>
+<td>
+<ul><li><a href="/w/Dimension_definition" title="Dimension definition">Dimension</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dimension_type" title="Dimension type"><img alt="" src="/images/EnvSprite_nether-portal.png?47646" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Dimension_type" title="Dimension type"><span class="sprite-text">Dimension type</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/World_preset_definition" title="World preset definition"><img alt="" src="/images/EnvSprite_mountain.png?2e0ae" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/World_preset_definition" title="World preset definition"><span class="sprite-text">World preset</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Biome_definition" title="Biome definition"><img alt="" src="/images/EnvSprite_biomes.png?0a976" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Biome_definition" title="Biome definition"><span class="sprite-text">Biomes</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Carver_definition" title="Carver definition"><img alt="" src="/images/EnvSprite_cave.png?47a17" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Carver_definition" title="Carver definition"><span class="sprite-text">Carver</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Configured_feature" title="Configured feature"><img alt="" src="/images/BlockSprite_gear.png?03da3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Configured_feature" title="Configured feature"><span class="sprite-text">Configured feature</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Placed_feature" title="Placed feature"><img alt="" src="/images/EnvSprite_oak.png?742a4" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Placed_feature" title="Placed feature"><span class="sprite-text">Placed feature</span></a></span></li></ul>
+<table>
+<tbody><tr>
+<th><a href="/w/Noise_settings" title="Noise settings">Noise settings</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Noise_router" title="Noise router"><img alt="" src="/images/EnvSprite_mountain.png?2e0ae" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Noise_router" title="Noise router"><span class="sprite-text">Noise router</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Density_function" title="Density function"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Density_function" title="Density function"><span class="sprite-text">Density function</span></a></span></li>
+<li><a href="/w/Noise" title="Noise">Noises</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Surface_rule" title="Surface rule"><img alt="" src="/images/EnvSprite_surface.png?75bf7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Surface_rule" title="Surface rule"><span class="sprite-text">Surface rule</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Structure_definition" title="Structure definition">Structures</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Structure_set" title="Structure set"><img alt="" src="/images/EnvSprite_abandoned-mineshaft.png?fab65" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Structure_set" title="Structure set"><span class="sprite-text">Structure set</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Template_pool" title="Template pool"><img alt="" src="/images/BlockSprite_jigsaw.png?ec5e3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Template_pool" title="Template pool"><span class="sprite-text">Template pool</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Processor_list" title="Processor list"><img alt="" src="/images/BlockSprite_cracked-stone-bricks.png?f3f1d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Processor_list" title="Processor list"><span class="sprite-text">Processor list</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Structure_file" title="Structure file"><img alt="" src="/images/EnvSprite_nether-fossil.png?93621" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Structure_file" title="Structure file"><span class="sprite-text">Structure templates</span></a></span></li></ul>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<th>Data packs
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Caves_%26_Cliffs_Prototype_Data_Pack" title="Caves &amp; Cliffs Prototype Data Pack"><img alt="" src="/images/BlockSprite_deepslate.png?d7361" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Caves_%26_Cliffs_Prototype_Data_Pack" title="Caves &amp; Cliffs Prototype Data Pack"><span class="sprite-text">Caves &amp; Cliffs Prototype Data Pack</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Tutorials
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tutorial:Installing_a_data_pack" title="Tutorial:Installing a data pack"><img alt="" src="/images/thumb/EnvSprite_autosave.png/16px-EnvSprite_autosave.png?a55e7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/EnvSprite_autosave.png?a55e7 2x" data-file-width="32" data-file-height="32" /></a></span></span><a href="/w/Tutorial:Installing_a_data_pack" title="Tutorial:Installing a data pack"><span class="sprite-text">Installing</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tutorial:Creating_a_data_pack" title="Tutorial:Creating a data pack"><img alt="" src="/images/BlockSprite_gear.png?03da3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tutorial:Creating_a_data_pack" title="Tutorial:Creating a data pack"><span class="sprite-text">Creating</span></a></span></li>
+<li><a href="/w/Tutorial:Optimizing_a_data_pack" title="Tutorial:Optimizing a data pack">Optimizing</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tutorial:Command_blocks_and_functions" title="Tutorial:Command blocks and functions"><img alt="" src="/images/BlockSprite_command-block.png?e7078" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tutorial:Command_blocks_and_functions" title="Tutorial:Command blocks and functions"><span class="sprite-text">Command blocks and functions</span></a></span></li>
+<li><a href="/w/Tutorial:Repairing_a_world_corrupted_by_a_data_pack" title="Tutorial:Repairing a world corrupted by a data pack">Repairing a world corrupted by a data pack</a></li></ul>
+<table>
+<tbody><tr>
+<th>Content
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tutorial:Adding_custom_enchantments" title="Tutorial:Adding custom enchantments"><img alt="" src="/images/ItemSprite_enchanted-book.png?b7877" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tutorial:Adding_custom_enchantments" title="Tutorial:Adding custom enchantments"><span class="sprite-text">Custom enchantments</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tutorial:Adding_custom_paintings" title="Tutorial:Adding custom paintings"><img alt="" src="/images/ItemSprite_painting.png?55d20" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tutorial:Adding_custom_paintings" title="Tutorial:Adding custom paintings"><span class="sprite-text">Custom paintings</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tutorial:Adding_custom_trims" title="Tutorial:Adding custom trims"><img alt="" src="/images/ItemSprite_armor-trim.png?1d672" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tutorial:Adding_custom_trims" title="Tutorial:Adding custom trims"><span class="sprite-text">Custom trims</span></a></span></li></ul>
+</td></tr></tbody></table>
+<table>
+<tbody><tr>
+<th>World generation
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tutorial:Adding_a_new_dimension" title="Tutorial:Adding a new dimension"><img alt="" src="/images/EnvSprite_other-portal.png?ca57b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tutorial:Adding_a_new_dimension" title="Tutorial:Adding a new dimension"><span class="sprite-text">New dimension</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tutorial:Custom_structures" title="Tutorial:Custom structures"><img alt="" src="/images/EnvSprite_lunar-base.png?648e4" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tutorial:Custom_structures" title="Tutorial:Custom structures"><span class="sprite-text">Custom structures</span></a></span></li></ul>
+</td></tr></tbody></table>
+</td></tr></tbody></table></div>
+</td></tr>
+<tr>
+<td colspan="2">
+<div style="margin-right:-6px">
+<table style="border:0" data-navbox-name="%5B%5BResource_pack%5D%5D" class="navbox hlist navigation-not-searchable collapsible collapsed">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><span class="navbox-title"><a href="/w/Resource_pack" title="Resource pack">Resource pack</a></span>
+</th></tr>
+<tr>
+<th>Components
+</th>
+<td>
+<ul><li><span style="font-family: monospace"><a href="/w/Pack.mcmeta" title="Pack.mcmeta">pack.mcmeta</a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Pack_format" title="Pack format"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Pack_format" title="Pack format"><span class="sprite-text">Pack format</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Resource_pack#Language" title="Resource pack"><img alt="" src="/images/EnvSprite_language.png?39da2" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Resource_pack#Language" title="Resource pack"><span class="sprite-text">Language</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Model" title="Model"><img alt="" src="/images/EntitySprite_creeper.png?703e9" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Model" title="Model"><span class="sprite-text">Models</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Blockstates_definition" title="Blockstates definition"><img alt="" src="/images/BlockSprite_double-stone-slab.png?62750" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Blockstates_definition" title="Blockstates definition"><span class="sprite-text">Blockstates</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Items_model_definition" title="Items model definition"><img alt="" src="/images/EnvSprite_item.png?89d23" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Items_model_definition" title="Items model definition"><span class="sprite-text">Items</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Sound" title="Sound"><img alt="" src="/images/EnvSprite_ambience.png?d7c92" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Sound" title="Sound"><span class="sprite-text">Sounds</span></a></span> (<a href="/w/Sounds.json" title="Sounds.json">sounds.json</a>)</li>
+<li><a href="/w/Shader" title="Shader">Shaders</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Resource_pack#Textures" title="Resource pack"><img alt="" src="/images/EnvSprite_texture-pack.png?a4213" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Resource_pack#Textures" title="Resource pack"><span class="sprite-text">Textures</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Atlas" title="Atlas"><img alt="" src="/images/ItemSprite_compass.png?2364d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Atlas" title="Atlas"><span class="sprite-text">Atlases</span></a></span></li>
+<li><a href="/w/Resource_pack#Fonts" title="Resource pack"><span style="font-family:Minecraft;color:black">Aa</span></a> <a href="/w/Resource_pack#Fonts" title="Resource pack">Fonts</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Resource_pack#Colormaps" title="Resource pack"><img alt="" src="/images/BlockSprite_oak-leaves.png?81553" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Resource_pack#Colormaps" title="Resource pack"><span class="sprite-text">Colormaps</span></a></span></li>
+<li><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><span><img alt="File file.png: Sprite image for file in Minecraft" src="/images/thumb/File_file.png/16px-File_file.png?e19ce" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/File_file.png?e19ce 2x" data-file-width="32" data-file-height="32" /></span></span></span> <a href="/w/Resource_pack#Texts" title="Resource pack">Texts</a></li>
+<li><a href="/w/Resource_pack#Regional_compliancies_warnings" title="Resource pack">regional_compliancies.json</a></li>
+<li><a href="/w/Equipment" title="Equipment">Equipment</a></li></ul>
+</td></tr>
+<tr>
+<th>Tutorials
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tutorial:Creating_a_resource_pack" title="Tutorial:Creating a resource pack"><img alt="" src="/images/BlockSprite_gear.png?03da3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tutorial:Creating_a_resource_pack" title="Tutorial:Creating a resource pack"><span class="sprite-text">Creating a resource pack</span></a></span></li></ul>
+</td></tr></tbody></table></div>
+</td></tr></tbody></table>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This article is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div>&#160;
+<div class="msgbox-text">This article has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br />Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐jobrunner‐cbcd74ff9‐n5hx6
+Cached time: 20250318114124
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0.001 seconds
+CPU time usage: 0.602 seconds
+Real time usage: 1.909 seconds
+Preprocessor visited node count: 2813/1000000
+Post‐expand include size: 105224/8388608 bytes
+Template argument size: 5676/8388608 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 5/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4293/5000000 bytes
+ExtLoops count: 0/50
+Lua time usage: 0.118/10.000 seconds
+Lua memory usage: 2187681/367001600 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  984.986      1 -total
+ 65.80%  648.117      1 Template:Navbox_Java_Edition_technical
+ 21.09%  207.743     46 Template:BlockLink
+ 10.08%   99.278     37 Template:EnvLink
+  7.77%   76.564      1 Template:HistoryTable
+  6.83%   67.236     18 Template:ItemLink
+  3.96%   39.001      1 Template:Until
+  3.93%   38.705      1 Template:License_wiki.vg
+  3.73%   36.768      4 Template:SimpleNavbox
+  3.68%   36.258      2 Template:Nbt
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290320-0!canonical and timestamp 20250318114122 and revision id 2887326. Rendering was triggered because: edit-page
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Protocol_encryption?oldid=2887326">https://minecraft.wiki/w/Protocol_encryption?oldid=2887326</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Java_Edition" title="Category:Java Edition">Java Edition</a></li><li><a href="/w/Category:Java_Edition_technical" title="Category:Java Edition technical">Java Edition technical</a></li><li><a href="/w/Category:Protocol_Details?action=edit&amp;redlink=1" class="new" title="Category:Protocol Details (page does not exist)">Protocol Details</a></li><li><a href="/w/Category:Java_Edition_protocol" title="Category:Java Edition protocol">Java Edition protocol</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Protocol+encryption" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Protocol+encryption" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected mw-list-item"><a href="/w/Protocol_encryption" title="View the content page [c]" accesskey="c"><span>Page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Talk:Protocol_encryption?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Protocol_encryption"><span>Read</span></a></li><li id="ca-ve-edit" class="mw-list-item"><a href="/w/Protocol_encryption?veaction=edit" title="Edit this page [v]" accesskey="v"><span>Edit</span></a></li><li id="ca-edit" class="collapsible mw-list-item"><a href="/w/Protocol_encryption?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Protocol_encryption?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Protocol_encryption?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-pre3" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-pre3"><span>Dev: 1.21.5-pre3</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Protocol_encryption" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Protocol_encryption" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Protocol_encryption?oldid=2887326" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Protocol_encryption?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Protocol-5Fencryption" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 6 March 2025, at 16:58.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Protocol_encryption?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":44,"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.001},"limitreport":{"cputime":"0.602","walltime":"1.909","ppvisitednodes":{"value":2813,"limit":1000000},"postexpandincludesize":{"value":105224,"limit":8388608},"templateargumentsize":{"value":5676,"limit":8388608},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4293,"limit":5000000},"timingprofile":["100.00%  984.986      1 -total"," 65.80%  648.117      1 Template:Navbox_Java_Edition_technical"," 21.09%  207.743     46 Template:BlockLink"," 10.08%   99.278     37 Template:EnvLink","  7.77%   76.564      1 Template:HistoryTable","  6.83%   67.236     18 Template:ItemLink","  3.96%   39.001      1 Template:Until","  3.93%   38.705      1 Template:License_wiki.vg","  3.73%   36.768      4 Template:SimpleNavbox","  3.68%   36.258      2 Template:Nbt"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"scribunto":{"limitreport-timeusage":{"value":"0.118","limit":"10.000"},"limitreport-memusage":{"value":2187681,"limit":367001600}},"cachereport":{"origin":"mediawiki-jobrunner-cbcd74ff9-n5hx6","timestamp":"20250318114124","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

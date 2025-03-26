@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Bedrock Realms – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"6c38ea59cccf39f496ede55b66e675c8","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms","wgTitle":"Projects/wiki.vg merge/Bedrock Realms","wgCurRevisionId":2823307,"wgRevisionId":2823307,"wgArticleId":290151,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Bedrock Edition","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms","wgRelevantArticleId":290151,"wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready",
+"ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks",
+"ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="This page was created using information from Minecraft 1.10.1 on Windows 10. The process is (presumably) similar for Minecraft on Nintendo Switch, iOS, Android and Xbox One.">
+<meta property="og:description" content="This page was created using information from Minecraft 1.10.1 on Windows 10. The process is (presumably) similar for Minecraft on Nintendo Switch, iOS, Android and Xbox One.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Bedrock Realms – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Bedrock_Realms rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Bedrock Realms</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p>This page was created using information from Minecraft 1.10.1 on Windows 10. The process is (presumably) similar for Minecraft on Nintendo Switch, iOS, Android and Xbox One.
+</p><p>Edit: Recently updated with more endpoints available in the 1.17.1 release of Minecraft Bedrock Edition
+</p><p>The information on this page may be incorrect and incomplete.
+</p><p>You can find a maintained <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.postman.com/LucienHH/workspace/bedrock-realms/overview">Postman Collection here</a>
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Authentication"><span class="tocnumber">1</span> <span class="toctext">Authentication</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Endpoints"><span class="tocnumber">2</span> <span class="toctext">Endpoints</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#GET_/mco/client/compatible"><span class="tocnumber">2.1</span> <span class="toctext">GET /mco/client/compatible</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#GET_/worlds"><span class="tocnumber">2.2</span> <span class="toctext">GET /worlds</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#GET_/worlds/{id}"><span class="tocnumber">2.3</span> <span class="toctext">GET /worlds/{id}</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#GET_/server/{id}/join"><span class="tocnumber">2.4</span> <span class="toctext">GET /server/{id}/join</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#GET_/invites/count/pending"><span class="tocnumber">2.5</span> <span class="toctext">GET /invites/count/pending</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#GET_/world/{id}/content"><span class="tocnumber">2.6</span> <span class="toctext">GET /world/{id}/content</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#GET_/subscriptions/{id}/details"><span class="tocnumber">2.7</span> <span class="toctext">GET /subscriptions/{id}/details</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#GET_/worlds/{id}/backups"><span class="tocnumber">2.8</span> <span class="toctext">GET /worlds/{id}/backups</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#GET_/archive/download/world/{id}/1/{backupId}"><span class="tocnumber">2.9</span> <span class="toctext">GET /archive/download/world/{id}/1/{backupId}</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#GET_/archive/download/world/{id}/1/latest"><span class="tocnumber">2.10</span> <span class="toctext">GET /archive/download/world/{id}/1/latest</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#GET_/links/v1?worldId={id}"><span class="tocnumber">2.11</span> <span class="toctext">GET /links/v1?worldId={id}</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#GET_/trial/new"><span class="tocnumber">2.12</span> <span class="toctext">GET /trial/new</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#GET_/worlds/v1/link/{realmInviteCode}"><span class="tocnumber">2.13</span> <span class="toctext">GET /worlds/v1/link/{realmInviteCode}</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#GET_/activities/live/players"><span class="tocnumber">2.14</span> <span class="toctext">GET /activities/live/players</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#GET_/worlds/{id}/blocklist"><span class="tocnumber">2.15</span> <span class="toctext">GET /worlds/{id}/blocklist</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#POST_/worlds/{id}/blocklist/{xuid]"><span class="tocnumber">2.16</span> <span class="toctext">POST /worlds/{id}/blocklist/{xuid]</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#POST_/invites/v1/link/accept/{realmInviteCode}"><span class="tocnumber">2.17</span> <span class="toctext">POST /invites/v1/link/accept/{realmInviteCode}</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#POST_/worlds/{id}/configuration"><span class="tocnumber">2.18</span> <span class="toctext">POST /worlds/{id}/configuration</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#POST_/links/v1"><span class="tocnumber">2.19</span> <span class="toctext">POST /links/v1</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#PUT_/invites/{id}/invite/update"><span class="tocnumber">2.20</span> <span class="toctext">PUT /invites/{id}/invite/update</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#PUT_/worlds/{id}/defaultPermission"><span class="tocnumber">2.21</span> <span class="toctext">PUT /worlds/{id}/defaultPermission</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#PUT_/worlds/{id}/userPermission"><span class="tocnumber">2.22</span> <span class="toctext">PUT /worlds/{id}/userPermission</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#PUT_/worlds/{id}/backups?backupId={backupId}&amp;clientSupportsRetries"><span class="tocnumber">2.23</span> <span class="toctext">PUT /worlds/{id}/backups?backupId={backupId}&amp;clientSupportsRetries</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#PUT_/worlds/{id}/slot/{slotNum}"><span class="tocnumber">2.24</span> <span class="toctext">PUT /worlds/{id}/slot/{slotNum}</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#PUT_/worlds/{id}/open"><span class="tocnumber">2.25</span> <span class="toctext">PUT /worlds/{id}/open</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#PUT_/worlds/{id}/close"><span class="tocnumber">2.26</span> <span class="toctext">PUT /worlds/{id}/close</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#DELETE_/worlds/{id}/blocklist/{xuid}"><span class="tocnumber">2.27</span> <span class="toctext">DELETE /worlds/{id}/blocklist/{xuid}</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#DELETE_/invites/{id}"><span class="tocnumber">2.28</span> <span class="toctext">DELETE /invites/{id}</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#DELETE_/worlds/{id}"><span class="tocnumber">2.29</span> <span class="toctext">DELETE /worlds/{id}</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Authentication" data-mw-thread-id="h-Authentication"><span data-mw-comment-start="" id="h-Authentication"></span>Authentication<span data-mw-comment-end="h-Authentication"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=1" title="Edit section&#039;s source code: Authentication">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Authentication","replies":[]}}--></div>
+<p>Login is handled by Xbox Live, which is out of the scope of this page.
+</p><p>To authenticate with the endpoints, you need an Authorization header set with an XBL-3.0 Xbox Live service token.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Endpoints" data-mw-thread-id="h-Endpoints"><span data-mw-comment-start="" id="h-Endpoints"></span>Endpoints<span data-mw-comment-end="h-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=2" title="Edit section&#039;s source code: Endpoints">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Endpoints","replies":["h-GET_\/mco\/client\/compatible-Endpoints","h-GET_\/worlds-Endpoints","h-GET_\/worlds\/{id}-Endpoints","h-GET_\/server\/{id}\/join-Endpoints","h-GET_\/invites\/count\/pending-Endpoints","h-GET_\/world\/{id}\/content-Endpoints","h-GET_\/subscriptions\/{id}\/details-Endpoints","h-GET_\/worlds\/{id}\/backups-Endpoints","h-GET_\/archive\/download\/world\/{id}\/1\/{backupId}-Endpoints","h-GET_\/archive\/download\/world\/{id}\/1\/latest-Endpoints","h-GET_\/links\/v1?worldId={id}-Endpoints","h-GET_\/trial\/new-Endpoints","h-GET_\/worlds\/v1\/link\/{realmInviteCode}-Endpoints","h-GET_\/activities\/live\/players-Endpoints","h-GET_\/worlds\/{id}\/blocklist-Endpoints","h-POST_\/worlds\/{id}\/blocklist\/{xuid]-Endpoints","h-POST_\/invites\/v1\/link\/accept\/{realmInviteCode}-Endpoints","h-POST_\/worlds\/{id}\/configuration-Endpoints","h-POST_\/links\/v1-Endpoints","h-PUT_\/invites\/{id}\/invite\/update-Endpoints","h-PUT_\/worlds\/{id}\/defaultPermission-Endpoints","h-PUT_\/worlds\/{id}\/userPermission-Endpoints","h-PUT_\/worlds\/{id}\/backups?backupId={backupId}&amp;clientSupportsRetries-Endpoints","h-PUT_\/worlds\/{id}\/slot\/{slotNum}-Endpoints","h-PUT_\/worlds\/{id}\/open-Endpoints","h-PUT_\/worlds\/{id}\/close-Endpoints","h-DELETE_\/worlds\/{id}\/blocklist\/{xuid}-Endpoints","h-DELETE_\/invites\/{id}-Endpoints","h-DELETE_\/worlds\/{id}-Endpoints"]}}--></div>
+<p>Server hostname: <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://pocket.realms.minecraft.net">https://pocket.realms.minecraft.net</a>
+</p>
+<h3><span id="GET_.2Fmco.2Fclient.2Fcompatible"></span><span class="mw-headline" id="GET_/mco/client/compatible" data-mw-thread-id="h-GET_/mco/client/compatible-Endpoints"><span data-mw-comment-start="" id="h-GET_/mco/client/compatible-Endpoints"></span>GET /mco/client/compatible<span data-mw-comment-end="h-GET_/mco/client/compatible-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=3" title="Edit section&#039;s source code: GET /mco/client/compatible">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Checks whether the current version is compatible with Minecraft Realms (usually reserved for the latest version). A `Client-Version` header must be set with the version of the game and a `User-Agent` header of the edition of the game. This is requested whenever the game is launched with an active internet connection and when logged in to Xbox Live.
+</p><p>This endpoint returns COMPATIBLE when the version is compatible, else it returns OUTDATED when the version is either outdated or a beta version is being used.
+</p><p><b>Request:</b>
+</p>
+<pre>GET /mco/client/compatible HTTP/1.1
+Accept: */*
+Authorization: XBL3.0 [SERVICETOKEN]
+Cache-Control: no-cache
+Charset: utf-8
+Client-Version: 1.10.1
+User-Agent: MCPE/UWP
+Accept-Language: en-GB
+Accept-Encoding: gzip, deflate, br
+Host: pocket.realms.minecraft.net
+Connection: Keep-Alive
+</pre>
+<p><b>Response:</b>
+</p>
+<pre>HTTP/1.1 200 OK
+Content-Type: text/plain
+Date: Sun, 07 Apr 2019 23:24:59 GMT
+X-REQUEST-ID: [REQUESTID]
+Content-Length: 10
+Connection: keep-alive
+
+COMPATIBLE
+</pre>
+<p>The <code>[SERVICETOKEN]</code> consists of the userhash and the Token from the XSTS step in the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Microsoft_Authentication_Scheme" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Microsoft Authentication Scheme">Microsoft authentication</a> process, seperated by a <code>;</code>.
+</p>
+<pre>Authorization: XBL3.0 x=userhash;Token
+</pre>
+<h3><span id="GET_.2Fworlds"></span><span class="mw-headline" id="GET_/worlds" data-mw-thread-id="h-GET_/worlds-Endpoints"><span data-mw-comment-start="" id="h-GET_/worlds-Endpoints"></span>GET /worlds<span data-mw-comment-end="h-GET_/worlds-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=4" title="Edit section&#039;s source code: GET /worlds">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets a list of realms the current Xbox Live user has access to. This is requested on every tab change and load of the "Play" screen. A `Client-Version` header and a `User-Agent` header must be sent with the request, however this is not verified.
+</p><p><b>Response (as JSON)</b>
+</p>
+<ul><li><b>servers</b> - An array containing every realm object.
+<ul><li><b>id</b> - The ID of the realm as an integer.</li>
+<li><b>remoteSubscriptionId</b> - The subscription ID of the realm as a string. (unknown purpose)</li>
+<li><b>owner</b> - This is always an empty string.</li>
+<li><b>ownerUUID</b> - The <b>X</b>box<b>U</b>ser<b>ID</b> (XUID) of the owner as a string.</li>
+<li><b>name</b> - The name of the Realm as a string.</li>
+<li><b>motd</b> - This is always an empty string. (unknown usage).</li>
+<li><b>defaultPermission</b> - The default permission level of the Realm world. ("MEMBER" by default)</li>
+<li><b>state</b> - The state of the realm as a string. ("OPEN" or "CLOSED")</li>
+<li><b>daysLeft</b> - The days remaining before renewal of the Realm as an integer. (always 0 for Realms where the current user is not the owner)</li>
+<li><b>expired</b> - A boolean value of whether the Realm is expired or not.</li>
+<li><b>expiredTrial</b> - A boolean value of whether the Realm has expired as a trial or not.</li>
+<li><b>gracePeriod</b> - A boolean value of whether the Realm is in its grace period after expiry or not.</li>
+<li><b>worldType</b> - The world type of the currently loaded world ("NORMAL" by default)</li>
+<li><b>players</b> - Always null. (The "players" object is shown only in response to single-target requests such as <a href="#GET_.2Fworlds.2F.7Bid.7D">GET /worlds/{id}</a>)</li>
+<li><b>maxPlayers</b> - The maximum simultaneous player count of the Realm. (Integer, either 2 or 10)</li>
+<li><b>minigameName</b> - Unused, always null.</li>
+<li><b>minigameId</b> - Unused, always null.</li>
+<li><b>minigameImage</b> - Unused, always null.</li>
+<li><b>activeSlot</b> - The selected world slot from the realm, unused, always set to 1.</li>
+<li><b>slots</b> - Unknown, always null.</li>
+<li><b>member</b> - Unknown, always false. (even when member or owner)</li>
+<li><b>clubId</b> - The ID of the associated Xbox Live club as an integer.</li></ul></li></ul>
+<h3><span id="GET_.2Fworlds.2F.7Bid.7D"></span><span class="mw-headline" id="GET_/worlds/{id}" data-mw-thread-id="h-GET_/worlds/{id}-Endpoints"><span data-mw-comment-start="" id="h-GET_/worlds/{id}-Endpoints"></span>GET /worlds/{id}<span data-mw-comment-end="h-GET_/worlds/{id}-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=5" title="Edit section&#039;s source code: GET /worlds/{id}">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets information about the Realm and world specified in the URL. Returns a 403 error if the current user is not the owner of the Realm. A `Client-Version` header and a `User-Agent` header must be sent with the request, however this is not verified.
+</p><p><b>Response (as JSON):</b>
+</p>
+<ul><li><b>id</b> - The ID of the realm as an integer.</li>
+<li><b>remoteSubscriptionId</b> - The subscription ID of the realm as a string. (unknown purpose)</li>
+<li><b>owner</b> - This is always an empty string.</li>
+<li><b>ownerUUID</b> - The XUID of the owner as a string.</li>
+<li><b>name</b> - The name of the Realm as a string.</li>
+<li><b>motd</b> - This is always an empty string. (unknown usage).</li>
+<li><b>defaultPermission</b> - The default permission level of the Realm world. ("MEMBER" by default)</li>
+<li><b>state</b> - The state of the realm as a string. ("OPEN" or "CLOSED")</li>
+<li><b>daysLeft</b> - The days remaining before renewal of the Realm as an integer. (always 0 for Realms where the current user is not the owner)</li>
+<li><b>expired</b> - A boolean value of whether the Realm is expired or not.</li>
+<li><b>expiredTrial</b> - A boolean value of whether the Realm has expired as a trial or not.</li>
+<li><b>gracePeriod</b> - A boolean value of whether the Realm is in its grace period after expiry or not.</li>
+<li><b>worldType</b> - The world type of the currently loaded world ("NORMAL" by default)</li>
+<li><b>players</b> - An array containing all of the players who have been invited to the Realm, minus the owner.
+<ul><li><b>uuid</b> - The XUID of the player as a string.</li>
+<li><b>name</b> - Unknown, always null in testing. (Could change once player joins, untested)</li>
+<li><b>operator</b> - A boolean value of whether the player is an operator of the Realm or not.</li>
+<li><b>accepted</b> - A boolean value of whether the player has accepted the pending invite request.</li>
+<li><b>online</b> - A boolean value of whether the player is online on the realm.</li>
+<li><b>permission</b> - The permission value of the player as a string. ("MEMBER" by default)</li></ul></li>
+<li><b>maxPlayers</b> - The maximum simultaneous player count of the Realm. (Integer, either 2 or 10)</li>
+<li><b>minigameName</b> - Unused, always null.</li>
+<li><b>minigameId</b> - Unused, always null.</li>
+<li><b>minigameImage</b> - Unused, always null.</li>
+<li><b>activeSlot</b> - The selected world slot from the Realm, unused, always set to 1.</li>
+<li><b>slots</b> - An array containing information on all the slots on the Realm.
+<ul><li><b>options</b> - A string containing JSON information on the world. (TODO: document data on this)</li></ul></li>
+<li><b>member</b> - Unknown, always false. (even when member or owner)</li>
+<li><b>clubId</b> - The ID of the associated Xbox Live club as an integer.</li></ul>
+<h3><span id="GET_.2Fserver.2F.7Bid.7D.2Fjoin"></span><span class="mw-headline" id="GET_/server/{id}/join" data-mw-thread-id="h-GET_/server/{id}/join-Endpoints"><span data-mw-comment-start="" id="h-GET_/server/{id}/join-Endpoints"></span>GET /server/{id}/join<span data-mw-comment-end="h-GET_/server/{id}/join-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=6" title="Edit section&#039;s source code: GET /server/{id}/join">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets the IP address and port of the Realm dedicated server specified in the URL. This is requested whenever the game attempts to load a Realm. Returns 403 if the current user doesn't have permission for that Realm. A `Client-Version` header and a `User-Agent` header must be sent with the request, however this is not verified.
+</p><p><b>Request:</b>
+</p>
+<pre>GET <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://pocket.realms.minecraft.net/worlds/">https://pocket.realms.minecraft.net/worlds/</a>[REALMID]/join HTTP/1.1
+Accept: */*
+Authorization: XBL3.0 [SERVICETOKEN]
+Cache-Control: no-cache
+Charset: utf-8
+Client-Version: 1.8.2
+User-Agent: MCPE/UWP
+Accept-Language: en-GB
+Accept-Encoding: gzip, deflate, br
+Host: pocket.realms.minecraft.net
+Connection: Keep-Alive
+</pre>
+<p><b>Response:</b>
+</p>
+<pre>HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Mon, 08 Apr 2019 00:02:05 GMT
+X-REQUEST-ID: [REQUESTID]
+Content-Length: 91
+Connection: keep-alive
+
+{"address":"[server address on amazonaws.com]:[realm port]","pendingUpdate":true}
+</pre>
+<h3><span id="GET_.2Finvites.2Fcount.2Fpending"></span><span class="mw-headline" id="GET_/invites/count/pending" data-mw-thread-id="h-GET_/invites/count/pending-Endpoints"><span data-mw-comment-start="" id="h-GET_/invites/count/pending-Endpoints"></span>GET /invites/count/pending<span data-mw-comment-end="h-GET_/invites/count/pending-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=7" title="Edit section&#039;s source code: GET /invites/count/pending">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets the amount of pending Realm invites of the currently logged in Xbox Live user. The game periodically requests this while on the main menu of the game. The response is returned as an integer. A `Client-Version` header and a `User-Agent` header must be sent with the request, however, this is not verified.
+</p><p><b>Request:</b>
+</p>
+<pre>GET /invites/count/pending HTTP/1.1
+Accept: */*
+Authorization: XBL3.0 [SERVICETOKEN]
+Cache-Control: no-cache
+Charset: utf-8
+Client-Version: 1.10.1
+User-Agent: MCPE/UWP
+Accept-Language: en-GB
+Accept-Encoding: gzip, deflate, br
+Host: pocket.realms.minecraft.net
+Connection: Keep-Alive
+</pre>
+<p><b>Response:</b>
+</p>
+<pre>HTTP/1.1 200 OK
+Content-Type: text/plain
+Date: Sun, 07 Apr 2019 23:52:15 GMT
+X-REQUEST-ID: [REQUESTID]
+Content-Length: 1
+Connection: keep-alive
+
+0
+</pre>
+<h3><span id="GET_.2Fworld.2F.7Bid.7D.2Fcontent"></span><span class="mw-headline" id="GET_/world/{id}/content" data-mw-thread-id="h-GET_/world/{id}/content-Endpoints"><span data-mw-comment-start="" id="h-GET_/world/{id}/content-Endpoints"></span>GET /world/{id}/content<span data-mw-comment-end="h-GET_/world/{id}/content-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=8" title="Edit section&#039;s source code: GET /world/{id}/content">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets ids of the Realms listed resource packs and behaviour packs.
+</p><p><b>Request:</b>
+</p>
+<pre>GET /world/[REALMID]/content HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net  
+
+</pre>
+<p><b>Response:</b>
+</p>
+<pre>{
+   "worldId": Integer,
+   "name": String,
+   "resourcePacks": [
+       {
+           "packId": String,
+           "version": String
+       },
+       {
+           "packId": String,
+           "version": String
+       }
+   ],
+   "behaviorPacks": [
+       {
+           "packId": String,
+           "version": String
+       }
+   ]
+}
+</pre>
+<h3><span id="GET_.2Fsubscriptions.2F.7Bid.7D.2Fdetails"></span><span class="mw-headline" id="GET_/subscriptions/{id}/details" data-mw-thread-id="h-GET_/subscriptions/{id}/details-Endpoints"><span data-mw-comment-start="" id="h-GET_/subscriptions/{id}/details-Endpoints"></span>GET /subscriptions/{id}/details<span data-mw-comment-end="h-GET_/subscriptions/{id}/details-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=9" title="Edit section&#039;s source code: GET /subscriptions/{id}/details">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets the details of the subscription for a Realm such as total time left and renewal date
+</p><p><b>Request:</b>
+</p>
+<pre>GET /subscriptions/[REALMID]/details HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net  
+
+</pre>
+<p><b>Response:</b>
+</p>
+<pre>{
+   "type": "SUBSCRIPTION",
+   "store": "xbox1.store",
+   "startDate": 1623908801932,
+   "endDate": 1626428175000,
+   "renewalPeriod": 30,
+   "daysLeft": 2,
+   "subscriptionId": String
+}
+</pre>
+<h3><span id="GET_.2Fworlds.2F.7Bid.7D.2Fbackups"></span><span class="mw-headline" id="GET_/worlds/{id}/backups" data-mw-thread-id="h-GET_/worlds/{id}/backups-Endpoints"><span data-mw-comment-start="" id="h-GET_/worlds/{id}/backups-Endpoints"></span>GET /worlds/{id}/backups<span data-mw-comment-end="h-GET_/worlds/{id}/backups-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=10" title="Edit section&#039;s source code: GET /worlds/{id}/backups">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets an array of backups which includes metadata about the backup as well as the id which you can then use to download or replace a world with a backup.
+</p><p><b>Request:</b>
+</p>
+<pre>GET /worlds/[REALMID]/backups HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>{
+ "backups": [
+   {
+     "backupId": "2021-07-13T18:30:41.7172714Z",
+     "lastModifiedDate": 1626201041000,
+     "size": 35211208,
+     "metadata": {
+       "game_difficulty": "3",
+       "name": "Test Realm",
+       "game_server_version": "1.17.1",
+       "enabled_packs": {
+         "resourcePacks": [],
+         "behaviorPacks": []
+       },
+       "description": null,
+       "game_mode": "2",
+       "world_type": "NORMAL"
+     }
+   }
+ ]
+}
+</pre>
+<h3><span id="GET_.2Farchive.2Fdownload.2Fworld.2F.7Bid.7D.2F1.2F.7BbackupId.7D"></span><span class="mw-headline" id="GET_/archive/download/world/{id}/1/{backupId}" data-mw-thread-id="h-GET_/archive/download/world/{id}/1/{backupId}-Endpoints"><span data-mw-comment-start="" id="h-GET_/archive/download/world/{id}/1/{backupId}-Endpoints"></span>GET /archive/download/world/{id}/1/{backupId}<span data-mw-comment-end="h-GET_/archive/download/world/{id}/1/{backupId}-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=11" title="Edit section&#039;s source code: GET /archive/download/world/{id}/1/{backupId}">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets information about a backup including its download Url and token which you can then use to download the world file.
+</p><p><b>Request:</b>
+</p>
+<pre>GET /archive/download/world/[REALMID]/1/[BACKUPID] HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>{
+   "downloadUrl": "<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://archive-pocket-production-eu-west-1.realms.minecraft.net/worlds">https://archive-pocket-production-eu-west-1.realms.minecraft.net/worlds</a>",
+   "token": AUTH_TOKEN,
+   "size": 31885490
+}
+</pre>
+<h3><span id="GET_.2Farchive.2Fdownload.2Fworld.2F.7Bid.7D.2F1.2Flatest"></span><span class="mw-headline" id="GET_/archive/download/world/{id}/1/latest" data-mw-thread-id="h-GET_/archive/download/world/{id}/1/latest-Endpoints"><span data-mw-comment-start="" id="h-GET_/archive/download/world/{id}/1/latest-Endpoints"></span>GET /archive/download/world/{id}/1/latest<span data-mw-comment-end="h-GET_/archive/download/world/{id}/1/latest-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=12" title="Edit section&#039;s source code: GET /archive/download/world/{id}/1/latest">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets information about the latest backup including its download Url and token which you can then use to download the world file.
+</p><p><b>Request:</b>
+</p>
+<pre>GET /archive/download/world/[REALMID]/1/latest HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>{
+   "downloadUrl": "<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://archive-pocket-production-eu-west-1.realms.minecraft.net/worlds">https://archive-pocket-production-eu-west-1.realms.minecraft.net/worlds</a>",
+   "token": AUTH_TOKEN,
+   "size": 31885490
+}
+</pre>
+<h3><span id="GET_.2Flinks.2Fv1.3FworldId.3D.7Bid.7D"></span><span class="mw-headline" id="GET_/links/v1?worldId={id}" data-mw-thread-id="h-GET_/links/v1?worldId={id}-Endpoints"><span data-mw-comment-start="" id="h-GET_/links/v1?worldId={id}-Endpoints"></span>GET /links/v1?worldId={id}<span data-mw-comment-end="h-GET_/links/v1?worldId={id}-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=13" title="Edit section&#039;s source code: GET /links/v1?worldId={id}">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets the invite links for a Realm.
+</p><p><b>Request:</b>
+</p>
+<pre>GET /links/v1?worldId=[REALMID] HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>[
+ {
+   "linkId": String,
+   "profileUuid": String,
+   "type": "INFINITE",
+   "ts": 1617994099284,
+   "url": "<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://realms.gg/">https://realms.gg/</a>[LINKID]",
+   "deepLinkUrl": "minecraft://acceptRealmInvite?inviteID=[LINKID]"
+ }
+]
+</pre>
+<h3><span id="GET_.2Ftrial.2Fnew"></span><span class="mw-headline" id="GET_/trial/new" data-mw-thread-id="h-GET_/trial/new-Endpoints"><span data-mw-comment-start="" id="h-GET_/trial/new-Endpoints"></span>GET /trial/new<span data-mw-comment-end="h-GET_/trial/new-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=14" title="Edit section&#039;s source code: GET /trial/new">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Returns whether the account is eligible for a free Realm trial. Returns 403 if already redeemed.
+</p><p><b>Request:</b>
+</p>
+<pre>GET /trial/new HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>Unknown
+</pre>
+<h3><span id="GET_.2Fworlds.2Fv1.2Flink.2F.7BrealmInviteCode.7D"></span><span class="mw-headline" id="GET_/worlds/v1/link/{realmInviteCode}" data-mw-thread-id="h-GET_/worlds/v1/link/{realmInviteCode}-Endpoints"><span data-mw-comment-start="" id="h-GET_/worlds/v1/link/{realmInviteCode}-Endpoints"></span>GET /worlds/v1/link/{realmInviteCode}<span data-mw-comment-end="h-GET_/worlds/v1/link/{realmInviteCode}-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=15" title="Edit section&#039;s source code: GET /worlds/v1/link/{realmInviteCode}">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets information about the Realm and world which belongs to the invite code.
+</p><p><b>Request:</b>
+</p>
+<pre>GET /worlds/v1/link/[realmInviteCode] HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>Same as GET /worlds/{id} endpoint
+</pre>
+<h3><span id="GET_.2Factivities.2Flive.2Fplayers"></span><span class="mw-headline" id="GET_/activities/live/players" data-mw-thread-id="h-GET_/activities/live/players-Endpoints"><span data-mw-comment-start="" id="h-GET_/activities/live/players-Endpoints"></span>GET /activities/live/players<span data-mw-comment-end="h-GET_/activities/live/players-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=16" title="Edit section&#039;s source code: GET /activities/live/players">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets an array of Realms that are on the user's server list with information about which players are currently in the Realm. Often returns an empty array even though Realms have players in them
+</p><p><b>Request:</b>
+</p>
+<pre>GET /activities/live/players HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>{
+ "servers": [
+   {
+     "id": REALM_ID,
+     "players": [
+       {
+         "uuid": PLAYER_XUID,
+         "name": null,
+         "operator": false,
+         "accepted": true,
+         "online": true,
+         "permission": "MEMBER"
+       },
+       {
+         "uuid": PLAYER_XUID,
+         "name": null,
+         "operator": false,
+         "accepted": true,
+         "online": true,
+         "permission": "MEMBER"
+       }
+     ],
+     "full": false
+   }
+ ]
+}
+</pre>
+<h3><span id="GET_.2Fworlds.2F.7Bid.7D.2Fblocklist"></span><span class="mw-headline" id="GET_/worlds/{id}/blocklist" data-mw-thread-id="h-GET_/worlds/{id}/blocklist-Endpoints"><span data-mw-comment-start="" id="h-GET_/worlds/{id}/blocklist-Endpoints"></span>GET /worlds/{id}/blocklist<span data-mw-comment-end="h-GET_/worlds/{id}/blocklist-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=17" title="Edit section&#039;s source code: GET /worlds/{id}/blocklist">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Gets an array of XUIDs of all the banned players of that Realm
+</p><p><b>Request:</b>
+</p>
+<pre>GET /worlds/[REALMID]/blocklist HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>[
+  "XUID1",
+  "XUID2"
+]
+</pre>
+<h3><span id="POST_.2Fworlds.2F.7Bid.7D.2Fblocklist.2F.7Bxuid.5D"></span><span class="mw-headline" id="POST_/worlds/{id}/blocklist/{xuid]" data-mw-thread-id="h-POST_/worlds/{id}/blocklist/{xuid]-Endpoints"><span data-mw-comment-start="" id="h-POST_/worlds/{id}/blocklist/{xuid]-Endpoints"></span>POST /worlds/{id}/blocklist/{xuid]<span data-mw-comment-end="h-POST_/worlds/{id}/blocklist/{xuid]-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=18" title="Edit section&#039;s source code: POST /worlds/{id}/blocklist/{xuid]">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Include a users XUID in the POST URL and they will be added to the blocklist for that Realm.
+</p><p><b>Request:</b>
+</p>
+<pre>POST /worlds/[REALMID]/blocklist/[XUID] HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Reponse</b>
+</p>
+<pre>204 No Content
+</pre>
+<h3><span id="POST_.2Finvites.2Fv1.2Flink.2Faccept.2F.7BrealmInviteCode.7D"></span><span class="mw-headline" id="POST_/invites/v1/link/accept/{realmInviteCode}" data-mw-thread-id="h-POST_/invites/v1/link/accept/{realmInviteCode}-Endpoints"><span data-mw-comment-start="" id="h-POST_/invites/v1/link/accept/{realmInviteCode}-Endpoints"></span>POST /invites/v1/link/accept/{realmInviteCode}<span data-mw-comment-end="h-POST_/invites/v1/link/accept/{realmInviteCode}-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=19" title="Edit section&#039;s source code: POST /invites/v1/link/accept/{realmInviteCode}">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Include the Realms invite code in the POST URL to add the Realm to your server list
+</p><p><b>Request:</b>
+</p>
+<pre>POST /invites/v1/link/accept/[realmInviteCode] HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Reponse</b>
+</p>
+<pre>Same as GET /worlds/{id} endpoint
+</pre>
+<h3><span id="POST_.2Fworlds.2F.7Bid.7D.2Fconfiguration"></span><span class="mw-headline" id="POST_/worlds/{id}/configuration" data-mw-thread-id="h-POST_/worlds/{id}/configuration-Endpoints"><span data-mw-comment-start="" id="h-POST_/worlds/{id}/configuration-Endpoints"></span>POST /worlds/{id}/configuration<span data-mw-comment-end="h-POST_/worlds/{id}/configuration-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=20" title="Edit section&#039;s source code: POST /worlds/{id}/configuration">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Update a Realms configuration. Change any field in the body and it'll update after making the POST request. Note I've only tested the description and name.
+</p><p><b>Request:</b>
+</p>
+<pre>POST /worlds/[REALMID]/configuration HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.18.12 
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Body</b>
+</p>
+<pre>{
+ "description":{
+   "description":"Test description",
+   "name":"Test Realm"
+ },
+ "options":{
+   "adventureMap":false,
+   "cheatsAllowed":false,
+   "commandBlocks":false,
+   "customGameServerGlobalProperties":null,
+   "difficulty":3,
+   "enabledPacks":{
+     "behaviorPacks":[],
+     "resourcePacks":[]
+   },
+   "forceGameMode":false,
+   "gameMode":0,
+   "incompatibilities":[],
+   "pvp":true,
+   "resourcePackHash":null,
+   "slotName":"My World",
+   "spawnAnimals":true,
+   "spawnMonsters":true,
+   "spawnNPCs":true,
+   "spawnProtection":0,
+   "texturePacksRequired":false,
+   "timeRequest":null,
+   "versionLock":true,
+   "versionRef":"5a7c1bcb9b95ebce0b42e7684a0c8f95f0e0c9d0",
+   "worldTemplateId":-1,
+   "worldTemplateImage":null,
+   "worldSettings":{
+     "sendcommandfeedback":{
+       "type":0,
+       "value":false
+     },
+     "commandblocksenabled":{
+       "type":0,
+       "value":true
+     },
+     "dodaylightcycle":{
+       "type":0,
+       "value":true
+     },
+     "randomtickspeed":{
+       "type":1,
+       "value":1
+     },
+     "naturalregeneration":{
+       "type":0,
+       "value":true
+     },
+     "showtags":{
+       "type":0,
+       "value":true
+     },
+     "commandblockoutput":{
+       "type":0,
+       "value":false
+     },
+     "dofiretick":{
+       "type":0,
+       "value":true
+     },
+     "maxcommandchainlength":{
+       "type":1,
+       "value":65535
+     },
+     "falldamage":{
+       "type":0,
+       "value":true
+     },
+     "tntexplodes":{
+       "type":0,
+       "value":true
+     },
+     "drowningdamage":{
+       "type":0,
+       "value":true
+     },
+     "domobloot":{
+       "type":0,
+       "value":true
+     },
+     "domobspawning":{
+       "type":0,
+       "value":true
+     },
+     "showbordereffect":{
+       "type":0,
+       "value":true
+     },
+     "showdeathmessages":{
+       "type":0,
+       "value":true
+     },
+     "respawnblocksexplode":{
+       "type":0,
+       "value":true
+     },
+     "doweathercycle":{
+       "type":0,
+       "value":true
+     },
+     "doentitydrops":{
+       "type":0,
+       "value":true
+     },
+     "doimmediaterespawn":{
+       "type":0,
+       "value":false
+     },
+     "freezedamage":{
+       "type":0,
+       "value":true
+     },
+     "pvp":{
+       "type":0,
+       "value":true
+     },
+     "keepinventory":{
+       "type":0,
+       "value":false
+     },
+     "doinsomnia":{
+       "type":0,
+       "value":true
+     },
+     "mobgriefing":{
+       "type":0,
+       "value":true
+     },
+     "dotiledrops":{
+       "type":0,
+       "value":true
+     },
+     "firedamage":{
+       "type":0,
+       "value":true
+     },
+     "functioncommandlimit":{
+       "type":1,
+       "value":10000
+     },
+     "spawnradius":{
+       "type":1,
+       "value":1
+     },
+     "showcoordinates":{
+       "type":0,
+       "value":false
+     }
+   }
+ }
+</pre>
+<p>}
+</p><p><b>Response</b>
+</p>
+<pre>Returns 204 No Content
+</pre>
+<h3><span id="POST_.2Flinks.2Fv1"></span><span class="mw-headline" id="POST_/links/v1" data-mw-thread-id="h-POST_/links/v1-Endpoints"><span data-mw-comment-start="" id="h-POST_/links/v1-Endpoints"></span>POST /links/v1<span data-mw-comment-end="h-POST_/links/v1-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=21" title="Edit section&#039;s source code: POST /links/v1">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Generate a new invite code for a realm and revoke(delete) the old one. Returns 200 if successful. Note I haven't tested any type other than INFINITE, it seems to be the only one.
+</p><p><b>Request:</b>
+</p>
+<pre>POST /links/v1 HTTP/1.1  
+Accept: */*  
+Content-Type: application/json
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.19.71  
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><br/>
+<b>Body</b>
+</p>
+<pre>{
+ "type": "INFINITE", "worldId": REALM_ID
+}
+</pre>
+<p><b>Response</b>
+</p>
+<pre>{
+ "linkId": REALM_CODE,
+ "profileUuid": REALM_OWNER_XUID,
+ "type": "INFINITE",
+ "ts": 12345678912345, // I couldn't figure out what this is
+ "url": "<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://realms.gg/REALM_CODE">https://realms.gg/REALM_CODE</a>",
+ "deepLinkUrl": "minecraft://acceptRealmInvite?inviteID=REALM_CODE"
+}
+</pre>
+<h3><span id="PUT_.2Finvites.2F.7Bid.7D.2Finvite.2Fupdate"></span><span class="mw-headline" id="PUT_/invites/{id}/invite/update" data-mw-thread-id="h-PUT_/invites/{id}/invite/update-Endpoints"><span data-mw-comment-start="" id="h-PUT_/invites/{id}/invite/update-Endpoints"></span>PUT /invites/{id}/invite/update<span data-mw-comment-end="h-PUT_/invites/{id}/invite/update-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=22" title="Edit section&#039;s source code: PUT /invites/{id}/invite/update">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Depending on the parameter passed you can invite someone to the Realm or remove them from the realm. Note this isn't like banning a player it removes the selected Realm from their server list and kicks them if they are logged in.
+</p><p><b>Request:</b>
+</p>
+<pre>PUT /invites/[REALMID]/invite/update HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Body</b>
+</p>
+<pre>{
+ "invites": {
+   "PLAYER_XUID": "ADD" || "REMOVE"
+ }
+}
+</pre>
+<p><b>Response</b>
+</p>
+<pre>Same as GET /worlds/{id} endpoint
+</pre>
+<h3><span id="PUT_.2Fworlds.2F.7Bid.7D.2FdefaultPermission"></span><span class="mw-headline" id="PUT_/worlds/{id}/defaultPermission" data-mw-thread-id="h-PUT_/worlds/{id}/defaultPermission-Endpoints"><span data-mw-comment-start="" id="h-PUT_/worlds/{id}/defaultPermission-Endpoints"></span>PUT /worlds/{id}/defaultPermission<span data-mw-comment-end="h-PUT_/worlds/{id}/defaultPermission-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=23" title="Edit section&#039;s source code: PUT /worlds/{id}/defaultPermission">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Changes the default user permission within that realm. Options are VISITOR, MEMBER or OPERATOR
+</p><p><b>Request:</b>
+</p>
+<pre>PUT /worlds/[REALMID]/defaultPermission HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Body</b>
+</p>
+<pre>{
+ "permission": "VISITOR" || "MEMBER" || "OPERATOR"
+}
+</pre>
+<p><b>Response</b>
+</p>
+<pre>Returns 204 No Content
+</pre>
+<h3><span id="PUT_.2Fworlds.2F.7Bid.7D.2FuserPermission"></span><span class="mw-headline" id="PUT_/worlds/{id}/userPermission" data-mw-thread-id="h-PUT_/worlds/{id}/userPermission-Endpoints"><span data-mw-comment-start="" id="h-PUT_/worlds/{id}/userPermission-Endpoints"></span>PUT /worlds/{id}/userPermission<span data-mw-comment-end="h-PUT_/worlds/{id}/userPermission-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=24" title="Edit section&#039;s source code: PUT /worlds/{id}/userPermission">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Changes a players permission within that realm. Options are VISITOR, MEMBER or OPERATOR
+</p><p><b>Request:</b>
+</p>
+<pre>PUT /worlds/[REALMID]/userPermission HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Body</b>
+</p>
+<pre>{
+ "permission": "VISITOR" || "MEMBER" || "OPERATOR"
+ "xuid":"PLAYER_XUID"
+}
+</pre>
+<p><b>Response</b>
+</p>
+<pre>Returns 204 No Content
+</pre>
+<h3><span id="PUT_.2Fworlds.2F.7Bid.7D.2Fbackups.3FbackupId.3D.7BbackupId.7D.26clientSupportsRetries"></span><span class="mw-headline" id="PUT_/worlds/{id}/backups?backupId={backupId}&amp;clientSupportsRetries" data-mw-thread-id="h-PUT_/worlds/{id}/backups?backupId={backupId}&amp;clientSupportsRetries-Endpoints"><span data-mw-comment-start="" id="h-PUT_/worlds/{id}/backups?backupId={backupId}&amp;clientSupportsRetries-Endpoints"></span>PUT /worlds/{id}/backups?backupId={backupId}&amp;clientSupportsRetries<span data-mw-comment-end="h-PUT_/worlds/{id}/backups?backupId={backupId}&amp;clientSupportsRetries-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=25" title="Edit section&#039;s source code: PUT /worlds/{id}/backups?backupId={backupId}&amp;clientSupportsRetries">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Replaces the world of the realm with a backup. Note from testing, it seems you have to call this request twice for it to function, the first request always seems to 503 error.
+</p><p><b>Request:</b>
+</p>
+<pre>PUT /worlds/{id}/backups?backupId={backupId}&amp;clientSupportsRetries HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+Either returns "Retry again later" or "true"
+</p>
+<h3><span id="PUT_.2Fworlds.2F.7Bid.7D.2Fslot.2F.7BslotNum.7D"></span><span class="mw-headline" id="PUT_/worlds/{id}/slot/{slotNum}" data-mw-thread-id="h-PUT_/worlds/{id}/slot/{slotNum}-Endpoints"><span data-mw-comment-start="" id="h-PUT_/worlds/{id}/slot/{slotNum}-Endpoints"></span>PUT /worlds/{id}/slot/{slotNum}<span data-mw-comment-end="h-PUT_/worlds/{id}/slot/{slotNum}-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=26" title="Edit section&#039;s source code: PUT /worlds/{id}/slot/{slotNum}">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Replaces the active world within a Realm. Slot number can be 1, 2 or 3.
+</p><p><b>Request:</b>
+</p>
+<pre>PUT /worlds/{id}/slot/{slotNum} HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>true
+</pre>
+<h3><span id="PUT_.2Fworlds.2F.7Bid.7D.2Fopen"></span><span class="mw-headline" id="PUT_/worlds/{id}/open" data-mw-thread-id="h-PUT_/worlds/{id}/open-Endpoints"><span data-mw-comment-start="" id="h-PUT_/worlds/{id}/open-Endpoints"></span>PUT /worlds/{id}/open<span data-mw-comment-end="h-PUT_/worlds/{id}/open-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=27" title="Edit section&#039;s source code: PUT /worlds/{id}/open">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Opens the specified Realm to all invited users and allows connections. Returns 403 if the current user is not the owner of the Realm. Returns 200 with the plaintext `true` if the action is successful, and 503 with the text `Retry again later` otherwise. A `Client-Version` header and a `User-Agent` header must be sent with the request, however, this is not verified.
+</p><p><b>Request:</b>
+</p>
+<pre>PUT /worlds/[REALMID]/open HTTP/1.1
+Accept: */*
+Authorization: XBL3.0 [SERVICETOKEN]
+Cache-Control: no-cache
+Charset: utf-8
+Client-Version: 1.10.1
+User-Agent: MCPE/UWP
+Accept-Language: en-GB
+Accept-Encoding: gzip, deflate, br
+Host: pocket.realms.minecraft.net
+Content-Length: 0
+Connection: Keep-Alive
+</pre>
+<p><b>Response:</b>
+</p>
+<pre>HTTP/1.1 200 OK
+Content-Type: text/plain
+Date: Sun, 07 Apr 2019 23:52:15 GMT
+X-REQUEST-ID: [REQUESTID]
+Content-Length: 1
+Connection: keep-alive
+
+true
+</pre>
+<h3><span id="PUT_.2Fworlds.2F.7Bid.7D.2Fclose"></span><span class="mw-headline" id="PUT_/worlds/{id}/close" data-mw-thread-id="h-PUT_/worlds/{id}/close-Endpoints"><span data-mw-comment-start="" id="h-PUT_/worlds/{id}/close-Endpoints"></span>PUT /worlds/{id}/close<span data-mw-comment-end="h-PUT_/worlds/{id}/close-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=28" title="Edit section&#039;s source code: PUT /worlds/{id}/close">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Closes the specified Realm and disables all new connections to the server. Returns 403 if the current user is not the owner of the Realm. Returns 200 with the plaintext `true` if the action is successful, and 503 with the text `Retry again later` otherwise. A `Client-Version` header and a `User-Agent` header must be sent with the request, however, this is not verified.
+</p><p><b>Request:</b>
+</p>
+<pre>PUT /worlds/[REALMID]/close HTTP/1.1
+Accept: */*
+Authorization: XBL3.0 [SERVICETOKEN]
+Cache-Control: no-cache
+Charset: utf-8
+Client-Version: 1.10.1
+User-Agent: MCPE/UWP
+Accept-Language: en-GB
+Accept-Encoding: gzip, deflate, br
+Host: pocket.realms.minecraft.net
+Content-Length: 0
+Connection: Keep-Alive
+</pre>
+<p><b>Response:</b>
+</p>
+<pre>HTTP/1.1 200 OK
+Content-Type: text/plain
+Date: Sun, 07 Apr 2019 23:52:15 GMT
+X-REQUEST-ID: [REQUESTID]
+Content-Length: 1
+Connection: keep-alive
+
+true
+</pre>
+<h3><span id="DELETE_.2Fworlds.2F.7Bid.7D.2Fblocklist.2F.7Bxuid.7D"></span><span class="mw-headline" id="DELETE_/worlds/{id}/blocklist/{xuid}" data-mw-thread-id="h-DELETE_/worlds/{id}/blocklist/{xuid}-Endpoints"><span data-mw-comment-start="" id="h-DELETE_/worlds/{id}/blocklist/{xuid}-Endpoints"></span>DELETE /worlds/{id}/blocklist/{xuid}<span data-mw-comment-end="h-DELETE_/worlds/{id}/blocklist/{xuid}-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=29" title="Edit section&#039;s source code: DELETE /worlds/{id}/blocklist/{xuid}">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Include a users XUID in the POST URL and they will be removed from the blocklist for that Realm.
+</p><p><b>Request:</b>
+</p>
+<pre>DELETE /worlds/[REALMID]/blocklist/[XUID] HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>Returns 204 No Content
+</pre>
+<h3><span id="DELETE_.2Finvites.2F.7Bid.7D"></span><span class="mw-headline" id="DELETE_/invites/{id}" data-mw-thread-id="h-DELETE_/invites/{id}-Endpoints"><span data-mw-comment-start="" id="h-DELETE_/invites/{id}-Endpoints"></span>DELETE /invites/{id}<span data-mw-comment-end="h-DELETE_/invites/{id}-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=30" title="Edit section&#039;s source code: DELETE /invites/{id}">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Removes the specified realm from your joinable realms list.
+</p><p><b>Request:</b>
+</p>
+<pre>DELETE /invites/[REALMID] HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>Returns 204 No Content
+</pre>
+<h3><span id="DELETE_.2Fworlds.2F.7Bid.7D"></span><span class="mw-headline" id="DELETE_/worlds/{id}" data-mw-thread-id="h-DELETE_/worlds/{id}-Endpoints"><span data-mw-comment-start="" id="h-DELETE_/worlds/{id}-Endpoints"></span>DELETE /worlds/{id}<span data-mw-comment-end="h-DELETE_/worlds/{id}-Endpoints"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;section=31" title="Edit section&#039;s source code: DELETE /worlds/{id}">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Deletes a Realm completely.
+</p><p><b>Request:</b>
+</p>
+<pre>DELETE /worlds/[REALMID] HTTP/1.1  
+Accept: */*  
+authorization: XBL3.0 [SERVICETOKEN]
+client-version: 1.17.10   
+user-agent: MCPE/UWP  
+Accept-Language: en-GB,en
+Accept-Encoding: gzip, deflate, be  
+Host: pocket.realms.minecraft.net
+</pre>
+<p><b>Response</b>
+</p>
+<pre>Returns 204 No Content
+</pre>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐7dcd6f644b‐vszq8
+Cached time: 20250322151411
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.010 seconds
+CPU time usage: 0.030 seconds
+Real time usage: 0.032 seconds
+Preprocessor visited node count: 290/1000000
+Post‐expand include size: 3967/8388608 bytes
+Template argument size: 1782/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    4.816      1 Template:License_wiki.vg
+100.00%    4.816      1 -total
+ 53.03%    2.554      1 Template:License
+ 42.42%    2.043      1 Template:Msgbox
+ 12.68%    0.611      3 Template:SUBJECTSPACE_formatted
+-->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?oldid=2823307">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?oldid=2823307</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Bedrock_Edition" title="Category:Bedrock Edition">Bedrock Edition</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FBedrock+Realms" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FBedrock+Realms" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Bedrock_Realms?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc1" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc1"><span>Dev: 1.21.5-rc1</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?oldid=2823307" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FBedrock-5FRealms" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 18 January 2025, at 06:01.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Realms?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":74,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Authentication","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Endpoints","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/mco/client/compatible-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/worlds-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/worlds/{id}-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/server/{id}/join-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/invites/count/pending-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/world/{id}/content-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/subscriptions/{id}/details-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/worlds/{id}/backups-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/archive/download/world/{id}/1/{backupId}-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/archive/download/world/{id}/1/latest-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/links/v1?worldId={id}-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/trial/new-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/worlds/v1/link/{realmInviteCode}-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/activities/live/players-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-GET_/worlds/{id}/blocklist-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-POST_/worlds/{id}/blocklist/{xuid]-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-POST_/invites/v1/link/accept/{realmInviteCode}-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-POST_/worlds/{id}/configuration-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-POST_/links/v1-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-PUT_/invites/{id}/invite/update-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-PUT_/worlds/{id}/defaultPermission-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-PUT_/worlds/{id}/userPermission-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-PUT_/worlds/{id}/backups?backupId={backupId}\u0026clientSupportsRetries-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-PUT_/worlds/{id}/slot/{slotNum}-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-PUT_/worlds/{id}/open-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-PUT_/worlds/{id}/close-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-DELETE_/worlds/{id}/blocklist/{xuid}-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-DELETE_/invites/{id}-Endpoints","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-DELETE_/worlds/{id}-Endpoints","replies":[]}]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"discussiontools":{"limitreport-timeusage":"0.010"},"limitreport":{"cputime":"0.030","walltime":"0.032","ppvisitednodes":{"value":290,"limit":1000000},"postexpandincludesize":{"value":3967,"limit":8388608},"templateargumentsize":{"value":1782,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%    4.816      1 Template:License_wiki.vg","100.00%    4.816      1 -total"," 53.03%    2.554      1 Template:License"," 42.42%    2.043      1 Template:Msgbox"," 12.68%    0.611      3 Template:SUBJECTSPACE_formatted"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-7dcd6f644b-vszq8","timestamp":"20250322151411","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

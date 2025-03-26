@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Dungeons:Fire Trail – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"8d1a3c3770cc6b01456943e7a42f31ee","wgCanonicalNamespace":"Dungeons","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":10000,"wgPageName":"Dungeons:Fire_Trail","wgTitle":"Fire Trail","wgCurRevisionId":2645675,"wgRevisionId":2645675,"wgArticleId":125393,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Minecraft Dungeons enchantments"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Dungeons:Fire_Trail","wgRelevantArticleId":125393,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],
+"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"]};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","mediawiki.page.gallery.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["site",
+"mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.page.gallery.styles%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Fire Trail is an enchantment that can be found within the various armor of Minecraft Dungeons.">
+<meta property="og:description" content="Fire Trail is an enchantment that can be found within the various armor of Minecraft Dungeons.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Dungeons:Fire Trail – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Dungeons:Fire_Trail">
+<meta property="og:image" content="https://minecraft.wiki/images/Fire_Trail.png?d5b02">
+<meta property="og:image:width" content="256">
+<meta property="og:image:height" content="256">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Dungeons:Fire_Trail?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Dungeons:Fire_Trail">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-10000 ns-subject mw-editable page-Dungeons_Fire_Trail rootpage-Dungeons_Fire_Trail skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Dungeons</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Fire Trail</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="infobox notaninfobox">
+<div class="mcwiki-header infobox-title">Fire Trail</div>
+<div class="infobox-imagearea animated-container"><div><span typeof="mw:File"><a href="/w/File:Fire_Trail.png" class="mw-file-description"><img alt="Fire Trail.png: Infobox image for Fire Trail the dungeons enchantment in Minecraft" src="/images/thumb/Fire_Trail.png/160px-Fire_Trail.png?d5b02" decoding="async" loading="lazy" width="160" height="160" class="mw-file-element" srcset="/images/Fire_Trail.png?d5b02 2x" data-file-width="256" data-file-height="256" /></a></span></div>
+</div>
+<table class="infobox-rows" cellspacing="1" cellpadding="4">
+
+<tbody><tr>
+<th><a href="/w/Dungeons:Rarity" title="Dungeons:Rarity">Rarity</a>
+</th>
+<td class="list-style-none">
+<p><span class="mw-default-size" typeof="mw:File"><span><img src="/images/Enchantment_common_icon.png?20659" decoding="async" loading="lazy" width="19" height="20" class="mw-file-element" data-file-width="19" data-file-height="20" /></span></span> Common 
+</p>
+</td></tr>
+<tr>
+<th>Applicable to
+</th>
+<td class="list-style-none">
+<p><a href="/w/Dungeons:Armor" title="Dungeons:Armor">Armor</a> 
+</p>
+</td></tr>
+
+<tr>
+<th>Soul gear only
+</th>
+<td class="list-style-none">
+<p>No 
+</p>
+</td></tr>
+<tr>
+<th><abbr title="ID used by the in-game definition file and archive file">Level ID</abbr>
+</th>
+<td class="nowrap">
+<p><code>Firetrail</code>
+</p>
+</td></tr>
+
+</tbody></table>
+</div>
+<pre class="history-json noexcerpt navigation-not-searchable">{
+    "title": "Fire Trail",
+    "rows": [
+        {
+            "field": "(link to File:Enchantment common icon.png article, displayed as link=) Common",
+            "label": "(link to MCD:Rarity article, displayed as Rarity)"
+        },
+        {
+            "field": "(link to MCD:Armor article, displayed as Armor)",
+            "label": "Applicable to"
+        },
+        {
+            "field": "No",
+            "label": "Soul gear only"
+        },
+        {
+            "field": "&lt;code&gt;Firetrail&lt;/code&gt;",
+            "label": "&lt;abbr title=\"ID used by the in-game definition file and archive file\"&gt;Level ID&lt;/abbr&gt;"
+        }
+    ],
+    "invimages": [],
+    "images": [
+        "Fire Trail.png"
+    ]
+}</pre>
+<table>
+
+
+<tbody><tr>
+<td style="color: #b2b7f2; font-size: 3.3em; font-family: serif; font-weight: bold; padding: 4px 2px 2px; width: 0.5em; vertical-align: top;">“
+</td>
+<td><blockquote class="mcwiki-quote" style="margin: 0; font-style: italic; font-size: 1em;"><p>Rolling creates a trail of fire behind you, which deals damage to mobs for four seconds.</p></blockquote>
+</td>
+<td style="color: #b2b7f2; font-size: 3.3em; font-family: serif; font-weight: bold; padding: 4px 2px 2px; width: 0.5em; vertical-align: bottom;">„
+</td></tr>
+<tr>
+<td>
+</td>
+<td style="text-align: right;"><small>— <b>In-game description</b></small>
+</td>
+<td>
+</td></tr></tbody></table>
+<p><b>Fire Trail</b> is an <a href="/w/Dungeons:Enchantment" title="Dungeons:Enchantment">enchantment</a> that can be found within the various <a href="/w/Dungeons:Armor" title="Dungeons:Armor">armor</a> of <i><a href="/w/Minecraft_Dungeons" title="Minecraft Dungeons">Minecraft Dungeons</a></i>.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Tiers"><span class="tocnumber">1</span> <span class="toctext">Tiers</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Usage"><span class="tocnumber">2</span> <span class="toctext">Usage</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Stacking"><span class="tocnumber">2.1</span> <span class="toctext">Stacking</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Mobs"><span class="tocnumber">2.2</span> <span class="toctext">Mobs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Built-into"><span class="tocnumber">3</span> <span class="toctext">Built-into</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#History"><span class="tocnumber">4</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Issues"><span class="tocnumber">5</span> <span class="toctext">Issues</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Gallery"><span class="tocnumber">6</span> <span class="toctext">Gallery</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Navigation"><span class="tocnumber">7</span> <span class="toctext">Navigation</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Tiers">Tiers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Dungeons:Fire_Trail?section=1&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Tiers">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Dungeons:Fire_Trail?action=edit&amp;section=1" title="Edit section&#039;s source code: Tiers">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Tier</th>
+<th>Effect</th>
+<th>Cost
+</th></tr>
+<tr>
+<td>I</td>
+<td>x fire damage per second</td>
+<td>1 Enchantment Point
+</td></tr>
+<tr>
+<td>II</td>
+<td>2x fire damage per second</td>
+<td>2 Enchantment Points
+</td></tr>
+<tr>
+<td>III
+</td>
+<td>3x fire damage per second</td>
+<td>3 Enchantment Points
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Usage">Usage</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Dungeons:Fire_Trail?section=2&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Usage">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Dungeons:Fire_Trail?action=edit&amp;section=2" title="Edit section&#039;s source code: Usage">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Fire Trail gives the hero the ability to create a trail of fire behind them when they roll that damages mobs before extinguishing after four seconds. The length of the trail of fire is determined by how far the hero rolled. The amount of damage dealt by the fire increases with each tier.
+</p><p>Fire trial is a rolling trigger, which means it is activated by the <a href="/w/Dungeons:Light_Feather" title="Dungeons:Light Feather">light feather</a> artifact.
+</p><p>The damage dealt by fire trail is increased by the <a href="/w/Dungeons:Fire_Focus" title="Dungeons:Fire Focus">Fire Focus</a> enchantment.
+</p>
+<h3><span class="mw-headline" id="Stacking">Stacking</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Dungeons:Fire_Trail?section=3&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Stacking">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Dungeons:Fire_Trail?action=edit&amp;section=3" title="Edit section&#039;s source code: Stacking">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Fire Trail is not stackable, meaning it will only ever appear in a single enchantment slot. This includes the gilded, unique, and regular enchantment slots.
+</p>
+<h3><span class="mw-headline" id="Mobs">Mobs</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Dungeons:Fire_Trail?section=4&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Mobs">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Dungeons:Fire_Trail?action=edit&amp;section=4" title="Edit section&#039;s source code: Mobs">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/w/Dungeons:Enchanted" title="Dungeons:Enchanted">Enchanted</a> mobs with this enchantment will summon purple fire instead of the regular orange-red like the hero's.
+</p>
+<h2><span class="mw-headline" id="Built-into">Built-into</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Dungeons:Fire_Trail?section=5&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Built-into">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Dungeons:Fire_Trail?action=edit&amp;section=5" title="Edit section&#039;s source code: Built-into">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Fire trail tier I is built-into the following armor: 
+</p>
+<ul><li><span class="nowrap"><span class="sprite-file" style="height:24px;width:24px;--vertical-align:middle"><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Ghost_Kindler" title="Dungeons:Ghost Kindler"><img alt="" src="/images/DungeonsItemSprite_ghost-kindler.png?3d16e" decoding="async" loading="lazy" width="24" height="24" class="mw-file-element" data-file-width="24" data-file-height="24" /></a></span></span><a href="/w/Dungeons:Ghost_Kindler" title="Dungeons:Ghost Kindler"><span class="sprite-text">Ghost Kindler</span></a></span></li></ul>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Dungeons:Fire_Trail?section=6&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: History">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Dungeons:Fire_Trail?action=edit&amp;section=6" title="Edit section&#039;s source code: History">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable pixel-image" data-description="History"><tbody><tr class="collapsible collapsible-rows"><th colspan="8" style="border-bottom: none"><a href="/w/Dungeons:Version_history" title="Dungeons:Version history"><i>Minecraft Dungeons</i></a></th></tr><tr><th class="nowrap" rowspan="1" colspan="7"><a href="/w/Dungeons:Beta" class="mw-redirect" title="Dungeons:Beta">Dungeons Beta</a></th><td><span typeof="mw:File"><a href="/w/File:Fire_Trail.png" class="mw-file-description"><img src="/images/thumb/Fire_Trail.png/32px-Fire_Trail.png?d5b02" decoding="async" loading="lazy" width="32" height="32" class="mw-file-element" srcset="/images/thumb/Fire_Trail.png/64px-Fire_Trail.png?d5b02 2x" data-file-width="256" data-file-height="256" /></a></span>Added Fire Trail.</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Issues">Issues</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Dungeons:Fire_Trail?section=7&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Issues">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Dungeons:Fire_Trail?action=edit&amp;section=7" title="Edit section&#039;s source code: Issues">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Issues for <i>Minecraft Dungeons</i> relating to "Fire Trail" are no longer maintained on the <a href="/w/Bug_tracker" title="Bug tracker">bug tracker</a> since September 28, 2023. However, issues reported before then can still be viewed <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://bugs.mojang.com/issues/?jql=project%20in%20%28MCD%29%20AND%20%28resolution%20is%20EMPTY%20OR%20resolution%20in%20%281%2C%202%2C%206%29%29%20AND%20%28summary%20~%20%22Fire%20Trail%22%29%20ORDER%20BY%20resolution%20DESC">there</a>.
+</p>
+<div class="issue-list" data-mcd="&quot;Confirmation Status&quot; != Unconfirmed AND (resolution is EMPTY OR resolution = &quot;Won&#39;t Fix&quot;) AND (summary ~ &quot;Fire Trail&quot;) ORDER BY &quot;Votes Count&quot; DESC, key ASC"></div>
+<h2><span class="mw-headline" id="Gallery">Gallery</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Dungeons:Fire_Trail?section=8&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Gallery">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Dungeons:Fire_Trail?action=edit&amp;section=8" title="Edit section&#039;s source code: Gallery">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul class="gallery mw-gallery-traditional">
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Fire_Trail.png" class="mw-file-description" title="Fire Trail&#39;s enchantment icon."><img alt="Fire Trail&#39;s enchantment icon." src="/images/thumb/Fire_Trail.png/120px-Fire_Trail.png?d5b02" decoding="async" loading="lazy" width="120" height="120" class="mw-file-element" srcset="/images/thumb/Fire_Trail.png/240px-Fire_Trail.png?d5b02 2x" data-file-width="256" data-file-height="256" /></a></span></div>
+			<div class="gallerytext">
+<p>Fire Trail's enchantment icon.
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:T_FiretrailShine_Icon.png" class="mw-file-description" title="The shine pattern for Fire Trail&#39;s enchantment icon."><img alt="The shine pattern for Fire Trail&#39;s enchantment icon." src="/images/thumb/T_FiretrailShine_Icon.png/120px-T_FiretrailShine_Icon.png?1a1f6" decoding="async" loading="lazy" width="120" height="120" class="mw-file-element" srcset="/images/thumb/T_FiretrailShine_Icon.png/240px-T_FiretrailShine_Icon.png?1a1f6 2x" data-file-width="256" data-file-height="256" /></a></span></div>
+			<div class="gallerytext">
+<p>The shine pattern for Fire Trail's enchantment icon.
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Fire_Trail_in-game.png" class="mw-file-description" title="The orange fire the hero spawns when using Fire Trail."><img alt="The orange fire the hero spawns when using Fire Trail." src="/images/thumb/Fire_Trail_in-game.png/120px-Fire_Trail_in-game.png?b7fd1" decoding="async" loading="lazy" width="120" height="85" class="mw-file-element" srcset="/images/thumb/Fire_Trail_in-game.png/240px-Fire_Trail_in-game.png?b7fd1 2x" data-file-width="415" data-file-height="294" /></a></span></div>
+			<div class="gallerytext">
+<p>The orange fire the hero spawns when using Fire Trail.
+</p>
+			</div>
+		</li>
+		<li class="gallerybox" style="width: 155px">
+			<div class="thumb" style="width: 150px; height: 150px;"><span typeof="mw:File"><a href="/w/File:Minecraft_Dungeons_18_4_2021_9_12_11_am.png" class="mw-file-description" title="Several enchanted zombies leaving purple fire on the ground."><img alt="Several enchanted zombies leaving purple fire on the ground." src="/images/thumb/Minecraft_Dungeons_18_4_2021_9_12_11_am.png/120px-Minecraft_Dungeons_18_4_2021_9_12_11_am.png?585e9" decoding="async" loading="lazy" width="120" height="68" class="mw-file-element" srcset="/images/thumb/Minecraft_Dungeons_18_4_2021_9_12_11_am.png/240px-Minecraft_Dungeons_18_4_2021_9_12_11_am.png?585e9 2x" data-file-width="1280" data-file-height="720" /></a></span></div>
+			<div class="gallerytext">
+<p>Several enchanted zombies leaving purple fire on the ground.
+</p>
+			</div>
+		</li>
+</ul>
+<h2><span class="mw-headline" id="Navigation">Navigation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Dungeons:Fire_Trail?section=9&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Navigation">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Dungeons:Fire_Trail?action=edit&amp;section=9" title="Edit section&#039;s source code: Navigation">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table data-navbox-name="%5B%5BMCD:Enchantment%7C%27%27Minecraft_Dungeons%27%27_enchantment%5D%5Ds" class="navbox hlist navigation-not-searchable collapsible">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><div class="navbox-navbar"><div class="hlist navbar-mini" style="">
+<ul><li><a href="/w/Template:Navbox_Dungeons_enchantments" title="Template:Navbox Dungeons enchantments"><span title="View this template" style="">v</span></a></li>
+<li><a class="text" href="https://minecraft.wiki/w/Template_talk:Navbox_Dungeons_enchantments"><span title="Discuss this template" style="">t</span></a></li>
+<li><a href="/w/Special:EditPage/Template:Navbox_Dungeons_enchantments" title="Special:EditPage/Template:Navbox Dungeons enchantments"><span title="Edit this template" style="">e</span></a></li></ul></div></div><span class="navbox-title"><a href="/w/Dungeons:Enchantment" title="Dungeons:Enchantment"><i>Minecraft Dungeons</i> enchantments</a></span>
+</th></tr>
+
+<tr>
+<td colspan="2">
+<div style="margin-right: -6px">
+<table style="border: 0" data-navbox-name="%5B%5BMCD:Melee%7CMelee%5D%5D" class="navbox hlist navigation-not-searchable collapsible collapsed">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><span class="navbox-title"><a href="/w/Dungeons:Melee" class="mw-redirect" title="Dungeons:Melee">Melee</a></span>
+</th></tr>
+
+<tr>
+<th>Common
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Ambush" title="Dungeons:Ambush"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_ambush.png/16px-DungeonsEnchantmentSprite_ambush.png?c1cf5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_ambush.png/32px-DungeonsEnchantmentSprite_ambush.png?c1cf5 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Ambush" title="Dungeons:Ambush"><span class="sprite-text">Ambush</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Anima_Conduit" title="Dungeons:Anima Conduit"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_anima-conduit.png/16px-DungeonsEnchantmentSprite_anima-conduit.png?51342" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_anima-conduit.png/32px-DungeonsEnchantmentSprite_anima-conduit.png?51342 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Anima_Conduit" title="Dungeons:Anima Conduit"><span class="sprite-text">Anima Conduit</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Artifact_Synergy" title="Dungeons:Artifact Synergy"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_artifact-synergy.png/16px-DungeonsEnchantmentSprite_artifact-synergy.png?61795" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_artifact-synergy.png/32px-DungeonsEnchantmentSprite_artifact-synergy.png?61795 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Artifact_Synergy" title="Dungeons:Artifact Synergy"><span class="sprite-text">Artifact Synergy</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Busy_Bee" title="Dungeons:Busy Bee"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_busy-bee.png/16px-DungeonsEnchantmentSprite_busy-bee.png?6c436" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_busy-bee.png/32px-DungeonsEnchantmentSprite_busy-bee.png?6c436 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Busy_Bee" title="Dungeons:Busy Bee"><span class="sprite-text">Busy Bee</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Chains" title="Dungeons:Chains"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_chains.png/16px-DungeonsEnchantmentSprite_chains.png?fa3c6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_chains.png/32px-DungeonsEnchantmentSprite_chains.png?fa3c6 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Chains" title="Dungeons:Chains"><span class="sprite-text">Chains</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Committed" title="Dungeons:Committed"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_committed.png/16px-DungeonsEnchantmentSprite_committed.png?a7e05" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_committed.png/32px-DungeonsEnchantmentSprite_committed.png?a7e05 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Committed" title="Dungeons:Committed"><span class="sprite-text">Committed</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Dynamo" title="Dungeons:Dynamo"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_dynamo.png/16px-DungeonsEnchantmentSprite_dynamo.png?e5a40" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_dynamo.png/32px-DungeonsEnchantmentSprite_dynamo.png?e5a40 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Dynamo" title="Dungeons:Dynamo"><span class="sprite-text">Dynamo</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Echo" title="Dungeons:Echo"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_echo.png/16px-DungeonsEnchantmentSprite_echo.png?45121" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_echo.png/32px-DungeonsEnchantmentSprite_echo.png?45121 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Echo" title="Dungeons:Echo"><span class="sprite-text">Echo</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Enigma_Resonator" title="Dungeons:Enigma Resonator"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enigma-resonator.png/16px-DungeonsEnchantmentSprite_enigma-resonator.png?6cb80" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enigma-resonator.png/32px-DungeonsEnchantmentSprite_enigma-resonator.png?6cb80 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Enigma_Resonator" title="Dungeons:Enigma Resonator"><span class="sprite-text">Enigma Resonator</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Fire_Aspect" title="Dungeons:Fire Aspect"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_fire-aspect.png/16px-DungeonsEnchantmentSprite_fire-aspect.png?3fcf7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_fire-aspect.png/32px-DungeonsEnchantmentSprite_fire-aspect.png?3fcf7 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Fire_Aspect" title="Dungeons:Fire Aspect"><span class="sprite-text">Fire Aspect</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Freezing" title="Dungeons:Freezing"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_freezing.png/16px-DungeonsEnchantmentSprite_freezing.png?50536" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_freezing.png/32px-DungeonsEnchantmentSprite_freezing.png?50536 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Freezing" title="Dungeons:Freezing"><span class="sprite-text">Freezing</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Gravity" title="Dungeons:Gravity"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_gravity.png/16px-DungeonsEnchantmentSprite_gravity.png?15022" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_gravity.png/32px-DungeonsEnchantmentSprite_gravity.png?15022 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Gravity" title="Dungeons:Gravity"><span class="sprite-text">Gravity</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Guarding_Strike" title="Dungeons:Guarding Strike"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_guarding-strike.png/16px-DungeonsEnchantmentSprite_guarding-strike.png?9c6e3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_guarding-strike.png/32px-DungeonsEnchantmentSprite_guarding-strike.png?9c6e3 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Guarding_Strike" title="Dungeons:Guarding Strike"><span class="sprite-text">Guarding Strike</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Illager%27s_Bane" title="Dungeons:Illager&#39;s Bane"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_illager%27s-bane.png/16px-DungeonsEnchantmentSprite_illager%27s-bane.png?c6d18" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_illager%27s-bane.png/32px-DungeonsEnchantmentSprite_illager%27s-bane.png?c6d18 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Illager%27s_Bane" title="Dungeons:Illager&#39;s Bane"><span class="sprite-text">Illager's Bane</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Leeching" title="Dungeons:Leeching"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_leeching.png/16px-DungeonsEnchantmentSprite_leeching.png?7dabd" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_leeching.png/32px-DungeonsEnchantmentSprite_leeching.png?7dabd 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Leeching" title="Dungeons:Leeching"><span class="sprite-text">Leeching</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Looting" title="Dungeons:Looting"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_looting.png/16px-DungeonsEnchantmentSprite_looting.png?7e6c1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_looting.png/32px-DungeonsEnchantmentSprite_looting.png?7e6c1 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Looting" title="Dungeons:Looting"><span class="sprite-text">Looting</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Pain_Cycle" title="Dungeons:Pain Cycle"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_pain-cycle.png/16px-DungeonsEnchantmentSprite_pain-cycle.png?96df8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_pain-cycle.png/32px-DungeonsEnchantmentSprite_pain-cycle.png?96df8 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Pain_Cycle" title="Dungeons:Pain Cycle"><span class="sprite-text">Pain Cycle</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Poison_Cloud" title="Dungeons:Poison Cloud"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_jungle-poison.png/16px-DungeonsEnchantmentSprite_jungle-poison.png?acc5e" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_jungle-poison.png/32px-DungeonsEnchantmentSprite_jungle-poison.png?acc5e 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Poison_Cloud" title="Dungeons:Poison Cloud"><span class="sprite-text">Poison Cloud</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Prospector" title="Dungeons:Prospector"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_prospector.png/16px-DungeonsEnchantmentSprite_prospector.png?abc4b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_prospector.png/32px-DungeonsEnchantmentSprite_prospector.png?abc4b 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Prospector" title="Dungeons:Prospector"><span class="sprite-text">Prospector</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Radiance" title="Dungeons:Radiance"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_radiance-melee.png/16px-DungeonsEnchantmentSprite_radiance-melee.png?34de0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_radiance-melee.png/32px-DungeonsEnchantmentSprite_radiance-melee.png?34de0 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Radiance" title="Dungeons:Radiance"><span class="sprite-text">Radiance</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Rampaging" title="Dungeons:Rampaging"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_rampaging.png/16px-DungeonsEnchantmentSprite_rampaging.png?03b80" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_rampaging.png/32px-DungeonsEnchantmentSprite_rampaging.png?03b80 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Rampaging" title="Dungeons:Rampaging"><span class="sprite-text">Rampaging</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Sharpness" title="Dungeons:Sharpness"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_sharpness.png/16px-DungeonsEnchantmentSprite_sharpness.png?48765" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_sharpness.png/32px-DungeonsEnchantmentSprite_sharpness.png?48765 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Sharpness" title="Dungeons:Sharpness"><span class="sprite-text">Sharpness</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Smiting" title="Dungeons:Smiting"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_smiting.png/16px-DungeonsEnchantmentSprite_smiting.png?ead9b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_smiting.png/32px-DungeonsEnchantmentSprite_smiting.png?ead9b 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Smiting" title="Dungeons:Smiting"><span class="sprite-text">Smiting</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Soul_Siphon" title="Dungeons:Soul Siphon"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_soul-siphon.png/16px-DungeonsEnchantmentSprite_soul-siphon.png?c95aa" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_soul-siphon.png/32px-DungeonsEnchantmentSprite_soul-siphon.png?c95aa 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Soul_Siphon" title="Dungeons:Soul Siphon"><span class="sprite-text">Soul Siphon</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Stunning" title="Dungeons:Stunning"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_stunning.png/16px-DungeonsEnchantmentSprite_stunning.png?d8ede" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_stunning.png/32px-DungeonsEnchantmentSprite_stunning.png?d8ede 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Stunning" title="Dungeons:Stunning"><span class="sprite-text">Stunning</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Thundering" title="Dungeons:Thundering"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_thundering.png/16px-DungeonsEnchantmentSprite_thundering.png?b78ab" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_thundering.png/32px-DungeonsEnchantmentSprite_thundering.png?b78ab 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Thundering" title="Dungeons:Thundering"><span class="sprite-text">Thundering</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Unchanting" title="Dungeons:Unchanting"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_unchanting.png/16px-DungeonsEnchantmentSprite_unchanting.png?93d83" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_unchanting.png/32px-DungeonsEnchantmentSprite_unchanting.png?93d83 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Unchanting" title="Dungeons:Unchanting"><span class="sprite-text">Unchanting</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Weakening" title="Dungeons:Weakening"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_weakening.png/16px-DungeonsEnchantmentSprite_weakening.png?e7884" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_weakening.png/32px-DungeonsEnchantmentSprite_weakening.png?e7884 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Weakening" title="Dungeons:Weakening"><span class="sprite-text">Weakening</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Powerful
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Critical_Hit" title="Dungeons:Critical Hit"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_critical-hit.png/16px-DungeonsEnchantmentSprite_critical-hit.png?b09d1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_critical-hit.png/32px-DungeonsEnchantmentSprite_critical-hit.png?b09d1 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Critical_Hit" title="Dungeons:Critical Hit"><span class="sprite-text">Critical Hit</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Exploding" title="Dungeons:Exploding"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_exploding.png/16px-DungeonsEnchantmentSprite_exploding.png?342f6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_exploding.png/32px-DungeonsEnchantmentSprite_exploding.png?342f6 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Exploding" title="Dungeons:Exploding"><span class="sprite-text">Exploding</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Gravity" title="Dungeons:Gravity"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_gravity.png/16px-DungeonsEnchantmentSprite_gravity.png?15022" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_gravity.png/32px-DungeonsEnchantmentSprite_gravity.png?15022 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Gravity" title="Dungeons:Gravity"><span class="sprite-text">Gravity</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Radiance" title="Dungeons:Radiance"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_radiance-melee.png/16px-DungeonsEnchantmentSprite_radiance-melee.png?34de0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_radiance-melee.png/32px-DungeonsEnchantmentSprite_radiance-melee.png?34de0 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Radiance" title="Dungeons:Radiance"><span class="sprite-text">Radiance</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Refreshment" title="Dungeons:Refreshment"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_refreshment.png/16px-DungeonsEnchantmentSprite_refreshment.png?6fa07" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_refreshment.png/32px-DungeonsEnchantmentSprite_refreshment.png?6fa07 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Refreshment" title="Dungeons:Refreshment"><span class="sprite-text">Refreshment</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Shockwave" title="Dungeons:Shockwave"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_shockwave.png/16px-DungeonsEnchantmentSprite_shockwave.png?e2eeb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_shockwave.png/32px-DungeonsEnchantmentSprite_shockwave.png?e2eeb 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Shockwave" title="Dungeons:Shockwave"><span class="sprite-text">Shockwave</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Swirling" title="Dungeons:Swirling"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_swirling.png/16px-DungeonsEnchantmentSprite_swirling.png?4b119" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_swirling.png/32px-DungeonsEnchantmentSprite_swirling.png?4b119 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Swirling" title="Dungeons:Swirling"><span class="sprite-text">Swirling</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Void_Strike" title="Dungeons:Void Strike"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_void-strike-melee.png/16px-DungeonsEnchantmentSprite_void-strike-melee.png?cae8e" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_void-strike-melee.png/32px-DungeonsEnchantmentSprite_void-strike-melee.png?cae8e 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Void_Strike" title="Dungeons:Void Strike"><span class="sprite-text">Void Strike</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Exclusive
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Jungle_Poison" title="Dungeons:Jungle Poison"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_jungle-poison.png/16px-DungeonsEnchantmentSprite_jungle-poison.png?acc5e" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_jungle-poison.png/32px-DungeonsEnchantmentSprite_jungle-poison.png?acc5e 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Jungle_Poison" title="Dungeons:Jungle Poison"><span class="sprite-text">Jungle Poison</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Rushdown" title="Dungeons:Rushdown"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_rushdown.png/16px-DungeonsEnchantmentSprite_rushdown.png?9ba20" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_rushdown.png/32px-DungeonsEnchantmentSprite_rushdown.png?9ba20 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Rushdown" title="Dungeons:Rushdown"><span class="sprite-text">Rushdown</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Shared_Pain" title="Dungeons:Shared Pain"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_shared-pain.png/16px-DungeonsEnchantmentSprite_shared-pain.png?c0881" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_shared-pain.png/32px-DungeonsEnchantmentSprite_shared-pain.png?c0881 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Shared_Pain" title="Dungeons:Shared Pain"><span class="sprite-text">Shared Pain</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Unused
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Knockback" title="Dungeons:Knockback"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_knockback.png/16px-DungeonsEnchantmentSprite_knockback.png?dd9c0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_knockback.png/32px-DungeonsEnchantmentSprite_knockback.png?dd9c0 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Knockback" title="Dungeons:Knockback"><span class="sprite-text">Knockback</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Withering" title="Dungeons:Withering"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Withering" title="Dungeons:Withering"><span class="sprite-text">Withering</span></a></span></li></ul>
+</td></tr></tbody></table></div>
+</td></tr>
+<tr>
+<td colspan="2">
+<div style="margin-right: -6px">
+<table style="border: 0" data-navbox-name="%5B%5BMCD:Ranged%7CRanged%5D%5D" class="navbox hlist navigation-not-searchable collapsible collapsed">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><span class="navbox-title"><a href="/w/Dungeons:Ranged" class="mw-redirect" title="Dungeons:Ranged">Ranged</a></span>
+</th></tr>
+
+<tr>
+<th>Common
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Accelerate" title="Dungeons:Accelerate"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_accelerate.png/16px-DungeonsEnchantmentSprite_accelerate.png?5033b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_accelerate.png/32px-DungeonsEnchantmentSprite_accelerate.png?5033b 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Accelerate" title="Dungeons:Accelerate"><span class="sprite-text">Accelerate</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Anima_Conduit" title="Dungeons:Anima Conduit"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_anima-conduit.png/16px-DungeonsEnchantmentSprite_anima-conduit.png?51342" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_anima-conduit.png/32px-DungeonsEnchantmentSprite_anima-conduit.png?51342 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Anima_Conduit" title="Dungeons:Anima Conduit"><span class="sprite-text">Anima Conduit</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Artifact_Charge" title="Dungeons:Artifact Charge"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_artifact-charge.png/16px-DungeonsEnchantmentSprite_artifact-charge.png?ef9ee" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_artifact-charge.png/32px-DungeonsEnchantmentSprite_artifact-charge.png?ef9ee 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Artifact_Charge" title="Dungeons:Artifact Charge"><span class="sprite-text">Artifact Charge</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Bonus_Shot" title="Dungeons:Bonus Shot"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_bonus-shot.png/16px-DungeonsEnchantmentSprite_bonus-shot.png?2aa42" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_bonus-shot.png/32px-DungeonsEnchantmentSprite_bonus-shot.png?2aa42 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Bonus_Shot" title="Dungeons:Bonus Shot"><span class="sprite-text">Bonus Shot</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Burst_Bowstring" title="Dungeons:Burst Bowstring"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_burst-bowstring.png/16px-DungeonsEnchantmentSprite_burst-bowstring.png?c9ad8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_burst-bowstring.png/32px-DungeonsEnchantmentSprite_burst-bowstring.png?c9ad8 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Burst_Bowstring" title="Dungeons:Burst Bowstring"><span class="sprite-text">Burst Bowstring</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Committed" title="Dungeons:Committed"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_committed.png/16px-DungeonsEnchantmentSprite_committed.png?a7e05" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_committed.png/32px-DungeonsEnchantmentSprite_committed.png?a7e05 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Committed" title="Dungeons:Committed"><span class="sprite-text">Committed</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Cooldown_Shot" title="Dungeons:Cooldown Shot"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_cooldown-shot.png/16px-DungeonsEnchantmentSprite_cooldown-shot.png?08ac3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_cooldown-shot.png/32px-DungeonsEnchantmentSprite_cooldown-shot.png?08ac3 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Cooldown_Shot" title="Dungeons:Cooldown Shot"><span class="sprite-text">Cooldown Shot</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Dipping_Poison" title="Dungeons:Dipping Poison"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_dipping-poison.png/16px-DungeonsEnchantmentSprite_dipping-poison.png?188cb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_dipping-poison.png/32px-DungeonsEnchantmentSprite_dipping-poison.png?188cb 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Dipping_Poison" title="Dungeons:Dipping Poison"><span class="sprite-text">Dipping Poison</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Dynamo" title="Dungeons:Dynamo"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_dynamo.png/16px-DungeonsEnchantmentSprite_dynamo.png?e5a40" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_dynamo.png/32px-DungeonsEnchantmentSprite_dynamo.png?e5a40 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Dynamo" title="Dungeons:Dynamo"><span class="sprite-text">Dynamo</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Enigma_Resonator" title="Dungeons:Enigma Resonator"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enigma-resonator.png/16px-DungeonsEnchantmentSprite_enigma-resonator.png?6cb80" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enigma-resonator.png/32px-DungeonsEnchantmentSprite_enigma-resonator.png?6cb80 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Enigma_Resonator" title="Dungeons:Enigma Resonator"><span class="sprite-text">Enigma Resonator</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Exploding" title="Dungeons:Exploding"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_exploding.png/16px-DungeonsEnchantmentSprite_exploding.png?342f6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_exploding.png/32px-DungeonsEnchantmentSprite_exploding.png?342f6 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Exploding" title="Dungeons:Exploding"><span class="sprite-text">Exploding</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Fire_Aspect" title="Dungeons:Fire Aspect"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_fire-aspect.png/16px-DungeonsEnchantmentSprite_fire-aspect.png?3fcf7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_fire-aspect.png/32px-DungeonsEnchantmentSprite_fire-aspect.png?3fcf7 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Fire_Aspect" title="Dungeons:Fire Aspect"><span class="sprite-text">Fire Aspect</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Fuse_Shot" title="Dungeons:Fuse Shot"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_fuse-shot.png/16px-DungeonsEnchantmentSprite_fuse-shot.png?15022" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_fuse-shot.png/32px-DungeonsEnchantmentSprite_fuse-shot.png?15022 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Fuse_Shot" title="Dungeons:Fuse Shot"><span class="sprite-text">Fuse Shot</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Growing" title="Dungeons:Growing"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_growing.png/16px-DungeonsEnchantmentSprite_growing.png?fff46" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_growing.png/32px-DungeonsEnchantmentSprite_growing.png?fff46 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Growing" title="Dungeons:Growing"><span class="sprite-text">Growing</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Infinity" title="Dungeons:Infinity"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_infinity.png/16px-DungeonsEnchantmentSprite_infinity.png?c6d18" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_infinity.png/32px-DungeonsEnchantmentSprite_infinity.png?c6d18 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Infinity" title="Dungeons:Infinity"><span class="sprite-text">Infinity</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Looting" title="Dungeons:Looting"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_looting.png/16px-DungeonsEnchantmentSprite_looting.png?7e6c1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_looting.png/32px-DungeonsEnchantmentSprite_looting.png?7e6c1 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Looting" title="Dungeons:Looting"><span class="sprite-text">Looting</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Multishot" title="Dungeons:Multishot"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_multishot.png/16px-DungeonsEnchantmentSprite_multishot.png?386a6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_multishot.png/32px-DungeonsEnchantmentSprite_multishot.png?386a6 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Multishot" title="Dungeons:Multishot"><span class="sprite-text">Multishot</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Piercing" title="Dungeons:Piercing"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_piercing.png/16px-DungeonsEnchantmentSprite_piercing.png?eccc9" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_piercing.png/32px-DungeonsEnchantmentSprite_piercing.png?eccc9 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Piercing" title="Dungeons:Piercing"><span class="sprite-text">Piercing</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Poison_Cloud" title="Dungeons:Poison Cloud"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_jungle-poison.png/16px-DungeonsEnchantmentSprite_jungle-poison.png?acc5e" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_jungle-poison.png/32px-DungeonsEnchantmentSprite_jungle-poison.png?acc5e 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Poison_Cloud" title="Dungeons:Poison Cloud"><span class="sprite-text">Poison Cloud</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Prospector" title="Dungeons:Prospector"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_prospector.png/16px-DungeonsEnchantmentSprite_prospector.png?abc4b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_prospector.png/32px-DungeonsEnchantmentSprite_prospector.png?abc4b 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Prospector" title="Dungeons:Prospector"><span class="sprite-text">Prospector</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Power" title="Dungeons:Power"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_power.png/16px-DungeonsEnchantmentSprite_power.png?acf97" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_power.png/32px-DungeonsEnchantmentSprite_power.png?acf97 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Power" title="Dungeons:Power"><span class="sprite-text">Power</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Punch" title="Dungeons:Punch"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_punch.png/16px-DungeonsEnchantmentSprite_punch.png?6c901" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_punch.png/32px-DungeonsEnchantmentSprite_punch.png?6c901 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Punch" title="Dungeons:Punch"><span class="sprite-text">Punch</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Radiance" title="Dungeons:Radiance"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_radiance-shot.png/16px-DungeonsEnchantmentSprite_radiance-shot.png?ff0a6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_radiance-shot.png/32px-DungeonsEnchantmentSprite_radiance-shot.png?ff0a6 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Radiance" title="Dungeons:Radiance"><span class="sprite-text">Radiance</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Rapid_Fire" title="Dungeons:Rapid Fire"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_rapid-fire.png/16px-DungeonsEnchantmentSprite_rapid-fire.png?b3068" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_rapid-fire.png/32px-DungeonsEnchantmentSprite_rapid-fire.png?b3068 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Rapid_Fire" title="Dungeons:Rapid Fire"><span class="sprite-text">Rapid Fire</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Ricochet" title="Dungeons:Ricochet"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_ricochet.png/16px-DungeonsEnchantmentSprite_ricochet.png?25dfc" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_ricochet.png/32px-DungeonsEnchantmentSprite_ricochet.png?25dfc 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Ricochet" title="Dungeons:Ricochet"><span class="sprite-text">Ricochet</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Roll_Charge" title="Dungeons:Roll Charge"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_roll-charge.png/16px-DungeonsEnchantmentSprite_roll-charge.png?11f09" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_roll-charge.png/32px-DungeonsEnchantmentSprite_roll-charge.png?11f09 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Roll_Charge" title="Dungeons:Roll Charge"><span class="sprite-text">Roll Charge</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Smiting" title="Dungeons:Smiting"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_smiting.png/16px-DungeonsEnchantmentSprite_smiting.png?ead9b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_smiting.png/32px-DungeonsEnchantmentSprite_smiting.png?ead9b 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Smiting" title="Dungeons:Smiting"><span class="sprite-text">Smiting</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Soul_Siphon" title="Dungeons:Soul Siphon"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_soul-siphon.png/16px-DungeonsEnchantmentSprite_soul-siphon.png?c95aa" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_soul-siphon.png/32px-DungeonsEnchantmentSprite_soul-siphon.png?c95aa 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Soul_Siphon" title="Dungeons:Soul Siphon"><span class="sprite-text">Soul Siphon</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Supercharge" title="Dungeons:Supercharge"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_supercharge.png/16px-DungeonsEnchantmentSprite_supercharge.png?83861" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_supercharge.png/32px-DungeonsEnchantmentSprite_supercharge.png?83861 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Supercharge" title="Dungeons:Supercharge"><span class="sprite-text">Supercharge</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Unchanting" title="Dungeons:Unchanting"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_unchanting.png/16px-DungeonsEnchantmentSprite_unchanting.png?93d83" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_unchanting.png/32px-DungeonsEnchantmentSprite_unchanting.png?93d83 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Unchanting" title="Dungeons:Unchanting"><span class="sprite-text">Unchanting</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Weakening" title="Dungeons:Weakening"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_weakening.png/16px-DungeonsEnchantmentSprite_weakening.png?e7884" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_weakening.png/32px-DungeonsEnchantmentSprite_weakening.png?e7884 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Weakening" title="Dungeons:Weakening"><span class="sprite-text">Weakening</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Wild_Rage" title="Dungeons:Wild Rage"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_wild-rage.png/16px-DungeonsEnchantmentSprite_wild-rage.png?0afd9" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_wild-rage.png/32px-DungeonsEnchantmentSprite_wild-rage.png?0afd9 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Wild_Rage" title="Dungeons:Wild Rage"><span class="sprite-text">Wild Rage</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Powerful
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Chain_Reaction" title="Dungeons:Chain Reaction"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_chain-reaction.png/16px-DungeonsEnchantmentSprite_chain-reaction.png?643fe" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_chain-reaction.png/32px-DungeonsEnchantmentSprite_chain-reaction.png?643fe 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Chain_Reaction" title="Dungeons:Chain Reaction"><span class="sprite-text">Chain Reaction</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Critical_Hit" title="Dungeons:Critical Hit"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_critical-hit.png/16px-DungeonsEnchantmentSprite_critical-hit.png?b09d1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_critical-hit.png/32px-DungeonsEnchantmentSprite_critical-hit.png?b09d1 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Critical_Hit" title="Dungeons:Critical Hit"><span class="sprite-text">Critical Hit</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Gravity" title="Dungeons:Gravity"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_gravity.png/16px-DungeonsEnchantmentSprite_gravity.png?15022" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_gravity.png/32px-DungeonsEnchantmentSprite_gravity.png?15022 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Gravity" title="Dungeons:Gravity"><span class="sprite-text">Gravity</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Levitation_Shot" title="Dungeons:Levitation Shot"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_levitation-shot.png/16px-DungeonsEnchantmentSprite_levitation-shot.png?1f0ab" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_levitation-shot.png/32px-DungeonsEnchantmentSprite_levitation-shot.png?1f0ab 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Levitation_Shot" title="Dungeons:Levitation Shot"><span class="sprite-text">Levitation Shot</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Overcharge" title="Dungeons:Overcharge"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_overcharge.png/16px-DungeonsEnchantmentSprite_overcharge.png?1f905" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_overcharge.png/32px-DungeonsEnchantmentSprite_overcharge.png?1f905 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Overcharge" title="Dungeons:Overcharge"><span class="sprite-text">Overcharge</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Refreshment" title="Dungeons:Refreshment"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_refreshment.png/16px-DungeonsEnchantmentSprite_refreshment.png?6fa07" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_refreshment.png/32px-DungeonsEnchantmentSprite_refreshment.png?6fa07 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Refreshment" title="Dungeons:Refreshment"><span class="sprite-text">Refreshment</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Shock_Web" title="Dungeons:Shock Web"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_shock-web.png/16px-DungeonsEnchantmentSprite_shock-web.png?3debb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_shock-web.png/32px-DungeonsEnchantmentSprite_shock-web.png?3debb 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Shock_Web" title="Dungeons:Shock Web"><span class="sprite-text">Shock Web</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Tempo_Theft" title="Dungeons:Tempo Theft"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_tempo-theft.png/16px-DungeonsEnchantmentSprite_tempo-theft.png?09359" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_tempo-theft.png/32px-DungeonsEnchantmentSprite_tempo-theft.png?09359 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Tempo_Theft" title="Dungeons:Tempo Theft"><span class="sprite-text">Tempo Theft</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Void_Strike" title="Dungeons:Void Strike"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_void-strike-ranged.png/16px-DungeonsEnchantmentSprite_void-strike-ranged.png?19197" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_void-strike-ranged.png/32px-DungeonsEnchantmentSprite_void-strike-ranged.png?19197 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Void_Strike" title="Dungeons:Void Strike"><span class="sprite-text">Void Strike</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Exclusive
+</th>
+<td>
+<ul><li><a href="/w/Dungeons:Pushback" title="Dungeons:Pushback">Pushback</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Reliable_Ricochet" title="Dungeons:Reliable Ricochet"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_reliable-ricochet.png/16px-DungeonsEnchantmentSprite_reliable-ricochet.png?4969d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_reliable-ricochet.png/32px-DungeonsEnchantmentSprite_reliable-ricochet.png?4969d 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Reliable_Ricochet" title="Dungeons:Reliable Ricochet"><span class="sprite-text">Reliable Ricochet</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Shadow_Barb" title="Dungeons:Shadow Barb"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Shadow_Barb" title="Dungeons:Shadow Barb"><span class="sprite-text">Shadow Barb</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Shadow_Shot" title="Dungeons:Shadow Shot"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_shadow-shot.png/16px-DungeonsEnchantmentSprite_shadow-shot.png?cc2e0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_shadow-shot.png/32px-DungeonsEnchantmentSprite_shadow-shot.png?cc2e0 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Shadow_Shot" title="Dungeons:Shadow Shot"><span class="sprite-text">Shadow Shot</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Unused
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Bow%27s_Boon" title="Dungeons:Bow&#39;s Boon"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Bow%27s_Boon" title="Dungeons:Bow&#39;s Boon"><span class="sprite-text">Bow's Boon</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Withering" title="Dungeons:Withering"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Withering" title="Dungeons:Withering"><span class="sprite-text">Withering</span></a></span></li></ul>
+</td></tr></tbody></table></div>
+</td></tr>
+<tr>
+<td colspan="2">
+<div style="margin-right: -6px">
+<table style="border: 0" data-navbox-name="%5B%5BMCD:Armor%7CArmor%5D%5D" class="navbox hlist navigation-not-searchable collapsible">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><span class="navbox-title"><a href="/w/Dungeons:Armor" title="Dungeons:Armor">Armor</a></span>
+</th></tr>
+
+<tr>
+<th>Common
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Acrobat" title="Dungeons:Acrobat"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_acrobat.png/16px-DungeonsEnchantmentSprite_acrobat.png?b357d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_acrobat.png/32px-DungeonsEnchantmentSprite_acrobat.png?b357d 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Acrobat" title="Dungeons:Acrobat"><span class="sprite-text">Acrobat</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Bag_of_Souls" title="Dungeons:Bag of Souls"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_bag-of-souls.png/16px-DungeonsEnchantmentSprite_bag-of-souls.png?95309" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_bag-of-souls.png/32px-DungeonsEnchantmentSprite_bag-of-souls.png?95309 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Bag_of_Souls" title="Dungeons:Bag of Souls"><span class="sprite-text">Bag of Souls</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Beast_Boss" title="Dungeons:Beast Boss"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_beast-boss.png/16px-DungeonsEnchantmentSprite_beast-boss.png?94ec7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_beast-boss.png/32px-DungeonsEnchantmentSprite_beast-boss.png?94ec7 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Beast_Boss" title="Dungeons:Beast Boss"><span class="sprite-text">Beast Boss</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Beast_Burst" title="Dungeons:Beast Burst"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_beast-burst.png/16px-DungeonsEnchantmentSprite_beast-burst.png?7dbd9" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_beast-burst.png/32px-DungeonsEnchantmentSprite_beast-burst.png?7dbd9 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Beast_Burst" title="Dungeons:Beast Burst"><span class="sprite-text">Beast Burst</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Beast_Surge" title="Dungeons:Beast Surge"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_beast-surge.png/16px-DungeonsEnchantmentSprite_beast-surge.png?fdc8a" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_beast-surge.png/32px-DungeonsEnchantmentSprite_beast-surge.png?fdc8a 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Beast_Surge" title="Dungeons:Beast Surge"><span class="sprite-text">Beast Surge</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Burning" title="Dungeons:Burning"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_burning.png/16px-DungeonsEnchantmentSprite_burning.png?a045f" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_burning.png/32px-DungeonsEnchantmentSprite_burning.png?a045f 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Burning" title="Dungeons:Burning"><span class="sprite-text">Burning</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Cool_Down" title="Dungeons:Cool Down"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_cool-down.png/16px-DungeonsEnchantmentSprite_cool-down.png?770ec" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_cool-down.png/32px-DungeonsEnchantmentSprite_cool-down.png?770ec 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Cool_Down" title="Dungeons:Cool Down"><span class="sprite-text">Cool Down</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Cowardice" title="Dungeons:Cowardice"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_cowardice.png/16px-DungeonsEnchantmentSprite_cowardice.png?a1836" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_cowardice.png/32px-DungeonsEnchantmentSprite_cowardice.png?a1836 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Cowardice" title="Dungeons:Cowardice"><span class="sprite-text">Cowardice</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Deflect" title="Dungeons:Deflect"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_deflect.png/16px-DungeonsEnchantmentSprite_deflect.png?3a579" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_deflect.png/32px-DungeonsEnchantmentSprite_deflect.png?3a579 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Deflect" title="Dungeons:Deflect"><span class="sprite-text">Deflect</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Electrified" title="Dungeons:Electrified"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_electrified.png/16px-DungeonsEnchantmentSprite_electrified.png?09760" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_electrified.png/32px-DungeonsEnchantmentSprite_electrified.png?09760 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Electrified" title="Dungeons:Electrified"><span class="sprite-text">Electrified</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Explorer" title="Dungeons:Explorer"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_explorer.png/16px-DungeonsEnchantmentSprite_explorer.png?aa475" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_explorer.png/32px-DungeonsEnchantmentSprite_explorer.png?aa475 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Explorer" title="Dungeons:Explorer"><span class="sprite-text">Explorer</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Fire_Trail" title="Dungeons:Fire Trail"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_fire-trail.png/16px-DungeonsEnchantmentSprite_fire-trail.png?ae20c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_fire-trail.png/32px-DungeonsEnchantmentSprite_fire-trail.png?ae20c 2x" data-file-width="96" data-file-height="96" /></a></span></span><a class="mw-selflink selflink"><span class="sprite-text">Fire Trail</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Food_Reserves" title="Dungeons:Food Reserves"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_food-reserves.png/16px-DungeonsEnchantmentSprite_food-reserves.png?a4eaa" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_food-reserves.png/32px-DungeonsEnchantmentSprite_food-reserves.png?a4eaa 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Food_Reserves" title="Dungeons:Food Reserves"><span class="sprite-text">Food Reserves</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Frenzied" title="Dungeons:Frenzied"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_frenzied.png/16px-DungeonsEnchantmentSprite_frenzied.png?fd64c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_frenzied.png/32px-DungeonsEnchantmentSprite_frenzied.png?fd64c 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Frenzied" title="Dungeons:Frenzied"><span class="sprite-text">Frenzied</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Health_Synergy" title="Dungeons:Health Synergy"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_health-synergy.png/16px-DungeonsEnchantmentSprite_health-synergy.png?c3dd5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_health-synergy.png/32px-DungeonsEnchantmentSprite_health-synergy.png?c3dd5 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Health_Synergy" title="Dungeons:Health Synergy"><span class="sprite-text">Health Synergy</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Life_Boost" title="Dungeons:Life Boost"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_life-boost.png/16px-DungeonsEnchantmentSprite_life-boost.png?6c23c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_life-boost.png/32px-DungeonsEnchantmentSprite_life-boost.png?6c23c 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Life_Boost" title="Dungeons:Life Boost"><span class="sprite-text">Life Boost</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Luck_of_the_Sea" title="Dungeons:Luck of the Sea"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_luck-of-the-sea.png/16px-DungeonsEnchantmentSprite_luck-of-the-sea.png?8f66c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_luck-of-the-sea.png/32px-DungeonsEnchantmentSprite_luck-of-the-sea.png?8f66c 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Luck_of_the_Sea" title="Dungeons:Luck of the Sea"><span class="sprite-text">Luck of the Sea</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Lucky_Explorer" title="Dungeons:Lucky Explorer"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_emerald-divination.png/16px-DungeonsEnchantmentSprite_emerald-divination.png?fe9e0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_emerald-divination.png/32px-DungeonsEnchantmentSprite_emerald-divination.png?fe9e0 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Lucky_Explorer" title="Dungeons:Lucky Explorer"><span class="sprite-text">Lucky Explorer</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Potion_Barrier" title="Dungeons:Potion Barrier"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_potion-barrier.png/16px-DungeonsEnchantmentSprite_potion-barrier.png?8504b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_potion-barrier.png/32px-DungeonsEnchantmentSprite_potion-barrier.png?8504b 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Potion_Barrier" title="Dungeons:Potion Barrier"><span class="sprite-text">Potion Barrier</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Reckless" title="Dungeons:Reckless"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_reckless.png/16px-DungeonsEnchantmentSprite_reckless.png?37caf" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_reckless.png/32px-DungeonsEnchantmentSprite_reckless.png?37caf 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Reckless" title="Dungeons:Reckless"><span class="sprite-text">Reckless</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Recycler" title="Dungeons:Recycler"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_recycler.png/16px-DungeonsEnchantmentSprite_recycler.png?37caf" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_recycler.png/32px-DungeonsEnchantmentSprite_recycler.png?37caf 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Recycler" title="Dungeons:Recycler"><span class="sprite-text">Recycler</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Rush" title="Dungeons:Rush"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_rush.png/16px-DungeonsEnchantmentSprite_rush.png?11f09" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_rush.png/32px-DungeonsEnchantmentSprite_rush.png?11f09 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Rush" title="Dungeons:Rush"><span class="sprite-text">Rush</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Shadow_Blast" title="Dungeons:Shadow Blast"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_shadow-blast.png/16px-DungeonsEnchantmentSprite_shadow-blast.png?7b091" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_shadow-blast.png/32px-DungeonsEnchantmentSprite_shadow-blast.png?7b091 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Shadow_Blast" title="Dungeons:Shadow Blast"><span class="sprite-text">Shadow Blast</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Shadow_Surge" title="Dungeons:Shadow Surge"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_shadow-surge.png/16px-DungeonsEnchantmentSprite_shadow-surge.png?baf1c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_shadow-surge.png/32px-DungeonsEnchantmentSprite_shadow-surge.png?baf1c 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Shadow_Surge" title="Dungeons:Shadow Surge"><span class="sprite-text">Shadow Surge</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Snowball" title="Dungeons:Snowball"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_snowball.png/16px-DungeonsEnchantmentSprite_snowball.png?d46dc" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_snowball.png/32px-DungeonsEnchantmentSprite_snowball.png?d46dc 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Snowball" title="Dungeons:Snowball"><span class="sprite-text">Snowball</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Soul_Speed" title="Dungeons:Soul Speed"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_soul-speed.png/16px-DungeonsEnchantmentSprite_soul-speed.png?45f72" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_soul-speed.png/32px-DungeonsEnchantmentSprite_soul-speed.png?45f72 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Soul_Speed" title="Dungeons:Soul Speed"><span class="sprite-text">Soul Speed</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Speed_Synergy" title="Dungeons:Speed Synergy"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_speed-synergy.png/16px-DungeonsEnchantmentSprite_speed-synergy.png?60e9a" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_speed-synergy.png/32px-DungeonsEnchantmentSprite_speed-synergy.png?60e9a 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Speed_Synergy" title="Dungeons:Speed Synergy"><span class="sprite-text">Speed Synergy</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Surprise_Gift" title="Dungeons:Surprise Gift"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_surprise-gift.png/16px-DungeonsEnchantmentSprite_surprise-gift.png?73d34" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_surprise-gift.png/32px-DungeonsEnchantmentSprite_surprise-gift.png?73d34 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Surprise_Gift" title="Dungeons:Surprise Gift"><span class="sprite-text">Surprise Gift</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Swiftfooted" title="Dungeons:Swiftfooted"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_swiftfooted.png/16px-DungeonsEnchantmentSprite_swiftfooted.png?3a6b4" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_swiftfooted.png/32px-DungeonsEnchantmentSprite_swiftfooted.png?3a6b4 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Swiftfooted" title="Dungeons:Swiftfooted"><span class="sprite-text">Swiftfooted</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Thorns" title="Dungeons:Thorns"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_thorns.png/16px-DungeonsEnchantmentSprite_thorns.png?16449" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_thorns.png/32px-DungeonsEnchantmentSprite_thorns.png?16449 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Thorns" title="Dungeons:Thorns"><span class="sprite-text">Thorns</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Tumblebee" title="Dungeons:Tumblebee"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_tumble-bee.png/16px-DungeonsEnchantmentSprite_tumble-bee.png?24ca6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_tumble-bee.png/32px-DungeonsEnchantmentSprite_tumble-bee.png?24ca6 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Tumblebee" title="Dungeons:Tumblebee"><span class="sprite-text">Tumblebee</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Powerful
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Chilling" title="Dungeons:Chilling"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_chilling.png/16px-DungeonsEnchantmentSprite_chilling.png?8b26d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_chilling.png/32px-DungeonsEnchantmentSprite_chilling.png?8b26d 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Chilling" title="Dungeons:Chilling"><span class="sprite-text">Chilling</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Death_Barter" title="Dungeons:Death Barter"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_death-barter.png/16px-DungeonsEnchantmentSprite_death-barter.png?3fee6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_death-barter.png/32px-DungeonsEnchantmentSprite_death-barter.png?3fee6 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Death_Barter" title="Dungeons:Death Barter"><span class="sprite-text">Death Barter</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Final_Shout" title="Dungeons:Final Shout"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_final-shout.png/16px-DungeonsEnchantmentSprite_final-shout.png?1a481" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_final-shout.png/32px-DungeonsEnchantmentSprite_final-shout.png?1a481 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Final_Shout" title="Dungeons:Final Shout"><span class="sprite-text">Final Shout</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Fire_Focus" title="Dungeons:Fire Focus"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_fire-focus.png/16px-DungeonsEnchantmentSprite_fire-focus.png?b58e0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_fire-focus.png/32px-DungeonsEnchantmentSprite_fire-focus.png?b58e0 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Fire_Focus" title="Dungeons:Fire Focus"><span class="sprite-text">Fire Focus</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Gravity_Pulse" title="Dungeons:Gravity Pulse"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_gravity-pulse.png/16px-DungeonsEnchantmentSprite_gravity-pulse.png?33bbd" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_gravity-pulse.png/32px-DungeonsEnchantmentSprite_gravity-pulse.png?33bbd 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Gravity_Pulse" title="Dungeons:Gravity Pulse"><span class="sprite-text">Gravity Pulse</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Lightning_Focus" title="Dungeons:Lightning Focus"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_lightning-focus.png/16px-DungeonsEnchantmentSprite_lightning-focus.png?1984b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_lightning-focus.png/32px-DungeonsEnchantmentSprite_lightning-focus.png?1984b 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Lightning_Focus" title="Dungeons:Lightning Focus"><span class="sprite-text">Lightning Focus</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Multi-Roll" title="Dungeons:Multi-Roll"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_multi-roll.png/16px-DungeonsEnchantmentSprite_multi-roll.png?f222d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_multi-roll.png/32px-DungeonsEnchantmentSprite_multi-roll.png?f222d 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Multi-Roll" title="Dungeons:Multi-Roll"><span class="sprite-text">Multi-Roll</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Poison_Focus" title="Dungeons:Poison Focus"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_poison-focus.png/16px-DungeonsEnchantmentSprite_poison-focus.png?03c2d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_poison-focus.png/32px-DungeonsEnchantmentSprite_poison-focus.png?03c2d 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Poison_Focus" title="Dungeons:Poison Focus"><span class="sprite-text">Poison Focus</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Protection" title="Dungeons:Protection"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_protection.png/16px-DungeonsEnchantmentSprite_protection.png?1b6f5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_protection.png/32px-DungeonsEnchantmentSprite_protection.png?1b6f5 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Protection" title="Dungeons:Protection"><span class="sprite-text">Protection</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Soul_Focus" title="Dungeons:Soul Focus"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_soul-focus.png/16px-DungeonsEnchantmentSprite_soul-focus.png?c95aa" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_soul-focus.png/32px-DungeonsEnchantmentSprite_soul-focus.png?c95aa 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Soul_Focus" title="Dungeons:Soul Focus"><span class="sprite-text">Soul Focus</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Exclusive
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Emerald_Shield" title="Dungeons:Emerald Shield"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_emerald-shield.png/16px-DungeonsEnchantmentSprite_emerald-shield.png?7afed" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_emerald-shield.png/32px-DungeonsEnchantmentSprite_emerald-shield.png?7afed 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Emerald_Shield" title="Dungeons:Emerald Shield"><span class="sprite-text">Emerald Shield</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Environmental_Protection" title="Dungeons:Environmental Protection"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_environmental-protection.png/16px-DungeonsEnchantmentSprite_environmental-protection.png?004a9" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_environmental-protection.png/32px-DungeonsEnchantmentSprite_environmental-protection.png?004a9 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Environmental_Protection" title="Dungeons:Environmental Protection"><span class="sprite-text">Environmental Protection</span></a></span></li>
+<li><a href="/w/Dungeons:Hasty" title="Dungeons:Hasty">Hasty</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Thrive_Under_Pressure" title="Dungeons:Thrive Under Pressure"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_swarm-resistance.png/16px-DungeonsEnchantmentSprite_swarm-resistance.png?71026" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_swarm-resistance.png/32px-DungeonsEnchantmentSprite_swarm-resistance.png?71026 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Thrive_Under_Pressure" title="Dungeons:Thrive Under Pressure"><span class="sprite-text">Thrive Under Pressure</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Unused
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Barrier" title="Dungeons:Barrier"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_barrier.png/16px-DungeonsEnchantmentSprite_barrier.png?f81eb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_barrier.png/32px-DungeonsEnchantmentSprite_barrier.png?f81eb 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Barrier" title="Dungeons:Barrier"><span class="sprite-text">Barrier</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Dolphin%27s_Grace" title="Dungeons:Dolphin&#39;s Grace"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment.png/16px-DungeonsEnchantmentSprite_enchantment.png?f98a6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment.png/32px-DungeonsEnchantmentSprite_enchantment.png?f98a6 2x" data-file-width="56" data-file-height="56" /></a></span></span><a href="/w/Dungeons:Dolphin%27s_Grace" title="Dungeons:Dolphin&#39;s Grace"><span class="sprite-text">Dolphin's Grace</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Heals_Allies" title="Dungeons:Heals Allies"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_altruistic.png/16px-DungeonsEnchantmentSprite_altruistic.png?465cb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_altruistic.png/32px-DungeonsEnchantmentSprite_altruistic.png?465cb 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Heals_Allies" title="Dungeons:Heals Allies"><span class="sprite-text">Heals Allies</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Regeneration" title="Dungeons:Regeneration"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_regeneration.png/16px-DungeonsEnchantmentSprite_regeneration.png?8faba" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_regeneration.png/32px-DungeonsEnchantmentSprite_regeneration.png?8faba 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Regeneration" title="Dungeons:Regeneration"><span class="sprite-text">Regeneration</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Shielding" title="Dungeons:Shielding"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_shielding.png/16px-DungeonsEnchantmentSprite_shielding.png?14699" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_shielding.png/32px-DungeonsEnchantmentSprite_shielding.png?14699 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Shielding" title="Dungeons:Shielding"><span class="sprite-text">Shielding</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Synergy" title="Dungeons:Synergy"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment.png/16px-DungeonsEnchantmentSprite_enchantment.png?f98a6" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment.png/32px-DungeonsEnchantmentSprite_enchantment.png?f98a6 2x" data-file-width="56" data-file-height="56" /></a></span></span><a href="/w/Dungeons:Synergy" title="Dungeons:Synergy"><span class="sprite-text">Synergy</span></a></span></li></ul>
+</td></tr></tbody></table></div>
+</td></tr>
+<tr>
+<td colspan="2">
+<div style="margin-right: -6px">
+<table style="border: 0" data-navbox-name="%5B%5BMCD:Enchanted%7CEnchanted_Mobs%5D%5D_only" class="navbox hlist navigation-not-searchable collapsible collapsed">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><span class="navbox-title"><a href="/w/Dungeons:Enchanted" title="Dungeons:Enchanted">Enchanted Mobs</a> only</span>
+</th></tr>
+
+<tr>
+<th>Common
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Decal_Trail" title="Dungeons:Decal Trail"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_decal-trail.png/16px-DungeonsEnchantmentSprite_decal-trail.png?5f67d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_decal-trail.png/32px-DungeonsEnchantmentSprite_decal-trail.png?5f67d 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Decal_Trail" title="Dungeons:Decal Trail"><span class="sprite-text">Decal Trail</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Double_Damage" title="Dungeons:Double Damage"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Double_Damage" title="Dungeons:Double Damage"><span class="sprite-text">Double Damage</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Fast_Attack" title="Dungeons:Fast Attack"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Fast_Attack" title="Dungeons:Fast Attack"><span class="sprite-text">Fast Attack</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Freezing" title="Dungeons:Freezing"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_freezing.png/16px-DungeonsEnchantmentSprite_freezing.png?50536" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_freezing.png/32px-DungeonsEnchantmentSprite_freezing.png?50536 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Freezing" title="Dungeons:Freezing"><span class="sprite-text">Freezing</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Huge" title="Dungeons:Huge"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Huge" title="Dungeons:Huge"><span class="sprite-text">Huge</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Invisible" title="Dungeons:Invisible"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Invisible" title="Dungeons:Invisible"><span class="sprite-text">Invisible</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Mob_Resurrection_Aura" title="Dungeons:Mob Resurrection Aura"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Mob_Resurrection_Aura" title="Dungeons:Mob Resurrection Aura"><span class="sprite-text">Mob Resurrection Aura</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Dungeons:Quick" title="Dungeons:Quick"><img alt="" src="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/16px-DungeonsEnchantmentSprite_enchantment-common.png?f7896" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/DungeonsEnchantmentSprite_enchantment-common.png/32px-DungeonsEnchantmentSprite_enchantment-common.png?f7896 2x" data-file-width="96" data-file-height="96" /></a></span></span><a href="/w/Dungeons:Quick" title="Dungeons:Quick"><span class="sprite-text">Quick</span></a></span></li></ul>
+</td></tr></tbody></table></div>
+</td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐7dcd6f644b‐xvpcx
+Cached time: 20250324182232
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+CPU time usage: 0.206 seconds
+Real time usage: 0.215 seconds
+Preprocessor visited node count: 3017/1000000
+Post‐expand include size: 116481/8388608 bytes
+Template argument size: 2014/8388608 bytes
+Highest expansion depth: 14/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3965/5000000 bytes
+ExtLoops count: 0/50
+Lua time usage: 0.047/10.000 seconds
+Lua memory usage: 1569344/367001600 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   90.578      1 -total
+ 74.41%   67.398      1 Template:Navbox_Dungeons_enchantments
+ 63.23%   57.271    145 Template:DuEnchantmentLink
+ 13.18%   11.940      1 Template:Infobox_Dungeons_enchantment
+  3.94%    3.566      4 Template:Infobox_row
+  3.78%    3.424      1 Template:HistoryTable
+  3.03%    2.744      5 Template:SimpleNavbox
+  1.84%    1.668      1 Template:Navbar
+  1.76%    1.592      8 Template:JsonEscape
+  1.76%    1.591      1 Template:DuItemLink
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:125393-0!canonical and timestamp 20250324182231 and revision id 2645675. Rendering was triggered because: api-parse
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Dungeons:Fire_Trail?oldid=2645675">https://minecraft.wiki/w/Dungeons:Fire_Trail?oldid=2645675</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/w/Category:Minecraft_Dungeons_enchantments" title="Category:Minecraft Dungeons enchantments">Minecraft Dungeons enchantments</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Dungeons%3AFire+Trail" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Dungeons%3AFire+Trail" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-dungeons" class="selected mw-list-item"><a href="/w/Dungeons:Fire_Trail" title="View the subject page [c]" accesskey="c"><span>Page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Dungeons_talk:Fire_Trail?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Dungeons:Fire_Trail"><span>Read</span></a></li><li id="ca-ve-edit" class="mw-list-item"><a href="/w/Dungeons:Fire_Trail?veaction=edit" title="Edit this page [v]" accesskey="v"><span>Edit</span></a></li><li id="ca-edit" class="collapsible mw-list-item"><a href="/w/Dungeons:Fire_Trail?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Dungeons:Fire_Trail?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Dungeons:Fire_Trail?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Latest: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Latest: 1.21.70</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Dungeons:Fire_Trail" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Dungeons:Fire_Trail" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Dungeons:Fire_Trail?oldid=2645675" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Dungeons:Fire_Trail?action=info" title="More information about this page"><span>Page information</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-lang" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">In other languages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.minecraft.wiki/w/MCD:Flammenspur" title="MCD:Flammenspur – Deutsch" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.minecraft.wiki/w/MCD:Fire_Trail" title="MCD:Fire Trail – español" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.minecraft.wiki/w/MCD:%D0%9E%D0%B3%D0%BD%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BB%D0%B5%D0%B4" title="MCD:Огненный след – русский" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.minecraft.wiki/w/MCD:%E7%84%B0%E5%B0%BE" title="MCD:焰尾 – 中文" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 28 July 2024, at 15:17.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Dungeons:Fire_Trail?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":37,"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"limitreport":{"cputime":"0.206","walltime":"0.215","ppvisitednodes":{"value":3017,"limit":1000000},"postexpandincludesize":{"value":116481,"limit":8388608},"templateargumentsize":{"value":2014,"limit":8388608},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3965,"limit":5000000},"timingprofile":["100.00%   90.578      1 -total"," 74.41%   67.398      1 Template:Navbox_Dungeons_enchantments"," 63.23%   57.271    145 Template:DuEnchantmentLink"," 13.18%   11.940      1 Template:Infobox_Dungeons_enchantment","  3.94%    3.566      4 Template:Infobox_row","  3.78%    3.424      1 Template:HistoryTable","  3.03%    2.744      5 Template:SimpleNavbox","  1.84%    1.668      1 Template:Navbar","  1.76%    1.592      8 Template:JsonEscape","  1.76%    1.591      1 Template:DuItemLink"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"scribunto":{"limitreport-timeusage":{"value":"0.047","limit":"10.000"},"limitreport-memusage":{"value":1569344,"limit":367001600}},"cachereport":{"origin":"mediawiki-7dcd6f644b-xvpcx","timestamp":"20250324182232","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

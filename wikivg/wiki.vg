@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>External links search – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":true,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"1bd5d6becf008bcda307828dcaa7ff7f","wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"LinkSearch","wgNamespaceNumber":-1,"wgPageName":"Special:LinkSearch/wiki.vg","wgTitle":"LinkSearch/wiki.vg","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Special:LinkSearch/wiki.vg","wgRelevantArticleId":0,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,
+"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","mediawiki.htmlform.styles":"ready","mediawiki.helplink":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready","ext.smw.style":"ready",
+"ext.smw.tooltip.styles":"ready","ext.smw.special.styles":"ready"};RLPAGEMODULES=["mediawiki.htmlform","mediawiki.htmlform.ooui","mediawiki.widgets","site","mediawiki.page.ready","skins.vector.legacy.js","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.interlangSearch","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.allLangs","ext.gadget.protectionLocks","ext.gadget.multiupload","ext.gadget.UserProfile","ext.gadget.blueUsers","ext.gadget.redirectMobileDiff","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader",
+"ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.embedVideo.styles%7Cext.smw.special.styles%7Cext.smw.style%7Cext.smw.tooltip.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.helplink%7Cmediawiki.htmlform.ooui.styles%7Cmediawiki.htmlform.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="noindex,nofollow,max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="External links search – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Special:LinkSearch/wiki.vg">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Special:LinkSearch/wiki.vg?wglCacheVer=3">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns--1 ns-special mw-special-LinkSearch page-Special_LinkSearch_wiki_vg rootpage-Special_LinkSearch_wiki_vg skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-mw-helplink" class="mw-indicator"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Linksearch" target="_blank" class="mw-helplink">Help</a></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading">External links search</h1>
+	<div id="bodyContent" class="vector-body">
+		
+		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content"><p>Wildcards such as "*.wikipedia.org" may be used.<br />
+Supported protocols: bitcoin:, ftp://, ftps://, geo:, git://, gopher://, http://, https://, irc://, ircs://, magnet:, mailto:, matrix:, mms://, news:, nntp://, redis://, sftp://, sip:, sips:, sms:, ssh://, svn://, tel:, telnet://, urn:, worldwind://, xmpp: (defaults to http:// and https:// if no protocol is specified).
+</p><div class='mw-htmlform-ooui-wrapper oo-ui-layout oo-ui-panelLayout oo-ui-panelLayout-padded oo-ui-panelLayout-framed'><form action='/w/Special:LinkSearch' method='get' enctype='application/x-www-form-urlencoded' class='mw-htmlform mw-htmlform-ooui oo-ui-layout oo-ui-formLayout'><fieldset class='oo-ui-layout oo-ui-labelElement oo-ui-fieldsetLayout'><legend class='oo-ui-fieldsetLayout-header'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-labelElement-label'>External links search</span></legend><div class='oo-ui-fieldsetLayout-group'><div class='oo-ui-widget oo-ui-widget-enabled'><div id='ooui-php-3' class='mw-htmlform-field-HTMLTextField oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-top' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"target"},"align":"top","helpInline":true,"$overlay":true,"label":{"html":"Search pattern:"},"classes":["mw-htmlform-field-HTMLTextField"]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-1' class='oo-ui-labelElement-label'>Search pattern:</label></span><div class='oo-ui-fieldLayout-field'><div id='target' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-textInputWidget oo-ui-textInputWidget-type-text oo-ui-textInputWidget-php' data-ooui='{"_":"OO.ui.TextInputWidget","name":"target","value":"wiki.vg","dir":"ltr","inputId":"ooui-php-1","required":false}'><input type='text' tabindex='0' name='target' value='wiki.vg' dir='ltr' id='ooui-php-1' class='oo-ui-inputWidget-input' /><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon'></span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator'></span></div></div></div></div><div data-mw-modules='mediawiki.widgets' id='ooui-php-4' class='mw-htmlform-field-HTMLSelectNamespace namespaceselector mw-htmlform-autoinfuse oo-ui-layout oo-ui-labelElement oo-ui-fieldLayout oo-ui-fieldLayout-align-top' data-ooui='{"_":"mw.htmlform.FieldLayout","fieldWidget":{"tag":"namespace"},"align":"top","helpInline":true,"$overlay":true,"label":{"html":"Namespace:"},"classes":["mw-htmlform-field-HTMLSelectNamespace","namespaceselector","mw-htmlform-autoinfuse"]}'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-php-2' class='oo-ui-labelElement-label'>Namespace:</label></span><div class='oo-ui-fieldLayout-field'><div id='namespace' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-dropdownInputWidget oo-ui-dropdownInputWidget-php mw-widget-namespaceInputWidget' data-ooui='{"_":"mw.widgets.NamespaceInputWidget","includeAllValue":"","userLang":false,"exclude":[],"dropdown":{"$overlay":true},"name":"namespace","inputId":"ooui-php-2","required":false}'><select tabindex='0' name='namespace' id='ooui-php-2' class='oo-ui-inputWidget-input oo-ui-indicator-down'><option value='' selected='selected'>all</option><option value='0'>(Main)</option><option value='1'>Talk</option><option value='2'>User</option><option value='3'>User talk</option><option value='4'>Minecraft Wiki</option><option value='5'>Minecraft Wiki talk</option><option value='6'>File</option><option value='7'>File talk</option><option value='8'>MediaWiki</option><option value='9'>MediaWiki talk</option><option value='10'>Template</option><option value='11'>Template talk</option><option value='12'>Help</option><option value='13'>Help talk</option><option value='14'>Category</option><option value='15'>Category talk</option><option value='302'>Property</option><option value='303'>Property talk</option><option value='308'>Concept</option><option value='309'>Concept talk</option><option value='312'>smw/schema</option><option value='313'>smw/schema talk</option><option value='314'>Rule</option><option value='315'>Rule talk</option><option value='828'>Module</option><option value='829'>Module talk</option><option value='2300'>Gadget</option><option value='2301'>Gadget talk</option><option value='2302'>Gadget definition</option><option value='2303'>Gadget definition talk</option><option value='10000'>Dungeons</option><option value='10001'>Dungeons talk</option><option value='10002'>Earth</option><option value='10003'>Earth talk</option><option value='10004'>Story Mode</option><option value='10005'>Story Mode talk</option><option value='10006'>Legends</option><option value='10007'>Legends talk</option><option value='10008'>Forum</option><option value='10009'>Forum talk</option><option value='10010'>Tutorial</option><option value='10011'>Tutorial talk</option><option value='10012'>Movie</option><option value='10013'>Movie talk</option></select></div></div></div></div><div class="mw-htmlform-submit-buttons">
+<span id='ooui-php-5' class='mw-htmlform-submit oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-labelElement oo-ui-flaggedElement-primary oo-ui-flaggedElement-progressive oo-ui-buttonInputWidget' data-ooui='{"_":"OO.ui.ButtonInputWidget","type":"submit","value":"Search","label":"Search","flags":["primary","progressive"],"classes":["mw-htmlform-submit"]}'><button type='submit' tabindex='0' value='Search' class='oo-ui-inputWidget-input oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>Search</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert'></span></button></span></div>
+</div></div></fieldset></form></div><div class="mw-spcontent"><p>Showing below up to <strong>50</strong> results in range #<strong>1</strong> to #<strong>50</strong>.
+</p><p><div class="mw-pager-navigation-bar">View (<span class="mw-prevlink">previous 50</span>  |  <a href="/w/Special:LinkSearch/wiki.vg?limit=50&amp;offset=50&amp;target=wiki.vg" rel="next" title="Next 50 results" class="mw-nextlink">next 50</a>) (<a href="/w/Special:LinkSearch/wiki.vg?limit=20&amp;offset=0&amp;target=wiki.vg" title="Show 20 results per page" class="mw-numlink">20</a> | <span class="mw-numlink">50</span> | <a href="/w/Special:LinkSearch/wiki.vg?limit=100&amp;offset=0&amp;target=wiki.vg" title="Show 100 results per page" class="mw-numlink">100</a> | <a href="/w/Special:LinkSearch/wiki.vg?limit=250&amp;offset=0&amp;target=wiki.vg" title="Show 250 results per page" class="mw-numlink">250</a> | <a href="/w/Special:LinkSearch/wiki.vg?limit=500&amp;offset=0&amp;target=wiki.vg" title="Show 500 results per page" class="mw-numlink">500</a>)</div></p>
+<ol start='1' class='special'>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Data_Generators">https://wiki.vg/Data_Generators</a> is linked from <a href="/w/Talk:Java_Edition_data_values/Archive_3" title="Talk:Java Edition data values/Archive 3">Talk:Java Edition data values/Archive 3</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/RCON">http://wiki.vg/RCON</a> is linked from <a href="/w/Talk:Server.properties/Archive_1" title="Talk:Server.properties/Archive 1">Talk:Server.properties/Archive 1</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Data_Generators#Commands_report">https://wiki.vg/Data_Generators#Commands_report</a> is linked from <a href="/w/Talk:Commands/Archive_3" title="Talk:Commands/Archive 3">Talk:Commands/Archive 3</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Protocol#Declare_Commands">https://wiki.vg/Protocol#Declare_Commands</a> is linked from <a href="/w/Talk:Commands/Archive_3" title="Talk:Commands/Archive 3">Talk:Commands/Archive 3</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Entities#Mobs">http://wiki.vg/Entities#Mobs</a> is linked from <a href="/w/Template:Infobox_entity/doc" title="Template:Infobox entity/doc">Template:Infobox entity/doc</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Pre-release_protocol#2011-9-29">http://wiki.vg/Pre-release_protocol#2011-9-29</a> is linked from <a href="/w/Minecraft_Wiki:Issues/1.0RC2" title="Minecraft Wiki:Issues/1.0RC2">Minecraft Wiki:Issues/1.0RC2</a></li>
+<li><a class="external" rel="nofollow" href="http://b.wiki.vg/b1.2#biomes:swampland">http://b.wiki.vg/b1.2#biomes:swampland</a> is linked from <a href="/w/Talk:Biome/Before_Beta_1.8" title="Talk:Biome/Before Beta 1.8">Talk:Biome/Before Beta 1.8</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Pre-release_protocol#2011-9-29">http://wiki.vg/Pre-release_protocol#2011-9-29</a> is linked from <a href="/w/Minecraft_Wiki:Issues/1.0.0" title="Minecraft Wiki:Issues/1.0.0">Minecraft Wiki:Issues/1.0.0</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Pre-release_protocol#Map_Chunk_.280x33.29">http://wiki.vg/Pre-release_protocol#Map_Chunk_.280x33.29</a> is linked from <a href="/w/Minecraft_Wiki:Issues/Weekly_12w07b" title="Minecraft Wiki:Issues/Weekly 12w07b">Minecraft Wiki:Issues/Weekly 12w07b</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Pre-release_protocol#Map_Chunk_.280x33.29">http://wiki.vg/Pre-release_protocol#Map_Chunk_.280x33.29</a> is linked from <a href="/w/Minecraft_Wiki:Issues/Weekly_12w08a" title="Minecraft Wiki:Issues/Weekly 12w08a">Minecraft Wiki:Issues/Weekly 12w08a</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Pre-release_protocol#Map_Chunk_.280x33.29">http://wiki.vg/Pre-release_protocol#Map_Chunk_.280x33.29</a> is linked from <a href="/w/Minecraft_Wiki:Issues/1.2.3" title="Minecraft Wiki:Issues/1.2.3">Minecraft Wiki:Issues/1.2.3</a></li>
+<li><a class="external" rel="nofollow" href="http://www.wiki.vg/Main_Page">http://www.wiki.vg/Main_Page</a> is linked from <a href="/w/User_talk:Etmarcos" title="User talk:Etmarcos">User talk:Etmarcos</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Entities#Objects">http://wiki.vg/Entities#Objects</a> is linked from <a href="/w/Template:Infobox_item_entity/doc" title="Template:Infobox item entity/doc">Template:Infobox item entity/doc</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Entities#Mobs">http://wiki.vg/Entities#Mobs</a> is linked from <a href="/w/Talk:Herobrine" title="Talk:Herobrine">Talk:Herobrine</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Main_Page">http://wiki.vg/Main_Page</a> is linked from <a href="/w/User:Pokechu22" title="User:Pokechu22">User:Pokechu22</a></li>
+<li><a class="external" rel="nofollow" href="http://www.wiki.vg/Protocol#Thunderbolt_.280x47.29">http://www.wiki.vg/Protocol#Thunderbolt_.280x47.29</a> is linked from <a href="/w/Talk:Java_Edition_data_values/Archive_1" title="Talk:Java Edition data values/Archive 1">Talk:Java Edition data values/Archive 1</a></li>
+<li><a class="external" rel="nofollow" href="http://www.wiki.vg/Protocol#Entity:_Painting_.280x19.29">http://www.wiki.vg/Protocol#Entity:_Painting_.280x19.29</a> is linked from <a href="/w/Talk:Java_Edition_data_values/Archive_1" title="Talk:Java Edition data values/Archive 1">Talk:Java Edition data values/Archive 1</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/">http://wiki.vg/</a> is linked from <a href="/w/Minecraft_Wiki_talk:Community_portal/Archive_15" title="Minecraft Wiki talk:Community portal/Archive 15">Minecraft Wiki talk:Community portal/Archive 15</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Special:AllPages">http://wiki.vg/Special:AllPages</a> is linked from <a href="/w/Minecraft_Wiki_talk:Community_portal/Archive_15" title="Minecraft Wiki talk:Community portal/Archive 15">Minecraft Wiki talk:Community portal/Archive 15</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Protocol#Spawn_Object">http://wiki.vg/Protocol#Spawn_Object</a> is linked from <a href="/w/Talk:Java_Edition_pre-flattening_data_values/Entity_IDs" title="Talk:Java Edition pre-flattening data values/Entity IDs">Talk:Java Edition pre-flattening data values/Entity IDs</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Protocol#Spawn_Mob">http://wiki.vg/Protocol#Spawn_Mob</a> is linked from <a href="/w/Talk:Java_Edition_pre-flattening_data_values/Entity_IDs" title="Talk:Java Edition pre-flattening data values/Entity IDs">Talk:Java Edition pre-flattening data values/Entity IDs</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Entities#Objects">http://wiki.vg/Entities#Objects</a> is linked from <a href="/w/Talk:Java_Edition_pre-flattening_data_values/Entity_IDs" title="Talk:Java Edition pre-flattening data values/Entity IDs">Talk:Java Edition pre-flattening data values/Entity IDs</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Talk:Entities#Are_ids_up_to_date_.3F">http://wiki.vg/Talk:Entities#Are_ids_up_to_date_.3F</a> is linked from <a href="/w/Talk:Java_Edition_pre-flattening_data_values/Entity_IDs" title="Talk:Java Edition pre-flattening data values/Entity IDs">Talk:Java Edition pre-flattening data values/Entity IDs</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Data_Generators">https://wiki.vg/Data_Generators</a> is linked from <a href="/w/Talk:Biome/ID" title="Talk:Biome/ID">Talk:Biome/ID</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/User:Pokechu22/Chunk_Format">http://wiki.vg/User:Pokechu22/Chunk_Format</a> is linked from <a href="/w/Talk:Java_Edition_data_values/Archive_2" title="Talk:Java Edition data values/Archive 2">Talk:Java Edition data values/Archive 2</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Entities">http://wiki.vg/Entities</a> is linked from <a href="/w/Talk:Illusioner" title="Talk:Illusioner">Talk:Illusioner</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Protocol#Spawn_Mob">http://wiki.vg/Protocol#Spawn_Mob</a> is linked from <a href="/w/Talk:Illusioner" title="Talk:Illusioner">Talk:Illusioner</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Protocol_version_numbers">http://wiki.vg/Protocol_version_numbers</a> is linked from <a href="/w/Talk:Java_Edition_1.12.1" title="Talk:Java Edition 1.12.1">Talk:Java Edition 1.12.1</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Protocol_version_numbers">http://wiki.vg/Protocol_version_numbers</a> is linked from <a href="/w/Talk:Java_Edition_1.12.2" title="Talk:Java Edition 1.12.2">Talk:Java Edition 1.12.2</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Chunk_Format">http://wiki.vg/Chunk_Format</a> is linked from <a href="/w/Talk:Java_Edition_17w47a" title="Talk:Java Edition 17w47a">Talk:Java Edition 17w47a</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Command_Data">https://wiki.vg/Command_Data</a> is linked from <a href="/w/Module_talk:Command" title="Module talk:Command">Module talk:Command</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Data_Generators">https://wiki.vg/Data_Generators</a> is linked from <a href="/w/Module_talk:Command" title="Module talk:Command">Module talk:Command</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Data_Generators">https://wiki.vg/Data_Generators</a> is linked from <a href="/w/Talk:Java_Edition_Flattening" title="Talk:Java Edition Flattening">Talk:Java Edition Flattening</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/index.php?title=User:Pokechu22/Chunk_Format&amp;diff=prev&amp;oldid=12960">http://wiki.vg/index.php?title=User:Pokechu22/Chunk_Format&amp;diff=prev&amp;oldid=12960</a> is linked from <a href="/w/Minecraft_Wiki_talk:Community_portal/Archive_21" title="Minecraft Wiki talk:Community portal/Archive 21">Minecraft Wiki talk:Community portal/Archive 21</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Protocol">http://wiki.vg/Protocol</a> is linked from <a href="/w/Minecraft_Wiki_talk:Community_portal/Archive_22" title="Minecraft Wiki talk:Community portal/Archive 22">Minecraft Wiki talk:Community portal/Archive 22</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Protocol_version_numbers">http://wiki.vg/Protocol_version_numbers</a> is linked from <a href="/w/Minecraft_Wiki_talk:Community_portal/Archive_22" title="Minecraft Wiki talk:Community portal/Archive 22">Minecraft Wiki talk:Community portal/Archive 22</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Entity_metadata">http://wiki.vg/Entity_metadata</a> is linked from <a href="/w/Minecraft_Wiki_talk:Community_portal/Archive_22" title="Minecraft Wiki talk:Community portal/Archive 22">Minecraft Wiki talk:Community portal/Archive 22</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Protocol#Handshake">http://wiki.vg/Protocol#Handshake</a> is linked from <a href="/w/Minecraft_Wiki_talk:Community_portal/Archive_22" title="Minecraft Wiki talk:Community portal/Archive 22">Minecraft Wiki talk:Community portal/Archive 22</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Protocol_History#1.13-pre4">https://wiki.vg/Protocol_History#1.13-pre4</a> is linked from <a href="/w/Resource_location" title="Resource location">Resource location</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/index.php?title=Data_types&amp;oldid=14345#Identifier">https://wiki.vg/index.php?title=Data_types&amp;oldid=14345#Identifier</a> is linked from <a href="/w/Talk:Resource_location" title="Talk:Resource location">Talk:Resource location</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Data_Generators#Registries_report">https://wiki.vg/Data_Generators#Registries_report</a> is linked from <a href="/w/Talk:Resource_location" title="Talk:Resource location">Talk:Resource location</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Data_Generators#Commands_report">https://wiki.vg/Data_Generators#Commands_report</a> is linked from <a href="/w/Talk:Resource_location" title="Talk:Resource location">Talk:Resource location</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Client_List">https://wiki.vg/Client_List</a> is linked from <a href="/w/Minecraft_Wiki_talk:Community_portal/Archive_26" title="Minecraft Wiki talk:Community portal/Archive 26">Minecraft Wiki talk:Community portal/Archive 26</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/Server_List">https://wiki.vg/Server_List</a> is linked from <a href="/w/Minecraft_Wiki_talk:Community_portal/Archive_26" title="Minecraft Wiki talk:Community portal/Archive 26">Minecraft Wiki talk:Community portal/Archive 26</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Entities#Mobs">http://wiki.vg/Entities#Mobs</a> is linked from <a href="/w/Minecraft_Wiki:Projects/Icelandic_translation/Template:Eining/doc" title="Minecraft Wiki:Projects/Icelandic translation/Template:Eining/doc">Minecraft Wiki:Projects/Icelandic translation/Template:Eining/doc</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Entities#Mobs">http://wiki.vg/Entities#Mobs</a> is linked from <a href="/w/Minecraft_Wiki:Projects/Icelandic_translation/Template:Eining" title="Minecraft Wiki:Projects/Icelandic translation/Template:Eining">Minecraft Wiki:Projects/Icelandic translation/Template:Eining</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Mojang_API">http://wiki.vg/Mojang_API</a> is linked from <a href="/w/Mojang_API" title="Mojang API">Mojang API</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Entities#Objects">http://wiki.vg/Entities#Objects</a> is linked from <a href="/w/Template:Infobox_item_entity" title="Template:Infobox item entity">Template:Infobox item entity</a></li>
+<li><a class="external" rel="nofollow" href="https://wiki.vg/">https://wiki.vg/</a> is linked from <a href="/w/User:PhoenixAsh89/sandbox" title="User:PhoenixAsh89/sandbox">User:PhoenixAsh89/sandbox</a></li>
+<li><a class="external" rel="nofollow" href="http://wiki.vg/Mojang_API#UUID_-.3E_Profile_.2B_Skin.2FCape">http://wiki.vg/Mojang_API#UUID_-.3E_Profile_.2B_Skin.2FCape</a> is linked from <a href="/w/Talk:Cape/Archive_1" title="Talk:Cape/Archive 1">Talk:Cape/Archive 1</a></li>
+</ol>
+<p><div class="mw-pager-navigation-bar">View (<span class="mw-prevlink">previous 50</span>  |  <a href="/w/Special:LinkSearch/wiki.vg?limit=50&amp;offset=50&amp;target=wiki.vg" rel="next" title="Next 50 results" class="mw-nextlink">next 50</a>) (<a href="/w/Special:LinkSearch/wiki.vg?limit=20&amp;offset=0&amp;target=wiki.vg" title="Show 20 results per page" class="mw-numlink">20</a> | <span class="mw-numlink">50</span> | <a href="/w/Special:LinkSearch/wiki.vg?limit=100&amp;offset=0&amp;target=wiki.vg" title="Show 100 results per page" class="mw-numlink">100</a> | <a href="/w/Special:LinkSearch/wiki.vg?limit=250&amp;offset=0&amp;target=wiki.vg" title="Show 250 results per page" class="mw-numlink">250</a> | <a href="/w/Special:LinkSearch/wiki.vg?limit=500&amp;offset=0&amp;target=wiki.vg" title="Show 500 results per page" class="mw-numlink">500</a>)</div></p></div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Special:LinkSearch/wiki.vg">https://minecraft.wiki/w/Special:LinkSearch/wiki.vg</a>"</div></div>
+		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Special%3ALinkSearch%2Fwiki.vg" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Special%3ALinkSearch%2Fwiki.vg" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-special" class="selected mw-list-item"><a href="/w/Special:LinkSearch/wiki.vg?wglCacheVer=3" title="This is a special page, and it cannot be edited"><span>Special page</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views emptyPortlet vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Special:LinkSearch/wiki.vg?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Latest: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Latest: 1.21.70</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Special:LinkSearch/wiki.vg?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":46});});</script>
+</body>
+</html>

@@ -1,0 +1,4470 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Legacy Pocket Edition protocol – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"c8bb60371139dce4b0486d70416fcb83","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Legacy_Pocket_Edition_protocol","wgTitle":"Legacy Pocket Edition protocol","wgCurRevisionId":2844120,"wgRevisionId":2844120,"wgArticleId":290285,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["When","Removed features","Bedrock Edition","Pocket Edition","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Legacy_Pocket_Edition_protocol","wgRelevantArticleId":290285,"wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Minecraft_Wiki:Projects/wiki.vg_merge/Pocket_Minecraft_Protocol","simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgInternalRedirectTargetUrl":"/w/Legacy_Pocket_Edition_protocol","wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"]};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":
+"ready","user":"ready","user.options":"loading","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init",
+"ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="This article documents the protocol which Pocket Edition used before it was replaced by a newer Pocket Edition protocol.[when?]">
+<meta property="og:description" content="This article documents the protocol which Pocket Edition used before it was replaced by a newer Pocket Edition protocol.[when?]">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Legacy Pocket Edition protocol – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Legacy_Pocket_Edition_protocol">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Legacy_Pocket_Edition_protocol?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Legacy_Pocket_Edition_protocol">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Legacy_Pocket_Edition_protocol rootpage-Legacy_Pocket_Edition_protocol skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This article is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This article is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading">Legacy <i>Pocket Edition</i> protocol</h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><span class="mw-redirectedfrom">(Redirected from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Pocket_Minecraft_Protocol?redirect=no" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Pocket Minecraft Protocol">Minecraft Wiki:Projects/wiki.vg merge/Pocket Minecraft Protocol</a>)</span></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="hatnote searchaux">This article is about outdated information for <i><a href="/w/Pocket_Edition" title="Pocket Edition">Pocket Edition</a></i>.&#32;&#32;For a newer <i>Pocket Edition</i> protocol, see <a href="/w/Pocket_Edition_protocol" title="Pocket Edition protocol">Pocket Edition protocol</a>.&#32;&#32;For the protocol documentation for the latest version of <i><a href="/w/Bedrock_Edition" title="Bedrock Edition">Bedrock Edition</a></i>, see <a href="/w/Bedrock_Edition_protocol" title="Bedrock Edition protocol">Bedrock Edition protocol</a>.</div>
+<div class="msgbox searchaux msgbox-blue" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="sprite-file" style="height:32px;width:32px"><span class="pixel-image" typeof="mw:File"><span><img alt="BlockSprite blue-rose.png: Sprite image for blue-rose in Minecraft" src="/images/BlockSprite_blue-rose.png?cee60" decoding="async" loading="lazy" width="32" height="32" class="mw-file-element" data-file-width="16" data-file-height="16" /></span></span></span></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This page describes content that exists only in <u>outdated</u> versions of <i><a href="/w/Bedrock_Edition" title="Bedrock Edition">Bedrock Edition</a></i>.</div>&#160;
+<div class="msgbox-text">This feature used to be in the game but has since been removed.</div>
+</div>
+</div>
+<p>This article documents the <b>protocol</b> which <i><a href="/w/Pocket_Edition" title="Pocket Edition">Pocket Edition</a></i> used before it was replaced by a <a href="/w/Pocket_Edition_protocol" title="Pocket Edition protocol">newer <i>Pocket Edition</i> protocol</a>.<sup class="noprint nowrap Inline-Template" title="">[<i><a class="text" href="https://minecraft.wiki/w/Talk:Legacy_Pocket_Edition_protocol"><span title="The point in time when this happened needs to be specified.">when?</span></a></i>]</sup>
+</p><p>Unlike the <i><a href="/w/Java_Edition" title="Java Edition">Java Edition</a></i> protocol, this protocol uses UDP with (so far observed, at least) one message per packet. This makes the protocol easier to work with when it comes to packet serialization, and might offer latency improvements, but will inevitably have the usual UDP issues (packets lost, truncated, duplicated, out-of-order, etc.).
+</p><p>As of <a href="/w/V0.9.0_alpha" class="mw-redirect" title="V0.9.0 alpha">v0.9.0 alpha</a>, clients appear to search for servers on only port 19132.
+</p><p>Clients don't pick any specific port to listen on.
+</p><p>Please note that even where packet field names are written in this page, these are still largely hypothetical and could well be incorrect guesses. Some packets are fixed to the <a href="/w/RakNet" title="RakNet">RakNet protocol</a>, and will be marked as "RakNet Packet", which means that these packets will not change on future versions.
+</p><p>It has been determined that PM uses RakNet for its networking library, <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://www.jenkinssoftware.com/raknet/manual/networkmessages.html">some documentation that seems relevant</a>.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Terminology"><span class="tocnumber">1</span> <span class="toctext">Terminology</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Types"><span class="tocnumber">2</span> <span class="toctext">Types</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Login_Packets"><span class="tocnumber">3</span> <span class="toctext">Login Packets</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#ID_CONNECTED_PING_OPEN_CONNECTIONS_(0x01)"><span class="tocnumber">3.1</span> <span class="toctext">ID_CONNECTED_PING_OPEN_CONNECTIONS (0x01)</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#ID_UNCONNECTED_PING_OPEN_CONNECTIONS_(0x02)"><span class="tocnumber">3.2</span> <span class="toctext">ID_UNCONNECTED_PING_OPEN_CONNECTIONS (0x02)</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#ID_OPEN_CONNECTION_REQUEST_1_(0x05)"><span class="tocnumber">3.3</span> <span class="toctext">ID_OPEN_CONNECTION_REQUEST_1 (0x05)</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#ID_OPEN_CONNECTION_REPLY_1_(0x06)"><span class="tocnumber">3.4</span> <span class="toctext">ID_OPEN_CONNECTION_REPLY_1 (0x06)</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#ID_OPEN_CONNECTION_REQUEST_2_(0x07)"><span class="tocnumber">3.5</span> <span class="toctext">ID_OPEN_CONNECTION_REQUEST_2 (0x07)</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#ID_OPEN_CONNECTION_REPLY_2_(0x08)"><span class="tocnumber">3.6</span> <span class="toctext">ID_OPEN_CONNECTION_REPLY_2 (0x08)</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#ID_INCOMPATIBLE_PROTOCOL_VERSION_(0x1A)"><span class="tocnumber">3.7</span> <span class="toctext">ID_INCOMPATIBLE_PROTOCOL_VERSION (0x1A)</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#ID_UNCONNECTED_PING_OPEN_CONNECTIONS_(0x1C)"><span class="tocnumber">3.8</span> <span class="toctext">ID_UNCONNECTED_PING_OPEN_CONNECTIONS (0x1C)</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#ID_ADVERTISE_SYSTEM_(0x1D)"><span class="tocnumber">3.9</span> <span class="toctext">ID_ADVERTISE_SYSTEM (0x1D)</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Custom_Packet_(0x80-0x8F)"><span class="tocnumber">3.10</span> <span class="toctext">Custom Packet (0x80-0x8F)</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#NAK_(0xA0)"><span class="tocnumber">3.11</span> <span class="toctext">NAK (0xA0)</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#ACK_(0xC0)"><span class="tocnumber">3.12</span> <span class="toctext">ACK (0xC0)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Packet_Encapsulation_format"><span class="tocnumber">4</span> <span class="toctext">Packet Encapsulation format</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#0x00"><span class="tocnumber">4.1</span> <span class="toctext">0x00</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#0x40"><span class="tocnumber">4.2</span> <span class="toctext">0x40</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#0x60"><span class="tocnumber">4.3</span> <span class="toctext">0x60</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Encapsulated_Login_packets"><span class="tocnumber">5</span> <span class="toctext">Encapsulated Login packets</span></a>
+<ul>
+<li class="toclevel-2 tocsection-21"><a href="#Client_Connect_(0x09)"><span class="tocnumber">5.1</span> <span class="toctext">Client Connect (0x09)</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Server_Handshake_(0x10)"><span class="tocnumber">5.2</span> <span class="toctext">Server Handshake (0x10)</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Client_Handshake_(0x13)"><span class="tocnumber">5.3</span> <span class="toctext">Client Handshake (0x13)</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Client_Cancel_Connect_(0x15)"><span class="tocnumber">5.4</span> <span class="toctext">Client Cancel Connect (0x15)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-25"><a href="#Ping/Pong"><span class="tocnumber">6</span> <span class="toctext">Ping/Pong</span></a>
+<ul>
+<li class="toclevel-2 tocsection-26"><a href="#Ping_Packet_(0x00)"><span class="tocnumber">6.1</span> <span class="toctext">Ping Packet (0x00)</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Pong_Packet_(0x03)"><span class="tocnumber">6.2</span> <span class="toctext">Pong Packet (0x03)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-28"><a href="#Data_Packets"><span class="tocnumber">7</span> <span class="toctext">Data Packets</span></a>
+<ul>
+<li class="toclevel-2 tocsection-29"><a href="#LoginPacket_(0x82)"><span class="tocnumber">7.1</span> <span class="toctext">LoginPacket (0x82)</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#LoginStatusPacket_(0x83)"><span class="tocnumber">7.2</span> <span class="toctext">LoginStatusPacket (0x83)</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#ReadyPacket_(0x84)"><span class="tocnumber">7.3</span> <span class="toctext">ReadyPacket (0x84)</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#MessagePacket_(0x85)"><span class="tocnumber">7.4</span> <span class="toctext">MessagePacket (0x85)</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="#SetTimePacket_(0x86)"><span class="tocnumber">7.5</span> <span class="toctext">SetTimePacket (0x86)</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#StartGamePacket_(0x87)"><span class="tocnumber">7.6</span> <span class="toctext">StartGamePacket (0x87)</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#AddMobPacket_(0x88)"><span class="tocnumber">7.7</span> <span class="toctext">AddMobPacket (0x88)</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="#AddPlayerPacket_(0x89)"><span class="tocnumber">7.8</span> <span class="toctext">AddPlayerPacket (0x89)</span></a></li>
+<li class="toclevel-2 tocsection-37"><a href="#RemovePlayerPacket_(0x8a)"><span class="tocnumber">7.9</span> <span class="toctext">RemovePlayerPacket (0x8a)</span></a></li>
+<li class="toclevel-2 tocsection-38"><a href="#AddEntityPacket_(0x8c)"><span class="tocnumber">7.10</span> <span class="toctext">AddEntityPacket (0x8c)</span></a></li>
+<li class="toclevel-2 tocsection-39"><a href="#RemoveEntityPacket_(0x8d)"><span class="tocnumber">7.11</span> <span class="toctext">RemoveEntityPacket (0x8d)</span></a></li>
+<li class="toclevel-2 tocsection-40"><a href="#AddItemEntityPacket_(0x8e)"><span class="tocnumber">7.12</span> <span class="toctext">AddItemEntityPacket (0x8e)</span></a></li>
+<li class="toclevel-2 tocsection-41"><a href="#TakeItemEntityPacket_(0x8f)"><span class="tocnumber">7.13</span> <span class="toctext">TakeItemEntityPacket (0x8f)</span></a></li>
+<li class="toclevel-2 tocsection-42"><a href="#MoveEntityPacket_(0x90)"><span class="tocnumber">7.14</span> <span class="toctext">MoveEntityPacket (0x90)</span></a></li>
+<li class="toclevel-2 tocsection-43"><a href="#MoveEntityPacket_PosRot_(0x93)"><span class="tocnumber">7.15</span> <span class="toctext">MoveEntityPacket_PosRot (0x93)</span></a></li>
+<li class="toclevel-2 tocsection-44"><a href="#MovePlayerPacket_(0x94)"><span class="tocnumber">7.16</span> <span class="toctext">MovePlayerPacket (0x94)</span></a></li>
+<li class="toclevel-2 tocsection-45"><a href="#PlaceBlockPacket_(0x95)"><span class="tocnumber">7.17</span> <span class="toctext">PlaceBlockPacket (0x95)</span></a></li>
+<li class="toclevel-2 tocsection-46"><a href="#RemoveBlockPacket_(0x96)"><span class="tocnumber">7.18</span> <span class="toctext">RemoveBlockPacket (0x96)</span></a></li>
+<li class="toclevel-2 tocsection-47"><a href="#UpdateBlockPacket_(0x97)"><span class="tocnumber">7.19</span> <span class="toctext">UpdateBlockPacket (0x97)</span></a></li>
+<li class="toclevel-2 tocsection-48"><a href="#AddPaintingPacket_(0x98)"><span class="tocnumber">7.20</span> <span class="toctext">AddPaintingPacket (0x98)</span></a></li>
+<li class="toclevel-2 tocsection-49"><a href="#ExplodePacket_(0x99)"><span class="tocnumber">7.21</span> <span class="toctext">ExplodePacket (0x99)</span></a></li>
+<li class="toclevel-2 tocsection-50"><a href="#LevelEventPacket_(0x9a)"><span class="tocnumber">7.22</span> <span class="toctext">LevelEventPacket (0x9a)</span></a></li>
+<li class="toclevel-2 tocsection-51"><a href="#TileEventPacket_(0x9b)"><span class="tocnumber">7.23</span> <span class="toctext">TileEventPacket (0x9b)</span></a></li>
+<li class="toclevel-2 tocsection-52"><a href="#EntityEventPacket_(0x9c)"><span class="tocnumber">7.24</span> <span class="toctext">EntityEventPacket (0x9c)</span></a></li>
+<li class="toclevel-2 tocsection-53"><a href="#RequestChunkPacket_(0x9d)"><span class="tocnumber">7.25</span> <span class="toctext">RequestChunkPacket (0x9d)</span></a></li>
+<li class="toclevel-2 tocsection-54"><a href="#ChunkDataPacket_(0x9e)"><span class="tocnumber">7.26</span> <span class="toctext">ChunkDataPacket (0x9e)</span></a></li>
+<li class="toclevel-2 tocsection-55"><a href="#PlayerEquipmentPacket_(0x9f)"><span class="tocnumber">7.27</span> <span class="toctext">PlayerEquipmentPacket (0x9f)</span></a></li>
+<li class="toclevel-2 tocsection-56"><a href="#PlayerArmorEquipmentPacket_(0xa0)"><span class="tocnumber">7.28</span> <span class="toctext">PlayerArmorEquipmentPacket (0xa0)</span></a></li>
+<li class="toclevel-2 tocsection-57"><a href="#InteractPacket_(0xa1)"><span class="tocnumber">7.29</span> <span class="toctext">InteractPacket (0xa1)</span></a></li>
+<li class="toclevel-2 tocsection-58"><a href="#UseItemPacket_(0xa2)"><span class="tocnumber">7.30</span> <span class="toctext">UseItemPacket (0xa2)</span></a></li>
+<li class="toclevel-2 tocsection-59"><a href="#PlayerActionPacket_(0xa3)"><span class="tocnumber">7.31</span> <span class="toctext">PlayerActionPacket (0xa3)</span></a></li>
+<li class="toclevel-2 tocsection-60"><a href="#HurtArmorPacket_(0xa5)"><span class="tocnumber">7.32</span> <span class="toctext">HurtArmorPacket (0xa5)</span></a></li>
+<li class="toclevel-2 tocsection-61"><a href="#SetEntityDataPacket_(0xa6)"><span class="tocnumber">7.33</span> <span class="toctext">SetEntityDataPacket (0xa6)</span></a></li>
+<li class="toclevel-2 tocsection-62"><a href="#SetEntityMotionPacket_(0xa7)"><span class="tocnumber">7.34</span> <span class="toctext">SetEntityMotionPacket (0xa7)</span></a></li>
+<li class="toclevel-2 tocsection-63"><a href="#SetRidingPacket_(0xa8)"><span class="tocnumber">7.35</span> <span class="toctext">SetRidingPacket (0xa8)</span></a></li>
+<li class="toclevel-2 tocsection-64"><a href="#SetHealthPacket_(0xa9)"><span class="tocnumber">7.36</span> <span class="toctext">SetHealthPacket (0xa9)</span></a></li>
+<li class="toclevel-2 tocsection-65"><a href="#SetSpawnPositionPacket_(0xaa)"><span class="tocnumber">7.37</span> <span class="toctext">SetSpawnPositionPacket (0xaa)</span></a></li>
+<li class="toclevel-2 tocsection-66"><a href="#AnimatePacket_(0xab)"><span class="tocnumber">7.38</span> <span class="toctext">AnimatePacket (0xab)</span></a></li>
+<li class="toclevel-2 tocsection-67"><a href="#RespawnPacket_(0xac)"><span class="tocnumber">7.39</span> <span class="toctext">RespawnPacket (0xac)</span></a></li>
+<li class="toclevel-2 tocsection-68"><a href="#SendInventoryPacket_(0xad)"><span class="tocnumber">7.40</span> <span class="toctext">SendInventoryPacket (0xad)</span></a></li>
+<li class="toclevel-2 tocsection-69"><a href="#DropItemPacket_(0xae)"><span class="tocnumber">7.41</span> <span class="toctext">DropItemPacket (0xae)</span></a></li>
+<li class="toclevel-2 tocsection-70"><a href="#ContainerOpenPacket_(0xaf)"><span class="tocnumber">7.42</span> <span class="toctext">ContainerOpenPacket (0xaf)</span></a></li>
+<li class="toclevel-2 tocsection-71"><a href="#ContainerClosePacket_(0xb0)"><span class="tocnumber">7.43</span> <span class="toctext">ContainerClosePacket (0xb0)</span></a></li>
+<li class="toclevel-2 tocsection-72"><a href="#ContainerSetSlotPacket_(0xb1)"><span class="tocnumber">7.44</span> <span class="toctext">ContainerSetSlotPacket (0xb1)</span></a></li>
+<li class="toclevel-2 tocsection-73"><a href="#ContainerSetDataPacket_(0xb2)"><span class="tocnumber">7.45</span> <span class="toctext">ContainerSetDataPacket (0xb2)</span></a></li>
+<li class="toclevel-2 tocsection-74"><a href="#ContainerSetContentPacket_(0xb3)"><span class="tocnumber">7.46</span> <span class="toctext">ContainerSetContentPacket (0xb3)</span></a></li>
+<li class="toclevel-2 tocsection-75"><a href="#ContainerAckPacket_(0xb4)"><span class="tocnumber">7.47</span> <span class="toctext">ContainerAckPacket (0xb4)</span></a></li>
+<li class="toclevel-2 tocsection-76"><a href="#ChatPacket_(0xb5)"><span class="tocnumber">7.48</span> <span class="toctext">ChatPacket (0xb5)</span></a></li>
+<li class="toclevel-2 tocsection-77"><a href="#SignUpdatePacket_(0xb6)"><span class="tocnumber">7.49</span> <span class="toctext">SignUpdatePacket (0xb6)</span></a></li>
+<li class="toclevel-2 tocsection-78"><a href="#AdventureSettingsPacket_(0xb7)"><span class="tocnumber">7.50</span> <span class="toctext">AdventureSettingsPacket (0xb7)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-79"><a href="#Navigation"><span class="tocnumber">8</span> <span class="toctext">Navigation</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Terminology">Terminology</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=1&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Terminology">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=1" title="Edit section&#039;s source code: Terminology">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl><dt>PM</dt>
+<dd>Pocket Minecraft (aka Minecraft PE or Minecraft Pocket Edition)</dd></dl>
+<h2><span class="mw-headline" id="Types">Types</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=2&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Types">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=2" title="Edit section&#039;s source code: Types">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">
+</td>
+<th class="col1">Size
+</th>
+<th class="col2">Range
+</th>
+<th class="col3">Notes
+</th></tr>
+<tr class="row1">
+<th class="col0 centeralign">byte
+</th>
+<td class="col1 centeralign">1
+</td>
+<td class="col2">-128 to 127
+</td>
+<td class="col3">Signed, two's complement
+</td></tr>
+<tr class="row2">
+<th class="col0 centeralign">short
+</th>
+<td class="col1 centeralign">2
+</td>
+<td class="col2">-32768 to 32767
+</td>
+<td class="col3">Signed, two's complement
+</td></tr>
+<tr class="row3">
+<th class="col0 centeralign">int32
+</th>
+<td class="col1 centeralign">4
+</td>
+<td class="col2">-2147483648 to 2147483647
+</td>
+<td class="col3">Signed, two's complement
+</td></tr>
+<tr class="row4">
+<th class="col0 centeralign">int64
+</th>
+<td class="col1 centeralign">8
+</td>
+<td class="col2">
+</td>
+<td class="col3">Maybe a double?
+</td></tr>
+<tr class="row5">
+<th class="col0 centeralign">MAGIC
+</th>
+<td class="col1 centeralign">16
+</td>
+<td class="col2"><code>0x00ffff00fefefefefdfdfdfd12345678</code>
+</td>
+<td class="col3">always those hex bytes, corresponding to RakNet's default OFFLINE_MESSAGE_DATA_ID
+</td></tr>
+<tr class="row6">
+<th class="col0 centeralign">string
+</th>
+<td class="col1 centeralign">= 1
+</td>
+<td class="col2">N/A
+</td>
+<td class="col3">Prefixed by a short containing the length of the string in characters. It appears that only the following ASCII characters can be displayed:&#160;!"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Login_Packets">Login Packets</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=3&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Login Packets">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=3" title="Edit section&#039;s source code: Login Packets">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>All packets start with a single byte that identifies the packet type, the rest of the packet follows it.
+Please note that packets 0x09 through 0x13 are not documented (yet).
+</p><p><span class="anchor" id="0x01"></span>
+</p>
+<h3><span id="ID_CONNECTED_PING_OPEN_CONNECTIONS_.280x01.29"></span><span class="mw-headline" id="ID_CONNECTED_PING_OPEN_CONNECTIONS_(0x01)">ID_CONNECTED_PING_OPEN_CONNECTIONS (0x01)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=4&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ID CONNECTED PING OPEN CONNECTIONS (0x01)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=4" title="Edit section&#039;s source code: ID CONNECTED PING OPEN CONNECTIONS (0x01)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Broadcast</i>
+</p><p><br />
+<b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="2">0x01
+</td>
+<td class="col1 centeralign">Ping ID
+</td>
+<td class="col2 centeralign">int64
+</td>
+<td class="col3 centeralign"><code>0x00000000003c6d0d</code>
+</td>
+<td class="col4">Time since start in Milliseconds
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">MAGIC
+</td>
+<td class="col1 centeralign">MAGIC
+</td>
+<td class="col2 centeralign">
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row3">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">25 Bytes
+</td></tr></tbody></table>
+<p>Clients start out by sending this packet to the IP broadcast address on port 19132 repeatedly (approx once per second) when joining a server was chosen on the main screen, and stops when the user selects a server (or leaves the screen). The ping ID from the client increases over time, and appears to be the number of milliseconds since the client program was started (might be used to measure server response latency).
+</p><p><span class="anchor" id="0x02"></span>
+</p>
+<h3><span id="ID_UNCONNECTED_PING_OPEN_CONNECTIONS_.280x02.29"></span><span class="mw-headline" id="ID_UNCONNECTED_PING_OPEN_CONNECTIONS_(0x02)">ID_UNCONNECTED_PING_OPEN_CONNECTIONS (0x02)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=5&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ID UNCONNECTED PING OPEN CONNECTIONS (0x02)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=5" title="Edit section&#039;s source code: ID UNCONNECTED PING OPEN CONNECTIONS (0x02)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Broadcast</i>
+</p><p><b>NOTE: THIS PACKET APPEARS TO BE UNUSED. Use a 0x01 packet instead</b>
+</p><p><b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="2">0x02
+</td>
+<td class="col1 centeralign">Ping ID
+</td>
+<td class="col2 centeralign">int64
+</td>
+<td class="col3 centeralign"><code>0x00000000003c6d0d</code>
+</td>
+<td class="col4">Time since start in Milliseconds
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">MAGIC
+</td>
+<td class="col1 centeralign">MAGIC
+</td>
+<td class="col2 centeralign">
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row3">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">25 Bytes
+</td></tr></tbody></table>
+<p>Same as <a href="#0x01">ID_CONNECTED_PING_OPEN_CONNECTIONS (0x01)</a>, but with the Packet ID changed.
+</p><p><span class="anchor" id="0x05"></span>
+</p>
+<h3><span id="ID_OPEN_CONNECTION_REQUEST_1_.280x05.29"></span><span class="mw-headline" id="ID_OPEN_CONNECTION_REQUEST_1_(0x05)">ID_OPEN_CONNECTION_REQUEST_1 (0x05)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=6&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ID OPEN CONNECTION REQUEST 1 (0x05)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=6" title="Edit section&#039;s source code: ID OPEN CONNECTION REQUEST 1 (0x05)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+<b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="3">0x05
+</td>
+<td class="col1 centeralign">MAGIC
+</td>
+<td class="col2 centeralign">MAGIC
+</td>
+<td class="col3 centeralign">
+</td>
+<td class="col4">
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">RakNet Protocol Version
+</td>
+<td class="col1 centeralign">byte
+</td>
+<td class="col2 centeralign"><code>5</code>
+</td>
+<td class="col3">Check the Data Packet section for the current version
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">Null Payload
+</td>
+<td class="col1 centeralign">many 0x00 bytes
+</td>
+<td class="col2 centeralign"><code>0x00 * 1447</code>
+</td>
+<td class="col3">MTU (Maximum Transport Unit)
+</td></tr>
+<tr class="row4">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">18 Bytes + length of Null Payload
+</td></tr></tbody></table>
+<p>If the version is different than yours, reply with a 
+<a href="#0x1A">ID_INCOMPATIBLE_PROTOCOL_VERSION (0x1A)</a>
+</p><p>Sent from the client after the player taps on the server in the world list The client will repeatedly send this with reducing sizes until it successfully receives a reply. Observed behaviour is that the client will send packets ~0.5s apart in the following way, until it gets a 0x06 response packet, or reaches the end of these:
+</p>
+<ul><li>4 packets of Null Payload length of 1447</li>
+<li>4 packets of Null Payload length of 1155</li>
+<li>5 packets of Null Payload length of 531</li></ul>
+<p>If the server doesnt't reply the client, the client will display a "Connect Error" window
+</p><p><br />
+<span class="anchor" id="0x06"></span>
+</p>
+<h3><span id="ID_OPEN_CONNECTION_REPLY_1_.280x06.29"></span><span class="mw-headline" id="ID_OPEN_CONNECTION_REPLY_1_(0x06)">ID_OPEN_CONNECTION_REPLY_1 (0x06)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=7&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ID OPEN CONNECTION REPLY 1 (0x06)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=7" title="Edit section&#039;s source code: ID OPEN CONNECTION REPLY 1 (0x06)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+<b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="4">0x06
+</td>
+<td class="col1 centeralign">MAGIC
+</td>
+<td class="col2 centeralign">MAGIC
+</td>
+<td class="col3 centeralign">
+</td>
+<td class="col4">
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">Server ID
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code>0x00000000372cdc9e</code>
+</td>
+<td class="col3">This value seems to be constant for an installation of PM, or differs between the demo and full version.
+</td></tr>
+<tr class="row3">
+<td class="col0 centeralign">Server Security
+</td>
+<td class="col1 centeralign">byte
+</td>
+<td class="col2 centeralign"><code>0</code>
+</td>
+<td class="col3">Always 0
+</td></tr>
+<tr class="row4">
+<td class="col0 centeralign">MTU Size
+</td>
+<td class="col1 centeralign">short
+</td>
+<td class="col2 centeralign"><code>1447</code>
+</td>
+<td class="col3">length of 0x05. Used to determine packet loss and max UDP packet size (MTU)
+</td></tr>
+<tr class="row5">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">28 Bytes
+</td></tr></tbody></table>
+<p>Sent from server after it receives packet 0x05.
+</p><p><br />
+<span class="anchor" id="0x07"></span>
+</p>
+<h3><span id="ID_OPEN_CONNECTION_REQUEST_2_.280x07.29"></span><span class="mw-headline" id="ID_OPEN_CONNECTION_REQUEST_2_(0x07)">ID_OPEN_CONNECTION_REQUEST_2 (0x07)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=8&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ID OPEN CONNECTION REQUEST 2 (0x07)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=8" title="Edit section&#039;s source code: ID OPEN CONNECTION REQUEST 2 (0x07)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+<b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="5">0x07
+</td>
+<td class="col1 centeralign">MAGIC
+</td>
+<td class="col2 centeralign">MAGIC
+</td>
+<td class="col3 centeralign">
+</td>
+<td class="col4">
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">Server Address
+</td>
+<td class="col1 centeralign">1 + 4 bytes
+</td>
+<td class="col2 centeralign"><code>0x043f57fefd</code>
+</td>
+<td class="col3">0x4 for IPv4 and the twos complement of each byte of the servers ip address,
+</td></tr>
+<tr class="row3">
+<td class="col0 centeralign">Server UDP Port
+</td>
+<td class="col1 centeralign">short
+</td>
+<td class="col2 centeralign"><code>19132</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row4">
+<td class="col0 centeralign">MTU Size
+</td>
+<td class="col1 centeralign">short
+</td>
+<td class="col2 centeralign"><code>1464</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row5">
+<td class="col0 centeralign">Client ID
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code>0x00000000372cdc9e</code>
+</td>
+<td class="col3">The Client / Server ID will be the same for a given device
+</td></tr>
+<tr class="row6">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">34 Bytes
+</td></tr></tbody></table>
+<p>Sent from client in response to packet 0x06.
+</p><p><span class="anchor" id="0x08"></span>
+</p>
+<h3><span id="ID_OPEN_CONNECTION_REPLY_2_.280x08.29"></span><span class="mw-headline" id="ID_OPEN_CONNECTION_REPLY_2_(0x08)">ID_OPEN_CONNECTION_REPLY_2 (0x08)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=9&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ID OPEN CONNECTION REPLY 2 (0x08)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=9" title="Edit section&#039;s source code: ID OPEN CONNECTION REPLY 2 (0x08)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+<b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="5">0x08
+</td>
+<td class="col1 centeralign">MAGIC
+</td>
+<td class="col2 centeralign">MAGIC
+</td>
+<td class="col3 centeralign">
+</td>
+<td class="col4">
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">Server ID
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code>0x00000000372cdc9e</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row3">
+<td class="col0 centeralign">Client UDP Port
+</td>
+<td class="col1 centeralign">short
+</td>
+<td class="col2 centeralign"><code>46946</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row4">
+<td class="col0 centeralign">MTU Size
+</td>
+<td class="col1 centeralign">short
+</td>
+<td class="col2 centeralign"><code>1464</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row5">
+<td class="col0 centeralign">Security
+</td>
+<td class="col1 centeralign">byte
+</td>
+<td class="col2 centeralign"><code>0</code>
+</td>
+<td class="col3">Always 0
+</td></tr>
+<tr class="row6">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">30 Bytes
+</td></tr></tbody></table>
+<p>Sent from server in response to packet 0x07.
+</p><p><br />
+<span class="anchor" id="0x1A"></span>
+</p>
+<h3><span id="ID_INCOMPATIBLE_PROTOCOL_VERSION_.280x1A.29"></span><span class="mw-headline" id="ID_INCOMPATIBLE_PROTOCOL_VERSION_(0x1A)">ID_INCOMPATIBLE_PROTOCOL_VERSION (0x1A)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=10&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ID INCOMPATIBLE PROTOCOL VERSION (0x1A)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=10" title="Edit section&#039;s source code: ID INCOMPATIBLE PROTOCOL VERSION (0x1A)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+<b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="3">0x1A
+</td>
+<td class="col1 centeralign">Protocol Version
+</td>
+<td class="col2 centeralign">byte
+</td>
+<td class="col3 centeralign"><code>5</code>
+</td>
+<td class="col4">
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">MAGIC
+</td>
+<td class="col1 centeralign">MAGIC
+</td>
+<td class="col2 centeralign">
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">Server ID
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code>0x00000000372cdc9e</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row3">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">26 Bytes
+</td></tr></tbody></table>
+<p>Sent when the server doesn't support the RakNet protocol specified in 0x05.
+</p><p><span class="anchor" id="0x1C"></span>
+</p>
+<h3><span id="ID_UNCONNECTED_PING_OPEN_CONNECTIONS_.280x1C.29"></span><span class="mw-headline" id="ID_UNCONNECTED_PING_OPEN_CONNECTIONS_(0x1C)">ID_UNCONNECTED_PING_OPEN_CONNECTIONS (0x1C)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=11&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ID UNCONNECTED PING OPEN CONNECTIONS (0x1C)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=11" title="Edit section&#039;s source code: ID UNCONNECTED PING OPEN CONNECTIONS (0x1C)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+<b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="4">0x1C
+</td>
+<td class="col1 centeralign">Ping ID
+</td>
+<td class="col2 centeralign">int64
+</td>
+<td class="col3 centeralign"><code>0x00000000003c6d0d</code>
+</td>
+<td class="col4">Time since start in Milliseconds
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">Server ID
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code>0x00000000372cdc9e</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row3">
+<td class="col0 centeralign">MAGIC
+</td>
+<td class="col1 centeralign">MAGIC
+</td>
+<td class="col2 centeralign">
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row4">
+<td class="col0 centeralign">Identifier
+</td>
+<td class="col1 centeralign">string
+</td>
+<td class="col2 centeralign">"MCPE;Steve;2 7;0.11.0;0;20"
+</td>
+<td class="col3">Used to send the username, format: <code>MCPE;&lt;Server name&gt;;&lt;Protocol version&gt;;&lt;MCPE Version&gt;;&lt;Players&gt;;&lt;Max Players&gt;</code>
+</td></tr>
+<tr class="row6">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">35 Bytes + Server name length
+</td></tr></tbody></table>
+<p>Server sends this packet in response to a 0x01 packet.
+If the Server is invisible, this packet will be sent without username
+</p><p><s>In order for the server to show up in the world list, the server name must have "MCCPP;MINECON;" in front of it.</s>
+<b>Since MCPE 0.11.0, the server name has a different format.</b>
+</p><p><span class="anchor" id="0x1D"></span>
+</p>
+<h3><span id="ID_ADVERTISE_SYSTEM_.280x1D.29"></span><span class="mw-headline" id="ID_ADVERTISE_SYSTEM_(0x1D)">ID_ADVERTISE_SYSTEM (0x1D)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=12&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ID ADVERTISE SYSTEM (0x1D)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=12" title="Edit section&#039;s source code: ID ADVERTISE SYSTEM (0x1D)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+<b>RakNet Packet</b>
+</p><p><b>THIS PACKET IS UNUSED, Use a 0x1c packet instead.</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="4">0x1D
+</td>
+<td class="col1 centeralign">Ping ID
+</td>
+<td class="col2 centeralign">int64
+</td>
+<td class="col3 centeralign"><code>0x00000000003c6d0d</code>
+</td>
+<td class="col4">Time since start in Milliseconds
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">Server ID
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code>0x00000000372cdc9e</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row4">
+<td class="col0 centeralign">MAGIC
+</td>
+<td class="col1 centeralign">MAGIC
+</td>
+<td class="col2 centeralign">
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row2">
+<td class="col0 centeralign">Data
+</td>
+<td class="col1 centeralign">string
+</td>
+<td class="col2 centeralign"><code>MCPE;Steve;2 7;0.11.0;0;20</code>
+</td>
+<td class="col3">Used to send the username, format: MCPE;&lt;Server name&gt;;&lt;Protocol version&gt;;&lt;MCPE Version&gt;;&lt;Players&gt;;&lt;Max Players&gt;
+</td></tr>
+<tr class="row3">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">35 Bytes + length of string
+</td></tr></tbody></table>
+<p>Same as <a href="#0x1C">ID_UNCONNECTED_PING_OPEN_CONNECTIONS (0x1C)</a>, but with the Packet ID changed. Depends of the version to send a 0x1D or a 0x1C
+</p>
+<h3><span id="Custom_Packet_.280x80-0x8F.29"></span><span class="mw-headline" id="Custom_Packet_(0x80-0x8F)">Custom Packet (0x80-0x8F)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=13&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Custom Packet (0x80-0x8F)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=13" title="Edit section&#039;s source code: Custom Packet (0x80-0x8F)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><b>This packet is part of the real Minecraft PE implementation. The structure can change anytime.</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="2">0x80-0x8F
+</td>
+<td class="col1 centeralign">Count
+</td>
+<td class="col2 centeralign">3 bytes
+</td>
+<td class="col3 centeralign"><code>0</code>
+</td>
+<td class="col4">Increments once every packet.
+</td></tr>
+<tr class="row2">
+<td class="col2 centeralign">Data payload
+</td>
+<td class="col1 centeralign">
+</td>
+<td class="col2 centeralign"><code>0x40009000000009...</code>
+</td>
+<td class="col3">Uses <a href="#Packet_Encapsulation">Packet Encapsulation format</a>
+</td></tr>
+<tr class="row3">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">4 Bytes + payload
+</td></tr></tbody></table>
+<p>The receiver will use the Packet number in the 0xC0 packet and send it back.
+</p><p><span class="anchor" id="0xA0"></span>
+</p>
+<h3><span id="NAK_.280xA0.29"></span><span class="mw-headline" id="NAK_(0xA0)">NAK (0xA0)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=14&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: NAK (0xA0)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=14" title="Edit section&#039;s source code: NAK (0xA0)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="4">0xA0
+</td>
+<td class="col1 centeralign">Count
+</td>
+<td class="col2 centeralign">short
+</td>
+<td class="col3 centeralign"><code>1</code>
+</td>
+<td class="col4">
+</td></tr>
+<tr class="row2">
+<td class="col1 centeralign">MinEqualsMax
+</td>
+<td class="col2 centeralign">boolean
+</td>
+<td class="col3 centeralign"><code><i>true</i></code>
+</td>
+<td class="col4"><i>true</i> if the following range contains only one number
+</td></tr>
+<tr class="row3">
+<td class="col1 centeralign">Packet Number (Min)
+</td>
+<td class="col2 centeralign">3 bytes
+</td>
+<td class="col3 centeralign"><code>0x000000</code>
+</td>
+<td class="col4">Range of packet to resend
+</td></tr>
+<tr class="row4">
+<td class="col1 centeralign">Packet Number (Max)
+</td>
+<td class="col2 centeralign">3 bytes
+</td>
+<td class="col3 centeralign"><code>0x000004</code>
+</td>
+<td class="col4">Range of packet to resend (only if <i>false</i>)
+</td></tr>
+<tr class="row5">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">7 or 10 Bytes
+</td></tr></tbody></table>
+<p>Send these when a packet was lost, or reply to this resending the lost packet.
+</p>
+<h3><span id="ACK_.280xC0.29"></span><span class="mw-headline" id="ACK_(0xC0)">ACK (0xC0)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=15&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ACK (0xC0)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=15" title="Edit section&#039;s source code: ACK (0xC0)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><b>RakNet Packet</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="4">0xC0
+</td>
+<td class="col1 centeralign">Count
+</td>
+<td class="col2 centeralign">short
+</td>
+<td class="col3 centeralign"><code>1</code>
+</td>
+<td class="col4">
+</td></tr>
+<tr class="row2">
+<td class="col1 centeralign">MinEqualsMax
+</td>
+<td class="col2 centeralign">boolean
+</td>
+<td class="col3 centeralign"><code><i>true</i></code>
+</td>
+<td class="col4"><i>true</i> if the following range contains only one number
+</td></tr>
+<tr class="row3">
+<td class="col1 centeralign">Packet Number (Min)
+</td>
+<td class="col2 centeralign">3 bytes
+</td>
+<td class="col3 centeralign"><code>0x000000</code>
+</td>
+<td class="col4">Received packet number from field Count in 0x84 and 0x8C
+</td></tr>
+<tr class="row4">
+<td class="col1 centeralign">Packet Number (Max)
+</td>
+<td class="col2 centeralign">3 bytes
+</td>
+<td class="col3 centeralign"><code>0x000004</code>
+</td>
+<td class="col4">Received Packet Number (only when <i>false</i>)
+</td></tr>
+<tr class="row5">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">7 or 10 Bytes
+</td></tr></tbody></table>
+<p>Sent after a 0x8X. It's used to ACK recieval of packets.
+The second packet number is optional and only there when bool is false.
+</p><p><span class="anchor" id="Packet_Encapsulation"></span>
+</p>
+<h2><span class="mw-headline" id="Packet_Encapsulation_format">Packet Encapsulation format</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=16&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Packet Encapsulation format">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=16" title="Edit section&#039;s source code: Packet Encapsulation format">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The payload in 0x80-0x8F packets is encoded using different schemes.
+To decode them, you've to use the Encapsulation ID to check wich type you should use.
+The Encapsulation ID is the first byte of the payload.
+</p><p>Multiple Data Encapsulation packets could be present in one packet. If you want to send data, use 0x00.
+</p><p><code>Length</code> field is in bits, not bytes. To get the length in bytes, use <code>length_in_bytes = length / 8</code>. The <code>length</code> field is <b>excluding</b> the header -- both the 0x8X packet header, as well as the encapsulated packet header.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="0x00">0x00</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=17&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: 0x00">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=17" title="Edit section&#039;s source code: 0x00">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Encapsulation ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="2">0x00
+</td>
+<td class="col1 centeralign">length
+</td>
+<td class="col2 centeralign">short
+</td>
+<td class="col3 centeralign"><code>0x0090</code>
+</td>
+<td class="col4">Length of Packet in bits
+</td></tr>
+<tr class="row2">
+<td class="col2 centeralign">Packet
+</td>
+<td class="col1 centeralign">Data Packet
+</td>
+<td class="col2 centeralign"><code>0x09d92145...</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row3">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">3 Bytes + Packet Data length
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="0x40">0x40</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=18&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: 0x40">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=18" title="Edit section&#039;s source code: 0x40">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Encapsulation ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="3">0x40
+</td>
+<td class="col1 centeralign">length
+</td>
+<td class="col2 centeralign">short
+</td>
+<td class="col3 centeralign"><code>0x0090</code>
+</td>
+<td class="col4">Length of Packet in bits
+</td></tr>
+<tr class="row2">
+<td class="col2 centeralign">Count
+</td>
+<td class="col1 centeralign">3 bytes
+</td>
+<td class="col2 centeralign"><code>0x000000</code>
+</td>
+<td class="col3">Unknown use
+</td></tr>
+<tr class="row3">
+<td class="col2 centeralign">Packet
+</td>
+<td class="col1 centeralign">Data Packet
+</td>
+<td class="col2 centeralign"><code>0x09d92145...</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row4">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">6 Bytes + Packet Data length
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="0x60">0x60</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=19&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: 0x60">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=19" title="Edit section&#039;s source code: 0x60">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Encapsulation ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="4">0x60
+</td>
+<td class="col1 centeralign">length
+</td>
+<td class="col2 centeralign">short
+</td>
+<td class="col3 centeralign"><code>0x0090</code>
+</td>
+<td class="col4">Length of Packet in bits
+</td></tr>
+<tr class="row2">
+<td class="col2 centeralign">Count
+</td>
+<td class="col1 centeralign">3 bytes
+</td>
+<td class="col2 centeralign"><code>0x000000</code>
+</td>
+<td class="col3">Unknown use
+</td></tr>
+<tr class="row3">
+<td class="col2 centeralign">Unknown
+</td>
+<td class="col1 centeralign">4 bytes
+</td>
+<td class="col2 centeralign"><code>0x00000000</code>
+</td>
+<td class="col3">Only sent on first iteration
+</td></tr>
+<tr class="row4">
+<td class="col2 centeralign">Packet
+</td>
+<td class="col1 centeralign">Data Packet
+</td>
+<td class="col2 centeralign"><code>0x09d92145...</code>
+</td>
+<td class="col3">
+</td></tr>
+<tr class="row6">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">12 Bytes + Packet Data length
+</td></tr></tbody></table>
+<p><br />
+<span class="anchor" id="Encapsulated_Login_packets"></span>
+</p>
+<h2><span class="mw-headline" id="Encapsulated_Login_packets">Encapsulated Login packets</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=20&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Encapsulated Login packets">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=20" title="Edit section&#039;s source code: Encapsulated Login packets">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>After packets 0x05 through 0x08 are sent, the client will send the first encapsulated packets (0x09 through 0x13). After 0x13 the game begins. You can check the login sequence <a href="/w/Pocket_Editon_Login?action=edit&amp;redlink=1" class="new" title="Pocket Editon Login (page does not exist)">here</a>.
+</p>
+<h3><span id="Client_Connect_.280x09.29"></span><span class="mw-headline" id="Client_Connect_(0x09)">Client Connect (0x09)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=21&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Client Connect (0x09)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=21" title="Edit section&#039;s source code: Client Connect (0x09)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><b>This is a Data Packet. It is encoded using <a href="#Packet_Encapsulation">packet encapsulation format</a>.</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="3">0x09
+</td>
+<td class="col1 centeralign">clientID
+</td>
+<td class="col2 centeralign">int64
+</td>
+<td class="col3 centeralign"><code></code>
+</td>
+<td class="col4">The mojang client's clientID.
+</td></tr>
+<tr class="row2">
+<td class="col2 centeralign">session
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code></code>
+</td>
+<td class="col3">A long that is sent back to the client in 0x10.
+</td></tr>
+<tr class="row3">
+<td class="col2 centeralign">unknown
+</td>
+<td class="col1 centeralign">byte
+</td>
+<td class="col2 centeralign"><code></code>
+</td>
+<td class="col3">Unknown use. Constant value.
+</td></tr>
+<tr class="row4">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">18 Bytes
+</td></tr></tbody></table>
+<h3><span id="Server_Handshake_.280x10.29"></span><span class="mw-headline" id="Server_Handshake_(0x10)">Server Handshake (0x10)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=22&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Server Handshake (0x10)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=22" title="Edit section&#039;s source code: Server Handshake (0x10)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><b>This is a Data Packet. It is encoded using <a href="#Packet_Encapsulation">packet encapsulation format</a>..</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="8">0x10
+</td>
+<td class="col1 centeralign">Cookie
+</td>
+<td class="col2 centeralign">4 bytes
+</td>
+<td class="col3 centeralign"><code>043f57fe</code>
+</td>
+<td class="col4">Unknown use, constant value.
+</td></tr>
+<tr class="row2">
+<td class="col2 centeralign">Security flags
+</td>
+<td class="col1 centeralign">1 byte
+</td>
+<td class="col2 centeralign"><code>0xcd</code>
+</td>
+<td class="col3">Unknown use, constant value.
+</td></tr>
+<tr class="row3">
+<td class="col2 centeralign">Server port
+</td>
+<td class="col1 centeralign">short
+</td>
+<td class="col2 centeralign"><code>19132</code>
+</td>
+<td class="col3">Unknown use.
+</td></tr>
+<tr class="row4">
+<td class="col2 centeralign">Data Array
+</td>
+<td class="col1 centeralign">70 bytes
+</td>
+<td class="col2 centeralign"><code></code>
+</td>
+<td class="col3">Unknown use, constant value (see below).
+</td></tr>
+<tr class="row5">
+<td class="col2 centeralign">Unknown
+</td>
+<td class="col1 centeralign">2 bytes
+</td>
+<td class="col2 centeralign"><code>0x00 0x00</code>
+</td>
+<td class="col3">Unknown use, constant value.
+</td></tr>
+<tr class="row6">
+<td class="col2 centeralign">Session
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code></code>
+</td>
+<td class="col3">Session long recieved in 0x09.
+</td></tr>
+<tr class="row7">
+<td class="col2 centeralign">Unknown
+</td>
+<td class="col1 centeralign">8 bytes
+</td>
+<td class="col2 centeralign"><code>0x00, 0x00, 0x00, 0x00, 0x04, 0x44, 0x0b, 0xa9</code>
+</td>
+<td class="col3">Unknown use, constant value.
+</td></tr>
+<tr class="row8">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">96 Bytes
+</td></tr></tbody></table>
+<p><b>Data Array</b>
+</p><p>The data array section is unknown, but we do know how to get it right. Below is some code on how to create the array (C#).
+</p>
+<pre>  public void putDataArray()
+       {
+           byte[] unknown1 = new byte[] { 0xf5, 0xff, 0xff, 0xf5 };
+           byte[] unknown2 = new byte[] { 0xff, 0xff, 0xff, 0xff };
+           this.putTriad(unknown1.Length);
+           this.putBytes(unknown1);
+           for (int i = 0; i &lt; 9; i++)
+           {
+               this.putTriad(unknown2.Length);
+               this.putBytes(unknown2);
+           }
+       }
+</pre>
+<p>A triad is a 3 byte integer.
+</p><p>Credit goes to InusualZ (<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://github.com/InusualZ/CraftMine/blob/master/src/Network/Packets/Minecraft/ServerHandshake.cs">https://github.com/InusualZ/CraftMine/blob/master/src/Network/Packets/Minecraft/ServerHandshake.cs</a>).
+</p>
+<h3><span id="Client_Handshake_.280x13.29"></span><span class="mw-headline" id="Client_Handshake_(0x13)">Client Handshake (0x13)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=23&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Client Handshake (0x13)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=23" title="Edit section&#039;s source code: Client Handshake (0x13)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><b>This is a Data Packet. It is encoded using <a href="#Packet_Encapsulation">packet encapsulation format</a>..</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="8">0x13
+</td>
+<td class="col1 centeralign">cookie
+</td>
+<td class="col2 centeralign">int32
+</td>
+<td class="col3 centeralign"><code>0x43f57fe</code>
+</td>
+<td class="col4">Unknown use, same cookie as in 0x10.
+</td></tr>
+<tr class="row2">
+<td class="col2 centeralign">Security flags
+</td>
+<td class="col1 centeralign">1 byte
+</td>
+<td class="col2 centeralign"><code>0xcd</code>
+</td>
+<td class="col3">Unknown use, constant value.
+</td></tr>
+<tr class="row3">
+<td class="col2 centeralign">Server port
+</td>
+<td class="col1 centeralign">short
+</td>
+<td class="col2 centeralign"><code>19132</code>
+</td>
+<td class="col3">Unknown use.
+</td></tr>
+<tr class="row4">
+<td class="col2 centeralign">Data Array 1 Length + Data Array 1
+</td>
+<td class="col1 centeralign">1 +&#160;? bytes
+</td>
+<td class="col2 centeralign"><code></code>
+</td>
+<td class="col3">Unknown use (see below).
+</td></tr>
+<tr class="row5">
+<td class="col2 centeralign">Data Array 2
+</td>
+<td class="col1 centeralign">? bytes
+</td>
+<td class="col2 centeralign"><code></code>
+</td>
+<td class="col3">Unknown use, constant value (see below).
+</td></tr>
+<tr class="row6">
+<td class="col2 centeralign">Timestamp
+</td>
+<td class="col1 centeralign">short
+</td>
+<td class="col2 centeralign"><code></code>
+</td>
+<td class="col3">Unknown use.
+</td></tr>
+<tr class="row7">
+<td class="col2 centeralign">session
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code></code>
+</td>
+<td class="col3">Unknown use.
+</td></tr>
+<tr class="row8">
+<td class="col2 centeralign">session2
+</td>
+<td class="col1 centeralign">int64
+</td>
+<td class="col2 centeralign"><code></code>
+</td>
+<td class="col3">Unknown use.
+</td></tr>
+<tr class="row9">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">94 Bytes
+</td></tr></tbody></table>
+<p><b>Data Arrays</b>
+</p><p><i>Array 1</i>
+</p><p>The first array is just a series of bytes, starting with the first byte which has the length of the rest of the array. This can be decoded as follows (Java):
+</p><p><br />
+</p>
+<pre>  buffer.get(new byte[(int) buffer.get()]);
+</pre>
+<p><br />
+The buffer variable is really a <code>ByteBuffer</code> object found in the package java.nio.
+</p><p><i>Array 2</i>
+</p><p>The second array is a little more complicated. The first section is a triad (3 bytes) which specifies how many bytes to read next. This is repeated 9 times. An example is below (Java):
+</p><p><br />
+</p>
+<pre>       for(int i = 0; i &lt; 9; i++){
+       
+       	int l = NetworkUtils.getTriad(buf);
+       
+       	buf.get(new byte[l]);
+       
+       }
+</pre>
+<p><br />
+Again, the buf object is a <code>ByteBuffer</code> object.
+</p><p><br />
+</p>
+<h3><span id="Client_Cancel_Connect_.280x15.29"></span><span class="mw-headline" id="Client_Cancel_Connect_(0x15)">Client Cancel Connect (0x15)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=24&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Client Cancel Connect (0x15)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=24" title="Edit section&#039;s source code: Client Cancel Connect (0x15)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><b>This is a Data Packet. It is encoded using <a href="#Packet_Encapsulation">packet encapsulation format</a>.</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="1">0x15
+</td>
+<td class="col1">Only the packet ID is sent.
+</td></tr>
+<tr class="row2">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="2">1 Byte
+</td></tr></tbody></table>
+<p>This appears to be sent whenever the user clicks the "cancel" button when connecting.
+</p>
+<h2><span id="Ping.2FPong"></span><span class="mw-headline" id="Ping/Pong">Ping/Pong</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=25&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Ping/Pong">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=25" title="Edit section&#039;s source code: Ping/Pong">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The client will repeatedly send ping packets to the server each containing an identifier (long). The server then must reply with a pong packet containing the identifier found in the ping. This is observed to happen sometime during the encapsulation login.
+</p>
+<h3><span id="Ping_Packet_.280x00.29"></span><span class="mw-headline" id="Ping_Packet_(0x00)">Ping Packet (0x00)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=26&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Ping Packet (0x00)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=26" title="Edit section&#039;s source code: Ping Packet (0x00)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><b>This is a Data Packet. It is encoded using packet encapsulation.</b>
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="2">0x00
+</td>
+<td class="col1 centeralign">identifier
+</td>
+<td class="col2 centeralign">int64
+</td>
+<td class="col3 centeralign"><code>0000000000000b3d</code>
+</td>
+<td class="col4">An identifer sent back by a Pong packet (0x03).
+</td></tr>
+<tr class="row2">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">9 Bytes
+</td></tr></tbody></table>
+<h3><span id="Pong_Packet_.280x03.29"></span><span class="mw-headline" id="Pong_Packet_(0x03)">Pong Packet (0x03)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=27&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Pong Packet (0x03)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=27" title="Edit section&#039;s source code: Pong Packet (0x03)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><b>This is a Data Packet. It is encoded using packet encapsulation.</b> 
+</p>
+<table class="wikitable">
+
+<tbody><tr class="row0">
+<td class="col0">Packet ID
+</td>
+<td class="col1">Field Name
+</td>
+<td class="col2">Field Type
+</td>
+<td class="col3">Example
+</td>
+<td class="col4">Notes
+</td></tr>
+<tr class="row1">
+<td class="col0 centeralign" rowspan="2">0x03
+</td>
+<td class="col1 centeralign">identifier
+</td>
+<td class="col2 centeralign">int64
+</td>
+<td class="col3 centeralign"><code>0000000000000b3d</code>
+</td>
+<td class="col4">The identifier found in the ping packet (0x00).
+</td></tr>
+<tr class="row2">
+<td class="col0">Total Size:
+</td>
+<td class="col1 rightalign" colspan="4">9 Bytes
+</td></tr></tbody></table>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Data_Packets">Data Packets</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=28&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Data Packets">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=28" title="Edit section&#039;s source code: Data Packets">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>This information has been generated using <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PocketMine/PocketBurger">PocketBurger</a>, then edited manually.
+</p><p><b>This information was generated based on:</b>
+</p><p><b>Minecraft: Pocket Edition v0.7.3, protocol #11</b>
+</p><p><b>RakNet Protocol version #5</b>
+</p><p>However, these packets seem to be unchanged since then, and will (most likely) work with the current version.
+</p><p><b>Current Version:</b>
+</p><p><b>Minecraft: Pocket Edition v0.10.4, protocol #20</b>
+</p><p><b>RakNet Protocol version #5</b>
+</p>
+<h3><span id="LoginPacket_.280x82.29"></span><span class="mw-headline" id="LoginPacket_(0x82)">LoginPacket (0x82)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=29&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: LoginPacket (0x82)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=29" title="Edit section&#039;s source code: LoginPacket (0x82)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="5">0x82
+</td>
+<td>Username
+</td>
+<td>string8
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Protocol #1
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Protocol #2
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>ClientID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Realms Data
+</td>
+<td>string8
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="LoginStatusPacket_.280x83.29"></span><span class="mw-headline" id="LoginStatusPacket_(0x83)">LoginStatusPacket (0x83)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=30&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: LoginStatusPacket (0x83)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=30" title="Edit section&#039;s source code: LoginStatusPacket (0x83)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0x83
+</td>
+<td>Status
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<p>The three type of status are:
+</p><p>0: Everything is good.
+</p><p>1: If the server is outdated.
+</p><p>2. If the game is outdated. 
+</p><p>If everything is good you need to send StartGamePacket.
+</p>
+<h3><span id="ReadyPacket_.280x84.29"></span><span class="mw-headline" id="ReadyPacket_(0x84)">ReadyPacket (0x84)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=31&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ReadyPacket (0x84)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=31" title="Edit section&#039;s source code: ReadyPacket (0x84)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0x84
+</td>
+<td>bits[8] Status
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="MessagePacket_.280x85.29"></span><span class="mw-headline" id="MessagePacket_(0x85)">MessagePacket (0x85)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=32&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: MessagePacket (0x85)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=32" title="Edit section&#039;s source code: MessagePacket (0x85)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0x85
+</td>
+<td>Message
+</td>
+<td>string8
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="SetTimePacket_.280x86.29"></span><span class="mw-headline" id="SetTimePacket_(0x86)">SetTimePacket (0x86)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=33&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: SetTimePacket (0x86)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=33" title="Edit section&#039;s source code: SetTimePacket (0x86)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0x86
+</td>
+<td>Time
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="StartGamePacket_.280x87.29"></span><span class="mw-headline" id="StartGamePacket_(0x87)">StartGamePacket (0x87)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=34&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: StartGamePacket (0x87)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=34" title="Edit section&#039;s source code: StartGamePacket (0x87)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="7">0x87
+</td>
+<td>level seed
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Unknown
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Gamemode
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="AddMobPacket_.280x88.29"></span><span class="mw-headline" id="AddMobPacket_(0x88)">AddMobPacket (0x88)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=35&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: AddMobPacket (0x88)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=35" title="Edit section&#039;s source code: AddMobPacket (0x88)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="8">0x88
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Type
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>yaw
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>pitch
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Metadata
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="AddPlayerPacket_.280x89.29"></span><span class="mw-headline" id="AddPlayerPacket_(0x89)">AddPlayerPacket (0x89)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=36&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: AddPlayerPacket (0x89)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=36" title="Edit section&#039;s source code: AddPlayerPacket (0x89)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="11">0x89
+</td>
+<td>(unsigned) Client ID
+</td>
+<td>long
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Username
+</td>
+<td>string8
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Yaw
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Pitch
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Unknown
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Unknown
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Metadata
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="RemovePlayerPacket_.280x8a.29"></span><span class="mw-headline" id="RemovePlayerPacket_(0x8a)">RemovePlayerPacket (0x8a)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=37&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: RemovePlayerPacket (0x8a)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=37" title="Edit section&#039;s source code: RemovePlayerPacket (0x8a)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="2">0x8a
+</td>
+<td>entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>(unsigned) Client ID
+</td>
+<td>long
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="AddEntityPacket_.280x8c.29"></span><span class="mw-headline" id="AddEntityPacket_(0x8c)">AddEntityPacket (0x8c)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=38&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: AddEntityPacket (0x8c)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=38" title="Edit section&#039;s source code: AddEntityPacket (0x8c)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="9">0x8c
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Type
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Did?
+</td>
+<td>int
+</td>
+<td>If this int &gt; 0 you can send the next parameter
+</td></tr>
+<tr>
+<td>SpeedX
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>SpeedY
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>SpeedZ
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="RemoveEntityPacket_.280x8d.29"></span><span class="mw-headline" id="RemoveEntityPacket_(0x8d)">RemoveEntityPacket (0x8d)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=39&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: RemoveEntityPacket (0x8d)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=39" title="Edit section&#039;s source code: RemoveEntityPacket (0x8d)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0x8d
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="AddItemEntityPacket_.280x8e.29"></span><span class="mw-headline" id="AddItemEntityPacket_(0x8e)">AddItemEntityPacket (0x8e)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=40&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: AddItemEntityPacket (0x8e)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=40" title="Edit section&#039;s source code: AddItemEntityPacket (0x8e)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="10">0x8e
+</td>
+<td>Enity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Block
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Stack
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Meta
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Yaw
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Pitch
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Roll
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="TakeItemEntityPacket_.280x8f.29"></span><span class="mw-headline" id="TakeItemEntityPacket_(0x8f)">TakeItemEntityPacket (0x8f)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=41&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: TakeItemEntityPacket (0x8f)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=41" title="Edit section&#039;s source code: TakeItemEntityPacket (0x8f)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="2">0x8f
+</td>
+<td>Target
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="MoveEntityPacket_.280x90.29"></span><span class="mw-headline" id="MoveEntityPacket_(0x90)">MoveEntityPacket (0x90)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=42&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: MoveEntityPacket (0x90)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=42" title="Edit section&#039;s source code: MoveEntityPacket (0x90)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="4">0x90
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="MoveEntityPacket_PosRot_.280x93.29"></span><span class="mw-headline" id="MoveEntityPacket_PosRot_(0x93)">MoveEntityPacket_PosRot (0x93)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=43&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: MoveEntityPacket PosRot (0x93)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=43" title="Edit section&#039;s source code: MoveEntityPacket PosRot (0x93)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>None</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="6">0x93
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Yaw
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Pitch
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="MovePlayerPacket_.280x94.29"></span><span class="mw-headline" id="MovePlayerPacket_(0x94)">MovePlayerPacket (0x94)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=44&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: MovePlayerPacket (0x94)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=44" title="Edit section&#039;s source code: MovePlayerPacket (0x94)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="6">0x94
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Yaw
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Pitch
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="PlaceBlockPacket_.280x95.29"></span><span class="mw-headline" id="PlaceBlockPacket_(0x95)">PlaceBlockPacket (0x95)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=45&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: PlaceBlockPacket (0x95)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=45" title="Edit section&#039;s source code: PlaceBlockPacket (0x95)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="7">0x95
+</td>
+<td>Entity iD
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Block
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Meta
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Face
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="RemoveBlockPacket_.280x96.29"></span><span class="mw-headline" id="RemoveBlockPacket_(0x96)">RemoveBlockPacket (0x96)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=46&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: RemoveBlockPacket (0x96)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=46" title="Edit section&#039;s source code: RemoveBlockPacket (0x96)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="4">0x96
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="UpdateBlockPacket_.280x97.29"></span><span class="mw-headline" id="UpdateBlockPacket_(0x97)">UpdateBlockPacket (0x97)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=47&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: UpdateBlockPacket (0x97)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=47" title="Edit section&#039;s source code: UpdateBlockPacket (0x97)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="6">0x97
+</td>
+<td>Entiy ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Block
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Meta
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="AddPaintingPacket_.280x98.29"></span><span class="mw-headline" id="AddPaintingPacket_(0x98)">AddPaintingPacket (0x98)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=48&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: AddPaintingPacket (0x98)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=48" title="Edit section&#039;s source code: AddPaintingPacket (0x98)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="6">0x98
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Direction
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Title
+</td>
+<td>string8
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="ExplodePacket_.280x99.29"></span><span class="mw-headline" id="ExplodePacket_(0x99)">ExplodePacket (0x99)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=49&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ExplodePacket (0x99)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=49" title="Edit section&#039;s source code: ExplodePacket (0x99)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="8">0x99
+</td>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Radius
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Count
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Records
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Counts?
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Records?
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="LevelEventPacket_.280x9a.29"></span><span class="mw-headline" id="LevelEventPacket_(0x9a)">LevelEventPacket (0x9a)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=50&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: LevelEventPacket (0x9a)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=50" title="Edit section&#039;s source code: LevelEventPacket (0x9a)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="5">0x9a
+</td>
+<td>Unknown?
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Unknown?
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Unknown?
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Unknown?
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Unknown?
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="TileEventPacket_.280x9b.29"></span><span class="mw-headline" id="TileEventPacket_(0x9b)">TileEventPacket (0x9b)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=51&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: TileEventPacket (0x9b)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=51" title="Edit section&#039;s source code: TileEventPacket (0x9b)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="5">0x9b
+</td>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Case 1
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Case 2
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="EntityEventPacket_.280x9c.29"></span><span class="mw-headline" id="EntityEventPacket_(0x9c)">EntityEventPacket (0x9c)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=52&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: EntityEventPacket (0x9c)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=52" title="Edit section&#039;s source code: EntityEventPacket (0x9c)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="2">0x9c
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Event
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="RequestChunkPacket_.280x9d.29"></span><span class="mw-headline" id="RequestChunkPacket_(0x9d)">RequestChunkPacket (0x9d)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=53&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: RequestChunkPacket (0x9d)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=53" title="Edit section&#039;s source code: RequestChunkPacket (0x9d)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="2">0x9d
+</td>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="ChunkDataPacket_.280x9e.29"></span><span class="mw-headline" id="ChunkDataPacket_(0x9e)">ChunkDataPacket (0x9e)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=54&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ChunkDataPacket (0x9e)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=54" title="Edit section&#039;s source code: ChunkDataPacket (0x9e)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="5">0x9e
+</td>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Data?
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Data?
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="PlayerEquipmentPacket_.280x9f.29"></span><span class="mw-headline" id="PlayerEquipmentPacket_(0x9f)">PlayerEquipmentPacket (0x9f)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=55&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: PlayerEquipmentPacket (0x9f)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=55" title="Edit section&#039;s source code: PlayerEquipmentPacket (0x9f)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="4">0x9f
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Block
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Meta
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Slot
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="PlayerArmorEquipmentPacket_.280xa0.29"></span><span class="mw-headline" id="PlayerArmorEquipmentPacket_(0xa0)">PlayerArmorEquipmentPacket (0xa0)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=56&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: PlayerArmorEquipmentPacket (0xa0)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=56" title="Edit section&#039;s source code: PlayerArmorEquipmentPacket (0xa0)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="5">0xa0
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Slot 1
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Slot 2
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Slot 3
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Slot 4
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="InteractPacket_.280xa1.29"></span><span class="mw-headline" id="InteractPacket_(0xa1)">InteractPacket (0xa1)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=57&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: InteractPacket (0xa1)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=57" title="Edit section&#039;s source code: InteractPacket (0xa1)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="3">0xa1
+</td>
+<td>Action
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+<tr>
+<td>entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Target
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="UseItemPacket_.280xa2.29"></span><span class="mw-headline" id="UseItemPacket_(0xa2)">UseItemPacket (0xa2)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=58&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: UseItemPacket (0xa2)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=58" title="Edit section&#039;s source code: UseItemPacket (0xa2)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="13">0xa2
+</td>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Face
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Block
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Meta
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Fx
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Fy
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Fz
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>PosX
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>PosY
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>PosZ
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="PlayerActionPacket_.280xa3.29"></span><span class="mw-headline" id="PlayerActionPacket_(0xa3)">PlayerActionPacket (0xa3)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=59&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: PlayerActionPacket (0xa3)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=59" title="Edit section&#039;s source code: PlayerActionPacket (0xa3)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="6">0xa3
+</td>
+<td>Action
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Face
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="HurtArmorPacket_.280xa5.29"></span><span class="mw-headline" id="HurtArmorPacket_(0xa5)">HurtArmorPacket (0xa5)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=60&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: HurtArmorPacket (0xa5)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=60" title="Edit section&#039;s source code: HurtArmorPacket (0xa5)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0xa5
+</td>
+<td>Health
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="SetEntityDataPacket_.280xa6.29"></span><span class="mw-headline" id="SetEntityDataPacket_(0xa6)">SetEntityDataPacket (0xa6)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=61&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: SetEntityDataPacket (0xa6)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=61" title="Edit section&#039;s source code: SetEntityDataPacket (0xa6)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="2">0xa6
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Metadata
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="SetEntityMotionPacket_.280xa7.29"></span><span class="mw-headline" id="SetEntityMotionPacket_(0xa7)">SetEntityMotionPacket (0xa7)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=62&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: SetEntityMotionPacket (0xa7)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=62" title="Edit section&#039;s source code: SetEntityMotionPacket (0xa7)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="5">0xa7
+</td>
+<td>Unknown?
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="SetRidingPacket_.280xa8.29"></span><span class="mw-headline" id="SetRidingPacket_(0xa8)">SetRidingPacket (0xa8)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=63&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: SetRidingPacket (0xa8)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=63" title="Edit section&#039;s source code: SetRidingPacket (0xa8)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="2">0xa8
+</td>
+<td>a
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>b
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="SetHealthPacket_.280xa9.29"></span><span class="mw-headline" id="SetHealthPacket_(0xa9)">SetHealthPacket (0xa9)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=64&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: SetHealthPacket (0xa9)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=64" title="Edit section&#039;s source code: SetHealthPacket (0xa9)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0xa9
+</td>
+<td>Health
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="SetSpawnPositionPacket_.280xaa.29"></span><span class="mw-headline" id="SetSpawnPositionPacket_(0xaa)">SetSpawnPositionPacket (0xaa)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=65&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: SetSpawnPositionPacket (0xaa)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=65" title="Edit section&#039;s source code: SetSpawnPositionPacket (0xaa)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="3">0xaa
+</td>
+<td>X
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="AnimatePacket_.280xab.29"></span><span class="mw-headline" id="AnimatePacket_(0xab)">AnimatePacket (0xab)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=66&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: AnimatePacket (0xab)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=66" title="Edit section&#039;s source code: AnimatePacket (0xab)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="2">0xab
+</td>
+<td>Action
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="RespawnPacket_.280xac.29"></span><span class="mw-headline" id="RespawnPacket_(0xac)">RespawnPacket (0xac)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=67&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: RespawnPacket (0xac)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=67" title="Edit section&#039;s source code: RespawnPacket (0xac)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="4">0xac
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>X
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>float
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="SendInventoryPacket_.280xad.29"></span><span class="mw-headline" id="SendInventoryPacket_(0xad)">SendInventoryPacket (0xad)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=68&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: SendInventoryPacket (0xad)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=68" title="Edit section&#039;s source code: SendInventoryPacket (0xad)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>None</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="5">0xad
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Windows ID
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Count
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Slots
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Items
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="DropItemPacket_.280xae.29"></span><span class="mw-headline" id="DropItemPacket_(0xae)">DropItemPacket (0xae)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=69&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: DropItemPacket (0xae)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=69" title="Edit section&#039;s source code: DropItemPacket (0xae)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Server to Client</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="5">0xae
+</td>
+<td>Entity ID
+</td>
+<td>int
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Unknown?
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Block
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Stack
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Meta
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+ 
+</tbody></table>
+<h3><span id="ContainerOpenPacket_.280xaf.29"></span><span class="mw-headline" id="ContainerOpenPacket_(0xaf)">ContainerOpenPacket (0xaf)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=70&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ContainerOpenPacket (0xaf)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=70" title="Edit section&#039;s source code: ContainerOpenPacket (0xaf)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="4">0xaf
+</td>
+<td>Window ID
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Type
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Slot
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Title
+</td>
+<td>string8
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="ContainerClosePacket_.280xb0.29"></span><span class="mw-headline" id="ContainerClosePacket_(0xb0)">ContainerClosePacket (0xb0)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=71&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ContainerClosePacket (0xb0)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=71" title="Edit section&#039;s source code: ContainerClosePacket (0xb0)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0xb0
+</td>
+<td>Window ID
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="ContainerSetSlotPacket_.280xb1.29"></span><span class="mw-headline" id="ContainerSetSlotPacket_(0xb1)">ContainerSetSlotPacket (0xb1)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=72&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ContainerSetSlotPacket (0xb1)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=72" title="Edit section&#039;s source code: ContainerSetSlotPacket (0xb1)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="5">0xb1
+</td>
+<td>Window ID
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Slot
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Block
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Stack
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Meta
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="ContainerSetDataPacket_.280xb2.29"></span><span class="mw-headline" id="ContainerSetDataPacket_(0xb2)">ContainerSetDataPacket (0xb2)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=73&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ContainerSetDataPacket (0xb2)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=73" title="Edit section&#039;s source code: ContainerSetDataPacket (0xb2)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="3">0xb2
+</td>
+<td>Window ID
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Property
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Value
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="ContainerSetContentPacket_.280xb3.29"></span><span class="mw-headline" id="ContainerSetContentPacket_(0xb3)">ContainerSetContentPacket (0xb3)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=74&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ContainerSetContentPacket (0xb3)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=74" title="Edit section&#039;s source code: ContainerSetContentPacket (0xb3)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="3">0xb3
+</td>
+<td>Window ID
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Count
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Items
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="ContainerAckPacket_.280xb4.29"></span><span class="mw-headline" id="ContainerAckPacket_(0xb4)">ContainerAckPacket (0xb4)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=75&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ContainerAckPacket (0xb4)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=75" title="Edit section&#039;s source code: ContainerAckPacket (0xb4)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>None</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="2">0xb4
+</td>
+<td>Window ID
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Unknown?
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="ChatPacket_.280xb5.29"></span><span class="mw-headline" id="ChatPacket_(0xb5)">ChatPacket (0xb5)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=76&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: ChatPacket (0xb5)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=76" title="Edit section&#039;s source code: ChatPacket (0xb5)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0xb5
+</td>
+<td>Message
+</td>
+<td>string8
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="SignUpdatePacket_.280xb6.29"></span><span class="mw-headline" id="SignUpdatePacket_(0xb6)">SignUpdatePacket (0xb6)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=77&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: SignUpdatePacket (0xb6)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=77" title="Edit section&#039;s source code: SignUpdatePacket (0xb6)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Two-Way</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="4">0xb6
+</td>
+<td>X
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Y
+</td>
+<td>byte
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Z
+</td>
+<td>short
+</td>
+<td>
+</td></tr>
+<tr>
+<td>Lines
+</td>
+<td>string8
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h3><span id="AdventureSettingsPacket_.280xb7.29"></span><span class="mw-headline" id="AdventureSettingsPacket_(0xb7)">AdventureSettingsPacket (0xb7)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=78&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: AdventureSettingsPacket (0xb7)">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=78" title="Edit section&#039;s source code: AdventureSettingsPacket (0xb7)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><i>Client to Server</i>
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<td>Packet ID
+</td>
+<td>Field Name
+</td>
+<td>Field Type
+</td>
+<td>Notes
+</td></tr>
+<tr>
+<td rowspan="1">0xb7
+</td>
+<td>Flags
+</td>
+<td>byte[]
+</td>
+<td>
+</td></tr>
+
+</tbody></table>
+<h2><span class="mw-headline" id="Navigation">Navigation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Legacy_Pocket_Edition_protocol?section=79&amp;veaction=edit" class="mw-editsection-visualeditor" title="Edit section: Navigation">edit</a><span class="mw-editsection-divider"> | </span><a href="/w/Legacy_Pocket_Edition_protocol?action=edit&amp;section=79" title="Edit section&#039;s source code: Navigation">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table data-navbox-name="%27%27%5B%5BMinecraft%5D%5D:%27%27_%27%27%5B%5BBedrock_Edition%5D%5D%27%27" class="navbox hlist navigation-not-searchable collapsible">
+<tbody><tr>
+<th class="navbox-top" colspan="2"><div class="navbox-navbar"><div class="hlist navbar-mini" style="">
+<ul><li><a href="/w/Template:Navbox_Bedrock_Edition" title="Template:Navbox Bedrock Edition"><span title="View this template" style="">v</span></a></li>
+<li><a class="text" href="https://minecraft.wiki/w/Template_talk:Navbox_Bedrock_Edition"><span title="Discuss this template" style="">t</span></a></li>
+<li><a href="/w/Special:EditPage/Template:Navbox_Bedrock_Edition" title="Special:EditPage/Template:Navbox Bedrock Edition"><span title="Edit this template" style="">e</span></a></li></ul></div></div><span class="navbox-title"><i><a href="/w/Minecraft" title="Minecraft">Minecraft</a>:</i> <i><a href="/w/Bedrock_Edition" title="Bedrock Edition">Bedrock Edition</a></i></span>
+</th></tr>
+<tr>
+<th>Editions
+</th>
+<td>
+<table>
+<tbody><tr>
+<th>Merged
+</th>
+<td>
+<ul><li><i><a href="/w/Pocket_Edition" title="Pocket Edition">Pocket Edition</a></i></li>
+<li><i><a href="/w/Windows_10_Edition" title="Windows 10 Edition">Windows 10 Edition</a></i></li></ul>
+</td></tr>
+<tr>
+<th>Ports to consoles
+</th>
+<td>
+<ul><li><a href="https://en.wikipedia.org/wiki/Xbox_One" class="extiw" title="wikipedia:Xbox One">Xbox One</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nintendo_Switch" class="extiw" title="wikipedia:Nintendo Switch">Nintendo Switch</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PlayStation_4" class="extiw" title="wikipedia:PlayStation 4">PS4</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S" class="extiw" title="wikipedia:Xbox Series X and Series S">Xbox Series X|S</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PlayStation_5" class="extiw" title="wikipedia:PlayStation 5">PS5</a></li></ul>
+</td></tr>
+<tr>
+<th>Discontinued
+</th>
+<td>
+<ul><li><i><a href="/w/Gear_VR_Edition" title="Gear VR Edition">Gear VR Edition</a></i></li>
+<li><i><a href="/w/Apple_TV_Edition" title="Apple TV Edition">Apple TV Edition</a></i></li>
+<li><i><a href="/w/Fire_TV_Edition" title="Fire TV Edition">Fire TV Edition</a></i></li></ul>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<th>Development
+</th>
+<td>
+<table>
+<tbody><tr>
+<th><a href="/w/Bedrock_Edition_version_history" title="Bedrock Edition version history">Version history</a>
+</th>
+<td>
+<ul><li><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><span><img alt="LegacyBlockSprite bricks-je2-be1.png: Sprite image for bricks-je2-be1 in Minecraft" src="/images/LegacyBlockSprite_bricks-je2-be1.png?0134b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></span></span></span> <a href="/w/Pocket_Edition_Alpha" title="Pocket Edition Alpha">Alpha</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Edition#Release" title="Bedrock Edition"><img alt="" src="/images/EntitySprite_ender-dragon.png?4a397" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Bedrock_Edition#Release" title="Bedrock Edition"><span class="sprite-text">Full release</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Edition_version_history/Development_versions" title="Bedrock Edition version history/Development versions"><img alt="" src="/images/BlockSprite_crafting-table.png?6e126" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Bedrock_Edition_version_history/Development_versions" title="Bedrock Edition version history/Development versions"><span class="sprite-text">Development versions</span></a></span>
+<ul><li><span class="pixel-image" typeof="mw:File"><a href="/w/Minecraft_Preview" title="Minecraft Preview"><img src="/images/thumb/Minecraft_Preview_App_Store_icon_2.png/16px-Minecraft_Preview_App_Store_icon_2.png?37044" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Minecraft_Preview_App_Store_icon_2.png/32px-Minecraft_Preview_App_Store_icon_2.png?37044 2x" data-file-width="1024" data-file-height="1024" /></a></span> <i><a href="/w/Minecraft_Preview" title="Minecraft Preview">Minecraft Preview</a></i></li></ul></li></ul>
+</td></tr></tbody></table>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Edition_removed_features" title="Bedrock Edition removed features"><img alt="" src="/images/EnvSprite_nether-reactor.png?00b2c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Bedrock_Edition_removed_features" title="Bedrock Edition removed features"><span class="sprite-text">Removed features</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Edition_unused_features" title="Bedrock Edition unused features"><img alt="" src="/images/ItemSprite_quiver.png?454ab" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Bedrock_Edition_unused_features" title="Bedrock Edition unused features"><span class="sprite-text">Unused features</span></a></span>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Unused_textures" title="Unused textures"><img alt="" src="/images/BlockSprite_fish-barrel.png?d9f5b" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Unused_textures" title="Unused textures"><span class="sprite-text">Unused textures</span></a></span></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Edition_exclusive_features" title="Bedrock Edition exclusive features"><img alt="" src="/images/BlockSprite_nether-reactor-core.png?ed0bb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Bedrock_Edition_exclusive_features" title="Bedrock Edition exclusive features"><span class="sprite-text">Exclusive features</span></a></span>
+<ul><li><span style="white-space:nowrap;"><span class="nowrap"><span class="sprite-file" style="--vertical-align:middle"><span class="pixel-image" typeof="mw:File"><a href="/w/Parity_issue_list" title="Parity issue list"><img alt="" src="/images/thumb/Invicon_Red_Stained_Glass_Pane_BE.png/16px-Invicon_Red_Stained_Glass_Pane_BE.png?1d9d3" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/Invicon_Red_Stained_Glass_Pane_BE.png?1d9d3 2x" data-file-width="32" data-file-height="32" /></a></span></span><a href="/w/Parity_issue_list" title="Parity issue list"><span class="sprite-text">Parity issue list</span></a></span></span></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Mentioned_features#Bedrock_Edition" title="Mentioned features"><img alt="" src="/images/EntitySprite_minecart-furnace.png?87f22" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Mentioned_features#Bedrock_Edition" title="Mentioned features"><span class="sprite-text">Mentioned features</span></a></span>
+<ul><li><span class="pixel-image" typeof="mw:File"><a href="/w/Super_Duper_Graphics_Pack" title="Super Duper Graphics Pack"><img src="/images/thumb/Water_Bucket_SDGP.png/16px-Water_Bucket_SDGP.png?4fe9f" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Water_Bucket_SDGP.png/32px-Water_Bucket_SDGP.png?4fe9f 2x" data-file-width="160" data-file-height="160" /></a></span> <a href="/w/Super_Duper_Graphics_Pack" title="Super Duper Graphics Pack">Super Duper Graphics Pack</a></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Planned_versions#Bedrock_Edition" title="Planned versions"><img alt="" src="/images/BlockSprite_wildflowers.png?1d8e5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Planned_versions#Bedrock_Edition" title="Planned versions"><span class="sprite-text">Planned versions</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th>Technical
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style="height:18px;width:18px"><span class="pixel-image" typeof="mw:File"><a href="https://bugs.mojang.com/projects/MCPE/issues" target="_blank" rel="nofollow noreferrer noopener"><img alt="" src="/images/EffectSprite_infested.png?4562a" decoding="async" loading="lazy" width="18" height="18" class="mw-file-element" data-file-width="18" data-file-height="18" /></a></span></span><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://bugs.mojang.com/projects/MCPE/issues"><span class="sprite-text">Known bugs</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Edition_data_values" title="Bedrock Edition data values"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Bedrock_Edition_data_values" title="Bedrock Edition data values"><span class="sprite-text">Data values</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Edition_hardware_performance" title="Bedrock Edition hardware performance"><img alt="" src="/images/BlockSprite_test-instance-block.png?27a39" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Bedrock_Edition_hardware_performance" class="mw-redirect" title="Bedrock Edition hardware performance"><span class="sprite-text">Hardware performance</span></a></span></li>
+<li><span title="NBT Compound / JSON Object"><span class="sprite nbt-sprite" style="background-position:-48px -16px;background-size:64px auto;height:16px;width:16px"></span><span class="hidden-alt-text">[NBT Compound / JSON Object]</span></span> <a href="/w/Bedrock_Edition_level_format" title="Bedrock Edition level format">Level format</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Add-on" title="Add-on"><img alt="" src="/images/EnvSprite_add-on.png?3a254" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="12" data-file-height="12" /></a></span></span><a href="/w/Add-on" title="Add-on"><span class="sprite-text">Add-on</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Block_entity" title="Block entity"><img alt="" src="/images/BlockSprite_chest.png?15d81" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Block_entity" title="Block entity"><span class="sprite-text">Block entity</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Block_sound_type" title="Block sound type"><img alt="" src="/images/EnvSprite_ambience.png?d7c92" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Block_sound_type" title="Block sound type"><span class="sprite-text">Block sound type</span></a></span></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Editor" title="Bedrock Editor"><img src="/images/thumb/Bedrock_Editor_pack_logo.png/16px-Bedrock_Editor_pack_logo.png?b75bf" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Bedrock_Editor_pack_logo.png/32px-Bedrock_Editor_pack_logo.png?b75bf 2x" data-file-width="256" data-file-height="256" /></a></span> <a href="/w/Bedrock_Editor" title="Bedrock Editor">Bedrock Editor</a></li>
+<li><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><span><img alt="File directory.png: Sprite image for directory in Minecraft" src="/images/thumb/File_directory.png/16px-File_directory.png?8a409" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/File_directory.png?8a409 2x" data-file-width="32" data-file-height="32" /></span></span></span> <a href="/w/Com.mojang" title="Com.mojang">com.mojang</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Commands" title="Commands"><img alt="" src="/images/BlockSprite_command-block.png?e7078" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Commands" title="Commands"><span class="sprite-text">Commands</span></a></span>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Function_(Bedrock_Edition)" title="Function (Bedrock Edition)"><img alt="" src="/images/BlockSprite_repeating-command-block.png?1dad0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Function_(Bedrock_Edition)" title="Function (Bedrock Edition)"><span class="sprite-text">Functions</span></a></span></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Coordinates" title="Coordinates"><img alt="" src="/images/EnvSprite_map.png?b863e" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Coordinates" title="Coordinates"><span class="sprite-text">Coordinates</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Item_components" title="Item components"><img alt="" src="/images/EnvSprite_item.png?89d23" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Item_components" title="Item components"><span class="sprite-text">Item components</span></a></span></li>
+<li><a href="/w/JSON" title="JSON">JSON</a></li>
+<li><a href="/w/Molang" title="Molang">Molang</a></li>
+<li><a href="/w/Bedrock_Edition_protocol" title="Bedrock Edition protocol">Protocol</a>
+<ul><li><a class="mw-selflink selflink">Legacy Pocket Edition protocol</a></li>
+<li><a href="/w/Pocket_Edition_protocol" title="Pocket Edition protocol">Pocket Edition protocol</a></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Protocol_version" title="Protocol version"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Protocol_version" title="Protocol version"><span class="sprite-text">Protocol version</span></a></span></li>
+<li><a href="/w/RakNet" title="RakNet">RakNet</a></li>
+<li><a href="/w/Resource_location" title="Resource location">Resource location</a></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/RenderDragon" title="RenderDragon"><img src="/images/thumb/Render_dragon_logo_from_minecraft_earth_0.28.png/16px-Render_dragon_logo_from_minecraft_earth_0.28.png?23d66" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Render_dragon_logo_from_minecraft_earth_0.28.png/32px-Render_dragon_logo_from_minecraft_earth_0.28.png?23d66 2x" data-file-width="384" data-file-height="384" /></a></span> <a href="/w/RenderDragon" title="RenderDragon">RenderDragon</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Screenshot" title="Screenshot"><img alt="" src="/images/BlockSprite_camera.png?7ee99" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Screenshot" title="Screenshot"><span class="sprite-text">Screenshot</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Seed_(world_generation)" title="Seed (world generation)"><img alt="" src="/images/ItemSprite_wheat-seeds.png?b83e5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Seed_(world_generation)" title="Seed (world generation)"><span class="sprite-text">Seed</span></a></span></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Dedicated_Server" title="Bedrock Dedicated Server"><img src="/images/thumb/Bedrock_Dedicated_Server_Icon.png/16px-Bedrock_Dedicated_Server_Icon.png?e67e0" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Bedrock_Dedicated_Server_Icon.png/32px-Bedrock_Dedicated_Server_Icon.png?e67e0 2x" data-file-width="128" data-file-height="128" /></a></span> <a href="/w/Bedrock_Dedicated_Server" title="Bedrock Dedicated Server">Bedrock Dedicated Servers</a></li>
+<li><a href="/w/Sounds.json" title="Sounds.json">sound_definitions.json</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Tick" title="Tick"><img alt="" src="/images/ItemSprite_clock.png?30324" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Tick" title="Tick"><span class="sprite-text">Tick</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Ticking_area" title="Ticking area"><img alt="" src="/images/EnvSprite_chunk.png?b2cf1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Ticking_area" title="Ticking area"><span class="sprite-text">Ticking area</span></a></span></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Minecraft_Launcher" title="Minecraft Launcher"><img src="/images/thumb/Minecraft_Launcher_MS_Icon.png/16px-Minecraft_Launcher_MS_Icon.png?231b1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Minecraft_Launcher_MS_Icon.png/32px-Minecraft_Launcher_MS_Icon.png?231b1 2x" data-file-width="256" data-file-height="256" /></a></span> <i><a href="/w/Minecraft_Launcher" title="Minecraft Launcher">Minecraft Launcher</a></i>
+<ul><li><span class="pixel-image" typeof="mw:File"><a href="/w/Quick_Play" title="Quick Play"><img src="/images/thumb/Java_Edition_icon_3.png/16px-Java_Edition_icon_3.png?f7112" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Java_Edition_icon_3.png/32px-Java_Edition_icon_3.png?f7112 2x" data-file-width="1024" data-file-height="1024" /></a></span> <a href="/w/Quick_Play" title="Quick Play">Quick Play</a></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/UUID" title="UUID"><img alt="" src="/images/BlockSprite_number-block.png?0d8c7" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/UUID" title="UUID"><span class="sprite-text">UUID</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Bedrock_Edition_Flattening" title="Bedrock Edition Flattening"><img alt="" src="/images/BlockSprite_double-stone-slab.png?62750" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Bedrock_Edition_Flattening" title="Bedrock Edition Flattening"><span class="sprite-text">Flattening</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Multiplayer" title="Multiplayer">Multiplayer</a>
+</th>
+<td>
+<ul><li><span class="pixel-image" typeof="mw:File"><a href="/w/Server" title="Server"><img src="/images/Servers.png?b1dc2" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="15" data-file-height="15" /></a></span> <a href="/w/Server" title="Server">Servers</a>
+<ul><li><a href="/w/Featured_servers" title="Featured servers">Featured servers</a></li>
+<li><a href="/w/Event_servers" title="Event servers">Event servers</a></li>
+<li><a href="/w/Server_list" title="Server list">Server list</a></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Splitscreen" title="Splitscreen"><img alt="" src="/images/thumb/Icon_multiplayer.png/16px-Icon_multiplayer.png?49df5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/Icon_multiplayer.png?49df5 2x" data-file-width="24" data-file-height="24" /></a></span></span><a href="/w/Splitscreen" title="Splitscreen"><span class="sprite-text">Splitscreen</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Realms" title="Realms"><img alt="" src="/images/EnvSprite_nether-portal.png?47646" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Realms" title="Realms"><span class="sprite-text">Minecraft Realms</span></a></span>
+<ul><li><a href="/w/Realms_Plus" title="Realms Plus">Realms Plus</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Realms_Stories" title="Realms Stories"><img alt="" src="/images/ItemSprite_written-book.png?502b1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Realms_Stories" title="Realms Stories"><span class="sprite-text">Realms Stories</span></a></span></li></ul></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Bedrock_Edition_exclusive_features" title="Bedrock Edition exclusive features">Exclusive features</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/How_to_Play" title="How to Play"><img alt="" src="/images/ItemSprite_book.png?791a5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/How_to_Play" title="How to Play"><span class="sprite-text">How to Play</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Character_Creator" title="Character Creator"><img alt="" src="/images/PersonaSprite_character-creator.png?6d4cb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Character_Creator" title="Character Creator"><span class="sprite-text">Character Creator</span></a></span>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Emotes" title="Emotes"><img alt="" src="/images/EnvSprite_emote.png?37574" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Emotes" title="Emotes"><span class="sprite-text">Emotes</span></a></span></li></ul></li>
+<li><a href="/w/Featured_servers" title="Featured servers">Featured servers</a></li>
+<li><a href="/w/Event_servers" title="Event servers">Event servers</a></li>
+<li><a href="/w/Loading_tips" title="Loading tips">Loading tips</a></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Marketplace" title="Marketplace"><img src="/images/Icon_Marketplace.png?decfd" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="12" data-file-height="12" /></a></span> <a href="/w/Marketplace" title="Marketplace">Marketplace</a>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Minecraft_Partner_Program" title="Minecraft Partner Program"><img alt="" src="/images/EnvSprite_item.png?89d23" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Minecraft_Partner_Program" title="Minecraft Partner Program"><span class="sprite-text">Partner Program</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Add-on" title="Add-on"><img alt="" src="/images/EnvSprite_add-on.png?3a254" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="12" data-file-height="12" /></a></span></span><a href="/w/Add-on" title="Add-on"><span class="sprite-text">Add-ons</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Content_bundles" title="Content bundles"><img alt="" src="/images/ItemSprite_bundle.png?9eb9f" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Content_bundles" title="Content bundles"><span class="sprite-text">Content bundles</span></a></span></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Marketplace_Pass" title="Marketplace Pass"><img src="/images/Icon_Marketplace_Pass.png?c0e1c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="12" data-file-height="12" /></a></span> <a href="/w/Marketplace_Pass" title="Marketplace Pass">Marketplace Pass</a></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Mash-up_pack" title="Mash-up pack"><img src="/images/thumb/Mashup.png/16px-Mashup.png?6d001" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/Mashup.png?6d001 2x" data-file-width="20" data-file-height="20" /></a></span> <a href="/w/Mash-up_pack" title="Mash-up pack">Mash-up packs</a></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Skin_pack" title="Skin pack"><img alt="" src="/images/EnvSprite_skin-pack.png?ac399" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Skin_pack" title="Skin pack"><span class="sprite-text">Skin packs</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Texture_pack_(downloadable_content)" title="Texture pack (downloadable content)"><img alt="" src="/images/EnvSprite_texture-pack.png?a4213" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Texture_pack_(downloadable_content)" title="Texture pack (downloadable content)"><span class="sprite-text">Texture packs</span></a></span></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Ore_UI" title="Ore UI"><img alt="" src="/images/BlockSprite_diamond-ore.png?cc3fd" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Ore_UI" title="Ore UI"><span class="sprite-text">Ore UI</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Seed_templates" title="Seed templates"><img alt="" src="/images/BiomeSprite_pale-garden.png?92f6d" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Seed_templates" class="mw-redirect" title="Seed templates"><span class="sprite-text">Seed templates</span></a></span></li>
+<li><span class="pixel-image" typeof="mw:File"><a href="/w/Virtual_reality" title="Virtual reality"><img src="/images/thumb/Reality_Vision_%28item%29.png/16px-Reality_Vision_%28item%29.png?45f14" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" srcset="/images/thumb/Reality_Vision_%28item%29.png/32px-Reality_Vision_%28item%29.png?45f14 2x" data-file-width="160" data-file-height="160" /></a></span> <a href="/w/Virtual_reality" title="Virtual reality">Virtual reality</a></li></ul>
+<table>
+<tbody><tr>
+<th><a href="/w/Effect" title="Effect">Effects</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style="height:18px;width:18px"><span class="pixel-image" typeof="mw:File"><a href="/w/Fatal_Poison" title="Fatal Poison"><img alt="" src="/images/EffectSprite_fatal-poison.png?7a152" decoding="async" loading="lazy" width="18" height="18" class="mw-file-element" data-file-width="18" data-file-height="18" /></a></span></span><a href="/w/Fatal_Poison" title="Fatal Poison"><span class="sprite-text">Fatal Poison</span></a></span></li></ul>
+</td></tr>
+<tr>
+<th><a href="/w/Bedrock_Edition_unused_features" title="Bedrock Edition unused features">Unused</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Invisible_Bedrock" title="Invisible Bedrock"><img alt="" src="/images/BlockSprite_air.png?037f8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Invisible_Bedrock" title="Invisible Bedrock"><span class="sprite-text">Invisible Bedrock</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Unknown" title="Unknown"><img alt="" src="/images/BlockSprite_missing-tile.png?814e1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Unknown" title="Unknown"><span class="sprite-text">Unknown</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Info_update" title="Info update"><img alt="" src="/images/BlockSprite_missing-tile.png?814e1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Info_update" title="Info update"><span class="sprite-text">info_update</span></a></span>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Info_update" title="Info update"><img alt="" src="/images/BlockSprite_missing-tile.png?814e1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Info_update" title="Info update"><span class="sprite-text">info_update2</span></a></span></li></ul></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Reserved6" title="Reserved6"><img alt="" src="/images/BlockSprite_missing-tile.png?814e1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Reserved6" title="Reserved6"><span class="sprite-text">reserved6</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Client_request_placeholder_block" title="Client request placeholder block"><img alt="" src="/images/BlockSprite_air.png?037f8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Client_request_placeholder_block" title="Client request placeholder block"><span class="sprite-text">tile.client_request_placeholder_block.name</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Nether_Reactor_Core" title="Nether Reactor Core"><img alt="" src="/images/BlockSprite_nether-reactor-core.png?ed0bb" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Nether_Reactor_Core" title="Nether Reactor Core"><span class="sprite-text">Nether Reactor Core</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Glowing_Obsidian" title="Glowing Obsidian"><img alt="" src="/images/BlockSprite_glowing-obsidian.png?f57b8" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Glowing_Obsidian" title="Glowing Obsidian"><span class="sprite-text">Glowing Obsidian</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Stonecutter_(old)" title="Stonecutter (old)"><img alt="" src="/images/BlockSprite_stonecutter-%28old%29.png?79850" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Stonecutter_(old)" title="Stonecutter (old)"><span class="sprite-text">Old Stonecutter</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Camera" title="Camera"><img alt="" src="/images/BlockSprite_camera.png?7ee99" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Camera" title="Camera"><span class="sprite-text">Camera</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Agent" title="Agent"><img alt="" src="/images/EntitySprite_agent.png?553c1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Agent" title="Agent"><span class="sprite-text">Agent</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Villager_(old)" title="Villager (old)"><img alt="" src="/images/EntitySprite_villager-revision-1.png?db199" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Villager_(old)" title="Villager (old)"><span class="sprite-text">Old Villager</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Zombie_Villager" title="Zombie Villager"><img alt="" src="/images/EntitySprite_zombie-villager-nitwit-revision-1.png?b30e5" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Zombie_Villager" title="Zombie Villager"><span class="sprite-text">Old Zombie Villager</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Legacy_Frozen_Ocean" title="Legacy Frozen Ocean"><img alt="" src="/images/BiomeSprite_legacy-frozen-ocean.png?d3308" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Legacy_Frozen_Ocean" title="Legacy Frozen Ocean"><span class="sprite-text">Legacy Frozen Ocean</span></a></span></li></ul>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<th><a href="/w/Bedrock_Edition_removed_features" title="Bedrock Edition removed features">Removed</a>
+</th>
+<td>
+<ul><li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Crafting_descriptions" title="Crafting descriptions"><img alt="" src="/images/BlockSprite_stonecutter-%28old%29.png?79850" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Crafting_descriptions" title="Crafting descriptions"><span class="sprite-text">Crafting descriptions</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Nether_Reactor" title="Nether Reactor"><img alt="" src="/images/EnvSprite_nether-reactor.png?00b2c" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Nether_Reactor" title="Nether Reactor"><span class="sprite-text">Nether Reactor</span></a></span></li>
+<li><span class="nowrap"><span class="sprite-file" style=""><span class="pixel-image" typeof="mw:File"><a href="/w/Old" title="Old"><img alt="" src="/images/EnvSprite_chunk.png?b2cf1" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" data-file-width="16" data-file-height="16" /></a></span></span><a href="/w/Old" title="Old"><span class="sprite-text">Old</span></a></span></li></ul>
+</td></tr></tbody></table>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512" /></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This article is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div>&#160;
+<div class="msgbox-text">This article has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br />Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐jobrunner‐cbcd74ff9‐h5z5m
+Cached time: 20250323142637
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0.001 seconds
+CPU time usage: 0.652 seconds
+Real time usage: 1.920 seconds
+Preprocessor visited node count: 3196/1000000
+Post‐expand include size: 59292/8388608 bytes
+Template argument size: 5403/8388608 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+ExtLoops count: 0/50
+Lua time usage: 0.056/10.000 seconds
+Lua memory usage: 1358557/367001600 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  949.150      1 -total
+ 39.04%  370.534      1 Template:Navbox_Bedrock_Edition
+ 25.11%  238.334      1 Template:Outdated
+ 23.08%  219.047      1 Template:Message_box
+ 21.44%  203.526      1 Template:License_wiki.vg
+ 18.43%  174.892      1 Template:BlockSprite
+  8.99%   85.342     25 Template:BlockLink
+  6.54%   62.091      6 Template:El
+  6.23%   59.112     15 Template:EnvLink
+  4.03%   38.280      1 Template:When
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290285-0!canonical and timestamp 20250323142635 and revision id 2844120. Rendering was triggered because: edit-page
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Legacy_Pocket_Edition_protocol?oldid=2844120">https://minecraft.wiki/w/Legacy_Pocket_Edition_protocol?oldid=2844120</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Removed_features" title="Category:Removed features">Removed features</a></li><li><a href="/w/Category:Bedrock_Edition" title="Category:Bedrock Edition">Bedrock Edition</a></li><li><a href="/w/Category:Pocket_Edition" title="Category:Pocket Edition">Pocket Edition</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden category: <ul><li><a href="/w/Category:When" title="Category:When">When</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Legacy+Pocket+Edition+protocol" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Legacy+Pocket+Edition+protocol" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected mw-list-item"><a href="/w/Legacy_Pocket_Edition_protocol" title="View the content page [c]" accesskey="c"><span>Page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Talk:Legacy_Pocket_Edition_protocol?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Legacy_Pocket_Edition_protocol"><span>Read</span></a></li><li id="ca-ve-edit" class="mw-list-item"><a href="/w/Legacy_Pocket_Edition_protocol?veaction=edit" title="Edit this page [v]" accesskey="v"><span>Edit</span></a></li><li id="ca-edit" class="collapsible mw-list-item"><a href="/w/Legacy_Pocket_Edition_protocol?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Legacy_Pocket_Edition_protocol?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Legacy_Pocket_Edition_protocol?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc2" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc2"><span>Dev: 1.21.5-rc2</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Legacy_Pocket_Edition_protocol" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Legacy_Pocket_Edition_protocol" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Legacy_Pocket_Edition_protocol?oldid=2844120" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Legacy_Pocket_Edition_protocol?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Legacy-5FPocket-5FEdition-5Fprotocol" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 3 February 2025, at 13:23.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Legacy_Pocket_Edition_protocol?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-vszq8","wgBackendResponseTime":61,"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.001},"limitreport":{"cputime":"0.652","walltime":"1.920","ppvisitednodes":{"value":3196,"limit":1000000},"postexpandincludesize":{"value":59292,"limit":8388608},"templateargumentsize":{"value":5403,"limit":8388608},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%  949.150      1 -total"," 39.04%  370.534      1 Template:Navbox_Bedrock_Edition"," 25.11%  238.334      1 Template:Outdated"," 23.08%  219.047      1 Template:Message_box"," 21.44%  203.526      1 Template:License_wiki.vg"," 18.43%  174.892      1 Template:BlockSprite","  8.99%   85.342     25 Template:BlockLink","  6.54%   62.091      6 Template:El","  6.23%   59.112     15 Template:EnvLink","  4.03%   38.280      1 Template:When"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"scribunto":{"limitreport-timeusage":{"value":"0.056","limit":"10.000"},"limitreport-memusage":{"value":1358557,"limit":367001600}},"cachereport":{"origin":"mediawiki-jobrunner-cbcd74ff9-h5z5m","timestamp":"20250323142637","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>

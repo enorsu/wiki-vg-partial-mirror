@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Community portal – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":true,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"b8660415074775c44a51cdfb3172a626","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Community_portal","wgTitle":"Community portal","wgCurRevisionId":2902463,"wgRevisionId":2902463,"wgArticleId":41731,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Community_portal","wgRelevantArticleId":41731,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":[
+"sysop"],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready","ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready",
+"ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","mediawiki.interface.helpers.styles":"ready","mediawiki.special.changeslist.legend":"ready","mediawiki.special.changeslist":"ready","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.ui.button":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["mediawiki.special.changeslist.legend.js","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking",
+"ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip","ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.visualEditor.desktopArticleTarget.noscript%7Cjquery.makeCollapsible.styles%7Cmediawiki.interface.helpers.styles%7Cmediawiki.special.changeslist%7Cmediawiki.special.changeslist.legend%7Cmediawiki.ui.button%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Welcome to the community portal, a central space for editors!">
+<meta property="og:description" content="Welcome to the community portal, a central space for editors!">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Community portal – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Community_portal">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Community_portal">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject page-Minecraft_Wiki_Community_portal rootpage-Minecraft_Wiki_Community_portal skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Community portal</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><div class="fp-section">
+<div class="mcwiki-header mcwiki-header-grass">Minecraft Wiki Community portal</div>
+<div style="margin: 0.5em 0.8em;">
+<div class="toc toccolours list-style-none" style="clear: right; float: right; margin: 0 0 1em 1em; min-width: 70px; max-width: 400px;"><div class="toctitle" style="font-weight: bold;">Shortcuts</div><div style="margin: 0 1em;">
+<ul><li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:PORTAL?redirect=no">MCW:PORTAL</a></li>
+<li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:COM?redirect=no">MCW:COM</a></li>
+<li><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:CP?redirect=no">MCW:CP</a></li></ul></div></div>
+<p><strong>Welcome to the community portal, a central space for editors!</strong>
+</p>
+<table style="font-weight: bold; max-width: 600px; margin-bottom: 16px; padding: 0 4px;">
+<tbody><tr>
+<td style="vertical-align: bottom;">Use this page's talk page to discuss anything wiki-related!
+</td>
+<td style="vertical-align: bottom;">For in-depth and larger discussions, consider using the Forum instead.
+</td></tr>
+<tr>
+<td><span class="plainlinks" title=""><a href="/w/Minecraft_Wiki_talk:Community_portal" title="Minecraft Wiki talk:Community portal"><span class="mw-ui-button mw-ui-progressive">Go to talk page</span></a></span>
+</td>
+<td><span class="plainlinks" title=""><a href="/w/Minecraft_Wiki:Forum" title="Minecraft Wiki:Forum"><span class="mw-ui-button">Go to Forum</span></a></span>
+</td></tr></tbody></table>
+<div class="CPDiscord nomobile" style="float: right;"><a href="/w/Minecraft_Wiki:Discord" title="Minecraft Wiki:Discord">Minecraft Wiki:Discord</a></div>
+<p>Need help, want something changed, or want to find some pages to make? In the community portal, you will find exactly what you need!
+</p><p><a class="text" href="https://minecraft.wiki/w/Minecraft_Wiki:Community_portal?action=watch">Add this page</a> to your <a href="/w/Special:Watchlist" title="Special:Watchlist">watchlist</a> and stay on top of things!
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Useful_pages"><span class="tocnumber">1</span> <span class="toctext">Useful pages</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Recent_discussions"><span class="tocnumber">2</span> <span class="toctext">Recent discussions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Content"><span class="tocnumber">2.1</span> <span class="toctext">Content</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Technical"><span class="tocnumber">2.2</span> <span class="toctext">Technical</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Recent_wiki_news"><span class="tocnumber">3</span> <span class="toctext">Recent wiki news</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Requests_for_comment"><span class="tocnumber">4</span> <span class="toctext">Requests for comment</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Wanted_pages"><span class="tocnumber">5</span> <span class="toctext">Wanted pages</span></a></li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Useful_pages" data-mw-thread-id="h-Useful_pages"><span data-mw-comment-start="" id="h-Useful_pages"></span>Useful pages<span data-mw-comment-end="h-Useful_pages"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Useful_pages","replies":[]}}--></div>
+<ul><li>The <a href="/w/Minecraft_Wiki:Wiki_rules" title="Minecraft Wiki:Wiki rules">wiki rules</a></li>
+<li>The <a href="/w/Help:Contents" title="Help:Contents">wiki help pages</a></li>
+<li><a href="/w/Minecraft_Wiki:Style_guide" title="Minecraft Wiki:Style guide">Style guide</a> (including its <a href="/w/Minecraft_Wiki:Style_guide/Redstone" title="Minecraft Wiki:Style guide/Redstone">redstone</a>, <a href="/w/Minecraft_Wiki:Style_guide/Features" title="Minecraft Wiki:Style guide/Features">feature</a>, and <a href="/w/Minecraft_Wiki:Style_guide/Versions" title="Minecraft Wiki:Style guide/Versions">version</a> subpages)</li>
+<li><a href="/w/Minecraft_Wiki:Talk_page_guidelines" title="Minecraft Wiki:Talk page guidelines">Talk page guidelines</a></li>
+<li><a href="/w/Minecraft_Wiki:Admin_noticeboard" title="Minecraft Wiki:Admin noticeboard">Admin noticeboard</a> for administrative issues</li>
+<li><a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Projects</a> for current community projects</li>
+<li><a href="/w/Minecraft_Wiki:Pending_tasks" title="Minecraft Wiki:Pending tasks">Pending tasks</a></li>
+<li><a href="/w/Minecraft_Wiki:Bot_requests" title="Minecraft Wiki:Bot requests">Bot requests</a></li>
+<li><a href="/w/Minecraft_Wiki:Quick_reference_page" title="Minecraft Wiki:Quick reference page">Quick reference page</a> for an indexing of all navigation boxes and articles on the wiki</li>
+<li><a href="https://en.wikipedia.org/wiki/Help:Editing" class="extiw" title="wikipedia:Help:Editing">Help:Editing</a> on Wikipedia for help with editing pages</li></ul>
+<div class="mobileonly" style="clear: both;">
+<ul><li><strong>There is also a Minecraft Wiki Discord server that you can participate in! See this <a href="/w/Minecraft_Wiki:Discord" title="Minecraft Wiki:Discord">article</a> for more information about the server.</strong></li></ul>
+<div style="text-align: center"><span class="plainlinks" title=""><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://discord.gg/fGdE5ZE"><span class="mw-ui-button" style="display: inline-block; text-align: center; padding: 0.5em 1em; background-color: #5865f2; border-radius: 5px; color: #FFF">Join Discord server</span></a></span></div>
+</div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Recent_discussions" data-mw-thread-id="h-Recent_discussions"><span data-mw-comment-start="" id="h-Recent_discussions"></span>Recent discussions<span data-mw-comment-end="h-Recent_discussions"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Recent_discussions","replies":["h-Content-Recent_discussions","h-Technical-Recent_discussions"]}}--></div>
+<h3><span class="mw-headline" id="Content" data-mw-thread-id="h-Content-Recent_discussions"><span data-mw-comment-start="" id="h-Content-Recent_discussions"></span>Content<span data-mw-comment-end="h-Content-Recent_discussions"></span></span></h3>
+<div class="mw-changeslist"><div class="mw-changeslist-legend mw-collapsible"><strong>List of abbreviations:</strong><div class="mw-collapsible-content"><dl>
+<dt class="newpage">N</dt>
+<dd class="mw-changeslist-legend-newpage">This edit created a new page (also see <a href="/w/Special:NewPages" title="Special:NewPages">list of new pages</a>)</dd>
+<dt class="minoredit">m</dt>
+<dd class="mw-changeslist-legend-minor">This is a minor edit</dd>
+<dt class="botedit">b</dt>
+<dd class="mw-changeslist-legend-bot">This edit was performed by a bot</dd>
+<dt class="mw-plusminus-pos">(<em>±123</em>)</dt>
+<dd class="mw-changeslist-legend-plusminus">The page size changed by this number of bytes</dd>
+</dl>
+</div></div><h4 data-mw-thread-id="h--Content"><span data-mw-comment-start="" id="h--Content"></span>26 March 2025<span data-mw-comment-end="h--Content"></span></h4>
+<ul class="special"><li data-mw-revid="2912613" data-mw-ts="20250326153958" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns10013-Pig mw-changeslist-line-not-watched mw-changeslist-ns-10013 mw-changeslist-ns-talk mw-changeslist-user-registered mw-changeslist-user-experienced mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-edit mw-line-even mw-tag-discussiontools mw-tag-discussiontools-reply mw-tag-discussiontools-added-comment mw-tag-discussiontools-source mw-tag-discussiontools-source-enhanced"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="Movie talk:Pig"><div class="mw-changeslist-links"><span><a href="/w/Movie_talk:Pig?curid=312591&amp;diff=2912613&amp;oldid=2912604" class="mw-changeslist-diff" title="Movie talk:Pig">diff</a></span><span><a href="/w/Movie_talk:Pig?action=history&amp;curid=312591" class="mw-changeslist-history" title="Movie talk:Pig">hist</a></span></div> <span class="mw-changeslist-separator"></span>  <span class="mw-title"><a href="/w/Movie_talk:Pig" class="mw-changeslist-title" title="Movie talk:Pig">Movie talk:Pig</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">15:39</span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="571 bytes after change">+366</span>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/User:Harristic" class="mw-userlink" title="User:Harristic"><bdi>Harristic</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:Harristic" class="mw-usertoollinks-talk" title="User talk:Harristic">talk</a></span> <span><a href="/w/Special:Contributions/Harristic" class="mw-usertoollinks-contribs" title="Special:Contributions/Harristic">contribs</a></span></span>‎ <span class="comment">(<span dir="auto"><span class="autocomment"><a href="/w/Movie_talk:Pig#Not_pigs" title="Movie talk:Pig">→‎Not pigs</a>: </span> Reply</span>)</span> <span class="mw-tag-markers"><a href="/w/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-discussiontools-reply"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Talk_pages_project/Replying">Reply</a></span></span></span></li>
+<li data-mw-revid="2912363" data-mw-ts="20250326134834" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns1-Cape mw-changeslist-line-not-watched mw-changeslist-ns-1 mw-changeslist-ns-talk mw-changeslist-user-registered mw-changeslist-user-newcomer mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-edit mw-line-odd mw-tag-wikieditor mw-tag-discussiontools-added-comment"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="Talk:Cape"><div class="mw-changeslist-links"><span><a href="/w/Talk:Cape?curid=73193&amp;diff=2912363&amp;oldid=2911327" class="mw-changeslist-diff" title="Talk:Cape">diff</a></span><span><a href="/w/Talk:Cape?action=history&amp;curid=73193" class="mw-changeslist-history" title="Talk:Cape">hist</a></span></div> <span class="mw-changeslist-separator"></span>  <span class="mw-title"><a href="/w/Talk:Cape" class="mw-changeslist-title" title="Talk:Cape">Talk:Cape</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">13:48</span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="35,642 bytes after change">+486</span>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/User:LabyStudio?action=edit&amp;redlink=1" class="new mw-userlink" title="User:LabyStudio (page does not exist)"><bdi>LabyStudio</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:LabyStudio?action=edit&amp;redlink=1" class="new mw-usertoollinks-talk" title="User talk:LabyStudio (page does not exist)">talk</a></span> <span><a href="/w/Special:Contributions/LabyStudio" class="mw-usertoollinks-contribs" title="Special:Contributions/LabyStudio">contribs</a></span></span>‎ <span class="comment">(exact change dates for the Menace cape &amp; Home cape textures)</span> </span></li>
+<li data-mw-revid="2912337" data-mw-ts="20250326133314" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns1-Mentioned_features mw-changeslist-line-not-watched mw-changeslist-ns-1 mw-changeslist-ns-talk mw-changeslist-user-registered mw-changeslist-user-newcomer mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-edit mw-line-even mw-tag-discussiontools mw-tag-discussiontools-newtopic mw-tag-discussiontools-added-comment mw-tag-discussiontools-visual"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="Talk:Mentioned features"><div class="mw-changeslist-links"><span><a href="/w/Talk:Mentioned_features?curid=114956&amp;diff=2912337&amp;oldid=2831341" class="mw-changeslist-diff" title="Talk:Mentioned features">diff</a></span><span><a href="/w/Talk:Mentioned_features?action=history&amp;curid=114956" class="mw-changeslist-history" title="Talk:Mentioned features">hist</a></span></div> <span class="mw-changeslist-separator"></span>  <span class="mw-title"><a href="/w/Talk:Mentioned_features" class="mw-changeslist-title" title="Talk:Mentioned features">Talk:Mentioned features</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">13:33</span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="18,904 bytes after change">+174</span>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/User:4ngryth3fan?action=edit&amp;redlink=1" class="new mw-userlink" title="User:4ngryth3fan (page does not exist)"><bdi>4ngryth3fan</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:4ngryth3fan?action=edit&amp;redlink=1" class="new mw-usertoollinks-talk" title="User talk:4ngryth3fan (page does not exist)">talk</a></span> <span><a href="/w/Special:Contributions/4ngryth3fan" class="mw-usertoollinks-contribs" title="Special:Contributions/4ngryth3fan">contribs</a></span></span>‎ <span class="comment">(<span dir="auto"><span class="autocomment"><a href="/w/Talk:Mentioned_features#So,_the_article_still_hasn't_been_rewritten?" title="Talk:Mentioned features">→‎So, the article still hasn't been rewritten?</a>: </span> new section</span>)</span> <span class="mw-tag-markers"><a href="/w/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-discussiontools-newtopic"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Talk_pages_project/New_discussion">New topic</a></span></span></span></li>
+<li data-mw-revid="2912201" data-mw-ts="20250326120957" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns1-Blue_Egg mw-changeslist-line-not-watched mw-changeslist-ns-1 mw-changeslist-ns-talk mw-changeslist-user-registered mw-changeslist-user-experienced mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-edit mw-line-odd mw-tag-discussiontools mw-tag-discussiontools-reply mw-tag-discussiontools-added-comment mw-tag-discussiontools-source mw-tag-discussiontools-source-enhanced"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="Talk:Blue Egg"><div class="mw-changeslist-links"><span><a href="/w/Talk:Blue_Egg?curid=302750&amp;diff=2912201&amp;oldid=2911314" class="mw-changeslist-diff" title="Talk:Blue Egg">diff</a></span><span><a href="/w/Talk:Blue_Egg?action=history&amp;curid=302750" class="mw-changeslist-history" title="Talk:Blue Egg">hist</a></span></div> <span class="mw-changeslist-separator"></span>  <span class="mw-title"><a href="/w/Talk:Blue_Egg" class="mw-changeslist-title" title="Talk:Blue Egg">Talk:Blue Egg</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">12:09</span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="39,409 bytes after change">+194</span>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/User:BabylonAS" class="mw-userlink" title="User:BabylonAS"><bdi>BabylonAS</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:BabylonAS" class="mw-usertoollinks-talk" title="User talk:BabylonAS">talk</a></span> <span><a href="/w/Special:Contributions/BabylonAS" class="mw-usertoollinks-contribs" title="Special:Contributions/BabylonAS">contribs</a></span></span>‎ <span class="comment">(<span dir="auto"><span class="autocomment"><a href="/w/Talk:Blue_Egg#Merge_to_the_&quot;egg&quot;_page" title="Talk:Blue Egg">→‎Merge to the "egg" page</a>: </span> comment</span>)</span> <span class="mw-tag-markers"><a href="/w/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-discussiontools-reply"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Talk_pages_project/Replying">Reply</a></span></span></span></li>
+<li data-mw-revid="2912073" data-mw-ts="20250326093358" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns1-A_Minecraft_Movie_Live_Event mw-changeslist-line-not-watched mw-changeslist-ns-1 mw-changeslist-ns-talk mw-changeslist-user-registered mw-changeslist-user-newcomer mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-edit mw-line-even mw-tag-mobile_edit mw-tag-mobile_web_edit mw-tag-discussiontools mw-tag-discussiontools-newtopic mw-tag-discussiontools-added-comment mw-tag-discussiontools-visual"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="Talk:A Minecraft Movie Live Event"><div class="mw-changeslist-links"><span><a href="/w/Talk:A_Minecraft_Movie_Live_Event?curid=312520&amp;diff=2912073&amp;oldid=2911749" class="mw-changeslist-diff" title="Talk:A Minecraft Movie Live Event">diff</a></span><span><a href="/w/Talk:A_Minecraft_Movie_Live_Event?action=history&amp;curid=312520" class="mw-changeslist-history" title="Talk:A Minecraft Movie Live Event">hist</a></span></div> <span class="mw-changeslist-separator"></span>  <span class="mw-title"><a href="/w/Talk:A_Minecraft_Movie_Live_Event" class="mw-changeslist-title" title="Talk:A Minecraft Movie Live Event">Talk:A Minecraft Movie Live Event</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">09:33</span> <span class="mw-changeslist-separator"></span> <strong dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="1,998 bytes after change">+782</strong>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/User:Harin?action=edit&amp;redlink=1" class="new mw-userlink" title="User:Harin (page does not exist)"><bdi>Harin</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:Harin?action=edit&amp;redlink=1" class="new mw-usertoollinks-talk" title="User talk:Harin (page does not exist)">talk</a></span> <span><a href="/w/Special:Contributions/Harin" class="mw-usertoollinks-contribs" title="Special:Contributions/Harin">contribs</a></span></span>‎ <span class="comment">(<span dir="auto"><span class="autocomment"><a href="/w/Talk:A_Minecraft_Movie_Live_Event#Lava_Chicken_'Item'" title="Talk:A Minecraft Movie Live Event">→‎Lava Chicken 'Item'</a>: </span> new section</span>)</span> <span class="mw-tag-markers"><a href="/w/Special:Tags" title="Special:Tags">Tags</a>: <span class="mw-tag-marker mw-tag-marker-mobile_edit">Mobile edit</span> <span class="mw-tag-marker mw-tag-marker-discussiontools-newtopic"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Talk_pages_project/New_discussion">New topic</a></span></span></span></li>
+</ul>
+</div>
+<h3><span class="mw-headline" id="Technical" data-mw-thread-id="h-Technical-Recent_discussions"><span data-mw-comment-start="" id="h-Technical-Recent_discussions"></span>Technical<span data-mw-comment-end="h-Technical-Recent_discussions"></span></span></h3>
+<div class="mw-changeslist"><div class="mw-changeslist-legend mw-collapsible"><strong>List of abbreviations:</strong><div class="mw-collapsible-content"><dl>
+<dt class="newpage">N</dt>
+<dd class="mw-changeslist-legend-newpage">This edit created a new page (also see <a href="/w/Special:NewPages" title="Special:NewPages">list of new pages</a>)</dd>
+<dt class="minoredit">m</dt>
+<dd class="mw-changeslist-legend-minor">This is a minor edit</dd>
+<dt class="botedit">b</dt>
+<dd class="mw-changeslist-legend-bot">This edit was performed by a bot</dd>
+<dt class="mw-plusminus-pos">(<em>±123</em>)</dt>
+<dd class="mw-changeslist-legend-plusminus">The page size changed by this number of bytes</dd>
+</dl>
+</div></div><h4 data-mw-thread-id="h--Technical"><span data-mw-comment-start="" id="h--Technical"></span>26 March 2025<span data-mw-comment-end="h--Technical"></span></h4>
+<ul class="special"><li data-mw-revid="2911882" data-mw-ts="20250326034021" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns11-Navbox_new_content mw-changeslist-line-not-watched mw-changeslist-ns-11 mw-changeslist-ns-talk mw-changeslist-user-registered mw-changeslist-user-experienced mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-edit mw-line-even mw-tag-discussiontools mw-tag-discussiontools-reply mw-tag-discussiontools-added-comment mw-tag-discussiontools-source mw-tag-discussiontools-source-enhanced"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="Template talk:Navbox new content"><div class="mw-changeslist-links"><span><a href="/w/Template_talk:Navbox_new_content?curid=239005&amp;diff=2911882&amp;oldid=2911880" class="mw-changeslist-diff" title="Template talk:Navbox new content">diff</a></span><span><a href="/w/Template_talk:Navbox_new_content?action=history&amp;curid=239005" class="mw-changeslist-history" title="Template talk:Navbox new content">hist</a></span></div> <span class="mw-changeslist-separator"></span>  <span class="mw-title"><a href="/w/Template_talk:Navbox_new_content" class="mw-changeslist-title" title="Template talk:Navbox new content">Template talk:Navbox new content</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">03:40</span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="18,245 bytes after change">+104</span>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/User:Rampage455" class="mw-userlink" title="User:Rampage455"><bdi>Rampage455</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:Rampage455" class="mw-usertoollinks-talk" title="User talk:Rampage455">talk</a></span> <span><a href="/w/Special:Contributions/Rampage455" class="mw-usertoollinks-contribs" title="Special:Contributions/Rampage455">contribs</a></span></span>‎ <span class="comment">(<span dir="auto"><span class="autocomment"><a href="/w/Template_talk:Navbox_new_content#What_is_new_content?" title="Template talk:Navbox new content">→‎What is new content?</a>: </span> Reply</span>)</span> <span class="mw-tag-markers"><a href="/w/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-discussiontools-reply"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Talk_pages_project/Replying">Reply</a></span></span></span></li>
+</ul>
+<h4 data-mw-thread-id="h--Technical-1"><span data-mw-comment-start="" id="h--Technical-1"></span>25 March 2025<span data-mw-comment-end="h--Technical-1"></span></h4>
+<ul class="special"><li data-mw-revid="2911076" data-mw-ts="20250325184933" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns9-Common_js mw-changeslist-line-not-watched mw-changeslist-ns-9 mw-changeslist-ns-talk mw-changeslist-user-registered mw-changeslist-user-learner mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-edit mw-line-odd mw-tag-discussiontools mw-tag-discussiontools-reply mw-tag-discussiontools-added-comment mw-tag-discussiontools-source mw-tag-discussiontools-source-enhanced"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="MediaWiki talk:Common.js"><div class="mw-changeslist-links"><span><a href="/w/MediaWiki_talk:Common.js?curid=312433&amp;diff=2911076&amp;oldid=2911026" class="mw-changeslist-diff" title="MediaWiki talk:Common.js">diff</a></span><span><a href="/w/MediaWiki_talk:Common.js?action=history&amp;curid=312433" class="mw-changeslist-history" title="MediaWiki talk:Common.js">hist</a></span></div> <span class="mw-changeslist-separator"></span>  <span class="mw-title"><a href="/w/MediaWiki_talk:Common.js" class="mw-changeslist-title" title="MediaWiki talk:Common.js">MediaWiki talk:Common.js</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">18:49</span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="1,883 bytes after change">+88</span>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/User:Stag" class="mw-userlink" title="User:Stag"><bdi>Stag</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:Stag" class="mw-usertoollinks-talk" title="User talk:Stag">talk</a></span> <span><a href="/w/Special:Contributions/Stag" class="mw-usertoollinks-contribs" title="Special:Contributions/Stag">contribs</a></span></span>‎ <span class="comment">(<span dir="auto"><span class="autocomment"><a href="/w/MediaWiki_talk:Common.js#Obfuscated_text_and_underlined_text" title="MediaWiki talk:Common.js">→‎Obfuscated text and underlined text</a>: </span> Reply</span>)</span> <span class="mw-tag-markers"><a href="/w/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-discussiontools-reply"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Talk_pages_project/Replying">Reply</a></span></span></span></li>
+<li data-mw-revid="2910275" data-mw-ts="20250325144440" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns11-Fake_red_link mw-changeslist-line-not-watched mw-changeslist-ns-11 mw-changeslist-ns-talk mw-changeslist-user-registered mw-changeslist-user-experienced mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-edit mw-line-even mw-tag-mobile_edit mw-tag-mobile_web_edit mw-tag-advanced_mobile_edit mw-tag-discussiontools mw-tag-discussiontools-reply mw-tag-discussiontools-added-comment mw-tag-discussiontools-source mw-tag-discussiontools-source-enhanced"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="Template talk:Fake red link"><div class="mw-changeslist-links"><span><a href="/w/Template_talk:Fake_red_link?curid=308703&amp;diff=2910275&amp;oldid=2887207" class="mw-changeslist-diff" title="Template talk:Fake red link">diff</a></span><span><a href="/w/Template_talk:Fake_red_link?action=history&amp;curid=308703" class="mw-changeslist-history" title="Template talk:Fake red link">hist</a></span></div> <span class="mw-changeslist-separator"></span>  <span class="mw-title"><a href="/w/Template_talk:Fake_red_link" class="mw-changeslist-title" title="Template talk:Fake red link">Template talk:Fake red link</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">14:44</span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="4,545 bytes after change">+376</span>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/User:Nerdyguy2000" class="mw-userlink" title="User:Nerdyguy2000"><bdi>Nerdyguy2000</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:Nerdyguy2000" class="mw-usertoollinks-talk" title="User talk:Nerdyguy2000">talk</a></span> <span><a href="/w/Special:Contributions/Nerdyguy2000" class="mw-usertoollinks-contribs" title="Special:Contributions/Nerdyguy2000">contribs</a></span></span>‎ <span class="comment">(<span dir="auto"><span class="autocomment"><a href="/w/Template_talk:Fake_red_link#Fake_red_link_color" title="Template talk:Fake red link">→‎Fake red link color</a>: </span> Reply</span>)</span> <span class="mw-tag-markers"><a href="/w/Special:Tags" title="Special:Tags">Tags</a>: <span class="mw-tag-marker mw-tag-marker-mobile_edit">Mobile edit</span> <span class="mw-tag-marker mw-tag-marker-advanced_mobile_edit">Advanced mobile edit</span> <span class="mw-tag-marker mw-tag-marker-discussiontools-reply"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Talk_pages_project/Replying">Reply</a></span></span></span></li>
+<li data-mw-revid="2910112" data-mw-ts="20250325123002" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns15-Pillager_sounds mw-changeslist-line-not-watched mw-changeslist-ns-15 mw-changeslist-ns-talk mw-changeslist-user-unregistered mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-new mw-line-odd mw-tag-discussiontools mw-tag-discussiontools-newtopic mw-tag-discussiontools-added-comment mw-tag-discussiontools-visual"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="Category talk:Pillager sounds"><div class="mw-changeslist-links"><span>diff</span><span><a href="/w/Category_talk:Pillager_sounds?action=history&amp;curid=312332" class="mw-changeslist-history" title="Category talk:Pillager sounds">hist</a></span></div> <span class="mw-changeslist-separator"></span> <abbr class="newpage" title="This edit created a new page">N</abbr> <span class="mw-title"><a href="/w/Category_talk:Pillager_sounds" class="mw-changeslist-title" title="Category talk:Pillager sounds">Category talk:Pillager sounds</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">12:30</span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="201 bytes after change">+201</span>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/Special:Contributions/2404:E801:201E:1A21:605F:1F84:91F7:F77C" class="mw-userlink mw-anonuserlink" title="Special:Contributions/2404:E801:201E:1A21:605F:1F84:91F7:F77C"><bdi>2404:e801:201e:1a21:605f:1f84:91f7:f77c</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:2404:E801:201E:1A21:605F:1F84:91F7:F77C?action=edit&amp;redlink=1" class="new mw-usertoollinks-talk" title="User talk:2404:E801:201E:1A21:605F:1F84:91F7:F77C (page does not exist)">talk</a></span></span>‎ <span class="comment">(<span dir="auto"><span class="autocomment"><a href="/w/Category_talk:Pillager_sounds#Shout_Out_To_AlexHFromScratch2" title="Category talk:Pillager sounds">→‎Shout Out To AlexHFromScratch2</a>: </span> new section</span>)</span> <span class="mw-tag-markers"><a href="/w/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-discussiontools-newtopic"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Talk_pages_project/New_discussion">New topic</a></span></span></span></li>
+</ul>
+<h4 data-mw-thread-id="h--Technical-2"><span data-mw-comment-start="" id="h--Technical-2"></span>24 March 2025<span data-mw-comment-end="h--Technical-2"></span></h4>
+<ul class="special"><li data-mw-revid="2909460" data-mw-ts="20250324230636" class="mw-changeslist-line mw-changeslist-edit mw-changeslist-ns11-Navbox_named_updates mw-changeslist-line-not-watched mw-changeslist-ns-11 mw-changeslist-ns-talk mw-changeslist-user-registered mw-changeslist-user-learner mw-changeslist-others mw-changeslist-human mw-changeslist-major mw-changeslist-last mw-changeslist-src-mw-edit mw-line-even mw-tag-discussiontools mw-tag-discussiontools-reply mw-tag-discussiontools-added-comment mw-tag-discussiontools-source mw-tag-discussiontools-source-enhanced"><div class="mw-rcfilters-ui-highlights"><div class="mw-rcfilters-ui-highlights-color-none" data-color="none"></div><div class="mw-rcfilters-ui-highlights-color-c1" data-color="c1"></div><div class="mw-rcfilters-ui-highlights-color-c2" data-color="c2"></div><div class="mw-rcfilters-ui-highlights-color-c3" data-color="c3"></div><div class="mw-rcfilters-ui-highlights-color-c4" data-color="c4"></div><div class="mw-rcfilters-ui-highlights-color-c5" data-color="c5"></div></div><span class="mw-changeslist-line-inner" data-target-page="Template talk:Navbox named updates"><div class="mw-changeslist-links"><span><a href="/w/Template_talk:Navbox_named_updates?curid=312252&amp;diff=2909460&amp;oldid=2909453" class="mw-changeslist-diff" title="Template talk:Navbox named updates">diff</a></span><span><a href="/w/Template_talk:Navbox_named_updates?action=history&amp;curid=312252" class="mw-changeslist-history" title="Template talk:Navbox named updates">hist</a></span></div> <span class="mw-changeslist-separator"></span>  <span class="mw-title"><a href="/w/Template_talk:Navbox_named_updates" class="mw-changeslist-title" title="Template talk:Navbox named updates">Template talk:Navbox named updates</a></span>‎<span class="mw-changeslist-separator--semicolon"></span> <span class="mw-changeslist-date mw-changeslist-time">23:06</span> <span class="mw-changeslist-separator"></span> <span dir="ltr" class="mw-plusminus-pos mw-diff-bytes" title="441 bytes after change">+117</span>‎  <span class="mw-changeslist-separator"></span> ‎<a href="/w/User:Sebbog" class="mw-userlink" title="User:Sebbog"><bdi>Sebbog</bdi></a> <span class="mw-usertoollinks mw-changeslist-links"><span><a href="/w/User_talk:Sebbog?action=edit&amp;redlink=1" class="new mw-usertoollinks-talk" title="User talk:Sebbog (page does not exist)">talk</a></span> <span><a href="/w/Special:Contributions/Sebbog" class="mw-usertoollinks-contribs" title="Special:Contributions/Sebbog">contribs</a></span></span>‎ <span class="comment">(<span dir="auto"><span class="autocomment"><a href="/w/Template_talk:Navbox_named_updates#Spring_to_Life_date" title="Template talk:Navbox named updates">→‎Spring to Life date</a>: </span> Reply</span>)</span> <span class="mw-tag-markers"><a href="/w/Special:Tags" title="Special:Tags">Tag</a>: <span class="mw-tag-marker mw-tag-marker-discussiontools-reply"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Talk_pages_project/Replying">Reply</a></span></span></span></li>
+</ul>
+</div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Recent_wiki_news" data-mw-thread-id="h-Recent_wiki_news"><span data-mw-comment-start="" id="h-Recent_wiki_news"></span>Recent wiki news<span data-mw-comment-end="h-Recent_wiki_news"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Recent_wiki_news","replies":[]}}--></div>
+<div class="hatnote searchaux">See also: <a href="/w/Minecraft_Wiki:Recap/End-of-year_2024" title="Minecraft Wiki:Recap/End-of-year 2024">the latest Minecraft Wiki recap</a> 
+</div>
+<ul><li><a href="/w/User:Mudscape" title="User:Mudscape">Mudscape</a> has been promoted to administrator after <a href="/w/Forum:Request_for_adminship_-_Mudscape" title="Forum:Request for adminship - Mudscape">a discussion on the forum</a>.  – March 20, 2025</li>
+<li><a href="/w/Special:Diff/2899448" title="Special:Diff/2899448">Main page redesign</a> after being approved <a href="/w/Forum:Main_page_redesign" title="Forum:Main page redesign">on the forum</a>.  – March 18, 2025</li>
+<li><a href="/w/User:Madminecrafter12" title="User:Madminecrafter12">Madminecrafter12</a> has resigned from their position as administrator and bureaucrat.  – March 4, 2025</li>
+<li><a href="/w/User:Dianliang233" title="User:Dianliang233">Dianliang233</a> has been promoted to administrator after a discussion on <a href="/w/Minecraft_Wiki:Forum" title="Minecraft Wiki:Forum">the forum</a>  – January 13, 2025</li></ul>
+<div class="" style="clear:both"></div>
+</div></div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Requests_for_comment" data-mw-thread-id="h-Requests_for_comment"><span data-mw-comment-start="" id="h-Requests_for_comment"></span>Requests for comment<span data-mw-comment-end="h-Requests_for_comment"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Requests_for_comment","replies":[]}}--></div>
+<div class="msgbox searchaux msgbox-gray" style="max-width: 90%;">
+<div class="msgbox-icon">  
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text"><b>Requests for comment</b> are for assisting editors in gathering further input on any wiki matter. This can be useful in generating discussion, resolving disputes, or reaching consensus. All editors are welcome to assist with a request by responding within the linked talk page. Remember that the Minecraft Wiki operates on a system of consensus rather than voting, and explaining your reasoning is generally more helpful than simply supporting one side of a discussion.
+<p>To create a new request: add an item to the <b>bottom</b> of the list below, using:<br/>
+<samp>{{/request|<i>Link</i>|<i>Brief description</i>|date=~~~~~}}</samp></p></div>
+</div>
+</div>
+<ul><li>Splitting commands sub pages between different editions (<a href="/w/Talk:Commands#An_other_different_proposal" title="Talk:Commands">comment</a>) <span class="nowrap">– 19:11, 2 October 2023 (UTC)</span></li>
+<li>Revisit the practice of blanking inactive user pages? (<a href="/w/Template_talk:InactiveUserpage#Revisit_blanking_of_user_pages?" title="Template talk:InactiveUserpage">comment</a>) <span class="nowrap">– 04:41, 4 October 2023 (UTC)</span></li>
+<li>Splitting crimson and warped articles (<a href="/w/Minecraft_Wiki_talk:Projects/DIG:Design_to_Implement_Granularity#Nether_fungi" title="Minecraft Wiki talk:Projects/DIG:Design to Implement Granularity">comment</a>) <span class="nowrap">– 07:30, 14 October 2024 (UTC)</span></li>
+<li>Replacing the <a href="/w/Mob" title="Mob">Mob</a> tables by custom classes for more responsiveness and user friendliness (<a href="/w/Talk:Mob#Dropping_tables_in_favor_of_a_custom_class" title="Talk:Mob">comment</a>) <span class="nowrap">– 11:10, 20 October 2024 (UTC)</span></li>
+<li>Whether or not to implement guidelines for introduction texts and what said guidelines should be (<a href="/w/Minecraft_Wiki_talk:Style_guide#Introduction_text_guidelines..." title="Minecraft Wiki talk:Style guide">comment</a>) <span class="nowrap">– 15:35, 28 November 2024 (UTC)</span></li>
+<li>Change the way <a href="/w/Brewing" title="Brewing">brewing</a> recipes are shown on the wiki (<a href="/w/Talk:Brewing#Brewing_recipe_UI_changes" title="Talk:Brewing">comment</a>) <span class="nowrap">– 06:57, 11 January 2025 (UTC)</span></li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Wanted_pages" data-mw-thread-id="h-Wanted_pages"><span data-mw-comment-start="" id="h-Wanted_pages"></span>Wanted pages<span data-mw-comment-end="h-Wanted_pages"></span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Wanted_pages","replies":[]}}--></div>
+<div class="msgbox searchaux msgbox-gray" style="max-width: 90%;">
+<div class="msgbox-icon">  
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">The Minecraft Wiki is never finished, and new pages are added all the time. If you'd like a certain page to be made and require help with this, please add to this list and append it with <code> – ~~~~~ </code></div>
+</div>
+</div>
+<p><b>Articles</b>
+</p>
+<ul><li>A page on the way <i>Minecraft</i> renders; all about the rendering engine. – 20:27, September 16, 2014
+<ul><li>A page is currently work in progress and needs assistance - see <a href="/w/Rendering" title="Rendering">Rendering</a>.</li></ul></li>
+<li>Page detailing potion mechanics, names and functions in Beta 1.9 prereleases – 11:18, 26 February 2019 (UTC)</li>
+<li>A page listing <a href="/w/Block" title="Block">block</a>, <a href="/w/Item" title="Item">item</a>, <a href="/w/Entity" title="Entity">entity</a>, <a href="/w/Enchantment" class="mw-redirect" title="Enchantment">enchantment</a>, <a href="/w/Status_effect" class="mw-redirect" title="Status effect">status effect</a>, <a href="/w/Biome" title="Biome">biome</a>, etc. IDs in <a href="/w/Legacy_Console" class="mw-redirect" title="Legacy Console">Legacy Console</a>, <a href="/w/New_Nintendo_3DS" class="mw-redirect" title="New Nintendo 3DS">New Nintendo 3DS</a>, and <a href="/w/Pi_Edition" title="Pi Edition">Pi Editions</a>. – 13:18, 22 April 2019 (UTC)</li>
+<li>A page describing what a translation string is, while also listing them. – 08:48, 26 April 2019 (UTC)</li>
+<li>A page describing what an upgrade path is, while also listing them and explaining the DataFixerUpper library. – 21:25, 3 May 2019 (UTC)</li>
+<li>A page listing and containing official promotional art for Minecraft. - unknown date</li>
+<li>Page focused around a table showing what mobs can spawn on what blocks. e.g. passive mobs only in grass blocks, and some new nether mobs can't on wart blocks – 11:49, 22 February 2020 (UTC)</li>
+<li>A page documenting all possible valid right click actions and their results. – 12:21, 29 February 2020 (UTC)</li>
+<li>A gallery-like page compiling all image and video teasers released for each update. – 22:56, 3 March 2020 (UTC)</li>
+<li>A page about <a href="/w/Minecraft_Reality" title="Minecraft Reality">Minecraft Reality</a> app (<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://web.archive.org/web/20121127183203/http://mojang.com/2012/11/announcing-minecraft-reality-for-ios/">https://web.archive.org/web/20121127183203/http://mojang.com/2012/11/announcing-minecraft-reality-for-ios/</a>, <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://www.youtube.com/watch?v=2pOpcR7uf5U">https://www.youtube.com/watch?v=2pOpcR7uf5U</a>). — 10:34, 8 August 2023 (UTC)</li>
+<li>A page for "how to play" for Legacy Console Edition. Currently there is only a page for bedrock <a href="/w/How_to_Play" title="How to Play">How to Play</a>.</li>
+<li>A page about all hints that Legacy Console Edition has apart from the <a href="/w/Description" class="mw-redirect" title="Description">Descriptions</a>. There are hints with multiple pages (with things like "press B if you already know everything" and press "A to continue") for multiple things, like horses, beds, "sailing" in a boat and ones for inventory UIs and there is one that tells you to press a button (A on Xbox) to swim up.</li>
+<li>A page about <a href="/w/Particles" class="mw-disambig" title="Particles">particles</a> for Legacy Console Edition. Currently there only seem to be articles for Java and bedrock. I heard that in editions with the aquatic update it was made that particles do not collide with blocks anymore to improve performance. - 18:51, 20 October 2024 (UTC)</li>
+<li>A page about controls tooltips. Control tooltips display information about what actions can be done with certain keys. Often they are hidden when the action is not possible, giving some advantages over Java Edition. (tooltip for breeding is for example not shown when the mob is on cooldown). It would probably make sense to have one page for bedrock and one for Legacy Console Edition, since it is discontinued. It is worth noting that Legacy Console Edition has some tooltips that bedrock doesn't have such as "Plant" ,"Swim Up", "Move Ingredient", "Move Fuel" and "Pick Block".– 16:46, 14 January 2025 (UTC)</li></ul>
+<p><b>Article updates</b>
+</p>
+<ul><li>Host privileges in-game game options screen – 19:58, 19 July 2017 (UTC)</li>
+<li>Add the Bedrock Edition information to <a href="/w/Demo_mode/Locations" class="mw-redirect" title="Demo mode/Locations">Demo mode/Locations</a> – 12:41, 12 September 2017 (UTC)</li>
+<li>Rewrite the <code>{{<a href="/w/Template:Inventory" title="Template:Inventory">Inventory</a>}}</code> documentation, where it could be useful for tutorial pages. – 17:33, 3 May 2018 (UTC)</li>
+<li>A list of hex codes for foliage colors in Bedrock Edition. – 18:45, 3 July 2019 (UTC)</li>
+<li>List all block and item's additions and removals from the <a href="/w/Creative_inventory/History#New_Nintendo_3DS_Edition" title="Creative inventory/History">Creative inventory</a> on <i><a href="/w/New_Nintendo_3DS_Edition" title="New Nintendo 3DS Edition">New Nintendo 3DS Edition</a></i>, and the custom superflat <a href="/w/Legacy_Console_Edition_exclusive_features#History" title="Legacy Console Edition exclusive features">block selection screen</a> on <a href="/w/Legacy_Console_Edition" title="Legacy Console Edition">Legacy Console Edition</a>, in the appropiate pages, with their respective versions. - 20:52, 4 October 2023 (UTC)</li>
+<li>Complete documentation of the <a href="/w/Legacy_Console_Edition_exclusive_features#Crafting" title="Legacy Console Edition exclusive features">crafting interface</a> layout on <a href="/w/Legacy_Console_Edition" title="Legacy Console Edition">Legacy Console Edition</a> (including stonecutting), and <a href="/w/Legacy_Console_Edition_descriptions" title="Legacy Console Edition descriptions">all block and item descriptions</a> on Legacy Console Edition. - 20:52, 4 October 2023 (UTC)</li>
+<li>Given navbox data tracking has started, make sure all navboxes in articles have their relevant sections opened by default. See <a href="/w/Category:Pages_with_collapsed_navboxes" title="Category:Pages with collapsed navboxes">Category:Pages with collapsed navboxes</a> for all pages that need fixing. - 20:25, 11 July 2024 (UTC)</li></ul>
+<p><b>Project pages</b>
+</p><p><b>Categories</b>
+</p><p><b>Templates</b>
+</p><p><b>Images</b>
+</p>
+<dl><dd><b>Entities</b>
+<ul><li>Numerous renders as seen in <a href="/w/Category:Objects_requiring_isometric_renders" title="Category:Objects requiring isometric renders">Category:Objects requiring isometric renders</a>. – 01:45, 21 June 2018 (UTC)
+<ul><li>Now split up into easier-to-manage chunks! – 11:29, 21 January 2019 (UTC)</li>
+<li>There is now a <a href="/w/Category:Objects_requiring_isometric_renders/High_priority" title="Category:Objects requiring isometric renders/High priority">specific category for images that appear at or near the top of pages</a>, which are higher priority to render. – 20:53, 20 June 2019 (UTC)</li></ul></li>
+<li>Upload new images to pages in <a href="/w/Category:Pages_needing_images" title="Category:Pages needing images">Category:Pages needing images</a>. – 01:45, 21 June 2018 (UTC)</li></ul></dd></dl>
+<dl><dd><b>Blocks</b>
+<ul><li>Numerous renders as seen in <a href="/w/Category:Objects_requiring_isometric_renders" title="Category:Objects requiring isometric renders">Category:Objects requiring isometric renders</a>. – 01:45, 21 June 2018 (UTC)</li>
+<li>Renders from <a href="/w/Category:Pages_needing_images" title="Category:Pages needing images">Category:Pages needing images</a>. – 01:45, 21 June 2018 (UTC)</li></ul></dd></dl>
+<dl><dd><b>Environment</b>
+<ul><li>Improved screenshot of a <a href="/w/File:Map_LCE.png" title="File:Map LCE.png">Legacy Console Edition map</a> showing all biomes with more clarity. - 1:34, 5 July 2024 (UTC)</li></ul></dd></dl>
+<dl><dd><b>Sprites</b>
+<ul><li>Add all missing sprites for <a href="/w/Template:Navbox_blocks" title="Template:Navbox blocks">Template:Navbox blocks</a>, <a href="/w/Template:Navbox_cinematics" title="Template:Navbox cinematics">Template:Navbox cinematics</a>, <a href="/w/Template:Navbox_Legends_environment" title="Template:Navbox Legends environment">Template:Navbox Legends environment</a>, <a href="/w/Template:Minecraft:_Story_Mode_items" class="mw-redirect" title="Template:Minecraft: Story Mode items">Template:Minecraft: Story Mode items</a>, and <a href="/w/Template:Minecraft_Legends_entities" class="mw-redirect" title="Template:Minecraft Legends entities">Template:Minecraft Legends entities</a>. 17:38, 2 May 2024 (UTC)</li>
+<li>Sprites from <a href="/w/Category:Pages_needing_images" title="Category:Pages needing images">Category:Pages needing images</a>. – 01:45, 21 June 2018 (UTC)</li>
+<li>Operation Sprite Ender for miscellaneous sprite templates, if any. - 02:54, 18 November 2023 (UTC)
+<ul><li>New Pencil sprite for <a href="/w/Template:CommentSprite" title="Template:CommentSprite">Template:CommentSprite</a> to use for "wip" instead of the hourglass (as that really is more a waiting than in progress sprite. – 10:05, 19 February 2019 (UTC)</li></ul></li>
+<li>Sprites of the new Bedrock touch controls. – 00:11, 14 March 2024 (UTC)</li></ul></dd></dl>
+<dl><dd><b>Sounds</b>
+<ul><li>Sound file location list for sound sections. – 15:40, 28 July 2022 (UTC)</li>
+<li>Bedrock Edition exclusive jumping and landing sound files for each block material type. – 22:30, 1 October 2019 (UTC)</li></ul></dd></dl>
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐7dcd6f644b‐xvpcx
+Cached time: 20250326164715
+Cache expiry: 0
+Reduced expiry: true
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.015 seconds
+CPU time usage: 0.097 seconds
+Real time usage: 0.106 seconds
+Preprocessor visited node count: 1067/1000000
+Post‐expand include size: 8914/8388608 bytes
+Template argument size: 4172/8388608 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 31801/5000000 bytes
+ExtLoops count: 0/50
+Lua time usage: 0.004/10.000 seconds
+Lua memory usage: 655093/367001600 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   68.093      1 -total
+ 30.04%   20.452      1 Special:RecentChanges/limit=5,hidepreviousrevisions,namespace=1;10001;10003;10005;10007;10011;10013,tagfilter=discussiontools-added-comment
+ 29.64%   20.186      1 Special:RecentChanges/limit=5,hidepreviousrevisions,namespace=7;9;11;13;15;303;829;2301;2303,tagfilter=discussiontools-added-comment
+ 13.12%    8.931      3 Template:Clickable_button
+  6.32%    4.305      3 Template:El
+  4.77%    3.246      1 Template:Shortcut
+  3.60%    2.449      2 Template:Msgbox
+  3.34%    2.273      1 Template:T
+  3.32%    2.258      3 Template:Fullurl
+  2.76%    1.876      1 Template:See_also
+-->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Community_portal?oldid=2902463">https://minecraft.wiki/w/Minecraft_Wiki:Community_portal?oldid=2902463</a>"</div></div>
+		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3ACommunity+portal" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3ACommunity+portal" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="mw-list-item"><a href="/w/Minecraft_Wiki_talk:Community_portal" rel="discussion" title="Talk about the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal"><span>Read</span></a></li><li id="ca-viewsource" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal?action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e"><span>View source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Latest: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Latest: 1.21.70</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Community_portal" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Community_portal" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal?oldid=2902463" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Community-5Fportal" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-lang" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">In other languages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.minecraft.wiki/w/Minecraft_Wiki:Gemeinschaftsportal" title="Minecraft Wiki:Gemeinschaftsportal – Deutsch" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.minecraft.wiki/w/Minecraft_Wiki:Portal_comunitario" title="Minecraft Wiki:Portal comunitario – español" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.minecraft.wiki/w/Minecraft_Wiki:Portail_de_la_communaut%C3%A9" title="Minecraft Wiki:Portail de la communauté – français" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.minecraft.wiki/w/Minecraft_Wiki:Portale_comunit%C3%A0" title="Minecraft Wiki:Portale comunità – italiano" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.minecraft.wiki/w/Minecraft_Wiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="Minecraft Wiki:コミュニティ・ポータル – 日本語" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.minecraft.wiki/w/Minecraft_Wiki:%EC%82%AC%EC%9A%A9%EC%9E%90_%EB%AA%A8%EC%9E%84" title="Minecraft Wiki:사용자 모임 – 한국어" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-lzh mw-list-item"><a href="https://lzh.minecraft.wiki/w/Minecraft_Wiki:%E6%9C%83%E9%A4%A8" title="Minecraft Wiki:會館 – 文言" lang="lzh" hreflang="lzh" class="interlanguage-link-target"><span>文言</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.minecraft.wiki/w/Minecraft_Wiki:Gebruikersportaal" title="Minecraft Wiki:Gebruikersportaal – Nederlands" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.minecraft.wiki/w/Minecraft_Wiki:Portal_comunit%C3%A1rio" title="Minecraft Wiki:Portal comunitário – português" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.minecraft.wiki/w/Minecraft_Wiki:%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB_%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0" title="Minecraft Wiki:Портал сообщества – русский" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.minecraft.wiki/w/Minecraft_Wiki:%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%84%E0%B8%A1" title="Minecraft Wiki:ศาลาประชาคม – ไทย" lang="th" hreflang="th" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.minecraft.wiki/w/Minecraft_Wiki:%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB_%D1%81%D0%BF%D1%96%D0%BB%D1%8C%D0%BD%D0%BE%D1%82%D0%B8" title="Minecraft Wiki:Портал спільноти – українська" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.minecraft.wiki/w/Minecraft_Wiki:%E7%A4%BE%E5%8C%BA%E4%B8%93%E9%A1%B5" title="Minecraft Wiki:社区专页 – 中文" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 20 March 2025, at 20:52.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Community_portal?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.log.warn("This page is using the deprecated ResourceLoader module \"mediawiki.ui.button\".\n[1.41] Please use Codex. See migration guidelines: https://www.mediawiki.org/wiki/Codex/Migrating_from_MediaWiki_UI");mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-xvpcx","wgBackendResponseTime":139,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Useful_pages","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Recent_discussions","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Content-Recent_discussions","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h--Content","replies":[]}]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Technical-Recent_discussions","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h--Technical","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h--Technical-1","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h--Technical-2","replies":[]}]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Recent_wiki_news","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Requests_for_comment","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Wanted_pages","replies":[]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"discussiontools":{"limitreport-timeusage":"0.015"},"limitreport":{"cputime":"0.097","walltime":"0.106","ppvisitednodes":{"value":1067,"limit":1000000},"postexpandincludesize":{"value":8914,"limit":8388608},"templateargumentsize":{"value":4172,"limit":8388608},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":31801,"limit":5000000},"timingprofile":["100.00%   68.093      1 -total"," 30.04%   20.452      1 Special:RecentChanges/limit=5,hidepreviousrevisions,namespace=1;10001;10003;10005;10007;10011;10013,tagfilter=discussiontools-added-comment"," 29.64%   20.186      1 Special:RecentChanges/limit=5,hidepreviousrevisions,namespace=7;9;11;13;15;303;829;2301;2303,tagfilter=discussiontools-added-comment"," 13.12%    8.931      3 Template:Clickable_button","  6.32%    4.305      3 Template:El","  4.77%    3.246      1 Template:Shortcut","  3.60%    2.449      2 Template:Msgbox","  3.34%    2.273      1 Template:T","  3.32%    2.258      3 Template:Fullurl","  2.76%    1.876      1 Template:See_also"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"scribunto":{"limitreport-timeusage":{"value":"0.004","limit":"10.000"},"limitreport-memusage":{"value":655093,"limit":367001600}},"cachereport":{"origin":"mediawiki-7dcd6f644b-xvpcx","timestamp":"20250326164715","ttl":0,"transientcontent":true}}});});</script>
+</body>
+</html>

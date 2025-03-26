@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Minecraft Wiki:Projects/wiki.vg merge/Server List Ping – Minecraft Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"078594cd31edf82742053e3fb3982216","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping","wgTitle":"Projects/wiki.vg merge/Server List Ping","wgCurRevisionId":2864579,"wgRevisionId":2864579,"wgArticleId":290296,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Protocol Details","Java Edition protocol","CC-by-SA pages"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping","wgRelevantArticleId":
+290296,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":6,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual"};RLSTATE={"ext.gadget.site-styles":"ready","ext.gadget.updateSeasonalTheme":"ready",
+"ext.gadget.halloweenSeasonalTheme":"ready","ext.gadget.winterSeasonalTheme":"ready","ext.gadget.sound-styles":"ready","ext.gadget.newInfobox":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.pygments":"ready","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.gadget.site","ext.gadget.layeredBlueprint","ext.gadget.discordWidget","ext.gadget.lazyloadSidebarVersions","ext.gadget.darkmode","ext.gadget.fixedWidthToggle","ext.gadget.iwb","ext.gadget.navbox-tracking","ext.gadget.time-utils","ext.gadget.editintro","ext.gadget.randomMinceraft","ext.gadget.refTooltip",
+"ext.gadget.sound","ext.gadget.stickyToc","ext.gadget.topLangLinks","ext.gadget.betterRandom","ext.gadget.articlefeedback","ext.gadget.spriteEditLoader","ext.gadget.purge","ext.gadget.noCFwebpLinks","ext.gadget.protectionLocks","ext.gadget.blueUsers","ext.gadget.mcw-calc-loader","ext.gadget.simplecalc-loader","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.discussionTools.init","ext.popups","ext.smw.purge"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.discussionTools.init.styles%7Cext.embedVideo.styles%7Cext.pygments%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.halloweenSeasonalTheme%2CnewInfobox%2Csite-styles%2Csound-styles%2CupdateSeasonalTheme%2CwinterSeasonalTheme&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/load.php?lang=en&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.41.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Server List Ping (SLP) is an interface provided by Minecraft servers which supports querying the MOTD, player count, max players and server version via the usual port. SLP is part of the Protocol, but it can be disabled. The Notchian client uses this interface to display the multiplayer server list, hence the name. The SLP process changed in Java Edition 1.7 in a non-backwards compatible way, but modern clients and servers still support both the new and old process.">
+<meta property="og:description" content="Server List Ping (SLP) is an interface provided by Minecraft servers which supports querying the MOTD, player count, max players and server version via the usual port. SLP is part of the Protocol, but it can be disabled. The Notchian client uses this interface to display the multiplayer server list, hence the name. The SLP process changed in Java Edition 1.7 in a non-backwards compatible way, but modern clients and servers still support both the new and old process.">
+<meta property="og:site_name" content="Minecraft Wiki">
+<meta property="og:title" content="Minecraft Wiki:Projects/wiki.vg merge/Server List Ping – Minecraft Wiki">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping">
+<meta property="og:image" content="https://minecraft.wiki/images/Wiki.png">
+<meta property="og:image:width" content="135">
+<meta property="og:image:height" content="135">
+<meta name="viewport" content="width=1000">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Minecraft Wiki (EN)">
+<link rel="EditURI" type="application/rsd+xml" href="https://minecraft.wiki/api.php?action=rsd">
+<link rel="canonical" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject mw-editable page-Minecraft_Wiki_Projects_wiki_vg_merge_Server_List_Ping rootpage-Minecraft_Wiki_Projects skin-vector action-view wgl-lightmode wgl-theme-light"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-wiki.vg_license" class="mw-indicator"><div class="mw-parser-output"><span class="mw-default-size" typeof="mw:File"><a href="https://creativecommons.org/licenses/by-sa/3.0/" title="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." target="_blank" rel="nofollow noreferrer noopener"><img alt="This Minecraft Wiki page is licensed under a Creative Commons Attribution-ShareAlike 3.0 license. Derivative works must be licensed using the same or a compatible license." src="/images/Cc-by-sa.svg?fc1a9" decoding="async" loading="lazy" width="100" height="35" class="mw-file-element" data-file-width="88" data-file-height="31" /></a></span></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Minecraft Wiki</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Projects/wiki.vg merge/Server List Ping</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint"></div>
+		<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <a href="/w/Minecraft_Wiki:Projects" title="Minecraft Wiki:Projects">Minecraft Wiki:Projects</a>&lrm; | <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg merge</a></div></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><p><b>Server List Ping</b> (<b>SLP</b>) is an interface provided by Minecraft servers which supports querying the MOTD, player count, max players and server version via the usual port. SLP is part of the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Protocol</a>, but it can be disabled. The Notchian client uses this interface to display the multiplayer server list, hence the name. The SLP process changed in <a href="/w/Java_Edition_1.7" title="Java Edition 1.7">Java Edition 1.7</a> in a non-backwards compatible way, but modern clients and servers still support both the <a href="#Current">new</a> and <a href="#1.6">old</a> process.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Current_(1.7+)"><span class="tocnumber">1</span> <span class="toctext">Current (1.7+)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Handshake"><span class="tocnumber">1.1</span> <span class="toctext">Handshake</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Status_Request"><span class="tocnumber">1.2</span> <span class="toctext">Status Request</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Status_Response"><span class="tocnumber">1.3</span> <span class="toctext">Status Response</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Ping_Request"><span class="tocnumber">1.4</span> <span class="toctext">Ping Request</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Pong_Response"><span class="tocnumber">1.5</span> <span class="toctext">Pong Response</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Ping_via_LAN_(Open_to_LAN_in_Singleplayer)"><span class="tocnumber">1.6</span> <span class="toctext">Ping via LAN (Open to LAN in Singleplayer)</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Examples"><span class="tocnumber">1.7</span> <span class="toctext">Examples</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#1.6"><span class="tocnumber">2</span> <span class="toctext">1.6</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Client_to_server"><span class="tocnumber">2.1</span> <span class="toctext">Client to server</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Server_to_client"><span class="tocnumber">2.2</span> <span class="toctext">Server to client</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Examples_2"><span class="tocnumber">2.3</span> <span class="toctext">Examples</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#1.4_to_1.5"><span class="tocnumber">3</span> <span class="toctext">1.4 to 1.5</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Examples_3"><span class="tocnumber">3.1</span> <span class="toctext">Examples</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Beta_1.8_to_1.3"><span class="tocnumber">4</span> <span class="toctext">Beta 1.8 to 1.3</span></a></li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span id="Current_.281.7.2B.29"></span><span class="mw-headline" id="Current_(1.7+)" data-mw-thread-id="h-Current_(1.7+)"><span data-mw-comment-start="" id="h-Current_(1.7+)"></span>Current (1.7+)<span data-mw-comment-end="h-Current_(1.7+)"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=1" title="Edit section&#039;s source code: Current (1.7+)">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Current_(1.7+)","replies":["h-Handshake-Current_(1.7+)","h-Status_Request-Current_(1.7+)","h-Status_Response-Current_(1.7+)","h-Ping_Request-Current_(1.7+)","h-Pong_Response-Current_(1.7+)","h-Ping_via_LAN_(Open_to_LAN_in_Singleplayer)-Current_(1.7+)","h-Examples-Current_(1.7+)"]}}--></div>
+<p>This uses the regular client-server <a href="/w/Protocol" class="mw-redirect" title="Protocol">protocol</a>. For the general packet format, see that article.
+</p>
+<h3><span class="mw-headline" id="Handshake" data-mw-thread-id="h-Handshake-Current_(1.7+)"><span data-mw-comment-start="" id="h-Handshake-Current_(1.7+)"></span>Handshake<span data-mw-comment-end="h-Handshake-Current_(1.7+)"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=2" title="Edit section&#039;s source code: Handshake">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>First, the client sends a <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Handshake" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Handshake</a> packet with its state set to 1.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Packet ID
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td rowspan="4">0x00
+</td>
+<td>Protocol Version
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>See <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol_version_numbers" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol version numbers">protocol version numbers</a>. The version that the client plans on using to connect to the server (which is not important for the ping). If the client is pinging to determine what version to use, by convention <code>-1</code> should be set.
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">Setting invalid (nonexistent) version as the protocol version <i>might</i> cause some servers to close connection after this packet</div>
+</div>
+</div><br/>
+<div class="msgbox searchaux msgbox-red" style="max-width: 90%;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style=""> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:Ambox_warning_pn.png" class="mw-file-description"><img src="/images/thumb/Ambox_warning_pn.png/32px-Ambox_warning_pn.png?b6e1c" decoding="async" loading="lazy" width="32" height="28" class="mw-file-element" srcset="/images/thumb/Ambox_warning_pn.png/64px-Ambox_warning_pn.png?b6e1c 2x" data-file-width="512" data-file-height="445"/></a></span></div>
+</div>
+<div style="width: 100%;">
+<div class="msgbox-text">See <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol_version_numbers" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol version numbers">Protocol version numbers</a> for a list of valid protocol versions.</div>
+</div>
+</div>
+</td></tr>
+<tr>
+<td>Server Address
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>Hostname or IP, e.g. localhost or 127.0.0.1, that was used to connect. The Notchian server does not use this information. Note that SRV records are a complete redirect, e.g. if _minecraft._tcp.example.com points to mc.example.org, users connecting to example.com will provide mc.example.org as server address in addition to connecting to it.
+</td></tr>
+<tr>
+<td>Server Port
+</td>
+<td><a href="/w/Protocol_data_types#Type:Unsigned_Short" title="Protocol data types">Unsigned Short</a>
+</td>
+<td>Default is 25565. The Notchian server does not use this information.
+</td></tr>
+<tr>
+<td>Next state
+</td>
+<td><a href="/w/Protocol_data_types#Type:VarInt" title="Protocol data types">VarInt</a>
+</td>
+<td>1 for <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Status" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">status</a>, 2 for <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Login" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">login</a>, 3 for <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Login" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">transfer</a>
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Status_Request" data-mw-thread-id="h-Status_Request-Current_(1.7+)"><span data-mw-comment-start="" id="h-Status_Request-Current_(1.7+)"></span>Status Request<span data-mw-comment-end="h-Status_Request-Current_(1.7+)"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=3" title="Edit section&#039;s source code: Status Request">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The client follows up with a <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Status_Request" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Status Request</a> packet. This packet has no fields.
+The client is also able to skip this part entirely and send a <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Ping_Request" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Ping Request</a> instead.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Packet ID
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>0x00
+</td>
+<td colspan="3"><i>no fields</i>
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Status_Response" data-mw-thread-id="h-Status_Response-Current_(1.7+)"><span data-mw-comment-start="" id="h-Status_Response-Current_(1.7+)"></span>Status Response<span data-mw-comment-end="h-Status_Response-Current_(1.7+)"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=4" title="Edit section&#039;s source code: Status Response">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The server should respond with a <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Status_Response" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Status Response</a> packet. Note that Notchian servers will for unknown reasons wait to receive the following <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Ping_Request" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Ping Request</a> packet for 30 seconds before timing out and sending Response.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Packet ID
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>0x00
+</td>
+<td>JSON Response
+</td>
+<td><a href="/w/Protocol_data_types#Type:String" title="Protocol data types">String</a>
+</td>
+<td>See below; as with all strings this is prefixed by its length as a VarInt(3-byte max)
+</td></tr></tbody></table>
+<p>The JSON Response field is a <a href="https://en.wikipedia.org/wiki/JSON" class="extiw" title="wikipedia:JSON">JSON</a> object which has the following format:
+</p>
+<div class="mw-highlight mw-highlight-lang-json mw-content-ltr" dir="ltr"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"version"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.21.2"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"protocol"</span><span class="p">:</span><span class="w"> </span><span class="mi">768</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">"players"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"online"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"sample"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"thinkofdeath"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4566e69f-c907-48ee-8d71-d7ba5aa00d20"</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Hello, world!"</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">"favicon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"data:image/png;base64,&lt;data>"</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">"enforcesSecureChat"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span>
+<span class="p">}</span>
+</pre></div>
+<p>The <i>name</i> field of the <i>version</i> object should be considered mandatory. On newer Notchian client versions (1.20+?), it may be omitted and will be treated as though it were the string "Old" if so.
+</p><p>The <i>description</i> field is optional. If specified, it should be a <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Text_formatting#Text_components" class="mw-redirect mw-disambig" title="Minecraft Wiki:Projects/wiki.vg merge/Text formatting">text component</a>. Note that the Notchian server has no way of providing actual text component data; instead section sign-based codes are embedded within the text of the object. However, third-party servers such as Spigot and Paper will return full components, so make sure you can handle both.
+</p><p>The <i>favicon</i> field is optional. If specified, it should be a <a href="https://en.wikipedia.org/wiki/Portable_Network_Graphics" class="extiw" title="wikipedia:Portable Network Graphics">PNG</a> image that is <a href="https://en.wikipedia.org/wiki/Base64" class="extiw" title="wikipedia:Base64">Base64</a> encoded (without newlines: <code>\n</code>, new lines no longer work since 1.13) and prepended with <code>data:image/png;base64,</code>. It should also be noted that the source image must be exactly 64x64 pixels, otherwise the Notchian client will not render the image.
+</p><p>The <i>players</i> field is optional. If omitted, "???" will be displayed in dark grey in place of the player count.
+</p><p>The numbers <i>max</i> and <i>online</i> in the players field have a maximum supported value of 2<sup>31</sup>-1 (2,147,483,647) by the vanilla Minecraft server. Larger values were observed to be set to the default value of 20.
+</p><p>If the <i>sample</i> field of the <i>players</i> object is present, the player names (but not their UUIDs) will be shown in order in the tooltip when hovering over the player count (or version name if incompatible). If empty, missing, or the wrong type, no tooltip will appear. Notchian servers will omit this field if there are no players on the server or if <code>hide-online-players</code> is false. There doesn't appear to be a hard limit on how many players may be specified.
+</p><p>If a client <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Client_Information_.28configuration.29" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">has "Allow Server Listings" set to "OFF"</a>, Notchian servers will report their name as "Anonymous Player" and UUID as "00000000-0000-0000-0000-000000000000". This is not reliable; making a request before the player has fully joined may cause their choice to not be respected.
+</p><p>On most Notchian client versions, UUIDs are mandatory and must be well formed even though it is unused by Notchian clients. Newer versions (1.20+?) will tolerate malformed or missing UUIDs and act as though <i>sample</i> was omitted if so.
+</p><p>If the server has No Chat Reports installed and hasn't disabled this feature, an additional field <i>preventsChatReports</i> will be added to the end with a value of true causing clients with No Chat Reports to display an icon indicating the server is a "Safe Server".
+</p><p>After receiving the Response packet, the client may send the next packet to help calculate the server's latency, or if it is only interested in the above information it can disconnect here.
+</p><p>If the client does not receive a properly formatted response (e.g. a field is missing or the wrong type), it will close the socket and instead attempt a <a class="mw-selflink-fragment" href="#1.6">legacy ping</a>.
+</p>
+<h3><span class="mw-headline" id="Ping_Request" data-mw-thread-id="h-Ping_Request-Current_(1.7+)"><span data-mw-comment-start="" id="h-Ping_Request-Current_(1.7+)"></span>Ping Request<span data-mw-comment-end="h-Ping_Request-Current_(1.7+)"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=5" title="Edit section&#039;s source code: Ping Request">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If the process is continued, the client will now send a <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Ping_Request" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Ping Request</a> packet containing some payload which is not important.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Packet ID
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>0x01
+</td>
+<td>Payload
+</td>
+<td><a href="/w/Protocol_data_types#Type:Long" title="Protocol data types">Long</a>
+</td>
+<td>May be any number. Notchian clients use a system-dependent time value which is counted in milliseconds.
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Pong_Response" data-mw-thread-id="h-Pong_Response-Current_(1.7+)"><span data-mw-comment-start="" id="h-Pong_Response-Current_(1.7+)"></span>Pong Response<span data-mw-comment-end="h-Pong_Response-Current_(1.7+)"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=6" title="Edit section&#039;s source code: Pong Response">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The server will respond with the <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol#Pong_Response" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Pong Response</a> packet and then close the connection.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Packet ID
+</th>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>0x01
+</td>
+<td>Payload
+</td>
+<td><a href="/w/Protocol_data_types#Type:Long" title="Protocol data types">Long</a>
+</td>
+<td>Should be the same as sent by the client
+</td></tr></tbody></table>
+<h3><span id="Ping_via_LAN_.28Open_to_LAN_in_Singleplayer.29"></span><span class="mw-headline" id="Ping_via_LAN_(Open_to_LAN_in_Singleplayer)" data-mw-thread-id="h-Ping_via_LAN_(Open_to_LAN_in_Singleplayer)-Current_(1.7+)"><span data-mw-comment-start="" id="h-Ping_via_LAN_(Open_to_LAN_in_Singleplayer)-Current_(1.7+)"></span>Ping via LAN (Open to LAN in Singleplayer)<span data-mw-comment-end="h-Ping_via_LAN_(Open_to_LAN_in_Singleplayer)-Current_(1.7+)"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=7" title="Edit section&#039;s source code: Ping via LAN (Open to LAN in Singleplayer)">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In Singleplayer there is a function called "Open to LAN". Minecraft (in the serverlist) binds a UDP port and listens for connections to <code>224.0.2.60:4445</code> (Yes, that is the actual IP, no matter in what network you are or what your local IP Address is). If you click on "Open to LAN" Minecraft sends a packet every 1.5 seconds to the address: <code>[MOTD]{motd}[/MOTD][AD]{port}[/AD]</code>. Minecraft seems to check for the following Strings: <code>[MOTD]</code>, <code>[/MOTD]</code>, <code>[AD]</code>, <code>[/AD]</code>. Anything you write outside of each of the tags will be ignored. Color codes may be used in the MOTD. Between <code>[AD]</code> and <code>[/AD]</code> is the servers port. If it is not numeric, 25565 will be used. If it is out of range, an error is being displayed when trying to connect. The IP Address is the same as the senders one. The string is encoded with UTF-8.
+</p><p>To implement it server side, just send a packet with the text (payload) to <code>224.0.2.60:4445</code>. If you are client side, bind a UDP socket and listen for connections. You can use a <code>MulticastSocket</code> for that.
+</p>
+<h3><span class="mw-headline" id="Examples" data-mw-thread-id="h-Examples-Current_(1.7+)"><span data-mw-comment-start="" id="h-Examples-Current_(1.7+)"></span>Examples<span data-mw-comment-end="h-Examples-Current_(1.7+)"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=8" title="Edit section&#039;s source code: Examples">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/csh/2480d14fbbb33b4bbae3">C#</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/zh32/7190955">Java</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/1209061">Python</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Duckulus/mc-honeypot">Rust (Server)</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Sch8ill/MCClient-lib">MCClient-lib (Python3)</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/ewized/97814f57ac85af7128bf">Python3</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/xPaw/PHP-Minecraft-Query">PHP</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gitlab.bixilon.de/bixilon/minosoft/-/blob/43d8988ef94b6487e4da0218d87cf66ccf14a1ea/src/main/java/de/bixilon/minosoft/protocol/protocol/LANServerListener.java">LAN Server Listener (Java)</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gitlab.bixilon.de/bixilon/minosoft/-/blob/master/src/main/java/de/bixilon/minosoft/protocol/protocol/LANServerListener.kt">LAN Server Listener (Kotlin)</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/stackotter/delta-client/blob/main/Sources/Core/Sources/Network/LANServerEnumerator.swift">Swift</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/dreamscached/minequery">Go</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Sch8ill/mclib">Go</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/PauldeKoning/minecraft-server-handshake">Node.js</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/LhAlant/MinecraftSLP/">C</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/mcstatus-io/mcutil/">Go</a></li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="1.6" data-mw-thread-id="h-1.6"><span data-mw-comment-start="" id="h-1.6"></span>1.6<span data-mw-comment-end="h-1.6"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=9" title="Edit section&#039;s source code: 1.6">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-1.6","replies":["h-Client_to_server-1.6","h-Server_to_client-1.6","h-Examples_2-1.6"]}}--></div>
+<p>This uses a protocol which is compatible with the client-server protocol as it was before the Netty rewrite. Modern servers recognize this protocol by the starting byte of <code>fe</code> instead of the usual <code>00</code>.
+</p>
+<h3><span class="mw-headline" id="Client_to_server" data-mw-thread-id="h-Client_to_server-1.6"><span data-mw-comment-start="" id="h-Client_to_server-1.6"></span>Client to server<span data-mw-comment-end="h-Client_to_server-1.6"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=10" title="Edit section&#039;s source code: Client to server">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The client initiates a TCP connection to the server on the standard port. Instead of doing auth and logging in (as detailed in <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol">Protocol</a> and <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol_Encryption" class="mw-redirect" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol Encryption">Protocol Encryption</a>), it sends the following data, expressed in hexadecimal:
+</p>
+<ol><li><code>FE</code> — packet identifier for a server list ping</li>
+<li><code>01</code> — server list ping's payload (always 1)</li>
+<li><code>FA</code> — packet identifier for a plugin message</li>
+<li><code>00 0B</code> — length of following string, in characters, as a short (always 11)</li>
+<li><code>00 4D 00 43 00 7C 00 50 00 69 00 6E 00 67 00 48 00 6F 00 73 00 74</code> — the string <code>MC|PingHost</code> encoded as a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://en.wikipedia.org/wiki/UTF-16">UTF-16BE</a> string</li>
+<li><code>XX XX</code> — length of the rest of the data, as a short. Compute as <code>7 + len(hostname)</code>, where <code>len(hostname)</code> is the number of bytes in the UTF-16BE encoded hostname.</li>
+<li><code>XX</code> — <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol_version_numbers#Versions_before_the_Netty_rewrite" title="Minecraft Wiki:Projects/wiki.vg merge/Protocol version numbers">protocol version</a>, e.g. <code>4a</code> for the last version (74)</li>
+<li><code>XX XX</code> — length of following string, in characters, as a short</li>
+<li><code>...</code> — hostname the client is connecting to, encoded as a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://en.wikipedia.org/wiki/UTF-16">UTF-16BE</a> string</li>
+<li><code>XX XX XX XX</code> — port the client is connecting to, as an int.</li></ol>
+<p>All data types are big-endian.
+</p><p>Example packet dump:
+</p>
+<pre>0000000: fe01 fa00 0b00 4d00 4300 7c00 5000 6900  ......M.C.|.P.i.
+0000010: 6e00 6700 4800 6f00 7300 7400 1949 0009  n.g.H.o.s.t..I..
+0000020: 006c 006f 0063 0061 006c 0068 006f 0073  .l.o.c.a.l.h.o.s
+0000030: 0074 0000 63dd                           .t..c.
+</pre>
+<p><b>Note: </b> All notchian servers only cares about the first 3 bytes. After reading <code>FE 01 FA</code>, the response will be sent to the client. For backward compatibility, you could only send these 3 bytes and all legacy servers(&lt;=1.6) will respond correspondingly.
+</p>
+<h3><span class="mw-headline" id="Server_to_client" data-mw-thread-id="h-Server_to_client-1.6"><span data-mw-comment-start="" id="h-Server_to_client-1.6"></span>Server to client<span data-mw-comment-end="h-Server_to_client-1.6"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=11" title="Edit section&#039;s source code: Server to client">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The server responds with a 0xFF kick packet. The packet begins with a single byte identifier <code>ff</code>, then a two-byte big endian short giving the length of the following string in characters. You can actually ignore the length because the server closes the connection after the response is sent.
+</p><p>After the first 3 bytes, the packet is a UTF-16BE string. It begins with two characters: <code>§1</code>, followed by a null character. On the wire these look like <code>00 a7 00 31 00 00</code>.
+</p><p>The remainder is null character (that is <code>00 00</code>) delimited fields:
+</p>
+<ol><li>Protocol version (e.g. <code>47</code>)</li>
+<li>Minecraft server version (e.g. <code>1.4.2</code>)</li>
+<li>Message of the day (e.g. <code>A Minecraft Server</code>)</li>
+<li>Current player count</li>
+<li>Max players</li></ol>
+<p>The entire packet looks something like this:
+</p>
+<pre>                &lt;---> first character
+0000000: ff00 2300 a700 3100 0000 3400 3700 0000  ....§.1...4.7...
+0000010: 3100 2e00 3400 2e00 3200 0000 4100 2000  1...4...2...A. .
+0000020: 4d00 6900 6e00 6500 6300 7200 6100 6600  M.i.n.e.c.r.a.f.
+0000030: 7400 2000 5300 6500 7200 7600 6500 7200  t. .S.e.r.v.e.r.
+0000040: 0000 3000 0000 3200 30                   ..0...2.0
+</pre>
+<p><b>Note: </b> When using this protocol with servers on version 1.7.x and above, the protocol version (first field) in the response will always be <code>127</code> which is not a real protocol number, so older clients will always consider this server incompatible.
+</p>
+<h3><span class="mw-headline" id="Examples_2" data-mw-thread-id="h-Examples_2-1.6"><span data-mw-comment-start="" id="h-Examples_2-1.6"></span>Examples<span data-mw-comment-end="h-Examples_2-1.6"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=12" title="Edit section&#039;s source code: Examples">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/6281388">Ruby</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/winny-/mcstat">PHP</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Duckulus/mc-honeypot/blob/1514807e8af7f7cbfd13111fec334b9f4883b605/src/server/legacy.rs">Rust (Server)</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/dreamscached/minequery">Go</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/mcstatus-io/mcutil">Go</a></li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="1.4_to_1.5" data-mw-thread-id="h-1.4_to_1.5"><span data-mw-comment-start="" id="h-1.4_to_1.5"></span>1.4 to 1.5<span data-mw-comment-end="h-1.4_to_1.5"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=13" title="Edit section&#039;s source code: 1.4 to 1.5">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-1.4_to_1.5","replies":["h-Examples_3-1.4_to_1.5"]}}--></div>
+<p>Prior to the Minecraft 1.6, the client to server operation is much simpler, and only sends <code>FE 01</code>, with none of the following data.
+</p>
+<h3><span class="mw-headline" id="Examples_3" data-mw-thread-id="h-Examples_3-1.4_to_1.5"><span data-mw-comment-start="" id="h-Examples_3-1.4_to_1.5"></span>Examples<span data-mw-comment-end="h-Examples_3-1.4_to_1.5"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=14" title="Edit section&#039;s source code: Examples">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/Sch8ill/MCClient-lib">Python3 (MCClient-lib)</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/5795159">PHP</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/4574114">Java</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://gist.github.com/6223787">C#</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/dreamscached/minequery">Go</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://github.com/mcstatus-io/mcutil">Go</a></li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Beta_1.8_to_1.3" data-mw-thread-id="h-Beta_1.8_to_1.3"><span data-mw-comment-start="" id="h-Beta_1.8_to_1.3"></span>Beta 1.8 to 1.3<span data-mw-comment-end="h-Beta_1.8_to_1.3"></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;section=15" title="Edit section&#039;s source code: Beta 1.8 to 1.3">edit source</a><span class="mw-editsection-bracket">]</span></span></h2><!--__DTELLIPSISBUTTON__{"editable":true,"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Beta_1.8_to_1.3","replies":[]}}--></div>
+<p>Prior to Minecraft 1.4, the client only sends <code>FE</code>. 
+</p><p>The server should respond with a kick packet:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Field Name
+</th>
+<th>Field Type
+</th>
+<th>Notes
+</th></tr>
+<tr>
+<td>Packet Id
+</td>
+<td><a href="/w/Protocol_data_types#Type:Byte" title="Protocol data types">Byte</a>
+</td>
+<td>The kick packet id: <code>0xFF</code>
+</td></tr>
+<tr>
+<td>Packet Length
+</td>
+<td><a href="/w/Protocol_data_types#Type:Short" title="Protocol data types">Short</a>
+</td>
+<td>The length of the following string in characters (NOT BYTES). Max is 256.
+</td></tr>
+<tr>
+<td>MOTD
+</td>
+<td rowspan="3">A <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://en.wikipedia.org/wiki/UTF-16">UTF-16BE</a> encoded string
+</td>
+<td>From here on out, all fields should be separated with <code>§</code>, in the same string.
+</td></tr>
+<tr>
+<td>Online Players
+</td>
+<td>The count of players currently on the server.
+</td></tr>
+<tr>
+<td>Max Players
+</td>
+<td>The maximum amount of players that the server is willing to accept.
+</td></tr></tbody></table>
+<p>The entire packet looks something like this on wire:
+</p>
+<pre>                &lt;---> first character
+0000000: ff00 1700 4100 2000 4d00 6900 6e00 6500  ....A. .M.i.n.e.
+0000010: 6300 7200 6100 6600 7400 2000 5300 6500  c.r.a.f.t. .S.e.
+0000020: 7200 7600 6500 7200 a700 3000 a700 3100  r.v.e.r.§.0.§.1.
+0000030: 30                                       0
+</pre>
+<div class="msgbox searchaux msgbox-gray licensetpl" style="max-width: 720px; text-align: left; margin: 0.5em auto;">
+<div class="msgbox-icon"> <div class="msgbox-image nomobile" style="text-align:center"> <span class="mw-valign-text-top" typeof="mw:File"><a href="/w/File:License_cc.svg" class="mw-file-description"><img src="/images/License_cc.svg?7c689" decoding="async" loading="lazy" width="64" height="64" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span><div class="nowrap"><span typeof="mw:File"><a href="/w/File:License_cc-by.svg" class="mw-file-description"><img src="/images/License_cc-by.svg?818e9" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> <span typeof="mw:File"><a href="/w/File:License_cc-by-sa.svg" class="mw-file-description"><img src="/images/License_cc-by-sa.svg?75cd1" decoding="async" loading="lazy" width="20" height="20" class="mw-file-element" data-file-width="512" data-file-height="512"/></a></span> </div></div>
+</div>
+<div style="width: 100%;"><div style="font-weight: bold; display: inline">This Minecraft Wiki page is licensed under a <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a> license.</div> 
+<div class="msgbox-text">This Minecraft Wiki page has been imported from <a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge" title="Minecraft Wiki:Projects/wiki.vg merge">wiki.vg</a> or is a derivative of such a page. Thus, the wiki's <a href="/w/Minecraft_Wiki:Copyrights" title="Minecraft Wiki:Copyrights">usual license</a> does not apply.<br/>Derivative works must be licensed using the same or a compatible license.</div>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐jobrunner‐cbcd74ff9‐h5z5m
+Cached time: 20250323220223
+Cache expiry: 172800
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0 seconds
+DiscussionTools time usage: 0.040 seconds
+CPU time usage: 0.103 seconds
+Real time usage: 0.347 seconds
+Preprocessor visited node count: 589/1000000
+Post‐expand include size: 7606/8388608 bytes
+Template argument size: 2859/8388608 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 2733/5000000 bytes
+ExtLoops count: 0/50
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  195.631      1 -total
+ 15.33%   29.994      1 Template:License_wiki.vg
+ 10.13%   19.808      1 Template:License
+  7.07%   13.829      1 Template:Msgbox
+  4.29%    8.388      2 Template:Warning
+  3.04%    5.945      2 Template:Message_box
+  2.64%    5.161      3 Template:SUBJECTSPACE_formatted
+  2.35%    4.596      9 Template:Type
+-->
+
+<!-- Saved in parser cache with key en_mcwiki:pcache:idhash:290296-0!canonical and timestamp 20250323220223 and revision id 2864579. Rendering was triggered because: edit-page
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?oldid=2864579">https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?oldid=2864579</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Protocol_Details?action=edit&amp;redlink=1" class="new" title="Category:Protocol Details (page does not exist)">Protocol Details</a></li><li><a href="/w/Category:Java_Edition_protocol" title="Category:Java Edition protocol">Java Edition protocol</a></li><li><a href="/w/Category:CC-by-SA_pages" title="Category:CC-by-SA pages">CC-by-SA pages</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/w/Special:MyTalk" title="Talk about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FServer+List+Ping" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Minecraft+Wiki%3AProjects%2Fwiki.vg+merge%2FServer+List+Ping" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping" title="View the project page [c]" accesskey="c"><span>Project page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/w/Minecraft_Wiki_talk:Projects/wiki.vg_merge/Server_List_Ping?action=edit&amp;redlink=1" rel="discussion" title="Talk about the content page (page does not exist) [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-purge" class="is-disabled mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=purge"><span>Refresh</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Minecraft Wiki" aria-label="Search Minecraft Wiki" autocapitalize="sentences" title="Search Minecraft Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-How-to-help" class="mw-list-item"><a href="/w/Minecraft_Wiki:How_to_help"><span>How to help</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:RandomRootpage" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-in-Minecraft" class="mw-list-item"><a href="/w/Special:RandomRootpage/Main"><span>in Minecraft</span></a></li><li id="n-in-Dungeons" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCD"><span>in Dungeons</span></a></li><li id="n-in-Legends" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCL"><span>in Legends</span></a></li><li id="n-in-Earth" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCE"><span>in Earth</span></a></li><li id="n-in-Story-Mode" class="mw-list-item"><a href="/w/Special:RandomRootpage/MCSM"><span>in Story Mode</span></a></li><li id="n-in-Tutorial" class="mw-list-item"><a href="/w/Special:RandomRootpage/Tutorial"><span>in Tutorial</span></a></li><li id="n-in-Movie" class="mw-list-item"><a href="/w/Special:RandomRootpage/Movie"><span>in Movie</span></a></li><li id="n-Wiki-Discord" class="mw-list-item"><a href="https://discord.gg/fGdE5ZE" rel="nofollow" target="_blank"><span>Wiki Discord</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Wiki_community" class="vector-menu mw-portlet mw-portlet-Wiki_community vector-menu-portal portal" aria-labelledby="p-Wiki_community-label" role="navigation"  >
+	<h3
+		id="p-Wiki_community-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Wiki community</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/w/Minecraft_Wiki:Community_portal" title="About the Minecraft Wiki, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-Wiki-forum" class="mw-list-item"><a href="/w/Minecraft_Wiki:Forum"><span>Wiki forum</span></a></li><li id="n-Projects" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects"><span>Projects</span></a></li><li id="n-Wiki-rules" class="mw-list-item"><a href="/w/Minecraft_Wiki:Wiki_rules"><span>Wiki rules</span></a></li><li id="n-Style-guide" class="mw-list-item"><a href="/w/Minecraft_Wiki:Style_guide"><span>Style guide</span></a></li><li id="n-Notability" class="mw-list-item"><a href="/w/Minecraft_Wiki:Notability"><span>Notability</span></a></li><li id="n-Sandbox" class="mw-list-item"><a href="/w/Minecraft_Wiki:Sandbox"><span>Sandbox</span></a></li><li id="n-Administration" class="mw-list-item"><a href="/w/Minecraft_Wiki:Administration"><span>Administration</span></a></li><li id="n-Admin-noticeboard" class="mw-list-item"><a href="/w/Minecraft_Wiki:Admin_noticeboard"><span>Admin noticeboard</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Franchise" class="vector-menu mw-portlet mw-portlet-Franchise vector-menu-portal portal" aria-labelledby="p-Franchise-label" role="navigation"  >
+	<h3
+		id="p-Franchise-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Franchise</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Minecraft" class="mw-list-item"><a href="/"><span>Minecraft</span></a></li><li id="n-Minecraft-Dungeons" class="mw-list-item"><a href="/w/Dungeons:Wiki"><span>Minecraft Dungeons</span></a></li><li id="n-Minecraft-Legends" class="mw-list-item"><a href="/w/Legends:Wiki"><span>Minecraft Legends</span></a></li><li id="n-Minecraft-Earth" class="mw-list-item"><a href="/w/Earth:Wiki"><span>Minecraft Earth</span></a></li><li id="n-Minecraft:-Story-Mode" class="mw-list-item"><a href="/w/Story_Mode:Wiki"><span>Minecraft: Story Mode</span></a></li><li id="n-A-Minecraft-Movie" class="mw-list-item"><a href="/w/Movie:Wiki"><span>A Minecraft Movie</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Recent_versions" class="vector-menu mw-portlet mw-portlet-Recent_versions vector-menu-portal portal" aria-labelledby="p-Recent_versions-label" role="navigation"  >
+	<h3
+		id="p-Recent_versions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Recent versions</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Java-Edition" class="mw-list-item"><a href="/w/Java_Edition"><span>Java Edition</span></a></li><li id="n-Latest:-1.21.4" class="mw-list-item"><a href="/w/Java_Edition_1.21.4"><span>Latest: 1.21.4</span></a></li><li id="n-Dev:-1.21.5-rc1" class="mw-list-item"><a href="/w/Java_Edition_1.21.5-rc1"><span>Dev: 1.21.5-rc1</span></a></li><li id="n-Upcoming:-1.21.5" class="mw-list-item"><a href="/w/Java_Edition_1.21.5"><span>Upcoming: 1.21.5</span></a></li><li id="n-Bedrock-Edition" class="mw-list-item"><a href="/w/Bedrock_Edition"><span>Bedrock Edition</span></a></li><li id="n-Latest:-1.21.62" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.62"><span>Latest: 1.21.62</span></a></li><li id="n-Preview:-1.21.80.21" class="mw-list-item"><a href="/w/Bedrock_Edition_Preview_1.21.80.21"><span>Preview: 1.21.80.21</span></a></li><li id="n-Upcoming:-1.21.70" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.70"><span>Upcoming: 1.21.70</span></a></li><li id="n-Upcoming:-1.21.80" class="mw-list-item"><a href="/w/Bedrock_Edition_1.21.80"><span>Upcoming: 1.21.80</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages" class="vector-menu mw-portlet mw-portlet-useful-pages vector-menu-portal portal" aria-labelledby="p-useful-pages-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Trading" class="mw-list-item"><a href="/w/Trading"><span>Trading</span></a></li><li id="n-Brewing" class="mw-list-item"><a href="/w/Brewing"><span>Brewing</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Enchanting"><span>Enchanting</span></a></li><li id="n-Mobs" class="mw-list-item"><a href="/w/Mob"><span>Mobs</span></a></li><li id="n-Blocks" class="mw-list-item"><a href="/w/Block"><span>Blocks</span></a></li><li id="n-Items" class="mw-list-item"><a href="/w/Item"><span>Items</span></a></li><li id="n-Crafting" class="mw-list-item"><a href="/w/Crafting"><span>Crafting</span></a></li><li id="n-Smelting" class="mw-list-item"><a href="/w/Smelting"><span>Smelting</span></a></li><li id="n-Tutorials" class="mw-list-item"><a href="/w/Tutorials"><span>Tutorials</span></a></li><li id="n-Resource-packs" class="mw-list-item"><a href="/w/Resource_pack"><span>Resource packs</span></a></li><li id="n-Redstone-circuits" class="mw-list-item"><a href="/w/Mechanics/Redstone/Circuit"><span>Redstone circuits</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-dungeons" class="vector-menu mw-portlet mw-portlet-useful-pages-dungeons vector-menu-portal portal" aria-labelledby="p-useful-pages-dungeons-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-dungeons-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Weapons" class="mw-list-item"><a href="/w/Dungeons:Weapon"><span>Weapons</span></a></li><li id="n-Enchanting" class="mw-list-item"><a href="/w/Dungeons:Enchanting"><span>Enchanting</span></a></li><li id="n-Armor" class="mw-list-item"><a href="/w/Dungeons:Armor"><span>Armor</span></a></li><li id="n-Artifacts" class="mw-list-item"><a href="/w/Dungeons:Artifact"><span>Artifacts</span></a></li><li id="n-Missions" class="mw-list-item"><a href="/w/Dungeons:Mission_Select"><span>Missions</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-useful-pages-legends" class="vector-menu mw-portlet mw-portlet-useful-pages-legends vector-menu-portal portal" aria-labelledby="p-useful-pages-legends-label" role="navigation"  >
+	<h3
+		id="p-useful-pages-legends-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Useful pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Friendly-units" class="mw-list-item"><a href="/w/Legends:Mob#Allied"><span>Friendly units</span></a></li><li id="n-Piglins" class="mw-list-item"><a href="/w/Legends:Mob#Hostile"><span>Piglins</span></a></li><li id="n-Resources" class="mw-list-item"><a href="/w/Legends:Resource"><span>Resources</span></a></li><li id="n-Biomes" class="mw-list-item"><a href="/w/Legends:Biome"><span>Biomes</span></a></li><li id="n-Structures" class="mw-list-item"><a href="/w/Legends:Structure"><span>Structures</span></a></li><li id="n-Lost-Legends" class="mw-list-item"><a href="/w/Legends:Lost_Legend"><span>Lost Legends</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?oldid=2864579" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="/w/Special:Browse/:Minecraft-5FWiki:Projects-2Fwiki.vg-5Fmerge-2FServer-5FList-5FPing" rel="search"><span>Browse properties</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 16 February 2025, at 15:18.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a> unless otherwise noted; <a href="https://meta.weirdgloop.org/w/Project:Copyrights">additional terms may apply</a>.<br />Not an official Minecraft website. We are not associated with Mojang or Microsoft.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/Minecraft_Wiki:About">About Minecraft Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/Minecraft_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Server_List_Ping?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7dcd6f644b-xvpcx","wgBackendResponseTime":39,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Current_(1.7+)","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Handshake-Current_(1.7+)","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Status_Request-Current_(1.7+)","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Status_Response-Current_(1.7+)","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Ping_Request-Current_(1.7+)","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Pong_Response-Current_(1.7+)","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Ping_via_LAN_(Open_to_LAN_in_Singleplayer)-Current_(1.7+)","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Examples-Current_(1.7+)","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-1.6","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Client_to_server-1.6","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Server_to_client-1.6","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Examples_2-1.6","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-1.4_to_1.5","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Examples_3-1.4_to_1.5","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Beta_1.8_to_1.3","replies":[]}],"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0},"discussiontools":{"limitreport-timeusage":"0.040"},"limitreport":{"cputime":"0.103","walltime":"0.347","ppvisitednodes":{"value":589,"limit":1000000},"postexpandincludesize":{"value":7606,"limit":8388608},"templateargumentsize":{"value":2859,"limit":8388608},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":2733,"limit":5000000},"timingprofile":["100.00%  195.631      1 -total"," 15.33%   29.994      1 Template:License_wiki.vg"," 10.13%   19.808      1 Template:License","  7.07%   13.829      1 Template:Msgbox","  4.29%    8.388      2 Template:Warning","  3.04%    5.945      2 Template:Message_box","  2.64%    5.161      3 Template:SUBJECTSPACE_formatted","  2.35%    4.596      9 Template:Type"]},"loops":{"limitreport-count-limited":{"value":0,"limit":50}},"cachereport":{"origin":"mediawiki-jobrunner-cbcd74ff9-h5z5m","timestamp":"20250323220223","ttl":172800,"transientcontent":false}}});});</script>
+</body>
+</html>
